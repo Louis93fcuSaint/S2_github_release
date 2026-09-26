@@ -84,7 +84,7 @@
 | Aluminum | 3.17% | 90.0% | 82.0% | 48.0% | 10.7% |
 | Titanium | 3.00% | 90.0% | 88.0% | 48.5% | 10.2% |
 
-![代理在各家族的精度与尾部排序](D:\Louis_Projet\rotor_projet\大学生创新创业训练计划\S2_github_release\S2\spec_design\outputs\figures\fig_family_proxy.png)
+![代理在各家族的精度与尾部排序](figures/fig_family_proxy.png)
 
 ## 4. 基线（全部用同一套代理、同一份规格）
 
@@ -111,7 +111,7 @@
 | Titanium_high | 90% | 20% | 14% | 3% | 60% | 100% | 0% | 78% | 46% |
 | Titanium_mid | 99% | 10% | 12% | 5% | 91% | 100% | 2% | 77% | 36% |
 
-![基线的命中率与新颖度权衡](D:\Louis_Projet\rotor_projet\大学生创新创业训练计划\S2_github_release\S2\spec_design\outputs\figures\fig_baselines.png)
+![基线的命中率与新颖度权衡](figures/fig_baselines.png)
 
 ## 5. ROSS 真值复验
 
@@ -141,7 +141,7 @@
 
 表里只给中位数。少数设计会让 ROSS 解出接近零的频率，任何均值都会被这几个点带跑，所以均值在这里没有意义。
 
-![代理命中率与真实命中率](D:\Louis_Projet\rotor_projet\大学生创新创业训练计划\S2_github_release\S2\spec_design\outputs\figures\fig_ross.png)
+![代理命中率与真实命中率](figures/fig_ross.png)
 
 ## 6. 汇总：所有方法放在同一张表里
 

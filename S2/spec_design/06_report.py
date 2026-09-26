@@ -13,6 +13,11 @@ import spec_eval as E
 FIG_DIR = os.path.join(E.OUT, "figures")
 
 
+def fig_link(path):
+    """Markdown link relative to the report itself, so it also renders on GitHub."""
+    return os.path.relpath(path, E.OUT).replace(os.sep, "/")
+
+
 def read(name, default=None):
     path = os.path.join(E.OUT, name)
     if not os.path.exists(path):
@@ -183,7 +188,7 @@ def main():
     add(p_at_k_table(audit))
     add("")
     if figures:
-        add("![代理在各家族的精度与尾部排序](%s)" % figures[0])
+        add("![代理在各家族的精度与尾部排序](%s)" % fig_link(figures[0]))
         add("")
 
     add("## 4. 基线（全部用同一套代理、同一份规格）")
@@ -195,7 +200,7 @@ def main():
     add(per_spec_table(base))
     add("")
     if len(figures) > 1:
-        add("![基线的命中率与新颖度权衡](%s)" % figures[1])
+        add("![基线的命中率与新颖度权衡](%s)" % fig_link(figures[1]))
         add("")
 
     if ross:
@@ -216,7 +221,7 @@ def main():
             "任何均值都会被这几个点带跑，所以均值在这里没有意义。")
         add("")
         if len(figures) > 2:
-            add("![代理命中率与真实命中率](%s)" % figures[2])
+            add("![代理命中率与真实命中率](%s)" % fig_link(figures[2]))
             add("")
 
     add("## 6. 汇总：所有方法放在同一张表里")
