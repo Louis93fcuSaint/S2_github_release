@@ -1,0 +1,17 @@
+{
+  "Aluminum_high": {
+    "generated": 5000,
+    "valid_rate": 1.0,
+    "family_mix": {
+      "6_2": 5000
+    },
+    "family_weights": [
+      1.0
+    ],
+    "family_effective": 1.0,
+    "in_band_raw": 0.1278,
+    "in_band_top200": 1.0,
+    "median_rel_err_top": 0.00838859982075851,
+    "submitted": 200
+  }
+}

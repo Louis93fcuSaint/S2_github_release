@@ -1,0 +1,30 @@
+{
+  "version": "v4.7",
+  "out": "D:\\Louis_Projet\\rotor_projet\\大学生创新创业训练计划\\S1\\v4.7\\dataset_v4.7\\dataset_v4.7_all.csv",
+  "sources": {
+    "v44": "D:\\Louis_Projet\\rotor_projet\\大学生创新创业训练计划\\S1\\v4.7\\dataset_v4.7\\dataset_v4.7_v44.csv",
+    "v45": "D:\\Louis_Projet\\rotor_projet\\大学生创新创业训练计划\\S1\\v4.7\\dataset_v4.7\\dataset_v4.7_v45.csv"
+  },
+  "rows_per_source": {
+    "v44": 99976,
+    "v45": 99839
+  },
+  "rows_total": 199815,
+  "labelled_per_order": [
+    199815,
+    199815,
+    199812,
+    199734,
+    199004,
+    192966
+  ],
+  "label_columns": [
+    "cs_1_rpm",
+    "cs_2_rpm",
+    "cs_3_rpm",
+    "cs_4_rpm",
+    "cs_5_rpm",
+    "cs_6_rpm"
+  ],
+  "complete": true
+}

@@ -1,0 +1,35 @@
+{
+  "Steel_5000_t05": {
+    "generated": 5000,
+    "valid_rate": 1.0,
+    "mode": "sample",
+    "family_mix": {
+      "6_4": 296,
+      "2_2": 257,
+      "2_3": 295,
+      "5_3": 297,
+      "6_2": 265,
+      "1_4": 280,
+      "3_3": 266,
+      "2_4": 265,
+      "6_3": 287,
+      "4_4": 254,
+      "4_2": 290,
+      "1_3": 265,
+      "4_3": 317,
+      "3_2": 259,
+      "1_2": 258,
+      "3_4": 268,
+      "5_2": 289,
+      "5_4": 292
+    },
+    "family_band": null,
+    "support_pool_band_family": 243,
+    "family_weights": null,
+    "family_effective": null,
+    "in_band_raw": 0.012,
+    "in_band_top200": 0.3,
+    "median_rel_err_top": 0.007282368004727686,
+    "submitted": 200
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "Steel_ge5000": {
+    "generated": 5000,
+    "valid_rate": 1.0,
+    "mode": "lower",
+    "family_mix": {
+      "1_3": 271,
+      "4_2": 247,
+      "1_2": 277,
+      "4_3": 297,
+      "3_4": 314,
+      "5_2": 271,
+      "5_3": 270,
+      "2_3": 285,
+      "2_2": 243,
+      "6_4": 308,
+      "4_4": 278,
+      "3_2": 285,
+      "6_3": 261,
+      "5_4": 277,
+      "3_3": 261,
+      "2_4": 269,
+      "1_4": 296,
+      "6_2": 290
+    },
+    "family_band": null,
+    "support_pool_band_family": 24900,
+    "family_weights": null,
+    "family_effective": null,
+    "in_band_raw": 0.694,
+    "in_band_top200": 0.93,
+    "median_rel_err_top": 0.00803174305320399,
+    "submitted": 200
+  }
+}

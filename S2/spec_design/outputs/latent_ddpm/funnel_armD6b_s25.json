@@ -1,0 +1,50 @@
+{
+  "Steel_mid": {
+    "generated": 5000,
+    "valid_rate": 1.0,
+    "in_band_raw": 0.2354,
+    "in_band_top200": 1.0,
+    "median_rel_err_top": 0.0042968022571500345,
+    "submitted": 200
+  },
+  "Steel_high": {
+    "generated": 5000,
+    "valid_rate": 1.0,
+    "in_band_raw": 0.2386,
+    "in_band_top200": 1.0,
+    "median_rel_err_top": 0.004436512846163794,
+    "submitted": 200
+  },
+  "Aluminum_mid": {
+    "generated": 5000,
+    "valid_rate": 1.0,
+    "in_band_raw": 0.2054,
+    "in_band_top200": 1.0,
+    "median_rel_err_top": 0.005902696801853844,
+    "submitted": 200
+  },
+  "Aluminum_high": {
+    "generated": 5000,
+    "valid_rate": 1.0,
+    "in_band_raw": 0.204,
+    "in_band_top200": 1.0,
+    "median_rel_err_top": 0.005304518266791843,
+    "submitted": 200
+  },
+  "Titanium_mid": {
+    "generated": 5000,
+    "valid_rate": 0.9998,
+    "in_band_raw": 0.215,
+    "in_band_top200": 1.0,
+    "median_rel_err_top": 0.004217074424781099,
+    "submitted": 200
+  },
+  "Titanium_high": {
+    "generated": 5000,
+    "valid_rate": 1.0,
+    "in_band_raw": 0.2172,
+    "in_band_top200": 1.0,
+    "median_rel_err_top": 0.003959776814428934,
+    "submitted": 200
+  }
+}

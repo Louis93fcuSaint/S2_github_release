@@ -1,0 +1,47 @@
+{
+  "Steel_8000_t1": {
+    "generated": 5000,
+    "valid_rate": 1.0,
+    "mode": "band",
+    "family_mix": {
+      "6_2": 281,
+      "1_3": 286,
+      "3_3": 279,
+      "6_4": 293,
+      "1_4": 256,
+      "4_4": 255,
+      "2_4": 257,
+      "5_4": 275,
+      "4_2": 310,
+      "2_3": 293,
+      "5_3": 285,
+      "1_2": 296,
+      "6_3": 289,
+      "3_4": 247,
+      "2_2": 279,
+      "3_2": 287,
+      "4_3": 270,
+      "5_2": 262
+    },
+    "family_band": null,
+    "support_pool_band_family": 422,
+    "family_weights": null,
+    "family_effective": null,
+    "in_band_raw": 0.042,
+    "in_band_top200": 1.0,
+    "median_rel_err_top": 0.005129284958852395,
+    "submitted": 200,
+    "gate": {
+      "gate_verified": 200,
+      "gate_passed": 88,
+      "gate_rate": 0.44,
+      "gate_seconds_per_pass": 1.3078171854669398,
+      "gate_file": "rt_s8000_t1__Steel_8000_t1_verified.csv",
+      "n_solved": 200,
+      "n_timeout": 0,
+      "n_error": 0,
+      "seconds": 115.0879123210907,
+      "mode": "gate"
+    }
+  }
+}

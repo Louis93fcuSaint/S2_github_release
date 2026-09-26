@@ -1,0 +1,16 @@
+{
+  "tag": "armV_ema",
+  "out_tag": "rt1k_unguided",
+  "predict": "v",
+  "used_ema": true,
+  "fam_policy": "uniform",
+  "fam_allowed": "",
+  "fam_floor": 0.05,
+  "guidance": 1.0,
+  "guide_lambda": 0.0,
+  "sample_steps": 25,
+  "n_generate": 5000,
+  "n_submit": 1000,
+  "seed": 42,
+  "model": "D:\\Louis_Projet\\rotor_projet\\大学生创新创业训练计划\\S2\\spec_design\\outputs\\latent_ddpm\\armV_ema\\model.pt"
+}

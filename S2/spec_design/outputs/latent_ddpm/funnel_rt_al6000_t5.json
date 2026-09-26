@@ -1,0 +1,47 @@
+{
+  "Aluminum_6000": {
+    "generated": 5000,
+    "valid_rate": 1.0,
+    "mode": "band",
+    "family_mix": {
+      "5_4": 251,
+      "1_3": 282,
+      "4_4": 299,
+      "6_4": 278,
+      "5_3": 243,
+      "1_2": 268,
+      "4_3": 273,
+      "2_3": 316,
+      "6_3": 283,
+      "3_2": 277,
+      "4_2": 291,
+      "2_2": 284,
+      "3_3": 268,
+      "2_4": 275,
+      "1_4": 255,
+      "6_2": 297,
+      "5_2": 269,
+      "3_4": 291
+    },
+    "family_band": null,
+    "support_pool_band_family": 2626,
+    "family_weights": null,
+    "family_effective": null,
+    "in_band_raw": 0.1552,
+    "in_band_top200": 1.0,
+    "median_rel_err_top": 0.005449887072978299,
+    "submitted": 200,
+    "gate": {
+      "gate_verified": 200,
+      "gate_passed": 187,
+      "gate_rate": 0.935,
+      "gate_seconds_per_pass": 0.6933346177167433,
+      "gate_file": "rt_al6000_t5__Aluminum_6000_verified.csv",
+      "n_solved": 200,
+      "n_timeout": 0,
+      "n_error": 0,
+      "seconds": 129.653573513031,
+      "mode": "gate"
+    }
+  }
+}

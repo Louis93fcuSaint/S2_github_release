@@ -1,0 +1,6245 @@
+{
+  "armD6": {
+    "config": {
+      "guidance": 1.0,
+      "model": "D:\\Louis_Projet\\rotor_projet\\大学生创新创业训练计划\\S2\\spec_design\\outputs\\latent_ddpm\\armD6\\model.pt",
+      "n_generate": 5000,
+      "n_submit": 200,
+      "out_tag": "armD6",
+      "predict": "v",
+      "sample_steps": 0,
+      "seed": 42,
+      "tag": "armD6",
+      "used_ema": true
+    },
+    "funnel": {
+      "Aluminum_high": {
+        "generated": 5000,
+        "in_band_raw": 0.094,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.011168227980287196,
+        "submitted": 200,
+        "valid_rate": 1.0
+      },
+      "Aluminum_mid": {
+        "generated": 5000,
+        "in_band_raw": 0.0934,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.011571488126338927,
+        "submitted": 200,
+        "valid_rate": 0.9996
+      },
+      "Steel_high": {
+        "generated": 5000,
+        "in_band_raw": 0.0942,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.011353256808527874,
+        "submitted": 200,
+        "valid_rate": 1.0
+      },
+      "Steel_mid": {
+        "generated": 5000,
+        "in_band_raw": 0.099,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.009500290549999969,
+        "submitted": 200,
+        "valid_rate": 0.9996
+      },
+      "Titanium_high": {
+        "generated": 5000,
+        "in_band_raw": 0.0964,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.010241711341334322,
+        "submitted": 200,
+        "valid_rate": 1.0
+      },
+      "Titanium_mid": {
+        "generated": 5000,
+        "in_band_raw": 0.0942,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.011099866404837865,
+        "submitted": 200,
+        "valid_rate": 1.0
+      }
+    }
+  },
+  "armD6_g15": {
+    "config": {
+      "guidance": 1.5,
+      "model": "D:\\Louis_Projet\\rotor_projet\\大学生创新创业训练计划\\S2\\spec_design\\outputs\\latent_ddpm\\armD6\\model.pt",
+      "n_generate": 5000,
+      "n_submit": 200,
+      "out_tag": "armD6_g15",
+      "predict": "v",
+      "sample_steps": 0,
+      "seed": 42,
+      "tag": "armD6",
+      "used_ema": true
+    },
+    "funnel": {
+      "Aluminum_high": {
+        "generated": 5000,
+        "in_band_raw": 0.0664,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.014578049395953158,
+        "submitted": 200,
+        "valid_rate": 0.9998
+      },
+      "Aluminum_mid": {
+        "generated": 5000,
+        "in_band_raw": 0.0944,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.009032355796902907,
+        "submitted": 200,
+        "valid_rate": 0.9998
+      },
+      "Steel_high": {
+        "generated": 5000,
+        "in_band_raw": 0.0812,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.01390185060387256,
+        "submitted": 200,
+        "valid_rate": 1.0
+      },
+      "Steel_mid": {
+        "generated": 5000,
+        "in_band_raw": 0.0986,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.009323139388613287,
+        "submitted": 200,
+        "valid_rate": 1.0
+      },
+      "Titanium_high": {
+        "generated": 5000,
+        "in_band_raw": 0.0772,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.014125820964078996,
+        "submitted": 200,
+        "valid_rate": 1.0
+      },
+      "Titanium_mid": {
+        "generated": 5000,
+        "in_band_raw": 0.0962,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.011110471380644455,
+        "submitted": 200,
+        "valid_rate": 0.9998
+      }
+    }
+  },
+  "armD6b": {
+    "config": {
+      "guidance": 1.5,
+      "model": "D:\\Louis_Projet\\rotor_projet\\大学生创新创业训练计划\\S2\\spec_design\\outputs\\latent_ddpm\\armD6b\\model.pt",
+      "n_generate": 5000,
+      "n_submit": 200,
+      "out_tag": "armD6b",
+      "predict": "v",
+      "sample_steps": 0,
+      "seed": 42,
+      "tag": "armD6b",
+      "used_ema": true
+    },
+    "funnel": {
+      "Aluminum_high": {
+        "generated": 5000,
+        "in_band_raw": 0.1516,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.005697693291000257,
+        "submitted": 200,
+        "valid_rate": 0.9998
+      },
+      "Aluminum_mid": {
+        "generated": 5000,
+        "in_band_raw": 0.1826,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.00524526385759823,
+        "submitted": 200,
+        "valid_rate": 1.0
+      },
+      "Steel_high": {
+        "generated": 5000,
+        "in_band_raw": 0.1886,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.005695140545695551,
+        "submitted": 200,
+        "valid_rate": 0.9994
+      },
+      "Steel_mid": {
+        "generated": 5000,
+        "in_band_raw": 0.2052,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.004112883669406528,
+        "submitted": 200,
+        "valid_rate": 1.0
+      },
+      "Titanium_high": {
+        "generated": 5000,
+        "in_band_raw": 0.1628,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.0070113220860173325,
+        "submitted": 200,
+        "valid_rate": 1.0
+      },
+      "Titanium_mid": {
+        "generated": 5000,
+        "in_band_raw": 0.202,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.00450766382748487,
+        "submitted": 200,
+        "valid_rate": 0.9998
+      }
+    }
+  },
+  "armD6b_s25": {
+    "config": {
+      "tag": "armD6b",
+      "out_tag": "armD6b_s25",
+      "predict": "v",
+      "used_ema": true,
+      "guidance": 1.0,
+      "sample_steps": 25,
+      "n_generate": 5000,
+      "n_submit": 200,
+      "seed": 42,
+      "model": "D:\\Louis_Projet\\rotor_projet\\大学生创新创业训练计划\\S2\\spec_design\\outputs\\latent_ddpm\\armD6b\\model.pt"
+    },
+    "funnel": {
+      "Steel_mid": {
+        "generated": 5000,
+        "valid_rate": 1.0,
+        "in_band_raw": 0.2354,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.0042968022571500345,
+        "submitted": 200
+      },
+      "Steel_high": {
+        "generated": 5000,
+        "valid_rate": 1.0,
+        "in_band_raw": 0.2386,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.004436512846163794,
+        "submitted": 200
+      },
+      "Aluminum_mid": {
+        "generated": 5000,
+        "valid_rate": 1.0,
+        "in_band_raw": 0.2054,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.005902696801853844,
+        "submitted": 200
+      },
+      "Aluminum_high": {
+        "generated": 5000,
+        "valid_rate": 1.0,
+        "in_band_raw": 0.204,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.005304518266791843,
+        "submitted": 200
+      },
+      "Titanium_mid": {
+        "generated": 5000,
+        "valid_rate": 0.9998,
+        "in_band_raw": 0.215,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.004217074424781099,
+        "submitted": 200
+      },
+      "Titanium_high": {
+        "generated": 5000,
+        "valid_rate": 1.0,
+        "in_band_raw": 0.2172,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.003959776814428934,
+        "submitted": 200
+      }
+    }
+  },
+  "armD6b_s50": {
+    "config": {
+      "guidance": 1.0,
+      "model": "D:\\Louis_Projet\\rotor_projet\\大学生创新创业训练计划\\S2\\spec_design\\outputs\\latent_ddpm\\armD6b\\model.pt",
+      "n_generate": 5000,
+      "n_submit": 200,
+      "out_tag": "armD6b_s50",
+      "predict": "v",
+      "sample_steps": 50,
+      "seed": 42,
+      "tag": "armD6b",
+      "used_ema": true
+    },
+    "funnel": {
+      "Aluminum_high": {
+        "generated": 5000,
+        "in_band_raw": 0.1746,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.004957055587863657,
+        "submitted": 200,
+        "valid_rate": 1.0
+      },
+      "Aluminum_mid": {
+        "generated": 5000,
+        "in_band_raw": 0.1864,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.004981961015769318,
+        "submitted": 200,
+        "valid_rate": 1.0
+      },
+      "Steel_high": {
+        "generated": 5000,
+        "in_band_raw": 0.2036,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.0053742062918491346,
+        "submitted": 200,
+        "valid_rate": 1.0
+      },
+      "Steel_mid": {
+        "generated": 5000,
+        "in_band_raw": 0.2152,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.004060672137544227,
+        "submitted": 200,
+        "valid_rate": 1.0
+      },
+      "Titanium_high": {
+        "generated": 5000,
+        "in_band_raw": 0.1936,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.004575462579108047,
+        "submitted": 200,
+        "valid_rate": 1.0
+      },
+      "Titanium_mid": {
+        "generated": 5000,
+        "in_band_raw": 0.201,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.005089216403932453,
+        "submitted": 200,
+        "valid_rate": 1.0
+      }
+    }
+  },
+  "armL": {
+    "config": {
+      "guidance": 1.0,
+      "model": "D:\\Louis_Projet\\rotor_projet\\大学生创新创业训练计划\\S2\\spec_design\\outputs\\latent_ddpm\\armL\\model.pt",
+      "n_generate": 5000,
+      "n_submit": 200,
+      "out_tag": "armL",
+      "predict": "eps",
+      "sample_steps": 0,
+      "seed": 42,
+      "tag": "armL",
+      "used_ema": false
+    },
+    "funnel": {
+      "Aluminum_high": {
+        "generated": 5000,
+        "in_band_raw": 0.1072,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.008808577433224381,
+        "submitted": 200,
+        "valid_rate": 1.0
+      },
+      "Aluminum_mid": {
+        "generated": 5000,
+        "in_band_raw": 0.0924,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.01072025465779292,
+        "submitted": 200,
+        "valid_rate": 0.9996
+      },
+      "Steel_high": {
+        "generated": 5000,
+        "in_band_raw": 0.1072,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.009429826403171433,
+        "submitted": 200,
+        "valid_rate": 0.9994
+      },
+      "Steel_mid": {
+        "generated": 5000,
+        "in_band_raw": 0.0936,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.010942011241824553,
+        "submitted": 200,
+        "valid_rate": 1.0
+      },
+      "Titanium_high": {
+        "generated": 5000,
+        "in_band_raw": 0.1028,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.009365562506617272,
+        "submitted": 200,
+        "valid_rate": 0.9998
+      },
+      "Titanium_mid": {
+        "generated": 5000,
+        "in_band_raw": 0.0978,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.011131549921188538,
+        "submitted": 200,
+        "valid_rate": 0.9998
+      }
+    }
+  },
+  "armMS": {
+    "config": {
+      "guidance": 1.5,
+      "model": "D:\\Louis_Projet\\rotor_projet\\大学生创新创业训练计划\\S2\\spec_design\\outputs\\latent_ddpm\\armMS\\model.pt",
+      "n_generate": 5000,
+      "n_submit": 200,
+      "out_tag": "armMS",
+      "predict": "v",
+      "sample_steps": 0,
+      "seed": 42,
+      "tag": "armMS",
+      "used_ema": false
+    },
+    "funnel": {
+      "Aluminum_high": {
+        "generated": 5000,
+        "in_band_raw": 0.0598,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.017147229958424562,
+        "submitted": 200,
+        "valid_rate": 0.9996
+      },
+      "Aluminum_mid": {
+        "generated": 5000,
+        "in_band_raw": 0.0934,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.008644537859261118,
+        "submitted": 200,
+        "valid_rate": 1.0
+      },
+      "Steel_high": {
+        "generated": 5000,
+        "in_band_raw": 0.0792,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.011514239269293512,
+        "submitted": 200,
+        "valid_rate": 0.9998
+      },
+      "Steel_mid": {
+        "generated": 5000,
+        "in_band_raw": 0.1114,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.008739617143238926,
+        "submitted": 200,
+        "valid_rate": 1.0
+      },
+      "Titanium_high": {
+        "generated": 5000,
+        "in_band_raw": 0.0646,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.017318471663895444,
+        "submitted": 200,
+        "valid_rate": 0.9998
+      },
+      "Titanium_mid": {
+        "generated": 5000,
+        "in_band_raw": 0.1082,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.01035443815379907,
+        "submitted": 200,
+        "valid_rate": 1.0
+      }
+    }
+  },
+  "armV": {
+    "config": {
+      "guidance": 1.0,
+      "model": "D:\\Louis_Projet\\rotor_projet\\大学生创新创业训练计划\\S2\\spec_design\\outputs\\latent_ddpm\\armV\\model.pt",
+      "n_generate": 5000,
+      "n_submit": 200,
+      "out_tag": "armV",
+      "predict": "v",
+      "sample_steps": 0,
+      "seed": 42,
+      "tag": "armV",
+      "used_ema": false
+    },
+    "funnel": {
+      "Aluminum_high": {
+        "generated": 5000,
+        "in_band_raw": 0.136,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.007332128294612867,
+        "submitted": 200,
+        "valid_rate": 1.0
+      },
+      "Aluminum_mid": {
+        "generated": 5000,
+        "in_band_raw": 0.1184,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.00761933594806275,
+        "submitted": 200,
+        "valid_rate": 1.0
+      },
+      "Steel_high": {
+        "generated": 5000,
+        "in_band_raw": 0.1422,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.006314361580268951,
+        "submitted": 200,
+        "valid_rate": 0.9996
+      },
+      "Steel_mid": {
+        "generated": 5000,
+        "in_band_raw": 0.124,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.007400823524302748,
+        "submitted": 200,
+        "valid_rate": 1.0
+      },
+      "Titanium_high": {
+        "generated": 5000,
+        "in_band_raw": 0.132,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.007857484455727037,
+        "submitted": 200,
+        "valid_rate": 1.0
+      },
+      "Titanium_mid": {
+        "generated": 5000,
+        "in_band_raw": 0.1178,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.008537768798934933,
+        "submitted": 200,
+        "valid_rate": 0.9996
+      }
+    }
+  },
+  "armV_ema": {
+    "config": {
+      "guidance": 1.0,
+      "model": "D:\\Louis_Projet\\rotor_projet\\大学生创新创业训练计划\\S2\\spec_design\\outputs\\latent_ddpm\\armV_ema\\model.pt",
+      "n_generate": 5000,
+      "n_submit": 200,
+      "out_tag": "armV_ema",
+      "predict": "v",
+      "sample_steps": 0,
+      "seed": 42,
+      "tag": "armV_ema",
+      "used_ema": true
+    },
+    "funnel": {
+      "Aluminum_high": {
+        "generated": 5000,
+        "in_band_raw": 0.1362,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.006828117609906574,
+        "submitted": 200,
+        "valid_rate": 1.0
+      },
+      "Aluminum_mid": {
+        "generated": 5000,
+        "in_band_raw": 0.1178,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.005844154790408859,
+        "submitted": 200,
+        "valid_rate": 0.9998
+      },
+      "Steel_high": {
+        "generated": 5000,
+        "in_band_raw": 0.139,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.007590922943976921,
+        "submitted": 200,
+        "valid_rate": 1.0
+      },
+      "Steel_mid": {
+        "generated": 5000,
+        "in_band_raw": 0.1186,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.007662309015977939,
+        "submitted": 200,
+        "valid_rate": 0.9998
+      },
+      "Titanium_high": {
+        "generated": 5000,
+        "in_band_raw": 0.1376,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.007758641284962562,
+        "submitted": 200,
+        "valid_rate": 1.0
+      },
+      "Titanium_mid": {
+        "generated": 5000,
+        "in_band_raw": 0.1176,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.009349999311036701,
+        "submitted": 200,
+        "valid_rate": 1.0
+      }
+    }
+  },
+  "armV_ema_g075": {
+    "config": {
+      "guidance": 0.75,
+      "model": "D:\\Louis_Projet\\rotor_projet\\大学生创新创业训练计划\\S2\\spec_design\\outputs\\latent_ddpm\\armV_ema\\model.pt",
+      "n_generate": 5000,
+      "n_submit": 200,
+      "out_tag": "armV_ema_g075",
+      "predict": "v",
+      "sample_steps": 0,
+      "seed": 42,
+      "tag": "armV_ema",
+      "used_ema": true
+    },
+    "funnel": {
+      "Aluminum_high": {
+        "generated": 5000,
+        "in_band_raw": 0.0898,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.01062070597956992,
+        "submitted": 200,
+        "valid_rate": 0.9998
+      },
+      "Aluminum_mid": {
+        "generated": 5000,
+        "in_band_raw": 0.107,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.009755603188491835,
+        "submitted": 200,
+        "valid_rate": 1.0
+      },
+      "Steel_high": {
+        "generated": 5000,
+        "in_band_raw": 0.0992,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.008405130554045343,
+        "submitted": 200,
+        "valid_rate": 1.0
+      },
+      "Steel_mid": {
+        "generated": 5000,
+        "in_band_raw": 0.1092,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.008815518198453118,
+        "submitted": 200,
+        "valid_rate": 1.0
+      },
+      "Titanium_high": {
+        "generated": 5000,
+        "in_band_raw": 0.094,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.009781179928375901,
+        "submitted": 200,
+        "valid_rate": 1.0
+      },
+      "Titanium_mid": {
+        "generated": 5000,
+        "in_band_raw": 0.105,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.010959555801208448,
+        "submitted": 200,
+        "valid_rate": 0.9998
+      }
+    }
+  },
+  "armV_ema_g15": {
+    "config": {
+      "guidance": 1.5,
+      "model": "D:\\Louis_Projet\\rotor_projet\\大学生创新创业训练计划\\S2\\spec_design\\outputs\\latent_ddpm\\armV_ema\\model.pt",
+      "n_generate": 5000,
+      "n_submit": 200,
+      "out_tag": "armV_ema_g15",
+      "predict": "v",
+      "sample_steps": 0,
+      "seed": 42,
+      "tag": "armV_ema",
+      "used_ema": true
+    },
+    "funnel": {
+      "Aluminum_high": {
+        "generated": 5000,
+        "in_band_raw": 0.123,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.007688832948858718,
+        "submitted": 200,
+        "valid_rate": 1.0
+      },
+      "Aluminum_mid": {
+        "generated": 5000,
+        "in_band_raw": 0.1296,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.007434931360982203,
+        "submitted": 200,
+        "valid_rate": 1.0
+      },
+      "Steel_high": {
+        "generated": 5000,
+        "in_band_raw": 0.1436,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.006942611560015905,
+        "submitted": 200,
+        "valid_rate": 1.0
+      },
+      "Steel_mid": {
+        "generated": 5000,
+        "in_band_raw": 0.1332,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.006446123487298223,
+        "submitted": 200,
+        "valid_rate": 0.9998
+      },
+      "Titanium_high": {
+        "generated": 5000,
+        "in_band_raw": 0.1266,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.008749156352130357,
+        "submitted": 200,
+        "valid_rate": 1.0
+      },
+      "Titanium_mid": {
+        "generated": 5000,
+        "in_band_raw": 0.1434,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.006295751013950648,
+        "submitted": 200,
+        "valid_rate": 0.9998
+      }
+    }
+  },
+  "armV_ema_g15_s25": {
+    "config": {
+      "guidance": 1.5,
+      "model": "D:\\Louis_Projet\\rotor_projet\\大学生创新创业训练计划\\S2\\spec_design\\outputs\\latent_ddpm\\armV_ema\\model.pt",
+      "n_generate": 5000,
+      "n_submit": 200,
+      "out_tag": "armV_ema_g15_s25",
+      "predict": "v",
+      "sample_steps": 25,
+      "seed": 42,
+      "tag": "armV_ema",
+      "used_ema": true
+    },
+    "funnel": {
+      "Aluminum_high": {
+        "generated": 5000,
+        "in_band_raw": 0.0842,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.012149738767329757,
+        "submitted": 200,
+        "valid_rate": 1.0
+      },
+      "Aluminum_mid": {
+        "generated": 5000,
+        "in_band_raw": 0.1328,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.007035593444692423,
+        "submitted": 200,
+        "valid_rate": 1.0
+      },
+      "Steel_high": {
+        "generated": 5000,
+        "in_band_raw": 0.1074,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.008254496559491599,
+        "submitted": 200,
+        "valid_rate": 1.0
+      },
+      "Steel_mid": {
+        "generated": 5000,
+        "in_band_raw": 0.1316,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.007957055696374862,
+        "submitted": 200,
+        "valid_rate": 0.9998
+      },
+      "Titanium_high": {
+        "generated": 5000,
+        "in_band_raw": 0.0892,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.012060459284847207,
+        "submitted": 200,
+        "valid_rate": 1.0
+      },
+      "Titanium_mid": {
+        "generated": 5000,
+        "in_band_raw": 0.1346,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.007304190395432374,
+        "submitted": 200,
+        "valid_rate": 0.9996
+      }
+    }
+  },
+  "armV_ema_g20": {
+    "config": {
+      "guidance": 2.0,
+      "model": "D:\\Louis_Projet\\rotor_projet\\大学生创新创业训练计划\\S2\\spec_design\\outputs\\latent_ddpm\\armV_ema\\model.pt",
+      "n_generate": 5000,
+      "n_submit": 200,
+      "out_tag": "armV_ema_g20",
+      "predict": "v",
+      "sample_steps": 0,
+      "seed": 42,
+      "tag": "armV_ema",
+      "used_ema": true
+    },
+    "funnel": {
+      "Aluminum_high": {
+        "generated": 5000,
+        "in_band_raw": 0.0898,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.013544708024585302,
+        "submitted": 200,
+        "valid_rate": 0.9996
+      },
+      "Aluminum_mid": {
+        "generated": 5000,
+        "in_band_raw": 0.1236,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.0074834528645583214,
+        "submitted": 200,
+        "valid_rate": 1.0
+      },
+      "Steel_high": {
+        "generated": 5000,
+        "in_band_raw": 0.1256,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.00749836861084259,
+        "submitted": 200,
+        "valid_rate": 1.0
+      },
+      "Steel_mid": {
+        "generated": 5000,
+        "in_band_raw": 0.1364,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.0069106224449519815,
+        "submitted": 200,
+        "valid_rate": 0.9998
+      },
+      "Titanium_high": {
+        "generated": 5000,
+        "in_band_raw": 0.1072,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.008166502713868077,
+        "submitted": 200,
+        "valid_rate": 0.9996
+      },
+      "Titanium_mid": {
+        "generated": 5000,
+        "in_band_raw": 0.1338,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.007469496552428841,
+        "submitted": 200,
+        "valid_rate": 1.0
+      }
+    }
+  },
+  "armV_ema_g25": {
+    "config": {
+      "guidance": 2.5,
+      "model": "D:\\Louis_Projet\\rotor_projet\\大学生创新创业训练计划\\S2\\spec_design\\outputs\\latent_ddpm\\armV_ema\\model.pt",
+      "n_generate": 5000,
+      "n_submit": 200,
+      "out_tag": "armV_ema_g25",
+      "predict": "v",
+      "sample_steps": 0,
+      "seed": 42,
+      "tag": "armV_ema",
+      "used_ema": true
+    },
+    "funnel": {
+      "Aluminum_high": {
+        "generated": 5000,
+        "in_band_raw": 0.0648,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.016817463349932,
+        "submitted": 200,
+        "valid_rate": 0.9994
+      },
+      "Aluminum_mid": {
+        "generated": 5000,
+        "in_band_raw": 0.127,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.009278662091693132,
+        "submitted": 200,
+        "valid_rate": 0.9996
+      },
+      "Steel_high": {
+        "generated": 5000,
+        "in_band_raw": 0.1036,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.010556893593218944,
+        "submitted": 200,
+        "valid_rate": 0.999
+      },
+      "Steel_mid": {
+        "generated": 5000,
+        "in_band_raw": 0.1324,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.007751360384914582,
+        "submitted": 200,
+        "valid_rate": 0.9996
+      },
+      "Titanium_high": {
+        "generated": 5000,
+        "in_band_raw": 0.076,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.013269416978751426,
+        "submitted": 200,
+        "valid_rate": 0.9996
+      },
+      "Titanium_mid": {
+        "generated": 5000,
+        "in_band_raw": 0.1296,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.007478171835217476,
+        "submitted": 200,
+        "valid_rate": 0.9996
+      }
+    }
+  },
+  "armV_ema_s10": {
+    "config": {
+      "guidance": 1.0,
+      "model": "D:\\Louis_Projet\\rotor_projet\\大学生创新创业训练计划\\S2\\spec_design\\outputs\\latent_ddpm\\armV_ema\\model.pt",
+      "n_generate": 5000,
+      "n_submit": 200,
+      "out_tag": "armV_ema_s10",
+      "predict": "v",
+      "sample_steps": 10,
+      "seed": 42,
+      "tag": "armV_ema",
+      "used_ema": true
+    },
+    "funnel": {
+      "Aluminum_high": {
+        "generated": 5000,
+        "in_band_raw": 0.1972,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.005687397953862313,
+        "submitted": 200,
+        "valid_rate": 1.0
+      },
+      "Aluminum_mid": {
+        "generated": 5000,
+        "in_band_raw": 0.1186,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.008160655199865901,
+        "submitted": 200,
+        "valid_rate": 1.0
+      },
+      "Steel_high": {
+        "generated": 5000,
+        "in_band_raw": 0.269,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.0033342264261532364,
+        "submitted": 200,
+        "valid_rate": 1.0
+      },
+      "Steel_mid": {
+        "generated": 5000,
+        "in_band_raw": 0.158,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.006738259456990869,
+        "submitted": 200,
+        "valid_rate": 1.0
+      },
+      "Titanium_high": {
+        "generated": 5000,
+        "in_band_raw": 0.2328,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.0036841921893690024,
+        "submitted": 200,
+        "valid_rate": 1.0
+      },
+      "Titanium_mid": {
+        "generated": 5000,
+        "in_band_raw": 0.1314,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.006334631936517093,
+        "submitted": 200,
+        "valid_rate": 1.0
+      }
+    }
+  },
+  "armV_ema_s100": {
+    "config": {
+      "guidance": 1.0,
+      "model": "D:\\Louis_Projet\\rotor_projet\\大学生创新创业训练计划\\S2\\spec_design\\outputs\\latent_ddpm\\armV_ema\\model.pt",
+      "n_generate": 5000,
+      "n_submit": 200,
+      "out_tag": "armV_ema_s100",
+      "predict": "v",
+      "sample_steps": 100,
+      "seed": 42,
+      "tag": "armV_ema",
+      "used_ema": true
+    },
+    "funnel": {
+      "Aluminum_high": {
+        "generated": 5000,
+        "in_band_raw": 0.1426,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.006423613863291077,
+        "submitted": 200,
+        "valid_rate": 1.0
+      },
+      "Aluminum_mid": {
+        "generated": 5000,
+        "in_band_raw": 0.1314,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.007138136605996146,
+        "submitted": 200,
+        "valid_rate": 0.9998
+      },
+      "Steel_high": {
+        "generated": 5000,
+        "in_band_raw": 0.1496,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.007078834919445285,
+        "submitted": 200,
+        "valid_rate": 0.9998
+      },
+      "Steel_mid": {
+        "generated": 5000,
+        "in_band_raw": 0.133,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.006638830855812014,
+        "submitted": 200,
+        "valid_rate": 1.0
+      },
+      "Titanium_high": {
+        "generated": 5000,
+        "in_band_raw": 0.1492,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.007663783386766706,
+        "submitted": 200,
+        "valid_rate": 1.0
+      },
+      "Titanium_mid": {
+        "generated": 5000,
+        "in_band_raw": 0.1266,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.007762640525686334,
+        "submitted": 200,
+        "valid_rate": 0.9998
+      }
+    }
+  },
+  "armV_ema_s250": {
+    "config": {
+      "guidance": 1.0,
+      "model": "D:\\Louis_Projet\\rotor_projet\\大学生创新创业训练计划\\S2\\spec_design\\outputs\\latent_ddpm\\armV_ema\\model.pt",
+      "n_generate": 5000,
+      "n_submit": 200,
+      "out_tag": "armV_ema_s250",
+      "predict": "v",
+      "sample_steps": 250,
+      "seed": 42,
+      "tag": "armV_ema",
+      "used_ema": true
+    },
+    "funnel": {
+      "Aluminum_high": {
+        "generated": 5000,
+        "in_band_raw": 0.1264,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.00749401643529682,
+        "submitted": 200,
+        "valid_rate": 1.0
+      },
+      "Aluminum_mid": {
+        "generated": 5000,
+        "in_band_raw": 0.1298,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.00809119277437142,
+        "submitted": 200,
+        "valid_rate": 1.0
+      },
+      "Steel_high": {
+        "generated": 5000,
+        "in_band_raw": 0.1498,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.006734487702141166,
+        "submitted": 200,
+        "valid_rate": 1.0
+      },
+      "Steel_mid": {
+        "generated": 5000,
+        "in_band_raw": 0.1264,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.007503973885487388,
+        "submitted": 200,
+        "valid_rate": 1.0
+      },
+      "Titanium_high": {
+        "generated": 5000,
+        "in_band_raw": 0.1262,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.00773043737000013,
+        "submitted": 200,
+        "valid_rate": 0.9998
+      },
+      "Titanium_mid": {
+        "generated": 5000,
+        "in_band_raw": 0.1202,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.008988703554601608,
+        "submitted": 200,
+        "valid_rate": 1.0
+      }
+    }
+  },
+  "armV_ema_s25seed7": {
+    "config": {
+      "guidance": 1.0,
+      "model": "D:\\Louis_Projet\\rotor_projet\\大学生创新创业训练计划\\S2\\spec_design\\outputs\\latent_ddpm\\armV_ema\\model.pt",
+      "n_generate": 5000,
+      "n_submit": 200,
+      "out_tag": "armV_ema_s25seed7",
+      "predict": "v",
+      "sample_steps": 25,
+      "seed": 7,
+      "tag": "armV_ema",
+      "used_ema": true
+    },
+    "funnel": {
+      "Aluminum_high": {
+        "generated": 5000,
+        "in_band_raw": 0.1842,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.006212928873456605,
+        "submitted": 200,
+        "valid_rate": 1.0
+      },
+      "Aluminum_mid": {
+        "generated": 5000,
+        "in_band_raw": 0.1498,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.008169703342328189,
+        "submitted": 200,
+        "valid_rate": 1.0
+      },
+      "Steel_high": {
+        "generated": 5000,
+        "in_band_raw": 0.217,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.004797411031264346,
+        "submitted": 200,
+        "valid_rate": 1.0
+      },
+      "Steel_mid": {
+        "generated": 5000,
+        "in_band_raw": 0.1624,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.0062548972657938545,
+        "submitted": 200,
+        "valid_rate": 1.0
+      },
+      "Titanium_high": {
+        "generated": 5000,
+        "in_band_raw": 0.1948,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.004979738000981103,
+        "submitted": 200,
+        "valid_rate": 1.0
+      },
+      "Titanium_mid": {
+        "generated": 5000,
+        "in_band_raw": 0.1534,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.005484276518898294,
+        "submitted": 200,
+        "valid_rate": 1.0
+      }
+    }
+  },
+  "armV_ema_s5": {
+    "config": {
+      "guidance": 1.0,
+      "model": "D:\\Louis_Projet\\rotor_projet\\大学生创新创业训练计划\\S2\\spec_design\\outputs\\latent_ddpm\\armV_ema\\model.pt",
+      "n_generate": 5000,
+      "n_submit": 200,
+      "out_tag": "armV_ema_s5",
+      "predict": "v",
+      "sample_steps": 5,
+      "seed": 42,
+      "tag": "armV_ema",
+      "used_ema": true
+    },
+    "funnel": {
+      "Aluminum_high": {
+        "generated": 5000,
+        "in_band_raw": 0.1264,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.00813265870098629,
+        "submitted": 200,
+        "valid_rate": 1.0
+      },
+      "Aluminum_mid": {
+        "generated": 5000,
+        "in_band_raw": 0.042,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.0228033838665015,
+        "submitted": 200,
+        "valid_rate": 1.0
+      },
+      "Steel_high": {
+        "generated": 5000,
+        "in_band_raw": 0.2148,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.004371723660038072,
+        "submitted": 200,
+        "valid_rate": 1.0
+      },
+      "Steel_mid": {
+        "generated": 5000,
+        "in_band_raw": 0.0394,
+        "in_band_top200": 0.985,
+        "median_rel_err_top": 0.027223395620425715,
+        "submitted": 200,
+        "valid_rate": 1.0
+      },
+      "Titanium_high": {
+        "generated": 5000,
+        "in_band_raw": 0.1712,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.005962439889168979,
+        "submitted": 200,
+        "valid_rate": 1.0
+      },
+      "Titanium_mid": {
+        "generated": 5000,
+        "in_band_raw": 0.0294,
+        "in_band_top200": 0.735,
+        "median_rel_err_top": 0.03519925960019327,
+        "submitted": 200,
+        "valid_rate": 1.0
+      }
+    }
+  },
+  "armV_ema_s50": {
+    "config": {
+      "guidance": 1.0,
+      "model": "D:\\Louis_Projet\\rotor_projet\\大学生创新创业训练计划\\S2\\spec_design\\outputs\\latent_ddpm\\armV_ema\\model.pt",
+      "n_generate": 5000,
+      "n_submit": 200,
+      "out_tag": "armV_ema_s50",
+      "predict": "v",
+      "sample_steps": 50,
+      "seed": 42,
+      "tag": "armV_ema",
+      "used_ema": true
+    },
+    "funnel": {
+      "Aluminum_high": {
+        "generated": 5000,
+        "in_band_raw": 0.1586,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.005133770662397301,
+        "submitted": 200,
+        "valid_rate": 1.0
+      },
+      "Aluminum_mid": {
+        "generated": 5000,
+        "in_band_raw": 0.1278,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.00804916296321456,
+        "submitted": 200,
+        "valid_rate": 1.0
+      },
+      "Steel_high": {
+        "generated": 5000,
+        "in_band_raw": 0.1834,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.005978823305212643,
+        "submitted": 200,
+        "valid_rate": 1.0
+      },
+      "Steel_mid": {
+        "generated": 5000,
+        "in_band_raw": 0.151,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.0061929599609768125,
+        "submitted": 200,
+        "valid_rate": 0.9998
+      },
+      "Titanium_high": {
+        "generated": 5000,
+        "in_band_raw": 0.1724,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.005312407281468519,
+        "submitted": 200,
+        "valid_rate": 1.0
+      },
+      "Titanium_mid": {
+        "generated": 5000,
+        "in_band_raw": 0.1436,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.008408575421794816,
+        "submitted": 200,
+        "valid_rate": 1.0
+      }
+    }
+  },
+  "armV_g15": {
+    "config": {
+      "guidance": 1.5,
+      "model": "D:\\Louis_Projet\\rotor_projet\\大学生创新创业训练计划\\S2\\spec_design\\outputs\\latent_ddpm\\armV\\model.pt",
+      "n_generate": 5000,
+      "n_submit": 200,
+      "out_tag": "armV_g15",
+      "predict": "v",
+      "sample_steps": 0,
+      "seed": 42,
+      "tag": "armV",
+      "used_ema": false
+    },
+    "funnel": {
+      "Aluminum_high": {
+        "generated": 5000,
+        "in_band_raw": 0.1106,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.008187010209281653,
+        "submitted": 200,
+        "valid_rate": 0.9998
+      },
+      "Aluminum_mid": {
+        "generated": 5000,
+        "in_band_raw": 0.1242,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.008425504399404808,
+        "submitted": 200,
+        "valid_rate": 1.0
+      },
+      "Steel_high": {
+        "generated": 5000,
+        "in_band_raw": 0.1336,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.0070838479722934835,
+        "submitted": 200,
+        "valid_rate": 0.9998
+      },
+      "Steel_mid": {
+        "generated": 5000,
+        "in_band_raw": 0.1242,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.009032101083131593,
+        "submitted": 200,
+        "valid_rate": 0.9994
+      },
+      "Titanium_high": {
+        "generated": 5000,
+        "in_band_raw": 0.1232,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.008327265626298149,
+        "submitted": 200,
+        "valid_rate": 0.9998
+      },
+      "Titanium_mid": {
+        "generated": 5000,
+        "in_band_raw": 0.1294,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.007106154104482579,
+        "submitted": 200,
+        "valid_rate": 1.0
+      }
+    }
+  },
+  "armV_s25": {
+    "config": {
+      "guidance": 1.0,
+      "model": "D:\\Louis_Projet\\rotor_projet\\大学生创新创业训练计划\\S2\\spec_design\\outputs\\latent_ddpm\\armV\\model.pt",
+      "n_generate": 5000,
+      "n_submit": 200,
+      "out_tag": "armV_s25",
+      "predict": "v",
+      "sample_steps": 25,
+      "seed": 42,
+      "tag": "armV",
+      "used_ema": false
+    },
+    "funnel": {
+      "Aluminum_high": {
+        "generated": 5000,
+        "in_band_raw": 0.1762,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.0045545523301039476,
+        "submitted": 200,
+        "valid_rate": 1.0
+      },
+      "Aluminum_mid": {
+        "generated": 5000,
+        "in_band_raw": 0.1444,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.0054145705037925325,
+        "submitted": 200,
+        "valid_rate": 0.9998
+      },
+      "Steel_high": {
+        "generated": 5000,
+        "in_band_raw": 0.2056,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.0051569705054775455,
+        "submitted": 200,
+        "valid_rate": 0.9998
+      },
+      "Steel_mid": {
+        "generated": 5000,
+        "in_band_raw": 0.159,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.005653439227877028,
+        "submitted": 200,
+        "valid_rate": 1.0
+      },
+      "Titanium_high": {
+        "generated": 5000,
+        "in_band_raw": 0.1918,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.005382580914091656,
+        "submitted": 200,
+        "valid_rate": 1.0
+      },
+      "Titanium_mid": {
+        "generated": 5000,
+        "in_band_raw": 0.1498,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.007774640026990668,
+        "submitted": 200,
+        "valid_rate": 1.0
+      }
+    }
+  },
+  "famL_s25": {
+    "config": {
+      "tag": "armV_ema",
+      "out_tag": "famL_s25",
+      "predict": "v",
+      "used_ema": true,
+      "fam_policy": "learned",
+      "fam_allowed": "",
+      "fam_floor": 0.05,
+      "guidance": 1.0,
+      "sample_steps": 25,
+      "n_generate": 5000,
+      "n_submit": 200,
+      "seed": 42,
+      "model": "D:\\Louis_Projet\\rotor_projet\\大学生创新创业训练计划\\S2\\spec_design\\outputs\\latent_ddpm\\armV_ema\\model.pt"
+    },
+    "funnel": {
+      "Steel_mid": {
+        "generated": 5000,
+        "valid_rate": 1.0,
+        "family_mix": {
+          "2_4": 263,
+          "6_3": 289,
+          "4_4": 230,
+          "5_3": 233,
+          "1_3": 267,
+          "5_2": 326,
+          "3_2": 283,
+          "1_2": 321,
+          "2_3": 265,
+          "1_4": 263,
+          "4_2": 314,
+          "4_3": 314,
+          "5_4": 251,
+          "3_3": 297,
+          "3_4": 253,
+          "2_2": 314,
+          "6_2": 252,
+          "6_4": 265
+        },
+        "family_weights": [
+          0.06359220155956959,
+          0.05632715589798802,
+          0.05065942736249626,
+          0.057346746241694016,
+          0.0536729834205545,
+          0.049703485107571006,
+          0.05929300710508993,
+          0.05635236092389697,
+          0.052698994543370146,
+          0.06079111668667096,
+          0.05429860560247122,
+          0.05156717713134739,
+          0.0574099156103656,
+          0.056312925388944945,
+          0.053154571979076616,
+          0.05472476620720711,
+          0.05695919204093715,
+          0.05513536719074864
+        ],
+        "family_effective": 17.96617576966527,
+        "in_band_raw": 0.1678,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.005923022755626259,
+        "submitted": 200
+      },
+      "Steel_high": {
+        "generated": 5000,
+        "valid_rate": 1.0,
+        "family_mix": {
+          "1_3": 440,
+          "4_3": 219,
+          "3_4": 493,
+          "3_3": 337,
+          "2_3": 422,
+          "2_2": 242,
+          "1_4": 565,
+          "5_4": 291,
+          "5_3": 170,
+          "2_4": 496,
+          "4_4": 365,
+          "1_2": 336,
+          "6_4": 195,
+          "6_3": 115,
+          "4_2": 88,
+          "6_2": 26,
+          "3_2": 136,
+          "5_2": 64
+        },
+        "family_weights": [
+          0.06234197859512543,
+          0.08800938637522782,
+          0.11735966585756219,
+          0.051499777264214466,
+          0.08542033750552255,
+          0.10286340898634314,
+          0.02646297957576909,
+          0.06245416718090174,
+          0.09528154024129004,
+          0.01735197174731697,
+          0.0458978571098728,
+          0.07243592003743118,
+          0.011303198918257314,
+          0.035415475333642886,
+          0.05858172346518019,
+          0.00590255122634611,
+          0.022320383115560925,
+          0.039097677464435265
+        ],
+        "family_effective": 14.992232597753642,
+        "in_band_raw": 0.2122,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.005423782183840615,
+        "submitted": 200
+      },
+      "Aluminum_mid": {
+        "generated": 5000,
+        "valid_rate": 1.0,
+        "family_mix": {
+          "5_3": 257,
+          "5_2": 247,
+          "2_3": 261,
+          "5_4": 299,
+          "1_3": 321,
+          "6_3": 290,
+          "4_3": 289,
+          "1_4": 255,
+          "3_4": 259,
+          "2_2": 300,
+          "6_4": 300,
+          "4_4": 273,
+          "3_2": 280,
+          "3_3": 271,
+          "2_4": 286,
+          "1_2": 311,
+          "6_2": 218,
+          "4_2": 283
+        },
+        "family_weights": [
+          0.06201856478794442,
+          0.05639980055243782,
+          0.053890667671747654,
+          0.06333467792193695,
+          0.05380082906504851,
+          0.05566634885583718,
+          0.05817214833828403,
+          0.05634383582265248,
+          0.056727344384464355,
+          0.05435792518395234,
+          0.05862634122095775,
+          0.054067107381985724,
+          0.04980406846348759,
+          0.05443739386162698,
+          0.054954448225092316,
+          0.04674225014733029,
+          0.05602929552919121,
+          0.054626952586022466
+        ],
+        "family_effective": 17.96026510783041,
+        "in_band_raw": 0.1456,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.006686164455281245,
+        "submitted": 200
+      },
+      "Aluminum_high": {
+        "generated": 5000,
+        "valid_rate": 1.0,
+        "family_mix": {
+          "6_4": 239,
+          "3_4": 450,
+          "1_3": 489,
+          "4_2": 79,
+          "5_4": 306,
+          "2_2": 188,
+          "4_3": 237,
+          "6_3": 138,
+          "3_2": 129,
+          "2_4": 559,
+          "4_4": 324,
+          "2_3": 421,
+          "1_4": 601,
+          "3_3": 319,
+          "1_2": 257,
+          "5_3": 183,
+          "5_2": 50,
+          "6_2": 31
+        },
+        "family_weights": [
+          0.05314753085820312,
+          0.09760992587734779,
+          0.1207252025462135,
+          0.040822414920979905,
+          0.08083456641129338,
+          0.10074515485146875,
+          0.02587363162374561,
+          0.06660664360476844,
+          0.0882958061996496,
+          0.017560696016583586,
+          0.04706772290669758,
+          0.07081670048733811,
+          0.01073794818020654,
+          0.03672188137361407,
+          0.05961674552270353,
+          0.006036260127310675,
+          0.02970670902315207,
+          0.04707445946872371
+        ],
+        "family_effective": 15.065006982603563,
+        "in_band_raw": 0.201,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.0061898935755248,
+        "submitted": 200
+      },
+      "Titanium_mid": {
+        "generated": 5000,
+        "valid_rate": 0.9998,
+        "family_mix": {
+          "5_2": 268,
+          "6_3": 291,
+          "2_2": 283,
+          "2_3": 318,
+          "1_3": 238,
+          "4_4": 251,
+          "4_3": 276,
+          "1_2": 321,
+          "5_3": 276,
+          "4_2": 261,
+          "2_4": 265,
+          "3_3": 269,
+          "3_4": 298,
+          "5_4": 314,
+          "1_4": 300,
+          "3_2": 268,
+          "6_4": 278,
+          "6_2": 225
+        },
+        "family_weights": [
+          0.06312666654752264,
+          0.05744399806268728,
+          0.053451889965753625,
+          0.06088800431025712,
+          0.06066137856505367,
+          0.05307327484298796,
+          0.05776040044142807,
+          0.0576757571625502,
+          0.055425967449422915,
+          0.05607077102283762,
+          0.053764923962907656,
+          0.052122903218835025,
+          0.051728131324487704,
+          0.05101428837816922,
+          0.055891887389808395,
+          0.04672718347143165,
+          0.05765764375778083,
+          0.055514930126078464
+        ],
+        "family_effective": 17.956324500671613,
+        "in_band_raw": 0.1454,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.006801654946107932,
+        "submitted": 200
+      },
+      "Titanium_high": {
+        "generated": 5000,
+        "valid_rate": 1.0,
+        "family_mix": {
+          "3_3": 326,
+          "1_4": 545,
+          "3_4": 417,
+          "4_4": 405,
+          "2_2": 198,
+          "4_3": 264,
+          "2_3": 399,
+          "1_3": 450,
+          "5_4": 291,
+          "4_2": 94,
+          "1_2": 265,
+          "5_3": 178,
+          "2_4": 543,
+          "6_3": 150,
+          "3_2": 147,
+          "6_2": 32,
+          "6_4": 240,
+          "5_2": 56
+        },
+        "family_weights": [
+          0.05761926533885062,
+          0.08561170030577335,
+          0.11113054159974683,
+          0.039745139235712164,
+          0.0793699062098236,
+          0.10224985759332836,
+          0.029486217927652318,
+          0.06626141989045495,
+          0.08548828726862048,
+          0.019578200786753607,
+          0.05149065733377166,
+          0.07746427534378322,
+          0.013098221036847935,
+          0.038795261632982775,
+          0.06198555428653002,
+          0.006807301767616098,
+          0.026225145565774197,
+          0.04759304687597784
+        ],
+        "family_effective": 15.378400016271836,
+        "in_band_raw": 0.1948,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.005286512893095853,
+        "submitted": 200
+      }
+    }
+  },
+  "pinAH_d1b4": {
+    "config": {
+      "tag": "armV_ema",
+      "out_tag": "pinAH_d1b4",
+      "predict": "v",
+      "used_ema": true,
+      "fam_policy": "pinned",
+      "fam_allowed": "1x4",
+      "fam_floor": 0.05,
+      "guidance": 1.0,
+      "sample_steps": 25,
+      "n_generate": 5000,
+      "n_submit": 200,
+      "seed": 42,
+      "model": "D:\\Louis_Projet\\rotor_projet\\大学生创新创业训练计划\\S2\\spec_design\\outputs\\latent_ddpm\\armV_ema\\model.pt"
+    },
+    "funnel": {
+      "Aluminum_high": {
+        "generated": 5000,
+        "valid_rate": 0.9998,
+        "family_mix": {
+          "1_4": 5000
+        },
+        "family_weights": [
+          1.0
+        ],
+        "family_effective": 1.0,
+        "in_band_raw": 0.1684,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.005317463310292505,
+        "submitted": 200
+      }
+    }
+  },
+  "pinAH_d6b2": {
+    "config": {
+      "tag": "armV_ema",
+      "out_tag": "pinAH_d6b2",
+      "predict": "v",
+      "used_ema": true,
+      "fam_policy": "pinned",
+      "fam_allowed": "6x2",
+      "fam_floor": 0.05,
+      "guidance": 1.0,
+      "sample_steps": 25,
+      "n_generate": 5000,
+      "n_submit": 200,
+      "seed": 42,
+      "model": "D:\\Louis_Projet\\rotor_projet\\大学生创新创业训练计划\\S2\\spec_design\\outputs\\latent_ddpm\\armV_ema\\model.pt"
+    },
+    "funnel": {
+      "Aluminum_high": {
+        "generated": 5000,
+        "valid_rate": 1.0,
+        "family_mix": {
+          "6_2": 5000
+        },
+        "family_weights": [
+          1.0
+        ],
+        "family_effective": 1.0,
+        "in_band_raw": 0.1278,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.00838859982075851,
+        "submitted": 200
+      }
+    }
+  },
+  "pinSH_d1b4": {
+    "config": {
+      "tag": "armV_ema",
+      "out_tag": "pinSH_d1b4",
+      "predict": "v",
+      "used_ema": true,
+      "fam_policy": "pinned",
+      "fam_allowed": "1x4",
+      "fam_floor": 0.05,
+      "guidance": 1.0,
+      "sample_steps": 25,
+      "n_generate": 5000,
+      "n_submit": 200,
+      "seed": 42,
+      "model": "D:\\Louis_Projet\\rotor_projet\\大学生创新创业训练计划\\S2\\spec_design\\outputs\\latent_ddpm\\armV_ema\\model.pt"
+    },
+    "funnel": {
+      "Steel_high": {
+        "generated": 5000,
+        "valid_rate": 0.9998,
+        "family_mix": {
+          "1_4": 5000
+        },
+        "family_weights": [
+          1.0
+        ],
+        "family_effective": 1.0,
+        "in_band_raw": 0.1876,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.004322193831863785,
+        "submitted": 200
+      }
+    }
+  },
+  "pinSH_d6b2": {
+    "config": {
+      "tag": "armV_ema",
+      "out_tag": "pinSH_d6b2",
+      "predict": "v",
+      "used_ema": true,
+      "fam_policy": "pinned",
+      "fam_allowed": "6x2",
+      "fam_floor": 0.05,
+      "guidance": 1.0,
+      "sample_steps": 25,
+      "n_generate": 5000,
+      "n_submit": 200,
+      "seed": 42,
+      "model": "D:\\Louis_Projet\\rotor_projet\\大学生创新创业训练计划\\S2\\spec_design\\outputs\\latent_ddpm\\armV_ema\\model.pt"
+    },
+    "funnel": {
+      "Steel_high": {
+        "generated": 5000,
+        "valid_rate": 1.0,
+        "family_mix": {
+          "6_2": 5000
+        },
+        "family_weights": [
+          1.0
+        ],
+        "family_effective": 1.0,
+        "in_band_raw": 0.1792,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.004683422076748116,
+        "submitted": 200
+      }
+    }
+  },
+  "v1": {
+    "config": {
+      "tag": "armV_ema",
+      "out_tag": "v1",
+      "predict": "v",
+      "used_ema": true,
+      "fam_policy": "uniform",
+      "fam_allowed": "",
+      "fam_floor": 0.05,
+      "guidance": 1.0,
+      "sample_steps": 25,
+      "n_generate": 5000,
+      "n_submit": 200,
+      "seed": 42,
+      "model": "D:\\Louis_Projet\\rotor_projet\\大学生创新创业训练计划\\S2\\spec_design\\outputs\\latent_ddpm\\armV_ema\\model.pt"
+    },
+    "funnel": {
+      "Steel_mid": {
+        "generated": 5000,
+        "valid_rate": 0.9998,
+        "family_mix": {
+          "6_3": 263,
+          "2_4": 283,
+          "6_4": 285,
+          "4_4": 256,
+          "5_3": 257,
+          "1_2": 299,
+          "1_3": 266,
+          "4_2": 270,
+          "5_2": 314,
+          "3_2": 282,
+          "3_4": 265,
+          "2_3": 280,
+          "2_2": 280,
+          "1_4": 286,
+          "3_3": 281,
+          "4_3": 279,
+          "5_4": 276,
+          "6_2": 278
+        },
+        "family_weights": null,
+        "family_effective": null,
+        "in_band_raw": 0.1626,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.005161871813472076,
+        "submitted": 200
+      },
+      "Steel_high": {
+        "generated": 5000,
+        "valid_rate": 1.0,
+        "family_mix": {
+          "6_2": 267,
+          "1_3": 263,
+          "5_4": 269,
+          "5_3": 268,
+          "6_3": 241,
+          "5_2": 267,
+          "4_4": 280,
+          "4_3": 304,
+          "2_4": 292,
+          "4_2": 253,
+          "3_2": 270,
+          "2_2": 292,
+          "2_3": 279,
+          "3_4": 299,
+          "3_3": 271,
+          "1_4": 287,
+          "1_2": 306,
+          "6_4": 292
+        },
+        "family_weights": null,
+        "family_effective": null,
+        "in_band_raw": 0.2194,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.0042481166633334625,
+        "submitted": 200
+      },
+      "Aluminum_mid": {
+        "generated": 5000,
+        "valid_rate": 1.0,
+        "family_mix": {
+          "5_2": 306,
+          "5_3": 288,
+          "3_3": 273,
+          "1_3": 291,
+          "2_4": 287,
+          "1_2": 282,
+          "5_4": 293,
+          "1_4": 268,
+          "4_2": 270,
+          "6_4": 263,
+          "2_3": 272,
+          "6_3": 266,
+          "4_3": 267,
+          "4_4": 285,
+          "3_4": 253,
+          "2_2": 286,
+          "6_2": 289,
+          "3_2": 261
+        },
+        "family_weights": null,
+        "family_effective": null,
+        "in_band_raw": 0.1488,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.00655735693015329,
+        "submitted": 200
+      },
+      "Aluminum_high": {
+        "generated": 5000,
+        "valid_rate": 1.0,
+        "family_mix": {
+          "1_2": 258,
+          "6_4": 287,
+          "5_2": 279,
+          "4_4": 262,
+          "1_3": 253,
+          "2_2": 293,
+          "4_2": 268,
+          "6_3": 270,
+          "2_4": 300,
+          "1_4": 261,
+          "2_3": 273,
+          "5_4": 276,
+          "5_3": 266,
+          "6_2": 270,
+          "4_3": 273,
+          "3_3": 308,
+          "3_4": 321,
+          "3_2": 282
+        },
+        "family_weights": null,
+        "family_effective": null,
+        "in_band_raw": 0.2,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.004686166684785981,
+        "submitted": 200
+      },
+      "Titanium_mid": {
+        "generated": 5000,
+        "valid_rate": 1.0,
+        "family_mix": {
+          "1_4": 270,
+          "5_3": 286,
+          "1_2": 283,
+          "6_3": 278,
+          "4_2": 250,
+          "2_2": 287,
+          "6_2": 271,
+          "2_3": 284,
+          "5_4": 304,
+          "1_3": 258,
+          "4_4": 267,
+          "3_3": 254,
+          "5_2": 283,
+          "3_2": 277,
+          "2_4": 296,
+          "3_4": 305,
+          "4_3": 262,
+          "6_4": 285
+        },
+        "family_weights": null,
+        "family_effective": null,
+        "in_band_raw": 0.1576,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.006117750855279938,
+        "submitted": 200
+      },
+      "Titanium_high": {
+        "generated": 5000,
+        "valid_rate": 0.9998,
+        "family_mix": {
+          "2_4": 263,
+          "4_2": 301,
+          "2_2": 256,
+          "5_3": 284,
+          "4_4": 297,
+          "1_4": 299,
+          "2_3": 278,
+          "5_4": 274,
+          "5_2": 292,
+          "3_3": 301,
+          "3_2": 311,
+          "6_4": 261,
+          "1_3": 276,
+          "6_3": 292,
+          "6_2": 217,
+          "1_2": 271,
+          "4_3": 254,
+          "3_4": 273
+        },
+        "family_weights": null,
+        "family_effective": null,
+        "in_band_raw": 0.2068,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.004653919849973183,
+        "submitted": 200
+      }
+    }
+  },
+  "fam_d3b2": {
+    "config": {
+      "tag": "armV_ema",
+      "out_tag": "fam_d3b2",
+      "predict": "v",
+      "used_ema": true,
+      "fam_policy": "pinned",
+      "fam_allowed": "3x2",
+      "fam_floor": 0.05,
+      "guidance": 1.0,
+      "sample_steps": 25,
+      "n_generate": 5000,
+      "n_submit": 200,
+      "seed": 42,
+      "model": "D:\\Louis_Projet\\rotor_projet\\大学生创新创业训练计划\\S2\\spec_design\\outputs\\latent_ddpm\\armV_ema\\model.pt"
+    },
+    "funnel": {
+      "Steel_5000": {
+        "generated": 5000,
+        "valid_rate": 1.0,
+        "mode": "band",
+        "family_mix": {
+          "3_2": 5000
+        },
+        "family_band": [
+          "3_2"
+        ],
+        "support_pool_band_family": 170,
+        "family_weights": [
+          1.0
+        ],
+        "family_effective": 1.0,
+        "in_band_raw": 0.1812,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.005504165812460087,
+        "submitted": 200
+      }
+    }
+  },
+  "fam_d3b24": {
+    "config": {
+      "tag": "armV_ema",
+      "out_tag": "fam_d3b24",
+      "predict": "v",
+      "used_ema": true,
+      "fam_policy": "uniform",
+      "fam_allowed": "3-3/2-4",
+      "fam_floor": 0.05,
+      "guidance": 1.0,
+      "sample_steps": 25,
+      "n_generate": 5000,
+      "n_submit": 200,
+      "seed": 42,
+      "model": "D:\\Louis_Projet\\rotor_projet\\大学生创新创业训练计划\\S2\\spec_design\\outputs\\latent_ddpm\\armV_ema\\model.pt"
+    },
+    "funnel": {
+      "Steel_5000": {
+        "generated": 5000,
+        "valid_rate": 1.0,
+        "mode": "band",
+        "family_mix": {
+          "3_2": 1677,
+          "3_3": 1682,
+          "3_4": 1641
+        },
+        "family_band": [
+          "3_2",
+          "3_3",
+          "3_4"
+        ],
+        "support_pool_band_family": 462,
+        "family_weights": [
+          0.3333333333333333,
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "family_effective": 3.0,
+        "in_band_raw": 0.1848,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.0055991332577674255,
+        "submitted": 200
+      }
+    }
+  },
+  "fam_free": {
+    "config": {
+      "tag": "armV_ema",
+      "out_tag": "fam_free",
+      "predict": "v",
+      "used_ema": true,
+      "fam_policy": "uniform",
+      "fam_allowed": "",
+      "fam_floor": 0.05,
+      "guidance": 1.0,
+      "sample_steps": 25,
+      "n_generate": 5000,
+      "n_submit": 200,
+      "seed": 42,
+      "model": "D:\\Louis_Projet\\rotor_projet\\大学生创新创业训练计划\\S2\\spec_design\\outputs\\latent_ddpm\\armV_ema\\model.pt"
+    },
+    "funnel": {
+      "Steel_5000": {
+        "generated": 5000,
+        "valid_rate": 0.9998,
+        "mode": "band",
+        "family_mix": {
+          "3_4": 274,
+          "1_3": 297,
+          "1_4": 274,
+          "2_3": 279,
+          "4_4": 280,
+          "4_3": 270,
+          "2_2": 273,
+          "6_2": 282,
+          "5_3": 258,
+          "6_4": 272,
+          "3_3": 259,
+          "1_2": 293,
+          "5_4": 276,
+          "6_3": 286,
+          "4_2": 292,
+          "5_2": 267,
+          "3_2": 286,
+          "2_4": 282
+        },
+        "family_band": null,
+        "support_pool_band_family": 2558,
+        "family_weights": null,
+        "family_effective": null,
+        "in_band_raw": 0.1782,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.0054059456121845866,
+        "submitted": 200
+      }
+    }
+  },
+  "lb5000": {
+    "config": {
+      "tag": "armV_ema",
+      "out_tag": "lb5000",
+      "predict": "v",
+      "used_ema": true,
+      "fam_policy": "uniform",
+      "fam_allowed": "",
+      "fam_floor": 0.05,
+      "guidance": 1.0,
+      "sample_steps": 25,
+      "n_generate": 5000,
+      "n_submit": 200,
+      "seed": 42,
+      "model": "D:\\Louis_Projet\\rotor_projet\\大学生创新创业训练计划\\S2\\spec_design\\outputs\\latent_ddpm\\armV_ema\\model.pt"
+    },
+    "funnel": {
+      "Steel_ge5000": {
+        "generated": 5000,
+        "valid_rate": 1.0,
+        "mode": "lower",
+        "family_mix": {
+          "1_3": 271,
+          "4_2": 247,
+          "1_2": 277,
+          "4_3": 297,
+          "3_4": 314,
+          "5_2": 271,
+          "5_3": 270,
+          "2_3": 285,
+          "2_2": 243,
+          "6_4": 308,
+          "4_4": 278,
+          "3_2": 285,
+          "6_3": 261,
+          "5_4": 277,
+          "3_3": 261,
+          "2_4": 269,
+          "1_4": 296,
+          "6_2": 290
+        },
+        "family_band": null,
+        "support_pool_band_family": 24900,
+        "family_weights": null,
+        "family_effective": null,
+        "in_band_raw": 0.694,
+        "in_band_top200": 0.93,
+        "median_rel_err_top": 0.00803174305320399,
+        "submitted": 200
+      }
+    }
+  },
+  "lb5000_m2": {
+    "config": {
+      "tag": "armV_ema",
+      "out_tag": "lb5000_m2",
+      "predict": "v",
+      "used_ema": true,
+      "fam_policy": "uniform",
+      "fam_allowed": "",
+      "fam_floor": 0.05,
+      "guidance": 1.0,
+      "sample_steps": 25,
+      "n_generate": 5000,
+      "n_submit": 200,
+      "seed": 42,
+      "model": "D:\\Louis_Projet\\rotor_projet\\大学生创新创业训练计划\\S2\\spec_design\\outputs\\latent_ddpm\\armV_ema\\model.pt"
+    },
+    "funnel": {
+      "Steel_ge5000_m2": {
+        "generated": 5000,
+        "valid_rate": 1.0,
+        "mode": "lower",
+        "family_mix": {
+          "5_3": 274,
+          "3_4": 251,
+          "6_4": 255,
+          "2_2": 282,
+          "1_3": 286,
+          "5_2": 276,
+          "4_3": 300,
+          "3_3": 274,
+          "2_4": 246,
+          "1_2": 266,
+          "1_4": 294,
+          "4_2": 332,
+          "2_3": 292,
+          "6_3": 270,
+          "6_2": 286,
+          "4_4": 276,
+          "3_2": 263,
+          "5_4": 277
+        },
+        "family_band": null,
+        "support_pool_band_family": 24900,
+        "family_weights": null,
+        "family_effective": null,
+        "in_band_raw": 0.685,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.029481048393635412,
+        "submitted": 200
+      }
+    }
+  },
+  "t5000_t05": {
+    "config": {
+      "tag": "armV_ema",
+      "out_tag": "t5000_t05",
+      "predict": "v",
+      "used_ema": true,
+      "fam_policy": "uniform",
+      "fam_allowed": "",
+      "fam_floor": 0.05,
+      "guidance": 1.0,
+      "sample_steps": 25,
+      "n_generate": 5000,
+      "n_submit": 200,
+      "seed": 42,
+      "model": "D:\\Louis_Projet\\rotor_projet\\大学生创新创业训练计划\\S2\\spec_design\\outputs\\latent_ddpm\\armV_ema\\model.pt"
+    },
+    "funnel": {
+      "Steel_5000_t05": {
+        "generated": 5000,
+        "valid_rate": 1.0,
+        "mode": "sample",
+        "family_mix": {
+          "6_4": 296,
+          "2_2": 257,
+          "2_3": 295,
+          "5_3": 297,
+          "6_2": 265,
+          "1_4": 280,
+          "3_3": 266,
+          "2_4": 265,
+          "6_3": 287,
+          "4_4": 254,
+          "4_2": 290,
+          "1_3": 265,
+          "4_3": 317,
+          "3_2": 259,
+          "1_2": 258,
+          "3_4": 268,
+          "5_2": 289,
+          "5_4": 292
+        },
+        "family_band": null,
+        "support_pool_band_family": 243,
+        "family_weights": null,
+        "family_effective": null,
+        "in_band_raw": 0.012,
+        "in_band_top200": 0.3,
+        "median_rel_err_top": 0.007282368004727686,
+        "submitted": 200
+      }
+    }
+  },
+  "t5000_t1": {
+    "config": {
+      "tag": "armV_ema",
+      "out_tag": "t5000_t1",
+      "predict": "v",
+      "used_ema": true,
+      "fam_policy": "uniform",
+      "fam_allowed": "",
+      "fam_floor": 0.05,
+      "guidance": 1.0,
+      "sample_steps": 25,
+      "n_generate": 5000,
+      "n_submit": 200,
+      "seed": 42,
+      "model": "D:\\Louis_Projet\\rotor_projet\\大学生创新创业训练计划\\S2\\spec_design\\outputs\\latent_ddpm\\armV_ema\\model.pt"
+    },
+    "funnel": {
+      "Steel_5000_t1": {
+        "generated": 5000,
+        "valid_rate": 1.0,
+        "mode": "sample",
+        "family_mix": {
+          "2_2": 294,
+          "1_3": 263,
+          "5_2": 262,
+          "5_3": 283,
+          "4_2": 273,
+          "3_4": 284,
+          "5_4": 263,
+          "1_2": 285,
+          "3_2": 248,
+          "4_3": 293,
+          "6_2": 303,
+          "2_3": 278,
+          "2_4": 278,
+          "6_4": 287,
+          "3_3": 300,
+          "1_4": 287,
+          "4_4": 281,
+          "6_3": 238
+        },
+        "family_band": null,
+        "support_pool_band_family": 510,
+        "family_weights": null,
+        "family_effective": null,
+        "in_band_raw": 0.0332,
+        "in_band_top200": 0.83,
+        "median_rel_err_top": 0.006141680940453989,
+        "submitted": 200,
+        "gate": {
+          "gate_verified": 200,
+          "gate_passed": 103,
+          "gate_rate": 0.515,
+          "gate_seconds_per_pass": 1.2725448284334349,
+          "gate_file": "t5000_t1__Steel_5000_t1_verified.csv",
+          "mode": "gate"
+        }
+      }
+    }
+  },
+  "t6000": {
+    "config": {
+      "tag": "armV_ema",
+      "out_tag": "t6000",
+      "predict": "v",
+      "used_ema": true,
+      "fam_policy": "uniform",
+      "fam_allowed": "3-3/2-4",
+      "fam_floor": 0.05,
+      "guidance": 1.0,
+      "sample_steps": 25,
+      "n_generate": 5000,
+      "n_submit": 200,
+      "seed": 42,
+      "model": "D:\\Louis_Projet\\rotor_projet\\大学生创新创业训练计划\\S2\\spec_design\\outputs\\latent_ddpm\\armV_ema\\model.pt"
+    },
+    "funnel": {
+      "Aluminum_6000": {
+        "generated": 5000,
+        "valid_rate": 1.0,
+        "mode": "band",
+        "family_mix": {
+          "3_2": 1664,
+          "3_3": 1722,
+          "3_4": 1614
+        },
+        "family_band": [
+          "3_2",
+          "3_3",
+          "3_4"
+        ],
+        "support_pool_band_family": 488,
+        "family_weights": [
+          0.3333333333333333,
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "family_effective": 3.0,
+        "in_band_raw": 0.1548,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.00676625198424775,
+        "submitted": 200
+      }
+    }
+  },
+  "t5000_t1_g25k": {
+    "config": {
+      "tag": "armV_ema",
+      "out_tag": "t5000_t1_g25k",
+      "predict": "v",
+      "used_ema": true,
+      "fam_policy": "uniform",
+      "fam_allowed": "",
+      "fam_floor": 0.05,
+      "guidance": 1.0,
+      "sample_steps": 25,
+      "n_generate": 25000,
+      "n_submit": 200,
+      "seed": 42,
+      "model": "D:\\Louis_Projet\\rotor_projet\\大学生创新创业训练计划\\S2\\spec_design\\outputs\\latent_ddpm\\armV_ema\\model.pt"
+    },
+    "funnel": {
+      "Steel_5000_t1": {
+        "generated": 25000,
+        "valid_rate": 0.99996,
+        "mode": "band",
+        "family_mix": {
+          "2_2": 1338,
+          "1_3": 1353,
+          "5_2": 1402,
+          "5_3": 1408,
+          "4_2": 1403,
+          "3_4": 1403,
+          "5_4": 1419,
+          "1_2": 1381,
+          "3_2": 1338,
+          "4_3": 1425,
+          "6_2": 1381,
+          "2_3": 1420,
+          "2_4": 1394,
+          "6_4": 1369,
+          "3_3": 1406,
+          "1_4": 1403,
+          "4_4": 1384,
+          "6_3": 1373
+        },
+        "family_band": null,
+        "support_pool_band_family": 510,
+        "family_weights": null,
+        "family_effective": null,
+        "in_band_raw": 0.0382,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.0009644616520816272,
+        "submitted": 200,
+        "gate": {
+          "gate_verified": 200,
+          "gate_passed": 105,
+          "gate_rate": 0.525,
+          "gate_seconds_per_pass": 1.2232268151782808,
+          "gate_file": "t5000_t1_g25k__Steel_5000_t1_verified.csv",
+          "mode": "gate"
+        }
+      }
+    }
+  },
+  "n256_t5000_t1": {
+    "config": {
+      "tag": "armN256",
+      "out_tag": "n256_t5000_t1",
+      "predict": "v",
+      "used_ema": true,
+      "fam_policy": "uniform",
+      "fam_allowed": "",
+      "fam_floor": 0.05,
+      "guidance": 1.0,
+      "sample_steps": 25,
+      "n_generate": 25000,
+      "n_submit": 200,
+      "seed": 42,
+      "model": "D:\\Louis_Projet\\rotor_projet\\大学生创新创业训练计划\\S2\\spec_design\\outputs\\latent_ddpm\\armN256\\model.pt"
+    },
+    "funnel": {
+      "Steel_5000_t1": {
+        "generated": 25000,
+        "valid_rate": 0.99996,
+        "mode": "band",
+        "family_mix": {
+          "2_2": 1338,
+          "1_3": 1353,
+          "5_2": 1402,
+          "5_3": 1408,
+          "4_2": 1403,
+          "3_4": 1403,
+          "5_4": 1419,
+          "1_2": 1381,
+          "3_2": 1338,
+          "4_3": 1425,
+          "6_2": 1381,
+          "2_3": 1420,
+          "2_4": 1394,
+          "6_4": 1369,
+          "3_3": 1406,
+          "1_4": 1403,
+          "4_4": 1384,
+          "6_3": 1373
+        },
+        "family_band": null,
+        "support_pool_band_family": 510,
+        "family_weights": null,
+        "family_effective": null,
+        "in_band_raw": 0.0252,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.001495093342273776,
+        "submitted": 200
+      }
+    }
+  },
+  "rt_al6000_t5": {
+    "config": {
+      "tag": "armV_ema",
+      "out_tag": "rt_al6000_t5",
+      "predict": "v",
+      "used_ema": true,
+      "fam_policy": "uniform",
+      "fam_allowed": "",
+      "fam_floor": 0.05,
+      "guidance": 1.0,
+      "sample_steps": 25,
+      "n_generate": 5000,
+      "n_submit": 200,
+      "seed": 42,
+      "model": "D:\\Louis_Projet\\rotor_projet\\大学生创新创业训练计划\\S2\\spec_design\\outputs\\latent_ddpm\\armV_ema\\model.pt"
+    },
+    "funnel": {
+      "Aluminum_6000": {
+        "generated": 5000,
+        "valid_rate": 1.0,
+        "mode": "band",
+        "family_mix": {
+          "5_4": 251,
+          "1_3": 282,
+          "4_4": 299,
+          "6_4": 278,
+          "5_3": 243,
+          "1_2": 268,
+          "4_3": 273,
+          "2_3": 316,
+          "6_3": 283,
+          "3_2": 277,
+          "4_2": 291,
+          "2_2": 284,
+          "3_3": 268,
+          "2_4": 275,
+          "1_4": 255,
+          "6_2": 297,
+          "5_2": 269,
+          "3_4": 291
+        },
+        "family_band": null,
+        "support_pool_band_family": 2626,
+        "family_weights": null,
+        "family_effective": null,
+        "in_band_raw": 0.1552,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.005449887072978299,
+        "submitted": 200,
+        "gate": {
+          "gate_verified": 200,
+          "gate_passed": 187,
+          "gate_rate": 0.935,
+          "gate_seconds_per_pass": 0.6933346177167433,
+          "gate_file": "rt_al6000_t5__Aluminum_6000_verified.csv",
+          "n_solved": 200,
+          "n_timeout": 0,
+          "n_error": 0,
+          "seconds": 129.653573513031,
+          "mode": "gate"
+        }
+      }
+    }
+  },
+  "rt_lb8000_m2": {
+    "config": {
+      "tag": "armV_ema",
+      "out_tag": "rt_lb8000_m2",
+      "predict": "v",
+      "used_ema": true,
+      "fam_policy": "uniform",
+      "fam_allowed": "",
+      "fam_floor": 0.05,
+      "guidance": 1.0,
+      "sample_steps": 25,
+      "n_generate": 5000,
+      "n_submit": 200,
+      "seed": 42,
+      "model": "D:\\Louis_Projet\\rotor_projet\\大学生创新创业训练计划\\S2\\spec_design\\outputs\\latent_ddpm\\armV_ema\\model.pt"
+    },
+    "funnel": {
+      "Steel_8000_t2": {
+        "generated": 5000,
+        "valid_rate": 1.0,
+        "mode": "lower",
+        "family_mix": {
+          "6_4": 289,
+          "6_2": 306,
+          "1_4": 262,
+          "4_2": 254,
+          "2_3": 276,
+          "4_4": 244,
+          "3_3": 290,
+          "2_4": 299,
+          "1_2": 279,
+          "4_3": 273,
+          "2_2": 275,
+          "5_2": 295,
+          "5_3": 266,
+          "3_4": 280,
+          "1_3": 286,
+          "6_3": 285,
+          "5_4": 295,
+          "3_2": 246
+        },
+        "family_band": null,
+        "support_pool_band_family": 14012,
+        "family_weights": null,
+        "family_effective": null,
+        "in_band_raw": 0.6562,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.028905236943561702,
+        "submitted": 200,
+        "gate": {
+          "gate_verified": 200,
+          "gate_passed": 187,
+          "gate_rate": 0.935,
+          "gate_seconds_per_pass": 0.6980892668433368,
+          "gate_file": "rt_lb8000_m2__Steel_8000_t2_verified.csv",
+          "n_solved": 200,
+          "n_timeout": 0,
+          "n_error": 0,
+          "seconds": 130.54269289970398,
+          "mode": "gate"
+        }
+      }
+    }
+  },
+  "rt_s16000_t5": {
+    "config": {
+      "tag": "armV_ema",
+      "out_tag": "rt_s16000_t5",
+      "predict": "v",
+      "used_ema": true,
+      "fam_policy": "uniform",
+      "fam_allowed": "",
+      "fam_floor": 0.05,
+      "guidance": 1.0,
+      "sample_steps": 25,
+      "n_generate": 5000,
+      "n_submit": 200,
+      "seed": 42,
+      "model": "D:\\Louis_Projet\\rotor_projet\\大学生创新创业训练计划\\S2\\spec_design\\outputs\\latent_ddpm\\armV_ema\\model.pt"
+    },
+    "funnel": {
+      "Steel_16000": {
+        "generated": 5000,
+        "valid_rate": 1.0,
+        "mode": "band",
+        "family_mix": {
+          "5_3": 280,
+          "1_4": 291,
+          "3_4": 277,
+          "3_2": 277,
+          "6_2": 290,
+          "2_3": 274,
+          "4_4": 284,
+          "4_3": 288,
+          "1_2": 253,
+          "2_4": 250,
+          "1_3": 263,
+          "6_4": 286,
+          "5_4": 274,
+          "5_2": 285,
+          "6_3": 312,
+          "4_2": 256,
+          "3_3": 301,
+          "2_2": 259
+        },
+        "family_band": null,
+        "support_pool_band_family": 970,
+        "family_weights": null,
+        "family_effective": null,
+        "in_band_raw": 0.2194,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.004286707859401759,
+        "submitted": 200,
+        "gate": {
+          "gate_verified": 200,
+          "gate_passed": 185,
+          "gate_rate": 0.925,
+          "gate_seconds_per_pass": 0.7073536318701666,
+          "gate_file": "rt_s16000_t5__Steel_16000_verified.csv",
+          "n_solved": 200,
+          "n_timeout": 0,
+          "n_error": 0,
+          "seconds": 130.86042189598083,
+          "mode": "gate"
+        }
+      }
+    }
+  },
+  "rt_s8000_t1": {
+    "config": {
+      "tag": "armV_ema",
+      "out_tag": "rt_s8000_t1",
+      "predict": "v",
+      "used_ema": true,
+      "fam_policy": "uniform",
+      "fam_allowed": "",
+      "fam_floor": 0.05,
+      "guidance": 1.0,
+      "sample_steps": 25,
+      "n_generate": 5000,
+      "n_submit": 200,
+      "seed": 42,
+      "model": "D:\\Louis_Projet\\rotor_projet\\大学生创新创业训练计划\\S2\\spec_design\\outputs\\latent_ddpm\\armV_ema\\model.pt"
+    },
+    "funnel": {
+      "Steel_8000_t1": {
+        "generated": 5000,
+        "valid_rate": 1.0,
+        "mode": "band",
+        "family_mix": {
+          "6_2": 281,
+          "1_3": 286,
+          "3_3": 279,
+          "6_4": 293,
+          "1_4": 256,
+          "4_4": 255,
+          "2_4": 257,
+          "5_4": 275,
+          "4_2": 310,
+          "2_3": 293,
+          "5_3": 285,
+          "1_2": 296,
+          "6_3": 289,
+          "3_4": 247,
+          "2_2": 279,
+          "3_2": 287,
+          "4_3": 270,
+          "5_2": 262
+        },
+        "family_band": null,
+        "support_pool_band_family": 422,
+        "family_weights": null,
+        "family_effective": null,
+        "in_band_raw": 0.042,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.005129284958852395,
+        "submitted": 200,
+        "gate": {
+          "gate_verified": 200,
+          "gate_passed": 88,
+          "gate_rate": 0.44,
+          "gate_seconds_per_pass": 1.3078171854669398,
+          "gate_file": "rt_s8000_t1__Steel_8000_t1_verified.csv",
+          "n_solved": 200,
+          "n_timeout": 0,
+          "n_error": 0,
+          "seconds": 115.0879123210907,
+          "mode": "gate"
+        }
+      }
+    }
+  },
+  "encab_armD0_al_6000": {
+    "config": {
+      "tag": "armD0",
+      "out_tag": "encab_armD0_al_6000",
+      "predict": "v",
+      "used_ema": true,
+      "fam_policy": "uniform",
+      "fam_allowed": "",
+      "fam_floor": 0.05,
+      "guidance": 1.0,
+      "sample_steps": 0,
+      "n_generate": 3000,
+      "n_submit": 200,
+      "seed": 42,
+      "model": "D:\\Louis_Projet\\rotor_projet\\大学生创新创业训练计划\\S2\\spec_design\\outputs\\latent_ddpm\\armD0\\model.pt"
+    },
+    "funnel": {
+      "Aluminum_6000": {
+        "generated": 3000,
+        "valid_rate": 1.0,
+        "mode": "band",
+        "family_mix": {
+          "5_4": 152,
+          "1_3": 171,
+          "4_4": 176,
+          "6_4": 175,
+          "5_3": 143,
+          "1_2": 169,
+          "4_3": 152,
+          "2_3": 180,
+          "6_3": 169,
+          "3_2": 173,
+          "4_2": 173,
+          "2_2": 170,
+          "3_3": 176,
+          "2_4": 168,
+          "1_4": 163,
+          "6_2": 172,
+          "5_2": 145,
+          "3_4": 173
+        },
+        "family_band": null,
+        "support_pool_band_family": 2626,
+        "family_weights": null,
+        "family_effective": null,
+        "in_band_raw": 0.125,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.013664423192580367,
+        "submitted": 200
+      }
+    }
+  },
+  "encab_armD0_st_16000": {
+    "config": {
+      "tag": "armD0",
+      "out_tag": "encab_armD0_st_16000",
+      "predict": "v",
+      "used_ema": true,
+      "fam_policy": "uniform",
+      "fam_allowed": "",
+      "fam_floor": 0.05,
+      "guidance": 1.0,
+      "sample_steps": 0,
+      "n_generate": 3000,
+      "n_submit": 200,
+      "seed": 42,
+      "model": "D:\\Louis_Projet\\rotor_projet\\大学生创新创业训练计划\\S2\\spec_design\\outputs\\latent_ddpm\\armD0\\model.pt"
+    },
+    "funnel": {
+      "Steel_16000": {
+        "generated": 3000,
+        "valid_rate": 1.0,
+        "mode": "band",
+        "family_mix": {
+          "5_3": 174,
+          "1_4": 168,
+          "3_4": 170,
+          "3_2": 169,
+          "6_2": 172,
+          "2_3": 171,
+          "4_4": 177,
+          "4_3": 179,
+          "1_2": 147,
+          "2_4": 151,
+          "1_3": 162,
+          "6_4": 176,
+          "5_4": 165,
+          "5_2": 159,
+          "6_3": 185,
+          "4_2": 139,
+          "3_3": 173,
+          "2_2": 163
+        },
+        "family_band": null,
+        "support_pool_band_family": 970,
+        "family_weights": null,
+        "family_effective": null,
+        "in_band_raw": 0.12866666666666668,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.0124275835621645,
+        "submitted": 200
+      }
+    }
+  },
+  "encab_armD0_st_3600": {
+    "config": {
+      "tag": "armD0",
+      "out_tag": "encab_armD0_st_3600",
+      "predict": "v",
+      "used_ema": true,
+      "fam_policy": "uniform",
+      "fam_allowed": "",
+      "fam_floor": 0.05,
+      "guidance": 1.0,
+      "sample_steps": 0,
+      "n_generate": 3000,
+      "n_submit": 200,
+      "seed": 42,
+      "model": "D:\\Louis_Projet\\rotor_projet\\大学生创新创业训练计划\\S2\\spec_design\\outputs\\latent_ddpm\\armD0\\model.pt"
+    },
+    "funnel": {
+      "Steel_3600": {
+        "generated": 3000,
+        "valid_rate": 0.9993333333333333,
+        "mode": "band",
+        "family_mix": {
+          "5_3": 162,
+          "4_3": 146,
+          "1_3": 167,
+          "2_3": 166,
+          "2_4": 177,
+          "3_4": 182,
+          "5_4": 151,
+          "6_4": 166,
+          "1_2": 148,
+          "3_3": 175,
+          "4_2": 184,
+          "6_2": 165,
+          "3_2": 164,
+          "1_4": 161,
+          "6_3": 189,
+          "2_2": 150,
+          "4_4": 187,
+          "5_2": 160
+        },
+        "family_band": null,
+        "support_pool_band_family": 2656,
+        "family_weights": null,
+        "family_effective": null,
+        "in_band_raw": 0.11666666666666667,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.013592522057710426,
+        "submitted": 200
+      }
+    }
+  },
+  "encab_armD0_st_5000": {
+    "config": {
+      "tag": "armD0",
+      "out_tag": "encab_armD0_st_5000",
+      "predict": "v",
+      "used_ema": true,
+      "fam_policy": "uniform",
+      "fam_allowed": "",
+      "fam_floor": 0.05,
+      "guidance": 1.0,
+      "sample_steps": 0,
+      "n_generate": 3000,
+      "n_submit": 200,
+      "seed": 42,
+      "model": "D:\\Louis_Projet\\rotor_projet\\大学生创新创业训练计划\\S2\\spec_design\\outputs\\latent_ddpm\\armD0\\model.pt"
+    },
+    "funnel": {
+      "Steel_5000": {
+        "generated": 3000,
+        "valid_rate": 1.0,
+        "mode": "band",
+        "family_mix": {
+          "3_4": 161,
+          "1_3": 157,
+          "1_4": 152,
+          "2_3": 180,
+          "4_4": 160,
+          "4_3": 170,
+          "2_2": 180,
+          "6_2": 176,
+          "5_3": 167,
+          "6_4": 150,
+          "3_3": 160,
+          "1_2": 183,
+          "5_4": 167,
+          "6_3": 172,
+          "4_2": 179,
+          "5_2": 168,
+          "3_2": 167,
+          "2_4": 151
+        },
+        "family_band": null,
+        "support_pool_band_family": 2558,
+        "family_weights": null,
+        "family_effective": null,
+        "in_band_raw": 0.137,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.012752968582493486,
+        "submitted": 200
+      }
+    }
+  },
+  "encab_armD0_st_8000": {
+    "config": {
+      "tag": "armD0",
+      "out_tag": "encab_armD0_st_8000",
+      "predict": "v",
+      "used_ema": true,
+      "fam_policy": "uniform",
+      "fam_allowed": "",
+      "fam_floor": 0.05,
+      "guidance": 1.0,
+      "sample_steps": 0,
+      "n_generate": 3000,
+      "n_submit": 200,
+      "seed": 42,
+      "model": "D:\\Louis_Projet\\rotor_projet\\大学生创新创业训练计划\\S2\\spec_design\\outputs\\latent_ddpm\\armD0\\model.pt"
+    },
+    "funnel": {
+      "Steel_8000": {
+        "generated": 3000,
+        "valid_rate": 1.0,
+        "mode": "band",
+        "family_mix": {
+          "5_4": 188,
+          "2_2": 163,
+          "6_3": 173,
+          "4_4": 161,
+          "2_4": 195,
+          "2_3": 142,
+          "5_3": 174,
+          "1_2": 148,
+          "5_2": 154,
+          "3_2": 179,
+          "1_4": 164,
+          "3_3": 154,
+          "1_3": 163,
+          "4_2": 177,
+          "6_4": 160,
+          "4_3": 167,
+          "3_4": 170,
+          "6_2": 168
+        },
+        "family_band": null,
+        "support_pool_band_family": 2107,
+        "family_weights": null,
+        "family_effective": null,
+        "in_band_raw": 0.126,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.012824729368565727,
+        "submitted": 200
+      }
+    }
+  },
+  "encab_armD0_ti_8000": {
+    "config": {
+      "tag": "armD0",
+      "out_tag": "encab_armD0_ti_8000",
+      "predict": "v",
+      "used_ema": true,
+      "fam_policy": "uniform",
+      "fam_allowed": "",
+      "fam_floor": 0.05,
+      "guidance": 1.0,
+      "sample_steps": 0,
+      "n_generate": 3000,
+      "n_submit": 200,
+      "seed": 42,
+      "model": "D:\\Louis_Projet\\rotor_projet\\大学生创新创业训练计划\\S2\\spec_design\\outputs\\latent_ddpm\\armD0\\model.pt"
+    },
+    "funnel": {
+      "Titanium_8000": {
+        "generated": 3000,
+        "valid_rate": 1.0,
+        "mode": "band",
+        "family_mix": {
+          "6_2": 163,
+          "4_2": 157,
+          "5_2": 175,
+          "2_4": 162,
+          "5_4": 171,
+          "6_4": 166,
+          "3_4": 163,
+          "5_3": 166,
+          "6_3": 162,
+          "1_4": 167,
+          "3_2": 168,
+          "2_2": 180,
+          "4_3": 162,
+          "4_4": 202,
+          "2_3": 142,
+          "1_2": 159,
+          "3_3": 172,
+          "1_3": 163
+        },
+        "family_band": null,
+        "support_pool_band_family": 2285,
+        "family_weights": null,
+        "family_effective": null,
+        "in_band_raw": 0.13033333333333333,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.0132850094178105,
+        "submitted": 200
+      }
+    }
+  },
+  "encab_armF_al_6000": {
+    "config": {
+      "tag": "armF",
+      "out_tag": "encab_armF_al_6000",
+      "predict": "v",
+      "used_ema": true,
+      "fam_policy": "uniform",
+      "fam_allowed": "",
+      "fam_floor": 0.05,
+      "guidance": 1.0,
+      "sample_steps": 0,
+      "n_generate": 3000,
+      "n_submit": 200,
+      "seed": 42,
+      "model": "D:\\Louis_Projet\\rotor_projet\\大学生创新创业训练计划\\S2\\spec_design\\outputs\\latent_ddpm\\armF\\model.pt"
+    },
+    "funnel": {
+      "Aluminum_6000": {
+        "generated": 3000,
+        "valid_rate": 1.0,
+        "mode": "band",
+        "family_mix": {
+          "5_4": 152,
+          "1_3": 171,
+          "4_4": 176,
+          "6_4": 175,
+          "5_3": 143,
+          "1_2": 169,
+          "4_3": 152,
+          "2_3": 180,
+          "6_3": 169,
+          "3_2": 173,
+          "4_2": 173,
+          "2_2": 170,
+          "3_3": 176,
+          "2_4": 168,
+          "1_4": 163,
+          "6_2": 172,
+          "5_2": 145,
+          "3_4": 173
+        },
+        "family_band": null,
+        "support_pool_band_family": 2626,
+        "family_weights": null,
+        "family_effective": null,
+        "in_band_raw": 0.12566666666666668,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.0124135771230004,
+        "submitted": 200
+      }
+    }
+  },
+  "encab_armF_st_16000": {
+    "config": {
+      "tag": "armF",
+      "out_tag": "encab_armF_st_16000",
+      "predict": "v",
+      "used_ema": true,
+      "fam_policy": "uniform",
+      "fam_allowed": "",
+      "fam_floor": 0.05,
+      "guidance": 1.0,
+      "sample_steps": 0,
+      "n_generate": 3000,
+      "n_submit": 200,
+      "seed": 42,
+      "model": "D:\\Louis_Projet\\rotor_projet\\大学生创新创业训练计划\\S2\\spec_design\\outputs\\latent_ddpm\\armF\\model.pt"
+    },
+    "funnel": {
+      "Steel_16000": {
+        "generated": 3000,
+        "valid_rate": 1.0,
+        "mode": "band",
+        "family_mix": {
+          "5_3": 174,
+          "1_4": 168,
+          "3_4": 170,
+          "3_2": 169,
+          "6_2": 172,
+          "2_3": 171,
+          "4_4": 177,
+          "4_3": 179,
+          "1_2": 147,
+          "2_4": 151,
+          "1_3": 162,
+          "6_4": 176,
+          "5_4": 165,
+          "5_2": 159,
+          "6_3": 185,
+          "4_2": 139,
+          "3_3": 173,
+          "2_2": 163
+        },
+        "family_band": null,
+        "support_pool_band_family": 970,
+        "family_weights": null,
+        "family_effective": null,
+        "in_band_raw": 0.14633333333333334,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.009207958826749688,
+        "submitted": 200
+      }
+    }
+  },
+  "encab_armF_st_3600": {
+    "config": {
+      "tag": "armF",
+      "out_tag": "encab_armF_st_3600",
+      "predict": "v",
+      "used_ema": true,
+      "fam_policy": "uniform",
+      "fam_allowed": "",
+      "fam_floor": 0.05,
+      "guidance": 1.0,
+      "sample_steps": 0,
+      "n_generate": 3000,
+      "n_submit": 200,
+      "seed": 42,
+      "model": "D:\\Louis_Projet\\rotor_projet\\大学生创新创业训练计划\\S2\\spec_design\\outputs\\latent_ddpm\\armF\\model.pt"
+    },
+    "funnel": {
+      "Steel_3600": {
+        "generated": 3000,
+        "valid_rate": 1.0,
+        "mode": "band",
+        "family_mix": {
+          "5_3": 162,
+          "4_3": 146,
+          "1_3": 167,
+          "2_3": 166,
+          "2_4": 177,
+          "3_4": 182,
+          "5_4": 151,
+          "6_4": 166,
+          "1_2": 148,
+          "3_3": 175,
+          "4_2": 184,
+          "6_2": 165,
+          "3_2": 164,
+          "1_4": 161,
+          "6_3": 189,
+          "2_2": 150,
+          "4_4": 187,
+          "5_2": 160
+        },
+        "family_band": null,
+        "support_pool_band_family": 2656,
+        "family_weights": null,
+        "family_effective": null,
+        "in_band_raw": 0.12966666666666668,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.012842247859916256,
+        "submitted": 200
+      }
+    }
+  },
+  "encab_armF_st_5000": {
+    "config": {
+      "tag": "armF",
+      "out_tag": "encab_armF_st_5000",
+      "predict": "v",
+      "used_ema": true,
+      "fam_policy": "uniform",
+      "fam_allowed": "",
+      "fam_floor": 0.05,
+      "guidance": 1.0,
+      "sample_steps": 0,
+      "n_generate": 3000,
+      "n_submit": 200,
+      "seed": 42,
+      "model": "D:\\Louis_Projet\\rotor_projet\\大学生创新创业训练计划\\S2\\spec_design\\outputs\\latent_ddpm\\armF\\model.pt"
+    },
+    "funnel": {
+      "Steel_5000": {
+        "generated": 3000,
+        "valid_rate": 0.9996666666666667,
+        "mode": "band",
+        "family_mix": {
+          "3_4": 161,
+          "1_3": 157,
+          "1_4": 152,
+          "2_3": 180,
+          "4_4": 160,
+          "4_3": 170,
+          "2_2": 180,
+          "6_2": 176,
+          "5_3": 167,
+          "6_4": 150,
+          "3_3": 160,
+          "1_2": 183,
+          "5_4": 167,
+          "6_3": 172,
+          "4_2": 179,
+          "5_2": 168,
+          "3_2": 167,
+          "2_4": 151
+        },
+        "family_band": null,
+        "support_pool_band_family": 2558,
+        "family_weights": null,
+        "family_effective": null,
+        "in_band_raw": 0.133,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.013758834257024228,
+        "submitted": 200
+      }
+    }
+  },
+  "encab_armF_st_8000": {
+    "config": {
+      "tag": "armF",
+      "out_tag": "encab_armF_st_8000",
+      "predict": "v",
+      "used_ema": true,
+      "fam_policy": "uniform",
+      "fam_allowed": "",
+      "fam_floor": 0.05,
+      "guidance": 1.0,
+      "sample_steps": 0,
+      "n_generate": 3000,
+      "n_submit": 200,
+      "seed": 42,
+      "model": "D:\\Louis_Projet\\rotor_projet\\大学生创新创业训练计划\\S2\\spec_design\\outputs\\latent_ddpm\\armF\\model.pt"
+    },
+    "funnel": {
+      "Steel_8000": {
+        "generated": 3000,
+        "valid_rate": 0.9996666666666667,
+        "mode": "band",
+        "family_mix": {
+          "5_4": 188,
+          "2_2": 163,
+          "6_3": 173,
+          "4_4": 161,
+          "2_4": 195,
+          "2_3": 142,
+          "5_3": 174,
+          "1_2": 148,
+          "5_2": 154,
+          "3_2": 179,
+          "1_4": 164,
+          "3_3": 154,
+          "1_3": 163,
+          "4_2": 177,
+          "6_4": 160,
+          "4_3": 167,
+          "3_4": 170,
+          "6_2": 168
+        },
+        "family_band": null,
+        "support_pool_band_family": 2107,
+        "family_weights": null,
+        "family_effective": null,
+        "in_band_raw": 0.14866666666666667,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.01271438707632416,
+        "submitted": 200
+      }
+    }
+  },
+  "encab_armF_ti_8000": {
+    "config": {
+      "tag": "armF",
+      "out_tag": "encab_armF_ti_8000",
+      "predict": "v",
+      "used_ema": true,
+      "fam_policy": "uniform",
+      "fam_allowed": "",
+      "fam_floor": 0.05,
+      "guidance": 1.0,
+      "sample_steps": 0,
+      "n_generate": 3000,
+      "n_submit": 200,
+      "seed": 42,
+      "model": "D:\\Louis_Projet\\rotor_projet\\大学生创新创业训练计划\\S2\\spec_design\\outputs\\latent_ddpm\\armF\\model.pt"
+    },
+    "funnel": {
+      "Titanium_8000": {
+        "generated": 3000,
+        "valid_rate": 0.9996666666666667,
+        "mode": "band",
+        "family_mix": {
+          "6_2": 163,
+          "4_2": 157,
+          "5_2": 175,
+          "2_4": 162,
+          "5_4": 171,
+          "6_4": 166,
+          "3_4": 163,
+          "5_3": 166,
+          "6_3": 162,
+          "1_4": 167,
+          "3_2": 168,
+          "2_2": 180,
+          "4_3": 162,
+          "4_4": 202,
+          "2_3": 142,
+          "1_2": 159,
+          "3_3": 172,
+          "1_3": 163
+        },
+        "family_band": null,
+        "support_pool_band_family": 2285,
+        "family_weights": null,
+        "family_effective": null,
+        "in_band_raw": 0.14,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.010751608059008731,
+        "submitted": 200
+      }
+    }
+  },
+  "encab_armV_ema_al_6000": {
+    "config": {
+      "tag": "armV_ema",
+      "out_tag": "encab_armV_ema_al_6000",
+      "predict": "v",
+      "used_ema": true,
+      "fam_policy": "uniform",
+      "fam_allowed": "",
+      "fam_floor": 0.05,
+      "guidance": 1.0,
+      "sample_steps": 0,
+      "n_generate": 3000,
+      "n_submit": 200,
+      "seed": 42,
+      "model": "D:\\Louis_Projet\\rotor_projet\\大学生创新创业训练计划\\S2\\spec_design\\outputs\\latent_ddpm\\armV_ema\\model.pt"
+    },
+    "funnel": {
+      "Aluminum_6000": {
+        "generated": 3000,
+        "valid_rate": 1.0,
+        "mode": "band",
+        "family_mix": {
+          "5_4": 152,
+          "1_3": 171,
+          "4_4": 176,
+          "6_4": 175,
+          "5_3": 143,
+          "1_2": 169,
+          "4_3": 152,
+          "2_3": 180,
+          "6_3": 169,
+          "3_2": 173,
+          "4_2": 173,
+          "2_2": 170,
+          "3_3": 176,
+          "2_4": 168,
+          "1_4": 163,
+          "6_2": 172,
+          "5_2": 145,
+          "3_4": 173
+        },
+        "family_band": null,
+        "support_pool_band_family": 2626,
+        "family_weights": null,
+        "family_effective": null,
+        "in_band_raw": 0.12,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.012780522281172277,
+        "submitted": 200
+      }
+    }
+  },
+  "encab_armV_ema_st_16000": {
+    "config": {
+      "tag": "armV_ema",
+      "out_tag": "encab_armV_ema_st_16000",
+      "predict": "v",
+      "used_ema": true,
+      "fam_policy": "uniform",
+      "fam_allowed": "",
+      "fam_floor": 0.05,
+      "guidance": 1.0,
+      "sample_steps": 0,
+      "n_generate": 3000,
+      "n_submit": 200,
+      "seed": 42,
+      "model": "D:\\Louis_Projet\\rotor_projet\\大学生创新创业训练计划\\S2\\spec_design\\outputs\\latent_ddpm\\armV_ema\\model.pt"
+    },
+    "funnel": {
+      "Steel_16000": {
+        "generated": 3000,
+        "valid_rate": 0.9996666666666667,
+        "mode": "band",
+        "family_mix": {
+          "5_3": 174,
+          "1_4": 168,
+          "3_4": 170,
+          "3_2": 169,
+          "6_2": 172,
+          "2_3": 171,
+          "4_4": 177,
+          "4_3": 179,
+          "1_2": 147,
+          "2_4": 151,
+          "1_3": 162,
+          "6_4": 176,
+          "5_4": 165,
+          "5_2": 159,
+          "6_3": 185,
+          "4_2": 139,
+          "3_3": 173,
+          "2_2": 163
+        },
+        "family_band": null,
+        "support_pool_band_family": 970,
+        "family_weights": null,
+        "family_effective": null,
+        "in_band_raw": 0.13533333333333333,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.011821236624468157,
+        "submitted": 200
+      }
+    }
+  },
+  "encab_armV_ema_st_3600": {
+    "config": {
+      "tag": "armV_ema",
+      "out_tag": "encab_armV_ema_st_3600",
+      "predict": "v",
+      "used_ema": true,
+      "fam_policy": "uniform",
+      "fam_allowed": "",
+      "fam_floor": 0.05,
+      "guidance": 1.0,
+      "sample_steps": 0,
+      "n_generate": 3000,
+      "n_submit": 200,
+      "seed": 42,
+      "model": "D:\\Louis_Projet\\rotor_projet\\大学生创新创业训练计划\\S2\\spec_design\\outputs\\latent_ddpm\\armV_ema\\model.pt"
+    },
+    "funnel": {
+      "Steel_3600": {
+        "generated": 3000,
+        "valid_rate": 1.0,
+        "mode": "band",
+        "family_mix": {
+          "5_3": 162,
+          "4_3": 146,
+          "1_3": 167,
+          "2_3": 166,
+          "2_4": 177,
+          "3_4": 182,
+          "5_4": 151,
+          "6_4": 166,
+          "1_2": 148,
+          "3_3": 175,
+          "4_2": 184,
+          "6_2": 165,
+          "3_2": 164,
+          "1_4": 161,
+          "6_3": 189,
+          "2_2": 150,
+          "4_4": 187,
+          "5_2": 160
+        },
+        "family_band": null,
+        "support_pool_band_family": 2656,
+        "family_weights": null,
+        "family_effective": null,
+        "in_band_raw": 0.12166666666666667,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.014330315708263205,
+        "submitted": 200
+      }
+    }
+  },
+  "encab_armV_ema_st_5000": {
+    "config": {
+      "tag": "armV_ema",
+      "out_tag": "encab_armV_ema_st_5000",
+      "predict": "v",
+      "used_ema": true,
+      "fam_policy": "uniform",
+      "fam_allowed": "",
+      "fam_floor": 0.05,
+      "guidance": 1.0,
+      "sample_steps": 0,
+      "n_generate": 3000,
+      "n_submit": 200,
+      "seed": 42,
+      "model": "D:\\Louis_Projet\\rotor_projet\\大学生创新创业训练计划\\S2\\spec_design\\outputs\\latent_ddpm\\armV_ema\\model.pt"
+    },
+    "funnel": {
+      "Steel_5000": {
+        "generated": 3000,
+        "valid_rate": 1.0,
+        "mode": "band",
+        "family_mix": {
+          "3_4": 161,
+          "1_3": 157,
+          "1_4": 152,
+          "2_3": 180,
+          "4_4": 160,
+          "4_3": 170,
+          "2_2": 180,
+          "6_2": 176,
+          "5_3": 167,
+          "6_4": 150,
+          "3_3": 160,
+          "1_2": 183,
+          "5_4": 167,
+          "6_3": 172,
+          "4_2": 179,
+          "5_2": 168,
+          "3_2": 167,
+          "2_4": 151
+        },
+        "family_band": null,
+        "support_pool_band_family": 2558,
+        "family_weights": null,
+        "family_effective": null,
+        "in_band_raw": 0.14233333333333334,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.010778026416607736,
+        "submitted": 200
+      }
+    }
+  },
+  "encab_armV_ema_st_8000": {
+    "config": {
+      "tag": "armV_ema",
+      "out_tag": "encab_armV_ema_st_8000",
+      "predict": "v",
+      "used_ema": true,
+      "fam_policy": "uniform",
+      "fam_allowed": "",
+      "fam_floor": 0.05,
+      "guidance": 1.0,
+      "sample_steps": 0,
+      "n_generate": 3000,
+      "n_submit": 200,
+      "seed": 42,
+      "model": "D:\\Louis_Projet\\rotor_projet\\大学生创新创业训练计划\\S2\\spec_design\\outputs\\latent_ddpm\\armV_ema\\model.pt"
+    },
+    "funnel": {
+      "Steel_8000": {
+        "generated": 3000,
+        "valid_rate": 1.0,
+        "mode": "band",
+        "family_mix": {
+          "5_4": 188,
+          "2_2": 163,
+          "6_3": 173,
+          "4_4": 161,
+          "2_4": 195,
+          "2_3": 142,
+          "5_3": 174,
+          "1_2": 148,
+          "5_2": 154,
+          "3_2": 179,
+          "1_4": 164,
+          "3_3": 154,
+          "1_3": 163,
+          "4_2": 177,
+          "6_4": 160,
+          "4_3": 167,
+          "3_4": 170,
+          "6_2": 168
+        },
+        "family_band": null,
+        "support_pool_band_family": 2107,
+        "family_weights": null,
+        "family_effective": null,
+        "in_band_raw": 0.14266666666666666,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.012970731437704388,
+        "submitted": 200
+      }
+    }
+  },
+  "encab_armV_ema_ti_8000": {
+    "config": {
+      "tag": "armV_ema",
+      "out_tag": "encab_armV_ema_ti_8000",
+      "predict": "v",
+      "used_ema": true,
+      "fam_policy": "uniform",
+      "fam_allowed": "",
+      "fam_floor": 0.05,
+      "guidance": 1.0,
+      "sample_steps": 0,
+      "n_generate": 3000,
+      "n_submit": 200,
+      "seed": 42,
+      "model": "D:\\Louis_Projet\\rotor_projet\\大学生创新创业训练计划\\S2\\spec_design\\outputs\\latent_ddpm\\armV_ema\\model.pt"
+    },
+    "funnel": {
+      "Titanium_8000": {
+        "generated": 3000,
+        "valid_rate": 1.0,
+        "mode": "band",
+        "family_mix": {
+          "6_2": 163,
+          "4_2": 157,
+          "5_2": 175,
+          "2_4": 162,
+          "5_4": 171,
+          "6_4": 166,
+          "3_4": 163,
+          "5_3": 166,
+          "6_3": 162,
+          "1_4": 167,
+          "3_2": 168,
+          "2_2": 180,
+          "4_3": 162,
+          "4_4": 202,
+          "2_3": 142,
+          "1_2": 159,
+          "3_3": 172,
+          "1_3": 163
+        },
+        "family_band": null,
+        "support_pool_band_family": 2285,
+        "family_weights": null,
+        "family_effective": null,
+        "in_band_raw": 0.13733333333333334,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.013403585250659319,
+        "submitted": 200
+      }
+    }
+  },
+  "e25_armD0_al_6000": {
+    "config": {
+      "tag": "armD0",
+      "out_tag": "e25_armD0_al_6000",
+      "predict": "v",
+      "used_ema": true,
+      "fam_policy": "uniform",
+      "fam_allowed": "",
+      "fam_floor": 0.05,
+      "guidance": 1.0,
+      "guide_lambda": 0.0,
+      "sample_steps": 25,
+      "n_generate": 3000,
+      "n_submit": 200,
+      "seed": 42,
+      "model": "D:\\Louis_Projet\\rotor_projet\\大学生创新创业训练计划\\S2\\spec_design\\outputs\\latent_ddpm\\armD0\\model.pt"
+    },
+    "funnel": {
+      "Aluminum_6000": {
+        "generated": 3000,
+        "valid_rate": 1.0,
+        "mode": "band",
+        "family_mix": {
+          "5_4": 152,
+          "1_3": 171,
+          "4_4": 176,
+          "6_4": 175,
+          "5_3": 143,
+          "1_2": 169,
+          "4_3": 152,
+          "2_3": 180,
+          "6_3": 169,
+          "3_2": 173,
+          "4_2": 173,
+          "2_2": 170,
+          "3_3": 176,
+          "2_4": 168,
+          "1_4": 163,
+          "6_2": 172,
+          "5_2": 145,
+          "3_4": 173
+        },
+        "family_band": null,
+        "support_pool_band_family": 2626,
+        "family_weights": null,
+        "family_effective": null,
+        "in_band_raw": 0.14266666666666666,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.012327998824289352,
+        "submitted": 200
+      }
+    }
+  },
+  "e25_armD0_st_16000": {
+    "config": {
+      "tag": "armD0",
+      "out_tag": "e25_armD0_st_16000",
+      "predict": "v",
+      "used_ema": true,
+      "fam_policy": "uniform",
+      "fam_allowed": "",
+      "fam_floor": 0.05,
+      "guidance": 1.0,
+      "guide_lambda": 0.0,
+      "sample_steps": 25,
+      "n_generate": 3000,
+      "n_submit": 200,
+      "seed": 42,
+      "model": "D:\\Louis_Projet\\rotor_projet\\大学生创新创业训练计划\\S2\\spec_design\\outputs\\latent_ddpm\\armD0\\model.pt"
+    },
+    "funnel": {
+      "Steel_16000": {
+        "generated": 3000,
+        "valid_rate": 1.0,
+        "mode": "band",
+        "family_mix": {
+          "5_3": 174,
+          "1_4": 168,
+          "3_4": 170,
+          "3_2": 169,
+          "6_2": 172,
+          "2_3": 171,
+          "4_4": 177,
+          "4_3": 179,
+          "1_2": 147,
+          "2_4": 151,
+          "1_3": 162,
+          "6_4": 176,
+          "5_4": 165,
+          "5_2": 159,
+          "6_3": 185,
+          "4_2": 139,
+          "3_3": 173,
+          "2_2": 163
+        },
+        "family_band": null,
+        "support_pool_band_family": 970,
+        "family_weights": null,
+        "family_effective": null,
+        "in_band_raw": 0.20666666666666667,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.007415006643599724,
+        "submitted": 200
+      }
+    }
+  },
+  "e25_armD0_st_3600": {
+    "config": {
+      "tag": "armD0",
+      "out_tag": "e25_armD0_st_3600",
+      "predict": "v",
+      "used_ema": true,
+      "fam_policy": "uniform",
+      "fam_allowed": "",
+      "fam_floor": 0.05,
+      "guidance": 1.0,
+      "guide_lambda": 0.0,
+      "sample_steps": 25,
+      "n_generate": 3000,
+      "n_submit": 200,
+      "seed": 42,
+      "model": "D:\\Louis_Projet\\rotor_projet\\大学生创新创业训练计划\\S2\\spec_design\\outputs\\latent_ddpm\\armD0\\model.pt"
+    },
+    "funnel": {
+      "Steel_3600": {
+        "generated": 3000,
+        "valid_rate": 1.0,
+        "mode": "band",
+        "family_mix": {
+          "5_3": 162,
+          "4_3": 146,
+          "1_3": 167,
+          "2_3": 166,
+          "2_4": 177,
+          "3_4": 182,
+          "5_4": 151,
+          "6_4": 166,
+          "1_2": 148,
+          "3_3": 175,
+          "4_2": 184,
+          "6_2": 165,
+          "3_2": 164,
+          "1_4": 161,
+          "6_3": 189,
+          "2_2": 150,
+          "4_4": 187,
+          "5_2": 160
+        },
+        "family_band": null,
+        "support_pool_band_family": 2656,
+        "family_weights": null,
+        "family_effective": null,
+        "in_band_raw": 0.15433333333333332,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.011567959827606715,
+        "submitted": 200
+      }
+    }
+  },
+  "e25_armD0_st_5000": {
+    "config": {
+      "tag": "armD0",
+      "out_tag": "e25_armD0_st_5000",
+      "predict": "v",
+      "used_ema": true,
+      "fam_policy": "uniform",
+      "fam_allowed": "",
+      "fam_floor": 0.05,
+      "guidance": 1.0,
+      "guide_lambda": 0.0,
+      "sample_steps": 25,
+      "n_generate": 3000,
+      "n_submit": 200,
+      "seed": 42,
+      "model": "D:\\Louis_Projet\\rotor_projet\\大学生创新创业训练计划\\S2\\spec_design\\outputs\\latent_ddpm\\armD0\\model.pt"
+    },
+    "funnel": {
+      "Steel_5000": {
+        "generated": 3000,
+        "valid_rate": 1.0,
+        "mode": "band",
+        "family_mix": {
+          "3_4": 161,
+          "1_3": 157,
+          "1_4": 152,
+          "2_3": 180,
+          "4_4": 160,
+          "4_3": 170,
+          "2_2": 180,
+          "6_2": 176,
+          "5_3": 167,
+          "6_4": 150,
+          "3_3": 160,
+          "1_2": 183,
+          "5_4": 167,
+          "6_3": 172,
+          "4_2": 179,
+          "5_2": 168,
+          "3_2": 167,
+          "2_4": 151
+        },
+        "family_band": null,
+        "support_pool_band_family": 2558,
+        "family_weights": null,
+        "family_effective": null,
+        "in_band_raw": 0.167,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.010285202990357447,
+        "submitted": 200
+      }
+    }
+  },
+  "e25_armD0_st_8000": {
+    "config": {
+      "tag": "armD0",
+      "out_tag": "e25_armD0_st_8000",
+      "predict": "v",
+      "used_ema": true,
+      "fam_policy": "uniform",
+      "fam_allowed": "",
+      "fam_floor": 0.05,
+      "guidance": 1.0,
+      "guide_lambda": 0.0,
+      "sample_steps": 25,
+      "n_generate": 3000,
+      "n_submit": 200,
+      "seed": 42,
+      "model": "D:\\Louis_Projet\\rotor_projet\\大学生创新创业训练计划\\S2\\spec_design\\outputs\\latent_ddpm\\armD0\\model.pt"
+    },
+    "funnel": {
+      "Steel_8000": {
+        "generated": 3000,
+        "valid_rate": 1.0,
+        "mode": "band",
+        "family_mix": {
+          "5_4": 188,
+          "2_2": 163,
+          "6_3": 173,
+          "4_4": 161,
+          "2_4": 195,
+          "2_3": 142,
+          "5_3": 174,
+          "1_2": 148,
+          "5_2": 154,
+          "3_2": 179,
+          "1_4": 164,
+          "3_3": 154,
+          "1_3": 163,
+          "4_2": 177,
+          "6_4": 160,
+          "4_3": 167,
+          "3_4": 170,
+          "6_2": 168
+        },
+        "family_band": null,
+        "support_pool_band_family": 2107,
+        "family_weights": null,
+        "family_effective": null,
+        "in_band_raw": 0.176,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.007961432640003409,
+        "submitted": 200
+      }
+    }
+  },
+  "e25_armD0_ti_8000": {
+    "config": {
+      "tag": "armD0",
+      "out_tag": "e25_armD0_ti_8000",
+      "predict": "v",
+      "used_ema": true,
+      "fam_policy": "uniform",
+      "fam_allowed": "",
+      "fam_floor": 0.05,
+      "guidance": 1.0,
+      "guide_lambda": 0.0,
+      "sample_steps": 25,
+      "n_generate": 3000,
+      "n_submit": 200,
+      "seed": 42,
+      "model": "D:\\Louis_Projet\\rotor_projet\\大学生创新创业训练计划\\S2\\spec_design\\outputs\\latent_ddpm\\armD0\\model.pt"
+    },
+    "funnel": {
+      "Titanium_8000": {
+        "generated": 3000,
+        "valid_rate": 1.0,
+        "mode": "band",
+        "family_mix": {
+          "6_2": 163,
+          "4_2": 157,
+          "5_2": 175,
+          "2_4": 162,
+          "5_4": 171,
+          "6_4": 166,
+          "3_4": 163,
+          "5_3": 166,
+          "6_3": 162,
+          "1_4": 167,
+          "3_2": 168,
+          "2_2": 180,
+          "4_3": 162,
+          "4_4": 202,
+          "2_3": 142,
+          "1_2": 159,
+          "3_3": 172,
+          "1_3": 163
+        },
+        "family_band": null,
+        "support_pool_band_family": 2285,
+        "family_weights": null,
+        "family_effective": null,
+        "in_band_raw": 0.15533333333333332,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.010777827101295032,
+        "submitted": 200
+      }
+    }
+  },
+  "e25_armF_al_6000": {
+    "config": {
+      "tag": "armF",
+      "out_tag": "e25_armF_al_6000",
+      "predict": "v",
+      "used_ema": true,
+      "fam_policy": "uniform",
+      "fam_allowed": "",
+      "fam_floor": 0.05,
+      "guidance": 1.0,
+      "guide_lambda": 0.0,
+      "sample_steps": 25,
+      "n_generate": 3000,
+      "n_submit": 200,
+      "seed": 42,
+      "model": "D:\\Louis_Projet\\rotor_projet\\大学生创新创业训练计划\\S2\\spec_design\\outputs\\latent_ddpm\\armF\\model.pt"
+    },
+    "funnel": {
+      "Aluminum_6000": {
+        "generated": 3000,
+        "valid_rate": 1.0,
+        "mode": "band",
+        "family_mix": {
+          "5_4": 152,
+          "1_3": 171,
+          "4_4": 176,
+          "6_4": 175,
+          "5_3": 143,
+          "1_2": 169,
+          "4_3": 152,
+          "2_3": 180,
+          "6_3": 169,
+          "3_2": 173,
+          "4_2": 173,
+          "2_2": 170,
+          "3_3": 176,
+          "2_4": 168,
+          "1_4": 163,
+          "6_2": 172,
+          "5_2": 145,
+          "3_4": 173
+        },
+        "family_band": null,
+        "support_pool_band_family": 2626,
+        "family_weights": null,
+        "family_effective": null,
+        "in_band_raw": 0.14133333333333334,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.012006515137739673,
+        "submitted": 200
+      }
+    }
+  },
+  "e25_armF_st_16000": {
+    "config": {
+      "tag": "armF",
+      "out_tag": "e25_armF_st_16000",
+      "predict": "v",
+      "used_ema": true,
+      "fam_policy": "uniform",
+      "fam_allowed": "",
+      "fam_floor": 0.05,
+      "guidance": 1.0,
+      "guide_lambda": 0.0,
+      "sample_steps": 25,
+      "n_generate": 3000,
+      "n_submit": 200,
+      "seed": 42,
+      "model": "D:\\Louis_Projet\\rotor_projet\\大学生创新创业训练计划\\S2\\spec_design\\outputs\\latent_ddpm\\armF\\model.pt"
+    },
+    "funnel": {
+      "Steel_16000": {
+        "generated": 3000,
+        "valid_rate": 1.0,
+        "mode": "band",
+        "family_mix": {
+          "5_3": 174,
+          "1_4": 168,
+          "3_4": 170,
+          "3_2": 169,
+          "6_2": 172,
+          "2_3": 171,
+          "4_4": 177,
+          "4_3": 179,
+          "1_2": 147,
+          "2_4": 151,
+          "1_3": 162,
+          "6_4": 176,
+          "5_4": 165,
+          "5_2": 159,
+          "6_3": 185,
+          "4_2": 139,
+          "3_3": 173,
+          "2_2": 163
+        },
+        "family_band": null,
+        "support_pool_band_family": 970,
+        "family_weights": null,
+        "family_effective": null,
+        "in_band_raw": 0.20266666666666666,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.008196520965309161,
+        "submitted": 200
+      }
+    }
+  },
+  "e25_armF_st_3600": {
+    "config": {
+      "tag": "armF",
+      "out_tag": "e25_armF_st_3600",
+      "predict": "v",
+      "used_ema": true,
+      "fam_policy": "uniform",
+      "fam_allowed": "",
+      "fam_floor": 0.05,
+      "guidance": 1.0,
+      "guide_lambda": 0.0,
+      "sample_steps": 25,
+      "n_generate": 3000,
+      "n_submit": 200,
+      "seed": 42,
+      "model": "D:\\Louis_Projet\\rotor_projet\\大学生创新创业训练计划\\S2\\spec_design\\outputs\\latent_ddpm\\armF\\model.pt"
+    },
+    "funnel": {
+      "Steel_3600": {
+        "generated": 3000,
+        "valid_rate": 0.9996666666666667,
+        "mode": "band",
+        "family_mix": {
+          "5_3": 162,
+          "4_3": 146,
+          "1_3": 167,
+          "2_3": 166,
+          "2_4": 177,
+          "3_4": 182,
+          "5_4": 151,
+          "6_4": 166,
+          "1_2": 148,
+          "3_3": 175,
+          "4_2": 184,
+          "6_2": 165,
+          "3_2": 164,
+          "1_4": 161,
+          "6_3": 189,
+          "2_2": 150,
+          "4_4": 187,
+          "5_2": 160
+        },
+        "family_band": null,
+        "support_pool_band_family": 2656,
+        "family_weights": null,
+        "family_effective": null,
+        "in_band_raw": 0.16966666666666666,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.009492233870814173,
+        "submitted": 200
+      }
+    }
+  },
+  "e25_armF_st_5000": {
+    "config": {
+      "tag": "armF",
+      "out_tag": "e25_armF_st_5000",
+      "predict": "v",
+      "used_ema": true,
+      "fam_policy": "uniform",
+      "fam_allowed": "",
+      "fam_floor": 0.05,
+      "guidance": 1.0,
+      "guide_lambda": 0.0,
+      "sample_steps": 25,
+      "n_generate": 3000,
+      "n_submit": 200,
+      "seed": 42,
+      "model": "D:\\Louis_Projet\\rotor_projet\\大学生创新创业训练计划\\S2\\spec_design\\outputs\\latent_ddpm\\armF\\model.pt"
+    },
+    "funnel": {
+      "Steel_5000": {
+        "generated": 3000,
+        "valid_rate": 0.9996666666666667,
+        "mode": "band",
+        "family_mix": {
+          "3_4": 161,
+          "1_3": 157,
+          "1_4": 152,
+          "2_3": 180,
+          "4_4": 160,
+          "4_3": 170,
+          "2_2": 180,
+          "6_2": 176,
+          "5_3": 167,
+          "6_4": 150,
+          "3_3": 160,
+          "1_2": 183,
+          "5_4": 167,
+          "6_3": 172,
+          "4_2": 179,
+          "5_2": 168,
+          "3_2": 167,
+          "2_4": 151
+        },
+        "family_band": null,
+        "support_pool_band_family": 2558,
+        "family_weights": null,
+        "family_effective": null,
+        "in_band_raw": 0.17166666666666666,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.008989530395574001,
+        "submitted": 200
+      }
+    }
+  },
+  "e25_armF_st_8000": {
+    "config": {
+      "tag": "armF",
+      "out_tag": "e25_armF_st_8000",
+      "predict": "v",
+      "used_ema": true,
+      "fam_policy": "uniform",
+      "fam_allowed": "",
+      "fam_floor": 0.05,
+      "guidance": 1.0,
+      "guide_lambda": 0.0,
+      "sample_steps": 25,
+      "n_generate": 3000,
+      "n_submit": 200,
+      "seed": 42,
+      "model": "D:\\Louis_Projet\\rotor_projet\\大学生创新创业训练计划\\S2\\spec_design\\outputs\\latent_ddpm\\armF\\model.pt"
+    },
+    "funnel": {
+      "Steel_8000": {
+        "generated": 3000,
+        "valid_rate": 1.0,
+        "mode": "band",
+        "family_mix": {
+          "5_4": 188,
+          "2_2": 163,
+          "6_3": 173,
+          "4_4": 161,
+          "2_4": 195,
+          "2_3": 142,
+          "5_3": 174,
+          "1_2": 148,
+          "5_2": 154,
+          "3_2": 179,
+          "1_4": 164,
+          "3_3": 154,
+          "1_3": 163,
+          "4_2": 177,
+          "6_4": 160,
+          "4_3": 167,
+          "3_4": 170,
+          "6_2": 168
+        },
+        "family_band": null,
+        "support_pool_band_family": 2107,
+        "family_weights": null,
+        "family_effective": null,
+        "in_band_raw": 0.193,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.007379151313380532,
+        "submitted": 200
+      }
+    }
+  },
+  "e25_armF_ti_8000": {
+    "config": {
+      "tag": "armF",
+      "out_tag": "e25_armF_ti_8000",
+      "predict": "v",
+      "used_ema": true,
+      "fam_policy": "uniform",
+      "fam_allowed": "",
+      "fam_floor": 0.05,
+      "guidance": 1.0,
+      "guide_lambda": 0.0,
+      "sample_steps": 25,
+      "n_generate": 3000,
+      "n_submit": 200,
+      "seed": 42,
+      "model": "D:\\Louis_Projet\\rotor_projet\\大学生创新创业训练计划\\S2\\spec_design\\outputs\\latent_ddpm\\armF\\model.pt"
+    },
+    "funnel": {
+      "Titanium_8000": {
+        "generated": 3000,
+        "valid_rate": 1.0,
+        "mode": "band",
+        "family_mix": {
+          "6_2": 163,
+          "4_2": 157,
+          "5_2": 175,
+          "2_4": 162,
+          "5_4": 171,
+          "6_4": 166,
+          "3_4": 163,
+          "5_3": 166,
+          "6_3": 162,
+          "1_4": 167,
+          "3_2": 168,
+          "2_2": 180,
+          "4_3": 162,
+          "4_4": 202,
+          "2_3": 142,
+          "1_2": 159,
+          "3_3": 172,
+          "1_3": 163
+        },
+        "family_band": null,
+        "support_pool_band_family": 2285,
+        "family_weights": null,
+        "family_effective": null,
+        "in_band_raw": 0.169,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.010466595682096397,
+        "submitted": 200
+      }
+    }
+  },
+  "e25_armV_ema_al_6000": {
+    "config": {
+      "tag": "armV_ema",
+      "out_tag": "e25_armV_ema_al_6000",
+      "predict": "v",
+      "used_ema": true,
+      "fam_policy": "uniform",
+      "fam_allowed": "",
+      "fam_floor": 0.05,
+      "guidance": 1.0,
+      "guide_lambda": 0.0,
+      "sample_steps": 25,
+      "n_generate": 3000,
+      "n_submit": 200,
+      "seed": 42,
+      "model": "D:\\Louis_Projet\\rotor_projet\\大学生创新创业训练计划\\S2\\spec_design\\outputs\\latent_ddpm\\armV_ema\\model.pt"
+    },
+    "funnel": {
+      "Aluminum_6000": {
+        "generated": 3000,
+        "valid_rate": 1.0,
+        "mode": "band",
+        "family_mix": {
+          "5_4": 152,
+          "1_3": 171,
+          "4_4": 176,
+          "6_4": 175,
+          "5_3": 143,
+          "1_2": 169,
+          "4_3": 152,
+          "2_3": 180,
+          "6_3": 169,
+          "3_2": 173,
+          "4_2": 173,
+          "2_2": 170,
+          "3_3": 176,
+          "2_4": 168,
+          "1_4": 163,
+          "6_2": 172,
+          "5_2": 145,
+          "3_4": 173
+        },
+        "family_band": null,
+        "support_pool_band_family": 2626,
+        "family_weights": null,
+        "family_effective": null,
+        "in_band_raw": 0.14133333333333334,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.011810263218306697,
+        "submitted": 200
+      }
+    }
+  },
+  "e25_armV_ema_st_16000": {
+    "config": {
+      "tag": "armV_ema",
+      "out_tag": "e25_armV_ema_st_16000",
+      "predict": "v",
+      "used_ema": true,
+      "fam_policy": "uniform",
+      "fam_allowed": "",
+      "fam_floor": 0.05,
+      "guidance": 1.0,
+      "guide_lambda": 0.0,
+      "sample_steps": 25,
+      "n_generate": 3000,
+      "n_submit": 200,
+      "seed": 42,
+      "model": "D:\\Louis_Projet\\rotor_projet\\大学生创新创业训练计划\\S2\\spec_design\\outputs\\latent_ddpm\\armV_ema\\model.pt"
+    },
+    "funnel": {
+      "Steel_16000": {
+        "generated": 3000,
+        "valid_rate": 1.0,
+        "mode": "band",
+        "family_mix": {
+          "5_3": 174,
+          "1_4": 168,
+          "3_4": 170,
+          "3_2": 169,
+          "6_2": 172,
+          "2_3": 171,
+          "4_4": 177,
+          "4_3": 179,
+          "1_2": 147,
+          "2_4": 151,
+          "1_3": 162,
+          "6_4": 176,
+          "5_4": 165,
+          "5_2": 159,
+          "6_3": 185,
+          "4_2": 139,
+          "3_3": 173,
+          "2_2": 163
+        },
+        "family_band": null,
+        "support_pool_band_family": 970,
+        "family_weights": null,
+        "family_effective": null,
+        "in_band_raw": 0.22,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.007514885567792817,
+        "submitted": 200
+      }
+    }
+  },
+  "e25_armV_ema_st_3600": {
+    "config": {
+      "tag": "armV_ema",
+      "out_tag": "e25_armV_ema_st_3600",
+      "predict": "v",
+      "used_ema": true,
+      "fam_policy": "uniform",
+      "fam_allowed": "",
+      "fam_floor": 0.05,
+      "guidance": 1.0,
+      "guide_lambda": 0.0,
+      "sample_steps": 25,
+      "n_generate": 3000,
+      "n_submit": 200,
+      "seed": 42,
+      "model": "D:\\Louis_Projet\\rotor_projet\\大学生创新创业训练计划\\S2\\spec_design\\outputs\\latent_ddpm\\armV_ema\\model.pt"
+    },
+    "funnel": {
+      "Steel_3600": {
+        "generated": 3000,
+        "valid_rate": 1.0,
+        "mode": "band",
+        "family_mix": {
+          "5_3": 162,
+          "4_3": 146,
+          "1_3": 167,
+          "2_3": 166,
+          "2_4": 177,
+          "3_4": 182,
+          "5_4": 151,
+          "6_4": 166,
+          "1_2": 148,
+          "3_3": 175,
+          "4_2": 184,
+          "6_2": 165,
+          "3_2": 164,
+          "1_4": 161,
+          "6_3": 189,
+          "2_2": 150,
+          "4_4": 187,
+          "5_2": 160
+        },
+        "family_band": null,
+        "support_pool_band_family": 2656,
+        "family_weights": null,
+        "family_effective": null,
+        "in_band_raw": 0.14566666666666667,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.011821345793557106,
+        "submitted": 200
+      }
+    }
+  },
+  "e25_armV_ema_st_5000": {
+    "config": {
+      "tag": "armV_ema",
+      "out_tag": "e25_armV_ema_st_5000",
+      "predict": "v",
+      "used_ema": true,
+      "fam_policy": "uniform",
+      "fam_allowed": "",
+      "fam_floor": 0.05,
+      "guidance": 1.0,
+      "guide_lambda": 0.0,
+      "sample_steps": 25,
+      "n_generate": 3000,
+      "n_submit": 200,
+      "seed": 42,
+      "model": "D:\\Louis_Projet\\rotor_projet\\大学生创新创业训练计划\\S2\\spec_design\\outputs\\latent_ddpm\\armV_ema\\model.pt"
+    },
+    "funnel": {
+      "Steel_5000": {
+        "generated": 3000,
+        "valid_rate": 1.0,
+        "mode": "band",
+        "family_mix": {
+          "3_4": 161,
+          "1_3": 157,
+          "1_4": 152,
+          "2_3": 180,
+          "4_4": 160,
+          "4_3": 170,
+          "2_2": 180,
+          "6_2": 176,
+          "5_3": 167,
+          "6_4": 150,
+          "3_3": 160,
+          "1_2": 183,
+          "5_4": 167,
+          "6_3": 172,
+          "4_2": 179,
+          "5_2": 168,
+          "3_2": 167,
+          "2_4": 151
+        },
+        "family_band": null,
+        "support_pool_band_family": 2558,
+        "family_weights": null,
+        "family_effective": null,
+        "in_band_raw": 0.17533333333333334,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.011164788322649475,
+        "submitted": 200
+      }
+    }
+  },
+  "e25_armV_ema_st_8000": {
+    "config": {
+      "tag": "armV_ema",
+      "out_tag": "e25_armV_ema_st_8000",
+      "predict": "v",
+      "used_ema": true,
+      "fam_policy": "uniform",
+      "fam_allowed": "",
+      "fam_floor": 0.05,
+      "guidance": 1.0,
+      "guide_lambda": 0.0,
+      "sample_steps": 25,
+      "n_generate": 3000,
+      "n_submit": 200,
+      "seed": 42,
+      "model": "D:\\Louis_Projet\\rotor_projet\\大学生创新创业训练计划\\S2\\spec_design\\outputs\\latent_ddpm\\armV_ema\\model.pt"
+    },
+    "funnel": {
+      "Steel_8000": {
+        "generated": 3000,
+        "valid_rate": 1.0,
+        "mode": "band",
+        "family_mix": {
+          "5_4": 188,
+          "2_2": 163,
+          "6_3": 173,
+          "4_4": 161,
+          "2_4": 195,
+          "2_3": 142,
+          "5_3": 174,
+          "1_2": 148,
+          "5_2": 154,
+          "3_2": 179,
+          "1_4": 164,
+          "3_3": 154,
+          "1_3": 163,
+          "4_2": 177,
+          "6_4": 160,
+          "4_3": 167,
+          "3_4": 170,
+          "6_2": 168
+        },
+        "family_band": null,
+        "support_pool_band_family": 2107,
+        "family_weights": null,
+        "family_effective": null,
+        "in_band_raw": 0.19366666666666665,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.009398515347761531,
+        "submitted": 200
+      }
+    }
+  },
+  "e25_armV_ema_ti_8000": {
+    "config": {
+      "tag": "armV_ema",
+      "out_tag": "e25_armV_ema_ti_8000",
+      "predict": "v",
+      "used_ema": true,
+      "fam_policy": "uniform",
+      "fam_allowed": "",
+      "fam_floor": 0.05,
+      "guidance": 1.0,
+      "guide_lambda": 0.0,
+      "sample_steps": 25,
+      "n_generate": 3000,
+      "n_submit": 200,
+      "seed": 42,
+      "model": "D:\\Louis_Projet\\rotor_projet\\大学生创新创业训练计划\\S2\\spec_design\\outputs\\latent_ddpm\\armV_ema\\model.pt"
+    },
+    "funnel": {
+      "Titanium_8000": {
+        "generated": 3000,
+        "valid_rate": 1.0,
+        "mode": "band",
+        "family_mix": {
+          "6_2": 163,
+          "4_2": 157,
+          "5_2": 175,
+          "2_4": 162,
+          "5_4": 171,
+          "6_4": 166,
+          "3_4": 163,
+          "5_3": 166,
+          "6_3": 162,
+          "1_4": 167,
+          "3_2": 168,
+          "2_2": 180,
+          "4_3": 162,
+          "4_4": 202,
+          "2_3": 142,
+          "1_2": 159,
+          "3_3": 172,
+          "1_3": 163
+        },
+        "family_band": null,
+        "support_pool_band_family": 2285,
+        "family_weights": null,
+        "family_effective": null,
+        "in_band_raw": 0.18033333333333335,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.009008744930821763,
+        "submitted": 200
+      }
+    }
+  },
+  "e25_armX0_al_6000": {
+    "config": {
+      "tag": "armX0",
+      "out_tag": "e25_armX0_al_6000",
+      "predict": "x0",
+      "used_ema": true,
+      "fam_policy": "uniform",
+      "fam_allowed": "",
+      "fam_floor": 0.05,
+      "guidance": 1.0,
+      "guide_lambda": 0.0,
+      "sample_steps": 25,
+      "n_generate": 3000,
+      "n_submit": 200,
+      "seed": 42,
+      "model": "D:\\Louis_Projet\\rotor_projet\\大学生创新创业训练计划\\S2\\spec_design\\outputs\\latent_ddpm\\armX0\\model.pt"
+    },
+    "funnel": {
+      "Aluminum_6000": {
+        "generated": 3000,
+        "valid_rate": 1.0,
+        "mode": "band",
+        "family_mix": {
+          "5_4": 152,
+          "1_3": 171,
+          "4_4": 176,
+          "6_4": 175,
+          "5_3": 143,
+          "1_2": 169,
+          "4_3": 152,
+          "2_3": 180,
+          "6_3": 169,
+          "3_2": 173,
+          "4_2": 173,
+          "2_2": 170,
+          "3_3": 176,
+          "2_4": 168,
+          "1_4": 163,
+          "6_2": 172,
+          "5_2": 145,
+          "3_4": 173
+        },
+        "family_band": null,
+        "support_pool_band_family": 2626,
+        "family_weights": null,
+        "family_effective": null,
+        "in_band_raw": 0.128,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.0126069863304186,
+        "submitted": 200
+      }
+    }
+  },
+  "e25_armX0_st_16000": {
+    "config": {
+      "tag": "armX0",
+      "out_tag": "e25_armX0_st_16000",
+      "predict": "x0",
+      "used_ema": true,
+      "fam_policy": "uniform",
+      "fam_allowed": "",
+      "fam_floor": 0.05,
+      "guidance": 1.0,
+      "guide_lambda": 0.0,
+      "sample_steps": 25,
+      "n_generate": 3000,
+      "n_submit": 200,
+      "seed": 42,
+      "model": "D:\\Louis_Projet\\rotor_projet\\大学生创新创业训练计划\\S2\\spec_design\\outputs\\latent_ddpm\\armX0\\model.pt"
+    },
+    "funnel": {
+      "Steel_16000": {
+        "generated": 3000,
+        "valid_rate": 1.0,
+        "mode": "band",
+        "family_mix": {
+          "5_3": 174,
+          "1_4": 168,
+          "3_4": 170,
+          "3_2": 169,
+          "6_2": 172,
+          "2_3": 171,
+          "4_4": 177,
+          "4_3": 179,
+          "1_2": 147,
+          "2_4": 151,
+          "1_3": 162,
+          "6_4": 176,
+          "5_4": 165,
+          "5_2": 159,
+          "6_3": 185,
+          "4_2": 139,
+          "3_3": 173,
+          "2_2": 163
+        },
+        "family_band": null,
+        "support_pool_band_family": 970,
+        "family_weights": null,
+        "family_effective": null,
+        "in_band_raw": 0.23,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.0072875431036454755,
+        "submitted": 200
+      }
+    }
+  },
+  "e25_armX0_st_3600": {
+    "config": {
+      "tag": "armX0",
+      "out_tag": "e25_armX0_st_3600",
+      "predict": "x0",
+      "used_ema": true,
+      "fam_policy": "uniform",
+      "fam_allowed": "",
+      "fam_floor": 0.05,
+      "guidance": 1.0,
+      "guide_lambda": 0.0,
+      "sample_steps": 25,
+      "n_generate": 3000,
+      "n_submit": 200,
+      "seed": 42,
+      "model": "D:\\Louis_Projet\\rotor_projet\\大学生创新创业训练计划\\S2\\spec_design\\outputs\\latent_ddpm\\armX0\\model.pt"
+    },
+    "funnel": {
+      "Steel_3600": {
+        "generated": 3000,
+        "valid_rate": 1.0,
+        "mode": "band",
+        "family_mix": {
+          "5_3": 162,
+          "4_3": 146,
+          "1_3": 167,
+          "2_3": 166,
+          "2_4": 177,
+          "3_4": 182,
+          "5_4": 151,
+          "6_4": 166,
+          "1_2": 148,
+          "3_3": 175,
+          "4_2": 184,
+          "6_2": 165,
+          "3_2": 164,
+          "1_4": 161,
+          "6_3": 189,
+          "2_2": 150,
+          "4_4": 187,
+          "5_2": 160
+        },
+        "family_band": null,
+        "support_pool_band_family": 2656,
+        "family_weights": null,
+        "family_effective": null,
+        "in_band_raw": 0.13766666666666666,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.009601670271044643,
+        "submitted": 200
+      }
+    }
+  },
+  "e25_armX0_st_5000": {
+    "config": {
+      "tag": "armX0",
+      "out_tag": "e25_armX0_st_5000",
+      "predict": "x0",
+      "used_ema": true,
+      "fam_policy": "uniform",
+      "fam_allowed": "",
+      "fam_floor": 0.05,
+      "guidance": 1.0,
+      "guide_lambda": 0.0,
+      "sample_steps": 25,
+      "n_generate": 3000,
+      "n_submit": 200,
+      "seed": 42,
+      "model": "D:\\Louis_Projet\\rotor_projet\\大学生创新创业训练计划\\S2\\spec_design\\outputs\\latent_ddpm\\armX0\\model.pt"
+    },
+    "funnel": {
+      "Steel_5000": {
+        "generated": 3000,
+        "valid_rate": 1.0,
+        "mode": "band",
+        "family_mix": {
+          "3_4": 161,
+          "1_3": 157,
+          "1_4": 152,
+          "2_3": 180,
+          "4_4": 160,
+          "4_3": 170,
+          "2_2": 180,
+          "6_2": 176,
+          "5_3": 167,
+          "6_4": 150,
+          "3_3": 160,
+          "1_2": 183,
+          "5_4": 167,
+          "6_3": 172,
+          "4_2": 179,
+          "5_2": 168,
+          "3_2": 167,
+          "2_4": 151
+        },
+        "family_band": null,
+        "support_pool_band_family": 2558,
+        "family_weights": null,
+        "family_effective": null,
+        "in_band_raw": 0.14066666666666666,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.012236462096909782,
+        "submitted": 200
+      }
+    }
+  },
+  "e25_armX0_st_8000": {
+    "config": {
+      "tag": "armX0",
+      "out_tag": "e25_armX0_st_8000",
+      "predict": "x0",
+      "used_ema": true,
+      "fam_policy": "uniform",
+      "fam_allowed": "",
+      "fam_floor": 0.05,
+      "guidance": 1.0,
+      "guide_lambda": 0.0,
+      "sample_steps": 25,
+      "n_generate": 3000,
+      "n_submit": 200,
+      "seed": 42,
+      "model": "D:\\Louis_Projet\\rotor_projet\\大学生创新创业训练计划\\S2\\spec_design\\outputs\\latent_ddpm\\armX0\\model.pt"
+    },
+    "funnel": {
+      "Steel_8000": {
+        "generated": 3000,
+        "valid_rate": 1.0,
+        "mode": "band",
+        "family_mix": {
+          "5_4": 188,
+          "2_2": 163,
+          "6_3": 173,
+          "4_4": 161,
+          "2_4": 195,
+          "2_3": 142,
+          "5_3": 174,
+          "1_2": 148,
+          "5_2": 154,
+          "3_2": 179,
+          "1_4": 164,
+          "3_3": 154,
+          "1_3": 163,
+          "4_2": 177,
+          "6_4": 160,
+          "4_3": 167,
+          "3_4": 170,
+          "6_2": 168
+        },
+        "family_band": null,
+        "support_pool_band_family": 2107,
+        "family_weights": null,
+        "family_effective": null,
+        "in_band_raw": 0.169,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.009280277064596363,
+        "submitted": 200
+      }
+    }
+  },
+  "e25_armX0_ti_8000": {
+    "config": {
+      "tag": "armX0",
+      "out_tag": "e25_armX0_ti_8000",
+      "predict": "x0",
+      "used_ema": true,
+      "fam_policy": "uniform",
+      "fam_allowed": "",
+      "fam_floor": 0.05,
+      "guidance": 1.0,
+      "guide_lambda": 0.0,
+      "sample_steps": 25,
+      "n_generate": 3000,
+      "n_submit": 200,
+      "seed": 42,
+      "model": "D:\\Louis_Projet\\rotor_projet\\大学生创新创业训练计划\\S2\\spec_design\\outputs\\latent_ddpm\\armX0\\model.pt"
+    },
+    "funnel": {
+      "Titanium_8000": {
+        "generated": 3000,
+        "valid_rate": 0.9996666666666667,
+        "mode": "band",
+        "family_mix": {
+          "6_2": 163,
+          "4_2": 157,
+          "5_2": 175,
+          "2_4": 162,
+          "5_4": 171,
+          "6_4": 166,
+          "3_4": 163,
+          "5_3": 166,
+          "6_3": 162,
+          "1_4": 167,
+          "3_2": 168,
+          "2_2": 180,
+          "4_3": 162,
+          "4_4": 202,
+          "2_3": 142,
+          "1_2": 159,
+          "3_3": 172,
+          "1_3": 163
+        },
+        "family_band": null,
+        "support_pool_band_family": 2285,
+        "family_weights": null,
+        "family_effective": null,
+        "in_band_raw": 0.15433333333333332,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.01065624836379891,
+        "submitted": 200
+      }
+    }
+  },
+  "gsix_armX0_al_6000_l0": {
+    "config": {
+      "tag": "armX0",
+      "out_tag": "gsix_armX0_al_6000_l0",
+      "predict": "x0",
+      "used_ema": true,
+      "fam_policy": "uniform",
+      "fam_allowed": "",
+      "fam_floor": 0.05,
+      "guidance": 1.0,
+      "guide_lambda": 0.0,
+      "sample_steps": 25,
+      "n_generate": 3000,
+      "n_submit": 200,
+      "seed": 42,
+      "model": "D:\\Louis_Projet\\rotor_projet\\大学生创新创业训练计划\\S2\\spec_design\\outputs\\latent_ddpm\\armX0\\model.pt"
+    },
+    "funnel": {
+      "Aluminum_6000": {
+        "generated": 3000,
+        "valid_rate": 1.0,
+        "mode": "band",
+        "family_mix": {
+          "5_4": 152,
+          "1_3": 171,
+          "4_4": 176,
+          "6_4": 175,
+          "5_3": 143,
+          "1_2": 169,
+          "4_3": 152,
+          "2_3": 180,
+          "6_3": 169,
+          "3_2": 173,
+          "4_2": 173,
+          "2_2": 170,
+          "3_3": 176,
+          "2_4": 168,
+          "1_4": 163,
+          "6_2": 172,
+          "5_2": 145,
+          "3_4": 173
+        },
+        "family_band": null,
+        "support_pool_band_family": 2626,
+        "family_weights": null,
+        "family_effective": null,
+        "in_band_raw": 0.128,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.0126069863304186,
+        "submitted": 200
+      }
+    }
+  },
+  "gsix_armX0_st_16000_l0": {
+    "config": {
+      "tag": "armX0",
+      "out_tag": "gsix_armX0_st_16000_l0",
+      "predict": "x0",
+      "used_ema": true,
+      "fam_policy": "uniform",
+      "fam_allowed": "",
+      "fam_floor": 0.05,
+      "guidance": 1.0,
+      "guide_lambda": 0.0,
+      "sample_steps": 25,
+      "n_generate": 3000,
+      "n_submit": 200,
+      "seed": 42,
+      "model": "D:\\Louis_Projet\\rotor_projet\\大学生创新创业训练计划\\S2\\spec_design\\outputs\\latent_ddpm\\armX0\\model.pt"
+    },
+    "funnel": {
+      "Steel_16000": {
+        "generated": 3000,
+        "valid_rate": 1.0,
+        "mode": "band",
+        "family_mix": {
+          "5_3": 174,
+          "1_4": 168,
+          "3_4": 170,
+          "3_2": 169,
+          "6_2": 172,
+          "2_3": 171,
+          "4_4": 177,
+          "4_3": 179,
+          "1_2": 147,
+          "2_4": 151,
+          "1_3": 162,
+          "6_4": 176,
+          "5_4": 165,
+          "5_2": 159,
+          "6_3": 185,
+          "4_2": 139,
+          "3_3": 173,
+          "2_2": 163
+        },
+        "family_band": null,
+        "support_pool_band_family": 970,
+        "family_weights": null,
+        "family_effective": null,
+        "in_band_raw": 0.23,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.0072875431036454755,
+        "submitted": 200
+      }
+    }
+  },
+  "gsix_armX0_st_3600_l0": {
+    "config": {
+      "tag": "armX0",
+      "out_tag": "gsix_armX0_st_3600_l0",
+      "predict": "x0",
+      "used_ema": true,
+      "fam_policy": "uniform",
+      "fam_allowed": "",
+      "fam_floor": 0.05,
+      "guidance": 1.0,
+      "guide_lambda": 0.0,
+      "sample_steps": 25,
+      "n_generate": 3000,
+      "n_submit": 200,
+      "seed": 42,
+      "model": "D:\\Louis_Projet\\rotor_projet\\大学生创新创业训练计划\\S2\\spec_design\\outputs\\latent_ddpm\\armX0\\model.pt"
+    },
+    "funnel": {
+      "Steel_3600": {
+        "generated": 3000,
+        "valid_rate": 1.0,
+        "mode": "band",
+        "family_mix": {
+          "5_3": 162,
+          "4_3": 146,
+          "1_3": 167,
+          "2_3": 166,
+          "2_4": 177,
+          "3_4": 182,
+          "5_4": 151,
+          "6_4": 166,
+          "1_2": 148,
+          "3_3": 175,
+          "4_2": 184,
+          "6_2": 165,
+          "3_2": 164,
+          "1_4": 161,
+          "6_3": 189,
+          "2_2": 150,
+          "4_4": 187,
+          "5_2": 160
+        },
+        "family_band": null,
+        "support_pool_band_family": 2656,
+        "family_weights": null,
+        "family_effective": null,
+        "in_band_raw": 0.13766666666666666,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.009601670271044643,
+        "submitted": 200
+      }
+    }
+  },
+  "gsix_armX0_st_5000_l0": {
+    "config": {
+      "tag": "armX0",
+      "out_tag": "gsix_armX0_st_5000_l0",
+      "predict": "x0",
+      "used_ema": true,
+      "fam_policy": "uniform",
+      "fam_allowed": "",
+      "fam_floor": 0.05,
+      "guidance": 1.0,
+      "guide_lambda": 0.0,
+      "sample_steps": 25,
+      "n_generate": 3000,
+      "n_submit": 200,
+      "seed": 42,
+      "model": "D:\\Louis_Projet\\rotor_projet\\大学生创新创业训练计划\\S2\\spec_design\\outputs\\latent_ddpm\\armX0\\model.pt"
+    },
+    "funnel": {
+      "Steel_5000": {
+        "generated": 3000,
+        "valid_rate": 1.0,
+        "mode": "band",
+        "family_mix": {
+          "3_4": 161,
+          "1_3": 157,
+          "1_4": 152,
+          "2_3": 180,
+          "4_4": 160,
+          "4_3": 170,
+          "2_2": 180,
+          "6_2": 176,
+          "5_3": 167,
+          "6_4": 150,
+          "3_3": 160,
+          "1_2": 183,
+          "5_4": 167,
+          "6_3": 172,
+          "4_2": 179,
+          "5_2": 168,
+          "3_2": 167,
+          "2_4": 151
+        },
+        "family_band": null,
+        "support_pool_band_family": 2558,
+        "family_weights": null,
+        "family_effective": null,
+        "in_band_raw": 0.14066666666666666,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.012236462096909782,
+        "submitted": 200
+      }
+    }
+  },
+  "gsix_armX0_st_8000_l0": {
+    "config": {
+      "tag": "armX0",
+      "out_tag": "gsix_armX0_st_8000_l0",
+      "predict": "x0",
+      "used_ema": true,
+      "fam_policy": "uniform",
+      "fam_allowed": "",
+      "fam_floor": 0.05,
+      "guidance": 1.0,
+      "guide_lambda": 0.0,
+      "sample_steps": 25,
+      "n_generate": 3000,
+      "n_submit": 200,
+      "seed": 42,
+      "model": "D:\\Louis_Projet\\rotor_projet\\大学生创新创业训练计划\\S2\\spec_design\\outputs\\latent_ddpm\\armX0\\model.pt"
+    },
+    "funnel": {
+      "Steel_8000": {
+        "generated": 3000,
+        "valid_rate": 1.0,
+        "mode": "band",
+        "family_mix": {
+          "5_4": 188,
+          "2_2": 163,
+          "6_3": 173,
+          "4_4": 161,
+          "2_4": 195,
+          "2_3": 142,
+          "5_3": 174,
+          "1_2": 148,
+          "5_2": 154,
+          "3_2": 179,
+          "1_4": 164,
+          "3_3": 154,
+          "1_3": 163,
+          "4_2": 177,
+          "6_4": 160,
+          "4_3": 167,
+          "3_4": 170,
+          "6_2": 168
+        },
+        "family_band": null,
+        "support_pool_band_family": 2107,
+        "family_weights": null,
+        "family_effective": null,
+        "in_band_raw": 0.169,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.009280277064596363,
+        "submitted": 200
+      }
+    }
+  },
+  "gsix_armX0_ti_8000_l0": {
+    "config": {
+      "tag": "armX0",
+      "out_tag": "gsix_armX0_ti_8000_l0",
+      "predict": "x0",
+      "used_ema": true,
+      "fam_policy": "uniform",
+      "fam_allowed": "",
+      "fam_floor": 0.05,
+      "guidance": 1.0,
+      "guide_lambda": 0.0,
+      "sample_steps": 25,
+      "n_generate": 3000,
+      "n_submit": 200,
+      "seed": 42,
+      "model": "D:\\Louis_Projet\\rotor_projet\\大学生创新创业训练计划\\S2\\spec_design\\outputs\\latent_ddpm\\armX0\\model.pt"
+    },
+    "funnel": {
+      "Titanium_8000": {
+        "generated": 3000,
+        "valid_rate": 0.9996666666666667,
+        "mode": "band",
+        "family_mix": {
+          "6_2": 163,
+          "4_2": 157,
+          "5_2": 175,
+          "2_4": 162,
+          "5_4": 171,
+          "6_4": 166,
+          "3_4": 163,
+          "5_3": 166,
+          "6_3": 162,
+          "1_4": 167,
+          "3_2": 168,
+          "2_2": 180,
+          "4_3": 162,
+          "4_4": 202,
+          "2_3": 142,
+          "1_2": 159,
+          "3_3": 172,
+          "1_3": 163
+        },
+        "family_band": null,
+        "support_pool_band_family": 2285,
+        "family_weights": null,
+        "family_effective": null,
+        "in_band_raw": 0.15433333333333332,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.01065624836379891,
+        "submitted": 200
+      }
+    }
+  },
+  "gsw_armV_ema_st_16000_l0.02": {
+    "config": {
+      "tag": "armV_ema",
+      "out_tag": "gsw_armV_ema_st_16000_l0.02",
+      "predict": "v",
+      "used_ema": true,
+      "fam_policy": "uniform",
+      "fam_allowed": "",
+      "fam_floor": 0.05,
+      "guidance": 1.0,
+      "guide_lambda": 0.02,
+      "sample_steps": 25,
+      "n_generate": 3000,
+      "n_submit": 200,
+      "seed": 42,
+      "model": "D:\\Louis_Projet\\rotor_projet\\大学生创新创业训练计划\\S2\\spec_design\\outputs\\latent_ddpm\\armV_ema\\model.pt"
+    },
+    "funnel": {
+      "Steel_16000": {
+        "generated": 3000,
+        "valid_rate": 1.0,
+        "mode": "band",
+        "family_mix": {
+          "5_3": 174,
+          "1_4": 168,
+          "3_4": 170,
+          "3_2": 169,
+          "6_2": 172,
+          "2_3": 171,
+          "4_4": 177,
+          "4_3": 179,
+          "1_2": 147,
+          "2_4": 151,
+          "1_3": 162,
+          "6_4": 176,
+          "5_4": 165,
+          "5_2": 159,
+          "6_3": 185,
+          "4_2": 139,
+          "3_3": 173,
+          "2_2": 163
+        },
+        "family_band": null,
+        "support_pool_band_family": 970,
+        "family_weights": null,
+        "family_effective": null,
+        "in_band_raw": 0.43433333333333335,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.004682714184507233,
+        "submitted": 200
+      }
+    }
+  },
+  "gsw_armV_ema_st_16000_l0.05": {
+    "config": {
+      "tag": "armV_ema",
+      "out_tag": "gsw_armV_ema_st_16000_l0.05",
+      "predict": "v",
+      "used_ema": true,
+      "fam_policy": "uniform",
+      "fam_allowed": "",
+      "fam_floor": 0.05,
+      "guidance": 1.0,
+      "guide_lambda": 0.05,
+      "sample_steps": 25,
+      "n_generate": 3000,
+      "n_submit": 200,
+      "seed": 42,
+      "model": "D:\\Louis_Projet\\rotor_projet\\大学生创新创业训练计划\\S2\\spec_design\\outputs\\latent_ddpm\\armV_ema\\model.pt"
+    },
+    "funnel": {
+      "Steel_16000": {
+        "generated": 3000,
+        "valid_rate": 1.0,
+        "mode": "band",
+        "family_mix": {
+          "5_3": 174,
+          "1_4": 168,
+          "3_4": 170,
+          "3_2": 169,
+          "6_2": 172,
+          "2_3": 171,
+          "4_4": 177,
+          "4_3": 179,
+          "1_2": 147,
+          "2_4": 151,
+          "1_3": 162,
+          "6_4": 176,
+          "5_4": 165,
+          "5_2": 159,
+          "6_3": 185,
+          "4_2": 139,
+          "3_3": 173,
+          "2_2": 163
+        },
+        "family_band": null,
+        "support_pool_band_family": 970,
+        "family_weights": null,
+        "family_effective": null,
+        "in_band_raw": 0.865,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.00030376685303798467,
+        "submitted": 200
+      }
+    }
+  },
+  "gsw_armV_ema_st_16000_l0.1": {
+    "config": {
+      "tag": "armV_ema",
+      "out_tag": "gsw_armV_ema_st_16000_l0.1",
+      "predict": "v",
+      "used_ema": true,
+      "fam_policy": "uniform",
+      "fam_allowed": "",
+      "fam_floor": 0.05,
+      "guidance": 1.0,
+      "guide_lambda": 0.1,
+      "sample_steps": 25,
+      "n_generate": 3000,
+      "n_submit": 200,
+      "seed": 42,
+      "model": "D:\\Louis_Projet\\rotor_projet\\大学生创新创业训练计划\\S2\\spec_design\\outputs\\latent_ddpm\\armV_ema\\model.pt"
+    },
+    "funnel": {
+      "Steel_16000": {
+        "generated": 3000,
+        "valid_rate": 1.0,
+        "mode": "band",
+        "family_mix": {
+          "5_3": 174,
+          "1_4": 168,
+          "3_4": 170,
+          "3_2": 169,
+          "6_2": 172,
+          "2_3": 171,
+          "4_4": 177,
+          "4_3": 179,
+          "1_2": 147,
+          "2_4": 151,
+          "1_3": 162,
+          "6_4": 176,
+          "5_4": 165,
+          "5_2": 159,
+          "6_3": 185,
+          "4_2": 139,
+          "3_3": 173,
+          "2_2": 163
+        },
+        "family_band": null,
+        "support_pool_band_family": 970,
+        "family_weights": null,
+        "family_effective": null,
+        "in_band_raw": 0.7363333333333333,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.0002690045481797938,
+        "submitted": 200
+      }
+    }
+  },
+  "gsw_armV_ema_st_16000_l0.2": {
+    "config": {
+      "tag": "armV_ema",
+      "out_tag": "gsw_armV_ema_st_16000_l0.2",
+      "predict": "v",
+      "used_ema": true,
+      "fam_policy": "uniform",
+      "fam_allowed": "",
+      "fam_floor": 0.05,
+      "guidance": 1.0,
+      "guide_lambda": 0.2,
+      "sample_steps": 25,
+      "n_generate": 3000,
+      "n_submit": 200,
+      "seed": 42,
+      "model": "D:\\Louis_Projet\\rotor_projet\\大学生创新创业训练计划\\S2\\spec_design\\outputs\\latent_ddpm\\armV_ema\\model.pt"
+    },
+    "funnel": {
+      "Steel_16000": {
+        "generated": 3000,
+        "valid_rate": 1.0,
+        "mode": "band",
+        "family_mix": {
+          "5_3": 174,
+          "1_4": 168,
+          "3_4": 170,
+          "3_2": 169,
+          "6_2": 172,
+          "2_3": 171,
+          "4_4": 177,
+          "4_3": 179,
+          "1_2": 147,
+          "2_4": 151,
+          "1_3": 162,
+          "6_4": 176,
+          "5_4": 165,
+          "5_2": 159,
+          "6_3": 185,
+          "4_2": 139,
+          "3_3": 173,
+          "2_2": 163
+        },
+        "family_band": null,
+        "support_pool_band_family": 970,
+        "family_weights": null,
+        "family_effective": null,
+        "in_band_raw": 0.22833333333333333,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.002118997359117998,
+        "submitted": 200
+      }
+    }
+  },
+  "gsw_armV_ema_st_16000_l0.5": {
+    "config": {
+      "tag": "armV_ema",
+      "out_tag": "gsw_armV_ema_st_16000_l0.5",
+      "predict": "v",
+      "used_ema": true,
+      "fam_policy": "uniform",
+      "fam_allowed": "",
+      "fam_floor": 0.05,
+      "guidance": 1.0,
+      "guide_lambda": 0.5,
+      "sample_steps": 25,
+      "n_generate": 3000,
+      "n_submit": 200,
+      "seed": 42,
+      "model": "D:\\Louis_Projet\\rotor_projet\\大学生创新创业训练计划\\S2\\spec_design\\outputs\\latent_ddpm\\armV_ema\\model.pt"
+    },
+    "funnel": {
+      "Steel_16000": {
+        "generated": 3000,
+        "valid_rate": 1.0,
+        "mode": "band",
+        "family_mix": {
+          "5_3": 174,
+          "1_4": 168,
+          "3_4": 170,
+          "3_2": 169,
+          "6_2": 172,
+          "2_3": 171,
+          "4_4": 177,
+          "4_3": 179,
+          "1_2": 147,
+          "2_4": 151,
+          "1_3": 162,
+          "6_4": 176,
+          "5_4": 165,
+          "5_2": 159,
+          "6_3": 185,
+          "4_2": 139,
+          "3_3": 173,
+          "2_2": 163
+        },
+        "family_band": null,
+        "support_pool_band_family": 970,
+        "family_weights": null,
+        "family_effective": null,
+        "in_band_raw": 0.046,
+        "in_band_top200": 0.69,
+        "median_rel_err_top": 0.027280215032720205,
+        "submitted": 200
+      }
+    }
+  },
+  "gsw_armV_ema_st_16000_l0": {
+    "config": {
+      "tag": "armV_ema",
+      "out_tag": "gsw_armV_ema_st_16000_l0",
+      "predict": "v",
+      "used_ema": true,
+      "fam_policy": "uniform",
+      "fam_allowed": "",
+      "fam_floor": 0.05,
+      "guidance": 1.0,
+      "guide_lambda": 0.0,
+      "sample_steps": 25,
+      "n_generate": 3000,
+      "n_submit": 200,
+      "seed": 42,
+      "model": "D:\\Louis_Projet\\rotor_projet\\大学生创新创业训练计划\\S2\\spec_design\\outputs\\latent_ddpm\\armV_ema\\model.pt"
+    },
+    "funnel": {
+      "Steel_16000": {
+        "generated": 3000,
+        "valid_rate": 1.0,
+        "mode": "band",
+        "family_mix": {
+          "5_3": 174,
+          "1_4": 168,
+          "3_4": 170,
+          "3_2": 169,
+          "6_2": 172,
+          "2_3": 171,
+          "4_4": 177,
+          "4_3": 179,
+          "1_2": 147,
+          "2_4": 151,
+          "1_3": 162,
+          "6_4": 176,
+          "5_4": 165,
+          "5_2": 159,
+          "6_3": 185,
+          "4_2": 139,
+          "3_3": 173,
+          "2_2": 163
+        },
+        "family_band": null,
+        "support_pool_band_family": 970,
+        "family_weights": null,
+        "family_effective": null,
+        "in_band_raw": 0.22,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.007514885567792817,
+        "submitted": 200
+      }
+    }
+  },
+  "gsw_armV_ema_st_5000_l0.02": {
+    "config": {
+      "tag": "armV_ema",
+      "out_tag": "gsw_armV_ema_st_5000_l0.02",
+      "predict": "v",
+      "used_ema": true,
+      "fam_policy": "uniform",
+      "fam_allowed": "",
+      "fam_floor": 0.05,
+      "guidance": 1.0,
+      "guide_lambda": 0.02,
+      "sample_steps": 25,
+      "n_generate": 3000,
+      "n_submit": 200,
+      "seed": 42,
+      "model": "D:\\Louis_Projet\\rotor_projet\\大学生创新创业训练计划\\S2\\spec_design\\outputs\\latent_ddpm\\armV_ema\\model.pt"
+    },
+    "funnel": {
+      "Steel_5000": {
+        "generated": 3000,
+        "valid_rate": 0.9996666666666667,
+        "mode": "band",
+        "family_mix": {
+          "3_4": 161,
+          "1_3": 157,
+          "1_4": 152,
+          "2_3": 180,
+          "4_4": 160,
+          "4_3": 170,
+          "2_2": 180,
+          "6_2": 176,
+          "5_3": 167,
+          "6_4": 150,
+          "3_3": 160,
+          "1_2": 183,
+          "5_4": 167,
+          "6_3": 172,
+          "4_2": 179,
+          "5_2": 168,
+          "3_2": 167,
+          "2_4": 151
+        },
+        "family_band": null,
+        "support_pool_band_family": 2558,
+        "family_weights": null,
+        "family_effective": null,
+        "in_band_raw": 0.39166666666666666,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.003622627466072481,
+        "submitted": 200
+      }
+    }
+  },
+  "gsw_armV_ema_st_5000_l0.05": {
+    "config": {
+      "tag": "armV_ema",
+      "out_tag": "gsw_armV_ema_st_5000_l0.05",
+      "predict": "v",
+      "used_ema": true,
+      "fam_policy": "uniform",
+      "fam_allowed": "",
+      "fam_floor": 0.05,
+      "guidance": 1.0,
+      "guide_lambda": 0.05,
+      "sample_steps": 25,
+      "n_generate": 3000,
+      "n_submit": 200,
+      "seed": 42,
+      "model": "D:\\Louis_Projet\\rotor_projet\\大学生创新创业训练计划\\S2\\spec_design\\outputs\\latent_ddpm\\armV_ema\\model.pt"
+    },
+    "funnel": {
+      "Steel_5000": {
+        "generated": 3000,
+        "valid_rate": 1.0,
+        "mode": "band",
+        "family_mix": {
+          "3_4": 161,
+          "1_3": 157,
+          "1_4": 152,
+          "2_3": 180,
+          "4_4": 160,
+          "4_3": 170,
+          "2_2": 180,
+          "6_2": 176,
+          "5_3": 167,
+          "6_4": 150,
+          "3_3": 160,
+          "1_2": 183,
+          "5_4": 167,
+          "6_3": 172,
+          "4_2": 179,
+          "5_2": 168,
+          "3_2": 167,
+          "2_4": 151
+        },
+        "family_band": null,
+        "support_pool_band_family": 2558,
+        "family_weights": null,
+        "family_effective": null,
+        "in_band_raw": 0.9133333333333333,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.0002388455575840453,
+        "submitted": 200
+      }
+    }
+  },
+  "gsw_armV_ema_st_5000_l0.1": {
+    "config": {
+      "tag": "armV_ema",
+      "out_tag": "gsw_armV_ema_st_5000_l0.1",
+      "predict": "v",
+      "used_ema": true,
+      "fam_policy": "uniform",
+      "fam_allowed": "",
+      "fam_floor": 0.05,
+      "guidance": 1.0,
+      "guide_lambda": 0.1,
+      "sample_steps": 25,
+      "n_generate": 3000,
+      "n_submit": 200,
+      "seed": 42,
+      "model": "D:\\Louis_Projet\\rotor_projet\\大学生创新创业训练计划\\S2\\spec_design\\outputs\\latent_ddpm\\armV_ema\\model.pt"
+    },
+    "funnel": {
+      "Steel_5000": {
+        "generated": 3000,
+        "valid_rate": 1.0,
+        "mode": "band",
+        "family_mix": {
+          "3_4": 161,
+          "1_3": 157,
+          "1_4": 152,
+          "2_3": 180,
+          "4_4": 160,
+          "4_3": 170,
+          "2_2": 180,
+          "6_2": 176,
+          "5_3": 167,
+          "6_4": 150,
+          "3_3": 160,
+          "1_2": 183,
+          "5_4": 167,
+          "6_3": 172,
+          "4_2": 179,
+          "5_2": 168,
+          "3_2": 167,
+          "2_4": 151
+        },
+        "family_band": null,
+        "support_pool_band_family": 2558,
+        "family_weights": null,
+        "family_effective": null,
+        "in_band_raw": 0.714,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.0003424350279172359,
+        "submitted": 200
+      }
+    }
+  },
+  "gsw_armV_ema_st_5000_l0.2": {
+    "config": {
+      "tag": "armV_ema",
+      "out_tag": "gsw_armV_ema_st_5000_l0.2",
+      "predict": "v",
+      "used_ema": true,
+      "fam_policy": "uniform",
+      "fam_allowed": "",
+      "fam_floor": 0.05,
+      "guidance": 1.0,
+      "guide_lambda": 0.2,
+      "sample_steps": 25,
+      "n_generate": 3000,
+      "n_submit": 200,
+      "seed": 42,
+      "model": "D:\\Louis_Projet\\rotor_projet\\大学生创新创业训练计划\\S2\\spec_design\\outputs\\latent_ddpm\\armV_ema\\model.pt"
+    },
+    "funnel": {
+      "Steel_5000": {
+        "generated": 3000,
+        "valid_rate": 1.0,
+        "mode": "band",
+        "family_mix": {
+          "3_4": 161,
+          "1_3": 157,
+          "1_4": 152,
+          "2_3": 180,
+          "4_4": 160,
+          "4_3": 170,
+          "2_2": 180,
+          "6_2": 176,
+          "5_3": 167,
+          "6_4": 150,
+          "3_3": 160,
+          "1_2": 183,
+          "5_4": 167,
+          "6_3": 172,
+          "4_2": 179,
+          "5_2": 168,
+          "3_2": 167,
+          "2_4": 151
+        },
+        "family_band": null,
+        "support_pool_band_family": 2558,
+        "family_weights": null,
+        "family_effective": null,
+        "in_band_raw": 0.12933333333333333,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.013245577922130998,
+        "submitted": 200
+      }
+    }
+  },
+  "gsw_armV_ema_st_5000_l0.5": {
+    "config": {
+      "tag": "armV_ema",
+      "out_tag": "gsw_armV_ema_st_5000_l0.5",
+      "predict": "v",
+      "used_ema": true,
+      "fam_policy": "uniform",
+      "fam_allowed": "",
+      "fam_floor": 0.05,
+      "guidance": 1.0,
+      "guide_lambda": 0.5,
+      "sample_steps": 25,
+      "n_generate": 3000,
+      "n_submit": 200,
+      "seed": 42,
+      "model": "D:\\Louis_Projet\\rotor_projet\\大学生创新创业训练计划\\S2\\spec_design\\outputs\\latent_ddpm\\armV_ema\\model.pt"
+    },
+    "funnel": {
+      "Steel_5000": {
+        "generated": 3000,
+        "valid_rate": 0.999,
+        "mode": "band",
+        "family_mix": {
+          "3_4": 161,
+          "1_3": 157,
+          "1_4": 152,
+          "2_3": 180,
+          "4_4": 160,
+          "4_3": 170,
+          "2_2": 180,
+          "6_2": 176,
+          "5_3": 167,
+          "6_4": 150,
+          "3_3": 160,
+          "1_2": 183,
+          "5_4": 167,
+          "6_3": 172,
+          "4_2": 179,
+          "5_2": 168,
+          "3_2": 167,
+          "2_4": 151
+        },
+        "family_band": null,
+        "support_pool_band_family": 2558,
+        "family_weights": null,
+        "family_effective": null,
+        "in_band_raw": 0.013666666666666667,
+        "in_band_top200": 0.205,
+        "median_rel_err_top": 0.11934646053918169,
+        "submitted": 200
+      }
+    }
+  },
+  "gsw_armV_ema_st_5000_l0": {
+    "config": {
+      "tag": "armV_ema",
+      "out_tag": "gsw_armV_ema_st_5000_l0",
+      "predict": "v",
+      "used_ema": true,
+      "fam_policy": "uniform",
+      "fam_allowed": "",
+      "fam_floor": 0.05,
+      "guidance": 1.0,
+      "guide_lambda": 0.0,
+      "sample_steps": 25,
+      "n_generate": 3000,
+      "n_submit": 200,
+      "seed": 42,
+      "model": "D:\\Louis_Projet\\rotor_projet\\大学生创新创业训练计划\\S2\\spec_design\\outputs\\latent_ddpm\\armV_ema\\model.pt"
+    },
+    "funnel": {
+      "Steel_5000": {
+        "generated": 3000,
+        "valid_rate": 1.0,
+        "mode": "band",
+        "family_mix": {
+          "3_4": 161,
+          "1_3": 157,
+          "1_4": 152,
+          "2_3": 180,
+          "4_4": 160,
+          "4_3": 170,
+          "2_2": 180,
+          "6_2": 176,
+          "5_3": 167,
+          "6_4": 150,
+          "3_3": 160,
+          "1_2": 183,
+          "5_4": 167,
+          "6_3": 172,
+          "4_2": 179,
+          "5_2": 168,
+          "3_2": 167,
+          "2_4": 151
+        },
+        "family_band": null,
+        "support_pool_band_family": 2558,
+        "family_weights": null,
+        "family_effective": null,
+        "in_band_raw": 0.17533333333333334,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.011164788322649475,
+        "submitted": 200
+      }
+    }
+  },
+  "rt1_guided": {
+    "config": {
+      "tag": "armV_ema",
+      "out_tag": "rt1_guided",
+      "predict": "v",
+      "used_ema": true,
+      "fam_policy": "uniform",
+      "fam_allowed": "",
+      "fam_floor": 0.05,
+      "guidance": 1.0,
+      "guide_lambda": 0.05,
+      "sample_steps": 25,
+      "n_generate": 5000,
+      "n_submit": 200,
+      "seed": 42,
+      "model": "D:\\Louis_Projet\\rotor_projet\\大学生创新创业训练计划\\S2\\spec_design\\outputs\\latent_ddpm\\armV_ema\\model.pt"
+    },
+    "funnel": {
+      "Steel_5000_t1": {
+        "generated": 5000,
+        "valid_rate": 1.0,
+        "mode": "band",
+        "family_mix": {
+          "2_2": 294,
+          "1_3": 263,
+          "5_2": 262,
+          "5_3": 283,
+          "4_2": 273,
+          "3_4": 284,
+          "5_4": 263,
+          "1_2": 285,
+          "3_2": 248,
+          "4_3": 293,
+          "6_2": 303,
+          "2_3": 278,
+          "2_4": 278,
+          "6_4": 287,
+          "3_3": 300,
+          "1_4": 287,
+          "4_4": 281,
+          "6_3": 238
+        },
+        "family_band": null,
+        "support_pool_band_family": 510,
+        "family_weights": null,
+        "family_effective": null,
+        "in_band_raw": 0.4994,
+        "in_band_top200": 1.0,
+        "median_rel_err_top": 0.00014114061006903283,
+        "submitted": 200,
+        "gate": {
+          "gate_verified": 200,
+          "gate_passed": 94,
+          "gate_rate": 0.47,
+          "gate_seconds_per_pass": 1.4029867192532153,
+          "gate_file": "rt1_guided__Steel_5000_t1_verified.csv",
+          "n_solved": 200,
+          "n_timeout": 0,
+          "n_error": 0,
+          "seconds": 131.88075160980225,
+          "mode": "gate"
+        }
+      }
+    }
+  },
+  "rt1_unguided": {
+    "config": {
+      "tag": "armV_ema",
+      "out_tag": "rt1_unguided",
+      "predict": "v",
+      "used_ema": true,
+      "fam_policy": "uniform",
+      "fam_allowed": "",
+      "fam_floor": 0.05,
+      "guidance": 1.0,
+      "guide_lambda": 0.0,
+      "sample_steps": 25,
+      "n_generate": 5000,
+      "n_submit": 200,
+      "seed": 42,
+      "model": "D:\\Louis_Projet\\rotor_projet\\大学生创新创业训练计划\\S2\\spec_design\\outputs\\latent_ddpm\\armV_ema\\model.pt"
+    },
+    "funnel": {
+      "Steel_5000_t1": {
+        "generated": 5000,
+        "valid_rate": 1.0,
+        "mode": "band",
+        "family_mix": {
+          "2_2": 294,
+          "1_3": 263,
+          "5_2": 262,
+          "5_3": 283,
+          "4_2": 273,
+          "3_4": 284,
+          "5_4": 263,
+          "1_2": 285,
+          "3_2": 248,
+          "4_3": 293,
+          "6_2": 303,
+          "2_3": 278,
+          "2_4": 278,
+          "6_4": 287,
+          "3_3": 300,
+          "1_4": 287,
+          "4_4": 281,
+          "6_3": 238
+        },
+        "family_band": null,
+        "support_pool_band_family": 510,
+        "family_weights": null,
+        "family_effective": null,
+        "in_band_raw": 0.0332,
+        "in_band_top200": 0.83,
+        "median_rel_err_top": 0.006141680940453989,
+        "submitted": 200,
+        "gate": {
+          "gate_verified": 200,
+          "gate_passed": 103,
+          "gate_rate": 0.515,
+          "gate_seconds_per_pass": 1.2320390881843937,
+          "gate_file": "rt1_unguided__Steel_5000_t1_verified.csv",
+          "n_solved": 200,
+          "n_timeout": 0,
+          "n_error": 0,
+          "seconds": 126.90002608299255,
+          "mode": "gate"
+        }
+      }
+    }
+  },
+  "rt1k_guided": {
+    "config": {
+      "tag": "armV_ema",
+      "out_tag": "rt1k_guided",
+      "predict": "v",
+      "used_ema": true,
+      "fam_policy": "uniform",
+      "fam_allowed": "",
+      "fam_floor": 0.05,
+      "guidance": 1.0,
+      "guide_lambda": 0.05,
+      "sample_steps": 25,
+      "n_generate": 5000,
+      "n_submit": 1000,
+      "seed": 42,
+      "model": "D:\\Louis_Projet\\rotor_projet\\大学生创新创业训练计划\\S2\\spec_design\\outputs\\latent_ddpm\\armV_ema\\model.pt"
+    },
+    "funnel": {
+      "Steel_5000_t1": {
+        "generated": 5000,
+        "valid_rate": 1.0,
+        "mode": "band",
+        "family_mix": {
+          "2_2": 294,
+          "1_3": 263,
+          "5_2": 262,
+          "5_3": 283,
+          "4_2": 273,
+          "3_4": 284,
+          "5_4": 263,
+          "1_2": 285,
+          "3_2": 248,
+          "4_3": 293,
+          "6_2": 303,
+          "2_3": 278,
+          "2_4": 278,
+          "6_4": 287,
+          "3_3": 300,
+          "1_4": 287,
+          "4_4": 281,
+          "6_3": 238
+        },
+        "family_band": null,
+        "support_pool_band_family": 510,
+        "family_weights": null,
+        "family_effective": null,
+        "in_band_raw": 0.4994,
+        "in_band_top1000": 1.0,
+        "median_rel_err_top": 0.00098200005251756,
+        "submitted": 1000,
+        "gate": {
+          "gate_verified": 998,
+          "gate_passed": 494,
+          "gate_rate": 0.49498997995991983,
+          "gate_seconds_per_pass": 1.3419064312328695,
+          "gate_file": "rt1k_guided__Steel_5000_t1_verified.csv",
+          "n_solved": 998,
+          "n_timeout": 0,
+          "n_error": 2,
+          "seconds": 662.9017770290375,
+          "mode": "gate"
+        }
+      }
+    }
+  },
+  "rt1k_unguided": {
+    "config": {
+      "tag": "armV_ema",
+      "out_tag": "rt1k_unguided",
+      "predict": "v",
+      "used_ema": true,
+      "fam_policy": "uniform",
+      "fam_allowed": "",
+      "fam_floor": 0.05,
+      "guidance": 1.0,
+      "guide_lambda": 0.0,
+      "sample_steps": 25,
+      "n_generate": 5000,
+      "n_submit": 1000,
+      "seed": 42,
+      "model": "D:\\Louis_Projet\\rotor_projet\\大学生创新创业训练计划\\S2\\spec_design\\outputs\\latent_ddpm\\armV_ema\\model.pt"
+    },
+    "funnel": {
+      "Steel_5000_t1": {
+        "generated": 5000,
+        "valid_rate": 1.0,
+        "mode": "band",
+        "family_mix": {
+          "2_2": 294,
+          "1_3": 263,
+          "5_2": 262,
+          "5_3": 283,
+          "4_2": 273,
+          "3_4": 284,
+          "5_4": 263,
+          "1_2": 285,
+          "3_2": 248,
+          "4_3": 293,
+          "6_2": 303,
+          "2_3": 278,
+          "2_4": 278,
+          "6_4": 287,
+          "3_3": 300,
+          "1_4": 287,
+          "4_4": 281,
+          "6_3": 238
+        },
+        "family_band": null,
+        "support_pool_band_family": 510,
+        "family_weights": null,
+        "family_effective": null,
+        "in_band_raw": 0.0332,
+        "in_band_top1000": 0.166,
+        "median_rel_err_top": 0.029358665224903508,
+        "submitted": 1000,
+        "gate": {
+          "gate_verified": 1000,
+          "gate_passed": 163,
+          "gate_rate": 0.163,
+          "gate_seconds_per_pass": 3.9589584780616995,
+          "gate_file": "rt1k_unguided__Steel_5000_t1_verified.csv",
+          "n_solved": 1000,
+          "n_timeout": 0,
+          "n_error": 0,
+          "seconds": 645.310231924057,
+          "mode": "gate"
+        }
+      }
+    }
+  }
+}

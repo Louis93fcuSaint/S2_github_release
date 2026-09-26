@@ -1,0 +1,15 @@
+{
+  "tag": "armD0",
+  "out_tag": "encab_armD0_st_16000",
+  "predict": "v",
+  "used_ema": true,
+  "fam_policy": "uniform",
+  "fam_allowed": "",
+  "fam_floor": 0.05,
+  "guidance": 1.0,
+  "sample_steps": 0,
+  "n_generate": 3000,
+  "n_submit": 200,
+  "seed": 42,
+  "model": "D:\\Louis_Projet\\rotor_projet\\大学生创新创业训练计划\\S2\\spec_design\\outputs\\latent_ddpm\\armD0\\model.pt"
+}

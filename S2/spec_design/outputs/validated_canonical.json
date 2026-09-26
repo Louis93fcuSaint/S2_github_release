@@ -1,0 +1,188 @@
+{
+  "canonical_dim": 33,
+  "pool_rows": 199811,
+  "roundtrip_worst_max_abs": 0.0,
+  "per_family": {
+    "1_2": {
+      "n": 13468,
+      "roundtrip_max_abs": 0.0,
+      "constraint_valid_rate": 1.0,
+      "MAPE_pct_all_orders": 1.473224663783025,
+      "median_APE_pct_cs1": 0.6570733342738486,
+      "spec_pass_pct_cs1_ge_14400": 11.04841104841105,
+      "cs1_max_rpm": 85243.3
+    },
+    "1_3": {
+      "n": 13578,
+      "roundtrip_max_abs": 0.0,
+      "constraint_valid_rate": 1.0,
+      "MAPE_pct_all_orders": 2.447926673506302,
+      "median_APE_pct_cs1": 0.9789026404554906,
+      "spec_pass_pct_cs1_ge_14400": 17.602003240536163,
+      "cs1_max_rpm": 129821.9
+    },
+    "1_4": {
+      "n": 13545,
+      "roundtrip_max_abs": 0.0,
+      "constraint_valid_rate": 1.0,
+      "MAPE_pct_all_orders": 2.0804294212213996,
+      "median_APE_pct_cs1": 1.2571280085551593,
+      "spec_pass_pct_cs1_ge_14400": 23.21889996308601,
+      "cs1_max_rpm": 116145.5
+    },
+    "2_2": {
+      "n": 12391,
+      "roundtrip_max_abs": 0.0,
+      "constraint_valid_rate": 1.0,
+      "MAPE_pct_all_orders": 2.8895712492525876,
+      "median_APE_pct_cs1": 1.0574107441743303,
+      "spec_pass_pct_cs1_ge_14400": 7.053506577354532,
+      "cs1_max_rpm": 57132.3
+    },
+    "2_3": {
+      "n": 12723,
+      "roundtrip_max_abs": 0.0,
+      "constraint_valid_rate": 1.0,
+      "MAPE_pct_all_orders": 3.968040477435608,
+      "median_APE_pct_cs1": 1.261861966503485,
+      "spec_pass_pct_cs1_ge_14400": 14.163326259529985,
+      "cs1_max_rpm": 89176.2
+    },
+    "2_4": {
+      "n": 12579,
+      "roundtrip_max_abs": 0.0,
+      "constraint_valid_rate": 1.0,
+      "MAPE_pct_all_orders": 3.373483196597147,
+      "median_APE_pct_cs1": 1.0806343605671704,
+      "spec_pass_pct_cs1_ge_14400": 19.015820017489464,
+      "cs1_max_rpm": 91567.3
+    },
+    "3_2": {
+      "n": 11894,
+      "roundtrip_max_abs": 0.0,
+      "constraint_valid_rate": 1.0,
+      "MAPE_pct_all_orders": 3.230985259828924,
+      "median_APE_pct_cs1": 0.9320401609056065,
+      "spec_pass_pct_cs1_ge_14400": 4.161762233058685,
+      "cs1_max_rpm": 51747.4
+    },
+    "3_3": {
+      "n": 11558,
+      "roundtrip_max_abs": 0.0,
+      "constraint_valid_rate": 1.0,
+      "MAPE_pct_all_orders": 3.395480545968789,
+      "median_APE_pct_cs1": 0.9945976164298093,
+      "spec_pass_pct_cs1_ge_14400": 10.468939262848243,
+      "cs1_max_rpm": 76758.1
+    },
+    "3_4": {
+      "n": 11635,
+      "roundtrip_max_abs": 0.0,
+      "constraint_valid_rate": 1.0,
+      "MAPE_pct_all_orders": 2.7193373710589883,
+      "median_APE_pct_cs1": 1.3206261097189427,
+      "spec_pass_pct_cs1_ge_14400": 14.782982380747745,
+      "cs1_max_rpm": 69179.4
+    },
+    "4_2": {
+      "n": 11014,
+      "roundtrip_max_abs": 0.0,
+      "constraint_valid_rate": 1.0,
+      "MAPE_pct_all_orders": 3.224151859049666,
+      "median_APE_pct_cs1": 0.7356515355071163,
+      "spec_pass_pct_cs1_ge_14400": 2.6148538224078446,
+      "cs1_max_rpm": 42458.7
+    },
+    "4_3": {
+      "n": 10977,
+      "roundtrip_max_abs": 0.0,
+      "constraint_valid_rate": 1.0,
+      "MAPE_pct_all_orders": 2.8692558389685017,
+      "median_APE_pct_cs1": 1.095400269171983,
+      "spec_pass_pct_cs1_ge_14400": 7.3699553612098025,
+      "cs1_max_rpm": 51299.6
+    },
+    "4_4": {
+      "n": 10910,
+      "roundtrip_max_abs": 0.0,
+      "constraint_valid_rate": 1.0,
+      "MAPE_pct_all_orders": 4.571238203840614,
+      "median_APE_pct_cs1": 1.688424494003703,
+      "spec_pass_pct_cs1_ge_14400": 12.190650779101741,
+      "cs1_max_rpm": 59757.8
+    },
+    "5_2": {
+      "n": 9573,
+      "roundtrip_max_abs": 0.0,
+      "constraint_valid_rate": 1.0,
+      "MAPE_pct_all_orders": 3.302937653606639,
+      "median_APE_pct_cs1": 0.7821712422660092,
+      "spec_pass_pct_cs1_ge_14400": 1.5773529719001356,
+      "cs1_max_rpm": 40602.9
+    },
+    "5_3": {
+      "n": 9597,
+      "roundtrip_max_abs": 0.0,
+      "constraint_valid_rate": 1.0,
+      "MAPE_pct_all_orders": 3.037431435614494,
+      "median_APE_pct_cs1": 1.180674292926199,
+      "spec_pass_pct_cs1_ge_14400": 5.741377513806397,
+      "cs1_max_rpm": 40843.5
+    },
+    "5_4": {
+      "n": 9510,
+      "roundtrip_max_abs": 0.0,
+      "constraint_valid_rate": 1.0,
+      "MAPE_pct_all_orders": 4.083154404916945,
+      "median_APE_pct_cs1": 1.5725165305731081,
+      "spec_pass_pct_cs1_ge_14400": 9.011566771819139,
+      "cs1_max_rpm": 48202.7
+    },
+    "6_2": {
+      "n": 8216,
+      "roundtrip_max_abs": 0.0,
+      "constraint_valid_rate": 1.0,
+      "MAPE_pct_all_orders": 3.6163311827877567,
+      "median_APE_pct_cs1": 1.1954172583220468,
+      "spec_pass_pct_cs1_ge_14400": 0.7424537487828627,
+      "cs1_max_rpm": 26248.3
+    },
+    "6_3": {
+      "n": 8436,
+      "roundtrip_max_abs": 0.0,
+      "constraint_valid_rate": 1.0,
+      "MAPE_pct_all_orders": 3.716784487200384,
+      "median_APE_pct_cs1": 1.760989088669025,
+      "spec_pass_pct_cs1_ge_14400": 4.018492176386913,
+      "cs1_max_rpm": 34445.3
+    },
+    "6_4": {
+      "n": 8207,
+      "roundtrip_max_abs": 0.0,
+      "constraint_valid_rate": 1.0,
+      "MAPE_pct_all_orders": 6.1522292877932845,
+      "median_APE_pct_cs1": 1.6919925541961658,
+      "spec_pass_pct_cs1_ge_14400": 6.762519800170585,
+      "cs1_max_rpm": 41056.3
+    }
+  },
+  "spec_band": {
+    "Steel": {
+      "lower": 14400.0,
+      "upper": 73143.0,
+      "n_in_band": 4374
+    },
+    "Aluminum": {
+      "lower": 14400.0,
+      "upper": 129821.9,
+      "n_in_band": 9338
+    },
+    "Titanium": {
+      "lower": 14400.0,
+      "upper": 112346.6,
+      "n_in_band": 6745
+    }
+  },
+  "ross_seconds_one_rotor": 18.876134395599365,
+  "ross_forward_modes": 9
+}

@@ -1,0 +1,22 @@
+{
+  "Steel_5000": {
+    "generated": 5000,
+    "valid_rate": 1.0,
+    "mode": "band",
+    "family_mix": {
+      "3_2": 5000
+    },
+    "family_band": [
+      "3_2"
+    ],
+    "support_pool_band_family": 170,
+    "family_weights": [
+      1.0
+    ],
+    "family_effective": 1.0,
+    "in_band_raw": 0.1812,
+    "in_band_top200": 1.0,
+    "median_rel_err_top": 0.005504165812460087,
+    "submitted": 200
+  }
+}

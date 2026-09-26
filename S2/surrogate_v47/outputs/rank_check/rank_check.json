@@ -1,0 +1,294 @@
+{
+  "select_k": 200,
+  "top_true": 50,
+  "surrogates": {
+    "A v4.7 baseline 256-128 3seed MSE 200ep": {
+      "mape_pct": 7.180295106597011,
+      "pool_rows": 38550,
+      "spearman_per_order": {
+        "cs_1_rpm": 0.995471441923803,
+        "cs_2_rpm": 0.9934052802667412,
+        "cs_3_rpm": 0.9923038780520853,
+        "cs_4_rpm": 0.9913748634163655,
+        "cs_5_rpm": 0.9908516341056628,
+        "cs_6_rpm": 0.9904045365537668
+      },
+      "objectives": {
+        "max_cs1": {
+          "recall@200": 0.98,
+          "best_found_rank_in_pool": 1,
+          "capture@200": 1.0,
+          "spearman": 0.995471441923803,
+          "random_recall@200": 0.005188067444876783,
+          "recall@50": 0.86,
+          "recall@100": 0.98,
+          "recall@500": 1.0,
+          "recall@1000": 1.0
+        },
+        "max_cs6": {
+          "recall@200": 0.98,
+          "best_found_rank_in_pool": 1,
+          "capture@200": 1.0,
+          "spearman": 0.9904045365537668,
+          "random_recall@200": 0.005188067444876783,
+          "recall@50": 0.64,
+          "recall@100": 0.82,
+          "recall@500": 1.0,
+          "recall@1000": 1.0
+        },
+        "match_l2_random_targets": {
+          "recall@200": 0.9325,
+          "best_found_rank_in_pool": 1.0,
+          "capture@200": 1.0,
+          "spearman": 0.9947700750394974,
+          "random_recall@200": 0.005188067444876783,
+          "recall@50": 0.62,
+          "recall@100": 0.8325,
+          "recall@500": 0.9824999999999999,
+          "recall@1000": 0.9975
+        },
+        "match_l2_median_target": {
+          "recall@200": 0.96,
+          "best_found_rank_in_pool": 1.0,
+          "capture@200": 1.0,
+          "spearman": 0.9937434438869694,
+          "random_recall@200": 0.005188067444876783,
+          "recall@50": 0.56,
+          "recall@100": 0.76,
+          "recall@500": 0.98,
+          "recall@1000": 1.0
+        },
+        "match_linf_random_targets": {
+          "recall@200": 0.8899999999999999,
+          "best_found_rank_in_pool": 1.0,
+          "capture@200": 1.0,
+          "spearman": 0.9869344863356126,
+          "random_recall@200": 0.005188067444876783,
+          "recall@50": 0.555,
+          "recall@100": 0.7875,
+          "recall@500": 0.96,
+          "recall@1000": 0.985
+        }
+      },
+      "target_region": {
+        "linf_true_top50_dev_pct": 23.95119065851269
+      }
+    },
+    "B +L1 +capacity 1024-512-256 1seed": {
+      "mape_pct": 5.924358643617466,
+      "pool_rows": 38550,
+      "spearman_per_order": {
+        "cs_1_rpm": 0.9966835416012749,
+        "cs_2_rpm": 0.9949505152908312,
+        "cs_3_rpm": 0.9942546326047745,
+        "cs_4_rpm": 0.9937232782760355,
+        "cs_5_rpm": 0.9929590731567388,
+        "cs_6_rpm": 0.9916271343390529
+      },
+      "objectives": {
+        "max_cs1": {
+          "recall@200": 0.98,
+          "best_found_rank_in_pool": 1,
+          "capture@200": 1.0,
+          "spearman": 0.9966835416012749,
+          "random_recall@200": 0.005188067444876783,
+          "recall@50": 0.88,
+          "recall@100": 0.98,
+          "recall@500": 1.0,
+          "recall@1000": 1.0
+        },
+        "max_cs6": {
+          "recall@200": 0.98,
+          "best_found_rank_in_pool": 1,
+          "capture@200": 1.0,
+          "spearman": 0.9916271343390529,
+          "random_recall@200": 0.005188067444876783,
+          "recall@50": 0.76,
+          "recall@100": 0.96,
+          "recall@500": 1.0,
+          "recall@1000": 1.0
+        },
+        "match_l2_random_targets": {
+          "recall@200": 0.96,
+          "best_found_rank_in_pool": 1.0,
+          "capture@200": 1.0,
+          "spearman": 0.9956277975581409,
+          "random_recall@200": 0.005188067444876783,
+          "recall@50": 0.6599999999999999,
+          "recall@100": 0.8775,
+          "recall@500": 0.9824999999999999,
+          "recall@1000": 0.995
+        },
+        "match_l2_median_target": {
+          "recall@200": 0.98,
+          "best_found_rank_in_pool": 1.0,
+          "capture@200": 1.0,
+          "spearman": 0.9948464182085034,
+          "random_recall@200": 0.005188067444876783,
+          "recall@50": 0.56,
+          "recall@100": 0.82,
+          "recall@500": 1.0,
+          "recall@1000": 1.0
+        },
+        "match_linf_random_targets": {
+          "recall@200": 0.9175,
+          "best_found_rank_in_pool": 1.0,
+          "capture@200": 1.0,
+          "spearman": 0.9897670343425886,
+          "random_recall@200": 0.005188067444876783,
+          "recall@50": 0.6275,
+          "recall@100": 0.8075,
+          "recall@500": 0.965,
+          "recall@1000": 0.985
+        }
+      },
+      "target_region": {
+        "linf_true_top50_dev_pct": 23.95119065851269
+      }
+    },
+    "C +log-inputs 1seed": {
+      "mape_pct": 5.504190899336533,
+      "pool_rows": 38550,
+      "spearman_per_order": {
+        "cs_1_rpm": 0.9975658822714653,
+        "cs_2_rpm": 0.9957293790279077,
+        "cs_3_rpm": 0.9944925866291154,
+        "cs_4_rpm": 0.993782525911833,
+        "cs_5_rpm": 0.993215914271872,
+        "cs_6_rpm": 0.9920860711117334
+      },
+      "objectives": {
+        "max_cs1": {
+          "recall@200": 0.98,
+          "best_found_rank_in_pool": 1,
+          "capture@200": 1.0,
+          "spearman": 0.9975658822714653,
+          "random_recall@200": 0.005188067444876783,
+          "recall@50": 0.88,
+          "recall@100": 0.96,
+          "recall@500": 1.0,
+          "recall@1000": 1.0
+        },
+        "max_cs6": {
+          "recall@200": 1.0,
+          "best_found_rank_in_pool": 1,
+          "capture@200": 1.0,
+          "spearman": 0.9920860711117334,
+          "random_recall@200": 0.005188067444876783,
+          "recall@50": 0.66,
+          "recall@100": 0.84,
+          "recall@500": 1.0,
+          "recall@1000": 1.0
+        },
+        "match_l2_random_targets": {
+          "recall@200": 0.95,
+          "best_found_rank_in_pool": 1.0,
+          "capture@200": 1.0,
+          "spearman": 0.9959289507212827,
+          "random_recall@200": 0.005188067444876783,
+          "recall@50": 0.6925,
+          "recall@100": 0.8725,
+          "recall@500": 0.985,
+          "recall@1000": 0.9975
+        },
+        "match_l2_median_target": {
+          "recall@200": 0.98,
+          "best_found_rank_in_pool": 1.0,
+          "capture@200": 1.0,
+          "spearman": 0.9951101854862299,
+          "random_recall@200": 0.005188067444876783,
+          "recall@50": 0.52,
+          "recall@100": 0.9,
+          "recall@500": 1.0,
+          "recall@1000": 1.0
+        },
+        "match_linf_random_targets": {
+          "recall@200": 0.9125,
+          "best_found_rank_in_pool": 1.0,
+          "capture@200": 1.0,
+          "spearman": 0.9906917463057032,
+          "random_recall@200": 0.005188067444876783,
+          "recall@50": 0.645,
+          "recall@100": 0.825,
+          "recall@500": 0.97,
+          "recall@1000": 0.99
+        }
+      },
+      "target_region": {
+        "linf_true_top50_dev_pct": 23.95119065851269
+      }
+    },
+    "D +log-inputs 5seed ensemble": {
+      "mape_pct": 4.439230645715798,
+      "pool_rows": 38550,
+      "spearman_per_order": {
+        "cs_1_rpm": 0.9982383776572173,
+        "cs_2_rpm": 0.9967643745279322,
+        "cs_3_rpm": 0.9958007536819232,
+        "cs_4_rpm": 0.995381322322747,
+        "cs_5_rpm": 0.9948356744045247,
+        "cs_6_rpm": 0.9937844829341728
+      },
+      "objectives": {
+        "max_cs1": {
+          "recall@200": 0.98,
+          "best_found_rank_in_pool": 1,
+          "capture@200": 1.0,
+          "spearman": 0.9982383776572173,
+          "random_recall@200": 0.005188067444876783,
+          "recall@50": 0.9,
+          "recall@100": 0.98,
+          "recall@500": 1.0,
+          "recall@1000": 1.0
+        },
+        "max_cs6": {
+          "recall@200": 1.0,
+          "best_found_rank_in_pool": 1,
+          "capture@200": 1.0,
+          "spearman": 0.9937844829341728,
+          "random_recall@200": 0.005188067444876783,
+          "recall@50": 0.72,
+          "recall@100": 0.92,
+          "recall@500": 1.0,
+          "recall@1000": 1.0
+        },
+        "match_l2_random_targets": {
+          "recall@200": 0.975,
+          "best_found_rank_in_pool": 1.0,
+          "capture@200": 1.0,
+          "spearman": 0.9968250533898358,
+          "random_recall@200": 0.005188067444876783,
+          "recall@50": 0.75,
+          "recall@100": 0.9275,
+          "recall@500": 0.9924999999999999,
+          "recall@1000": 0.9975
+        },
+        "match_l2_median_target": {
+          "recall@200": 1.0,
+          "best_found_rank_in_pool": 1.0,
+          "capture@200": 1.0,
+          "spearman": 0.9962162894897163,
+          "random_recall@200": 0.005188067444876783,
+          "recall@50": 0.66,
+          "recall@100": 0.94,
+          "recall@500": 1.0,
+          "recall@1000": 1.0
+        },
+        "match_linf_random_targets": {
+          "recall@200": 0.9524999999999999,
+          "best_found_rank_in_pool": 1.0,
+          "capture@200": 1.0,
+          "spearman": 0.9930254291279352,
+          "random_recall@200": 0.005188067444876783,
+          "recall@50": 0.7124999999999999,
+          "recall@100": 0.8725,
+          "recall@500": 0.9775,
+          "recall@1000": 0.99
+        }
+      },
+      "target_region": {
+        "linf_true_top50_dev_pct": 23.95119065851269
+      }
+    }
+  }
+}

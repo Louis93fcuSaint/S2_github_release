@@ -1,0 +1,44 @@
+{
+  "Steel_mid": {
+    "generated": 5000,
+    "repair_rate": 0.912,
+    "valid": 591,
+    "submitted": 200,
+    "raw_spec_rate_proxy": 0.02707275803722504
+  },
+  "Steel_high": {
+    "generated": 5000,
+    "repair_rate": 0.898,
+    "valid": 748,
+    "submitted": 200,
+    "raw_spec_rate_proxy": 0.029411764705882353
+  },
+  "Aluminum_mid": {
+    "generated": 5000,
+    "repair_rate": 0.9212,
+    "valid": 538,
+    "submitted": 200,
+    "raw_spec_rate_proxy": 0.03903345724907063
+  },
+  "Aluminum_high": {
+    "generated": 5000,
+    "repair_rate": 0.9028,
+    "valid": 731,
+    "submitted": 200,
+    "raw_spec_rate_proxy": 0.03146374829001368
+  },
+  "Titanium_mid": {
+    "generated": 5000,
+    "repair_rate": 0.918,
+    "valid": 553,
+    "submitted": 200,
+    "raw_spec_rate_proxy": 0.03616636528028933
+  },
+  "Titanium_high": {
+    "generated": 5000,
+    "repair_rate": 0.8966,
+    "valid": 765,
+    "submitted": 200,
+    "raw_spec_rate_proxy": 0.05359477124183006
+  }
+}

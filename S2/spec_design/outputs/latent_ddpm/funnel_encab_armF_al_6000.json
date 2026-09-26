@@ -1,0 +1,35 @@
+{
+  "Aluminum_6000": {
+    "generated": 3000,
+    "valid_rate": 1.0,
+    "mode": "band",
+    "family_mix": {
+      "5_4": 152,
+      "1_3": 171,
+      "4_4": 176,
+      "6_4": 175,
+      "5_3": 143,
+      "1_2": 169,
+      "4_3": 152,
+      "2_3": 180,
+      "6_3": 169,
+      "3_2": 173,
+      "4_2": 173,
+      "2_2": 170,
+      "3_3": 176,
+      "2_4": 168,
+      "1_4": 163,
+      "6_2": 172,
+      "5_2": 145,
+      "3_4": 173
+    },
+    "family_band": null,
+    "support_pool_band_family": 2626,
+    "family_weights": null,
+    "family_effective": null,
+    "in_band_raw": 0.12566666666666668,
+    "in_band_top200": 1.0,
+    "median_rel_err_top": 0.0124135771230004,
+    "submitted": 200
+  }
+}

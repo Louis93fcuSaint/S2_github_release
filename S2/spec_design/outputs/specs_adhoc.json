@@ -1,0 +1,136 @@
+{
+  "specs": [
+    {
+      "name": "Steel_5000_t05",
+      "material": "Steel",
+      "tier": "adhoc",
+      "mode": "sample",
+      "target": 5000.0,
+      "tol": 0.005,
+      "aim": 5000.0,
+      "lower": 4975.0,
+      "upper": 5024.999999999999
+    },
+    {
+      "name": "Steel_ge5000",
+      "material": "Steel",
+      "tier": "adhoc",
+      "mode": "lower",
+      "target": 5000.0,
+      "tol": 0.0,
+      "aim": 5000.0,
+      "lower": 5000.0,
+      "upper": 73143.0
+    },
+    {
+      "name": "Steel_ge5000_m2",
+      "material": "Steel",
+      "tier": "adhoc",
+      "mode": "lower",
+      "target": 5000.0,
+      "tol": 0.02,
+      "aim": 5100.0,
+      "lower": 5000.0,
+      "upper": 73143.0
+    },
+    {
+      "name": "Steel_8000_t1",
+      "material": "Steel",
+      "tier": "adhoc",
+      "mode": "band",
+      "target": 8000.0,
+      "tol": 0.01,
+      "aim": 8000.0,
+      "lower": 7920.0,
+      "upper": 8080.0
+    },
+    {
+      "name": "Steel_8000_t2",
+      "material": "Steel",
+      "tier": "adhoc",
+      "mode": "lower",
+      "target": 8000.0,
+      "tol": 0.02,
+      "aim": 8160.0,
+      "lower": 8000.0,
+      "upper": 73143.0
+    },
+    {
+      "name": "Steel_3600",
+      "material": "Steel",
+      "tier": "adhoc",
+      "mode": "band",
+      "target": 3600.0,
+      "tol": 0.05,
+      "aim": 3600.0,
+      "lower": 3420.0,
+      "upper": 3780.0
+    },
+    {
+      "name": "Steel_8000",
+      "material": "Steel",
+      "tier": "adhoc",
+      "mode": "band",
+      "target": 8000.0,
+      "tol": 0.05,
+      "aim": 8000.0,
+      "lower": 7600.0,
+      "upper": 8400.0
+    },
+    {
+      "name": "Aluminum_6000",
+      "material": "Aluminum",
+      "tier": "adhoc",
+      "mode": "band",
+      "target": 6000.0,
+      "tol": 0.05,
+      "aim": 6000.0,
+      "lower": 5700.0,
+      "upper": 6300.0
+    },
+    {
+      "name": "Titanium_8000",
+      "material": "Titanium",
+      "tier": "adhoc",
+      "mode": "band",
+      "target": 8000.0,
+      "tol": 0.05,
+      "aim": 8000.0,
+      "lower": 7600.0,
+      "upper": 8400.0
+    },
+    {
+      "name": "Steel_5000",
+      "material": "Steel",
+      "tier": "adhoc",
+      "mode": "band",
+      "target": 5000.0,
+      "tol": 0.05,
+      "aim": 5000.0,
+      "lower": 4750.0,
+      "upper": 5250.0
+    },
+    {
+      "name": "Steel_16000",
+      "material": "Steel",
+      "tier": "adhoc",
+      "mode": "band",
+      "target": 16000.0,
+      "tol": 0.05,
+      "aim": 16000.0,
+      "lower": 15200.0,
+      "upper": 16800.0
+    },
+    {
+      "name": "Steel_5000_t1",
+      "material": "Steel",
+      "tier": "adhoc",
+      "mode": "band",
+      "target": 5000.0,
+      "tol": 0.01,
+      "aim": 5000.0,
+      "lower": 4950.0,
+      "upper": 5050.0
+    }
+  ]
+}

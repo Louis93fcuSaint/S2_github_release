@@ -1,0 +1,47 @@
+{
+  "Steel_16000": {
+    "generated": 5000,
+    "valid_rate": 1.0,
+    "mode": "band",
+    "family_mix": {
+      "5_3": 280,
+      "1_4": 291,
+      "3_4": 277,
+      "3_2": 277,
+      "6_2": 290,
+      "2_3": 274,
+      "4_4": 284,
+      "4_3": 288,
+      "1_2": 253,
+      "2_4": 250,
+      "1_3": 263,
+      "6_4": 286,
+      "5_4": 274,
+      "5_2": 285,
+      "6_3": 312,
+      "4_2": 256,
+      "3_3": 301,
+      "2_2": 259
+    },
+    "family_band": null,
+    "support_pool_band_family": 970,
+    "family_weights": null,
+    "family_effective": null,
+    "in_band_raw": 0.2194,
+    "in_band_top200": 1.0,
+    "median_rel_err_top": 0.004286707859401759,
+    "submitted": 200,
+    "gate": {
+      "gate_verified": 200,
+      "gate_passed": 185,
+      "gate_rate": 0.925,
+      "gate_seconds_per_pass": 0.7073536318701666,
+      "gate_file": "rt_s16000_t5__Steel_16000_verified.csv",
+      "n_solved": 200,
+      "n_timeout": 0,
+      "n_error": 0,
+      "seconds": 130.86042189598083,
+      "mode": "gate"
+    }
+  }
+}

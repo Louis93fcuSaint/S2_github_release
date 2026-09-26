@@ -1,0 +1,17 @@
+{
+  "Steel_high": {
+    "generated": 5000,
+    "valid_rate": 0.9998,
+    "family_mix": {
+      "1_4": 5000
+    },
+    "family_weights": [
+      1.0
+    ],
+    "family_effective": 1.0,
+    "in_band_raw": 0.1876,
+    "in_band_top200": 1.0,
+    "median_rel_err_top": 0.004322193831863785,
+    "submitted": 200
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "Steel_5000_t1": {
+    "generated": 25000,
+    "valid_rate": 0.99996,
+    "mode": "band",
+    "family_mix": {
+      "2_2": 1338,
+      "1_3": 1353,
+      "5_2": 1402,
+      "5_3": 1408,
+      "4_2": 1403,
+      "3_4": 1403,
+      "5_4": 1419,
+      "1_2": 1381,
+      "3_2": 1338,
+      "4_3": 1425,
+      "6_2": 1381,
+      "2_3": 1420,
+      "2_4": 1394,
+      "6_4": 1369,
+      "3_3": 1406,
+      "1_4": 1403,
+      "4_4": 1384,
+      "6_3": 1373
+    },
+    "family_band": null,
+    "support_pool_band_family": 510,
+    "family_weights": null,
+    "family_effective": null,
+    "in_band_raw": 0.0382,
+    "in_band_top200": 1.0,
+    "median_rel_err_top": 0.0009644616520816272,
+    "submitted": 200,
+    "gate": {
+      "gate_verified": 200,
+      "gate_passed": 105,
+      "gate_rate": 0.525,
+      "gate_seconds_per_pass": 1.2232268151782808,
+      "gate_file": "t5000_t1_g25k__Steel_5000_t1_verified.csv",
+      "mode": "gate"
+    }
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "protocol": "point_target",
+  "tol": 0.05,
+  "min_support": 200,
+  "n_operating_rpm": 12000.0,
+  "specs": [
+    {
+      "name": "Steel_mid",
+      "material": "Steel",
+      "tier": "mid",
+      "target": 3600.0,
+      "tol": 0.05,
+      "lower": 3420.0,
+      "upper": 3780.0,
+      "support_family_free": 2656,
+      "support_nd3_nb2": 166,
+      "support_nd_in_2..4": 1389,
+      "achievable_tol": 0.005
+    },
+    {
+      "name": "Steel_high",
+      "material": "Steel",
+      "tier": "high",
+      "target": 16000.0,
+      "tol": 0.05,
+      "lower": 15200.0,
+      "upper": 16800.0,
+      "support_family_free": 970,
+      "support_nd3_nb2": 23,
+      "support_nd_in_2..4": 543,
+      "achievable_tol": 0.02
+    },
+    {
+      "name": "Aluminum_mid",
+      "material": "Aluminum",
+      "tier": "mid",
+      "target": 5100.0,
+      "tol": 0.05,
+      "lower": 4845.0,
+      "upper": 5355.0,
+      "support_family_free": 2709,
+      "support_nd3_nb2": 163,
+      "support_nd_in_2..4": 1477,
+      "achievable_tol": 0.005
+    },
+    {
+      "name": "Aluminum_high",
+      "material": "Aluminum",
+      "tier": "high",
+      "target": 23000.0,
+      "tol": 0.05,
+      "lower": 21850.0,
+      "upper": 24150.0,
+      "support_family_free": 874,
+      "support_nd3_nb2": 24,
+      "support_nd_in_2..4": 450,
+      "achievable_tol": 0.02
+    },
+    {
+      "name": "Titanium_mid",
+      "material": "Titanium",
+      "tier": "mid",
+      "target": 4300.0,
+      "tol": 0.05,
+      "lower": 4085.0,
+      "upper": 4515.0,
+      "support_family_free": 2720,
+      "support_nd3_nb2": 180,
+      "support_nd_in_2..4": 1454,
+      "achievable_tol": 0.005
+    },
+    {
+      "name": "Titanium_high",
+      "material": "Titanium",
+      "tier": "high",
+      "target": 19000.0,
+      "tol": 0.05,
+      "lower": 18050.0,
+      "upper": 19950.0,
+      "support_family_free": 912,
+      "support_nd3_nb2": 23,
+      "support_nd_in_2..4": 509,
+      "achievable_tol": 0.02
+    }
+  ]
+}

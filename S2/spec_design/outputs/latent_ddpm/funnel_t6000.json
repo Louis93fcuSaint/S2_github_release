@@ -1,0 +1,28 @@
+{
+  "Aluminum_6000": {
+    "generated": 5000,
+    "valid_rate": 1.0,
+    "mode": "band",
+    "family_mix": {
+      "3_2": 1664,
+      "3_3": 1722,
+      "3_4": 1614
+    },
+    "family_band": [
+      "3_2",
+      "3_3",
+      "3_4"
+    ],
+    "support_pool_band_family": 488,
+    "family_weights": [
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333
+    ],
+    "family_effective": 3.0,
+    "in_band_raw": 0.1548,
+    "in_band_top200": 1.0,
+    "median_rel_err_top": 0.00676625198424775,
+    "submitted": 200
+  }
+}
