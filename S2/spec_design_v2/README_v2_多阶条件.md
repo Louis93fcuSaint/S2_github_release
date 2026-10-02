@@ -383,7 +383,62 @@ cs1+cs2+cs3（20 000 候选）是 **131 台对随机的 0 台**。生成+引导�
 
 ---
 
-## 6. 怎么用（单条命令）
+## 6. 怎么用：一条命令出交付清单（`s2_design.py`，推荐）
+
+`s2_design.py` 是这一版的门面：输入人类写的规格，直接产出**一个交付文件夹**（清单 + 汇总 + 完整报告）。
+
+```bash
+# 一阶落在 3000-4500（区间目标，默认容差 0，默认做 ROSS 复验）
+python s2_design.py --spec "cs1=3000-4500" --material Steel
+
+# 一阶 + 二阶联立
+python s2_design.py --spec "cs1=3000-4500, cs2=6000-9000" --material Steel
+
+# 点值 + 5 % 容差
+python s2_design.py --cs1 3681 --material Steel --tol 5%
+
+# 单边「不低于」，并限定 3 盘 2 轴承（生成前限定）
+python s2_design.py --spec "cs1>=3681" --material Steel --disks 3-3 --bearings 2-2
+
+# 生成后再按盘数筛选
+python s2_design.py --spec "cs1=3500-3870" --material Steel --filter-disks 2-4
+
+# 只想快看一眼：不做 ROSS（结果**不保证**真实在带）
+python s2_design.py --spec "cs1=3000-4500" --material Steel --proxy-only
+```
+
+规格写法（多项用逗号隔开，阶数 1..6）：
+
+| 写法 | 含义 |
+| --- | --- |
+| `cs1=3681` | 点值（默认容差 ±5 %） |
+| `cs1=3000-4500` | 区间（默认容差 0，就是用户给的范围） |
+| `cs1>=3681`、`cs1=3681+`、`cs1=3681-` | 单边「不低于」，三种写法等价 |
+| `1=[3000,4500]` | 原生写法，也认 |
+
+产出（`outputs/delivered_<tag>/`）：
+
+| 文件 | 内容 |
+| --- | --- |
+| `deliverable.csv` | **交付清单**：通过 ROSS 复验的设计，含全部几何参数 |
+| `shortlist_with_truth.csv` | 短名单全部候选的真值（含没通过的），用来复盘 |
+| `summary.md` | 人可读清单：规格、交付台数、各阶误差、前 20 台一览 |
+| `summary.json` | 同上，机器可读 |
+| `report.json` | 完整报告：代理口径 vs 真值、排序可信度 ρ、每台交付的仿真成本 |
+
+实测（800 台候选 → 前 20 台送 ROSS，约 30 秒）：
+
+```text
+[规格] cs1 3500 - 3870   材料 Steel   容差 +-0%
+[结果] 交付 18 台（ROSS 实测在带）｜ 代理自报 100% → 真值 90% ｜ rho 0.82 ｜ 0.81 秒/台
+```
+
+参考耗时：默认 5 000 台候选、200 台复验 —— 采样 10-35 秒，ROSS 约 2-4 分钟（18 进程）。
+`--proxy-only` 只要采样那十几秒，但交付清单没有经过真值验证，只能当预览。
+
+---
+
+### 6.1 底层入口（`design_by_target_v2.py`）
 
 ```powershell
 $PY = "D:\Louis_Projet\rotor_projet\大学生创新创业训练计划\S2\neural_surrogate_experiment\.venv_torch\Scripts\python.exe"
@@ -433,6 +488,7 @@ cd "D:\Louis_Projet\rotor_projet\大学生创新创业训练计划\S2\spec_desig
 
 | 文件 | 作用 |
 | --- | --- |
+| `s2_design.py` | **推荐入口**：友好规格语法 → 采样 → ROSS 复验 → `outputs/delivered_<tag>/`（清单 + 汇总 + 报告） |
 | `latent_ddpm_v2.py` | v2 主体：mask 多阶条件、训练、采样、多阶可微引导 |
 | `spec_interval.py` | 区间规格的解析 / 几何 / 判定（点、双边、单边统一处理） |
 | `v2_ross_verify.py` | ROSS 真值复验：逐阶偏差、各容差在带率、ρ、闸门交付 |
