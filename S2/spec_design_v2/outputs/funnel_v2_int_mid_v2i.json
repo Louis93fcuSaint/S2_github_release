@@ -1,0 +1,24 @@
+{
+  "tag": "v2i",
+  "out_tag": "v2_int_mid_v2i",
+  "layout": "interval",
+  "bands": {
+    "1": [
+      2600.0,
+      5200.0
+    ]
+  },
+  "relax": 0.0,
+  "material": "Steel",
+  "family": "free",
+  "n_generate": 5000,
+  "n_submit": 5000,
+  "validity": 1.0,
+  "proxy_joint_in_band_raw": 0.7834,
+  "proxy_joint_in_band_top": 0.7834,
+  "proxy_per_order_top": {
+    "1": 0.7834
+  },
+  "median_joint_dev_top": 0.0,
+  "csv": "D:\\Louis_Projet\\rotor_projet\\大学生创新创业训练计划\\S2\\spec_design_v2\\outputs\\v2_int_mid_v2i.csv"
+}

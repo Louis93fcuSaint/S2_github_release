@@ -1,0 +1,151 @@
+{
+  "name": "fam22_cs2",
+  "csv": "outputs\\v2_fam22_cs2.csv",
+  "targets": {
+    "2": 8180.0
+  },
+  "tols": [
+    0.05
+  ],
+  "n_batch": 5000,
+  "proxy_whole_batch": {
+    "joint_in_band_tol5": 0.8784,
+    "per_order_in_band_tol5": {
+      "2": 0.8784
+    },
+    "order2": {
+      "median_ape_pct": 1.0871638141809326,
+      "mean_ape_pct": 2.72820119804401,
+      "p90_ape_pct": 5.7067970660146745
+    },
+    "joint_err": {
+      "median_pct": 1.0871638141809326,
+      "mean_pct": 2.72820119804401,
+      "p90_pct": 5.7067970660146745
+    }
+  },
+  "runs": [
+    {
+      "label": "fam22_cs2__top200",
+      "tag": "v2info",
+      "orders": [
+        2
+      ],
+      "targets": {
+        "2": 8180.0
+      },
+      "tol": [
+        0.05
+      ],
+      "n_shortlist": 200,
+      "n_solved": 200,
+      "n_timeout": 0,
+      "n_error": 0,
+      "seconds": 116.2905867099762,
+      "proxy": {
+        "joint_in_band_tol5": 1.0,
+        "per_order_in_band_tol5": {
+          "2": 1.0
+        },
+        "order2": {
+          "median_ape_pct": 0.013019559902201158,
+          "mean_ape_pct": 0.013663202933985482,
+          "p90_ape_pct": 0.027066014669927044
+        },
+        "joint_err": {
+          "median_pct": 0.013019559902201158,
+          "mean_pct": 0.013663202933985482,
+          "p90_pct": 0.027066014669927044
+        }
+      },
+      "truth": {
+        "joint_in_band_tol5": 0.935,
+        "per_order_in_band_tol5": {
+          "2": 0.935
+        },
+        "order2": {
+          "median_ape_pct": 1.1407050712637545,
+          "mean_ape_pct": 1.7849332342173052,
+          "p90_ape_pct": 3.7742415309786086
+        },
+        "joint_err": {
+          "median_pct": 1.1407050712637545,
+          "mean_pct": 1.7849332342173052,
+          "p90_pct": 3.7742415309786086
+        }
+      },
+      "spearman_joint_proxy_vs_true": 0.024218105452636318,
+      "spearman_order2": 0.024218105452636318,
+      "gate_tol5": {
+        "n_passed": 187,
+        "rate_of_solved": 0.935,
+        "seconds_per_passed": 0.6218747952405144
+      },
+      "csv": "D:\\Louis_Projet\\rotor_projet\\大学生创新创业训练计划\\S2\\spec_design_v2\\outputs\\verify_fam22_cs2__top200.csv",
+      "deliverable_tol": 0.05,
+      "deliverable_n": 187,
+      "deliverable": "D:\\Louis_Projet\\rotor_projet\\大学生创新创业训练计划\\S2\\spec_design_v2\\outputs\\verify_fam22_cs2__top200__passed.csv"
+    },
+    {
+      "label": "fam22_cs2__rand200",
+      "tag": "v2info",
+      "orders": [
+        2
+      ],
+      "targets": {
+        "2": 8180.0
+      },
+      "tol": [
+        0.05
+      ],
+      "n_shortlist": 200,
+      "n_solved": 200,
+      "n_timeout": 0,
+      "n_error": 0,
+      "seconds": 116.29722857475281,
+      "proxy": {
+        "joint_in_band_tol5": 0.88,
+        "per_order_in_band_tol5": {
+          "2": 0.88
+        },
+        "order2": {
+          "median_ape_pct": 1.0521393643031791,
+          "mean_ape_pct": 2.2841387530562347,
+          "p90_ape_pct": 5.668960880195591
+        },
+        "joint_err": {
+          "median_pct": 1.0521393643031791,
+          "mean_pct": 2.2841387530562347,
+          "p90_pct": 5.668960880195591
+        }
+      },
+      "truth": {
+        "joint_in_band_tol5": 0.855,
+        "per_order_in_band_tol5": {
+          "2": 0.855
+        },
+        "order2": {
+          "median_ape_pct": 1.8967665132315503,
+          "mean_ape_pct": 3.1083673728287797,
+          "p90_ape_pct": 7.17426514051112
+        },
+        "joint_err": {
+          "median_pct": 1.8967665132315503,
+          "mean_pct": 3.1083673728287797,
+          "p90_pct": 7.17426514051112
+        }
+      },
+      "spearman_joint_proxy_vs_true": 0.4342113552838821,
+      "spearman_order2": 0.4342113552838821,
+      "gate_tol5": {
+        "n_passed": 171,
+        "rate_of_solved": 0.855,
+        "seconds_per_passed": 0.6801007518991392
+      },
+      "csv": "D:\\Louis_Projet\\rotor_projet\\大学生创新创业训练计划\\S2\\spec_design_v2\\outputs\\verify_fam22_cs2__rand200.csv",
+      "deliverable_tol": 0.05,
+      "deliverable_n": 171,
+      "deliverable": "D:\\Louis_Projet\\rotor_projet\\大学生创新创业训练计划\\S2\\spec_design_v2\\outputs\\verify_fam22_cs2__rand200__passed.csv"
+    }
+  ]
+}

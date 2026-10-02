@@ -1,0 +1,1167 @@
+{
+  "pool_rows": 192962,
+  "log_cs_corr_1_2_3": [
+    [
+      1.0,
+      0.8543061806666556,
+      0.5709975158352288
+    ],
+    [
+      0.8543061806666556,
+      0.9999999999999999,
+      0.6421901402743949
+    ],
+    [
+      0.570997515835229,
+      0.6421901402743948,
+      1.0
+    ]
+  ],
+  "surrogate_mape_pct": {
+    "1": 1.28,
+    "2": 2.19,
+    "3": 3.22,
+    "4": 3.97,
+    "5": 3.96,
+    "6": 4.2
+  },
+  "surrogate_band_over_mape": {
+    "1": 0.78,
+    "2": 0.46,
+    "3": 0.31,
+    "4": 0.25,
+    "5": 0.25,
+    "6": 0.24
+  },
+  "conditional": [
+    {
+      "material": "Steel",
+      "cs1_target": 1230.2,
+      "tol": 0.05,
+      "n_in_cs1_band": 1735,
+      "cs2_iqr_pct_of_median": 55.2,
+      "cs2_p5p95_pct_of_median": 233.0,
+      "cs2_ratio_p50": 1.858,
+      "cs3_iqr_pct_of_median": 131.1,
+      "cs3_p5p95_pct_of_median": 663.2,
+      "cs3_ratio_p50": 9.407
+    },
+    {
+      "material": "Steel",
+      "cs1_target": 2204.2,
+      "tol": 0.05,
+      "n_in_cs1_band": 2344,
+      "cs2_iqr_pct_of_median": 61.5,
+      "cs2_p5p95_pct_of_median": 226.4,
+      "cs2_ratio_p50": 1.897,
+      "cs3_iqr_pct_of_median": 111.5,
+      "cs3_p5p95_pct_of_median": 627.9,
+      "cs3_ratio_p50": 6.313
+    },
+    {
+      "material": "Steel",
+      "cs1_target": 3680.8,
+      "tol": 0.05,
+      "n_in_cs1_band": 2535,
+      "cs2_iqr_pct_of_median": 61.5,
+      "cs2_p5p95_pct_of_median": 203.4,
+      "cs2_ratio_p50": 1.922,
+      "cs3_iqr_pct_of_median": 95.7,
+      "cs3_p5p95_pct_of_median": 560.1,
+      "cs3_ratio_p50": 4.872
+    },
+    {
+      "material": "Steel",
+      "cs1_target": 6182.6,
+      "tol": 0.05,
+      "n_in_cs1_band": 2291,
+      "cs2_iqr_pct_of_median": 52.3,
+      "cs2_p5p95_pct_of_median": 165.8,
+      "cs2_ratio_p50": 1.834,
+      "cs3_iqr_pct_of_median": 87.3,
+      "cs3_p5p95_pct_of_median": 445.5,
+      "cs3_ratio_p50": 3.874
+    },
+    {
+      "material": "Steel",
+      "cs1_target": 12226.0,
+      "tol": 0.05,
+      "n_in_cs1_band": 1335,
+      "cs2_iqr_pct_of_median": 46.3,
+      "cs2_p5p95_pct_of_median": 146.1,
+      "cs2_ratio_p50": 1.592,
+      "cs3_iqr_pct_of_median": 98.1,
+      "cs3_p5p95_pct_of_median": 391.7,
+      "cs3_ratio_p50": 3.045
+    },
+    {
+      "material": "Steel",
+      "cs1_target": 1230.2,
+      "tol": 0.01,
+      "n_in_cs1_band": 359,
+      "cs2_iqr_pct_of_median": 56.6,
+      "cs2_p5p95_pct_of_median": 273.1,
+      "cs2_ratio_p50": 1.897,
+      "cs3_iqr_pct_of_median": 150.0,
+      "cs3_p5p95_pct_of_median": 779.2,
+      "cs3_ratio_p50": 9.49
+    },
+    {
+      "material": "Steel",
+      "cs1_target": 2204.2,
+      "tol": 0.01,
+      "n_in_cs1_band": 467,
+      "cs2_iqr_pct_of_median": 56.3,
+      "cs2_p5p95_pct_of_median": 222.0,
+      "cs2_ratio_p50": 1.91,
+      "cs3_iqr_pct_of_median": 120.9,
+      "cs3_p5p95_pct_of_median": 613.3,
+      "cs3_ratio_p50": 6.618
+    },
+    {
+      "material": "Steel",
+      "cs1_target": 3680.8,
+      "tol": 0.01,
+      "n_in_cs1_band": 496,
+      "cs2_iqr_pct_of_median": 57.1,
+      "cs2_p5p95_pct_of_median": 195.9,
+      "cs2_ratio_p50": 1.915,
+      "cs3_iqr_pct_of_median": 96.4,
+      "cs3_p5p95_pct_of_median": 582.5,
+      "cs3_ratio_p50": 4.877
+    },
+    {
+      "material": "Steel",
+      "cs1_target": 6182.6,
+      "tol": 0.01,
+      "n_in_cs1_band": 487,
+      "cs2_iqr_pct_of_median": 56.2,
+      "cs2_p5p95_pct_of_median": 167.8,
+      "cs2_ratio_p50": 1.886,
+      "cs3_iqr_pct_of_median": 84.9,
+      "cs3_p5p95_pct_of_median": 458.5,
+      "cs3_ratio_p50": 3.976
+    },
+    {
+      "material": "Steel",
+      "cs1_target": 12226.0,
+      "tol": 0.01,
+      "n_in_cs1_band": 261,
+      "cs2_iqr_pct_of_median": 43.0,
+      "cs2_p5p95_pct_of_median": 149.6,
+      "cs2_ratio_p50": 1.543,
+      "cs3_iqr_pct_of_median": 86.7,
+      "cs3_p5p95_pct_of_median": 349.5,
+      "cs3_ratio_p50": 2.891
+    },
+    {
+      "material": "Aluminum",
+      "cs1_target": 1819.8,
+      "tol": 0.05,
+      "n_in_cs1_band": 1637,
+      "cs2_iqr_pct_of_median": 66.2,
+      "cs2_p5p95_pct_of_median": 232.3,
+      "cs2_ratio_p50": 1.985,
+      "cs3_iqr_pct_of_median": 98.0,
+      "cs3_p5p95_pct_of_median": 457.9,
+      "cs3_ratio_p50": 6.849
+    },
+    {
+      "material": "Aluminum",
+      "cs1_target": 3191.1,
+      "tol": 0.05,
+      "n_in_cs1_band": 2613,
+      "cs2_iqr_pct_of_median": 67.9,
+      "cs2_p5p95_pct_of_median": 229.5,
+      "cs2_ratio_p50": 1.927,
+      "cs3_iqr_pct_of_median": 95.3,
+      "cs3_p5p95_pct_of_median": 517.1,
+      "cs3_ratio_p50": 5.242
+    },
+    {
+      "material": "Aluminum",
+      "cs1_target": 5179.5,
+      "tol": 0.05,
+      "n_in_cs1_band": 2588,
+      "cs2_iqr_pct_of_median": 61.5,
+      "cs2_p5p95_pct_of_median": 183.1,
+      "cs2_ratio_p50": 1.929,
+      "cs3_iqr_pct_of_median": 88.4,
+      "cs3_p5p95_pct_of_median": 429.9,
+      "cs3_ratio_p50": 4.204
+    },
+    {
+      "material": "Aluminum",
+      "cs1_target": 8593.3,
+      "tol": 0.05,
+      "n_in_cs1_band": 2260,
+      "cs2_iqr_pct_of_median": 53.3,
+      "cs2_p5p95_pct_of_median": 154.6,
+      "cs2_ratio_p50": 1.802,
+      "cs3_iqr_pct_of_median": 75.6,
+      "cs3_p5p95_pct_of_median": 368.3,
+      "cs3_ratio_p50": 3.541
+    },
+    {
+      "material": "Aluminum",
+      "cs1_target": 17245.4,
+      "tol": 0.05,
+      "n_in_cs1_band": 1315,
+      "cs2_iqr_pct_of_median": 47.3,
+      "cs2_p5p95_pct_of_median": 138.3,
+      "cs2_ratio_p50": 1.604,
+      "cs3_iqr_pct_of_median": 76.1,
+      "cs3_p5p95_pct_of_median": 317.9,
+      "cs3_ratio_p50": 2.852
+    },
+    {
+      "material": "Aluminum",
+      "cs1_target": 1819.8,
+      "tol": 0.01,
+      "n_in_cs1_band": 345,
+      "cs2_iqr_pct_of_median": 59.5,
+      "cs2_p5p95_pct_of_median": 197.7,
+      "cs2_ratio_p50": 1.852,
+      "cs3_iqr_pct_of_median": 87.5,
+      "cs3_p5p95_pct_of_median": 422.2,
+      "cs3_ratio_p50": 6.502
+    },
+    {
+      "material": "Aluminum",
+      "cs1_target": 3191.1,
+      "tol": 0.01,
+      "n_in_cs1_band": 537,
+      "cs2_iqr_pct_of_median": 69.4,
+      "cs2_p5p95_pct_of_median": 243.4,
+      "cs2_ratio_p50": 1.925,
+      "cs3_iqr_pct_of_median": 80.6,
+      "cs3_p5p95_pct_of_median": 546.8,
+      "cs3_ratio_p50": 5.267
+    },
+    {
+      "material": "Aluminum",
+      "cs1_target": 5179.5,
+      "tol": 0.01,
+      "n_in_cs1_band": 520,
+      "cs2_iqr_pct_of_median": 61.3,
+      "cs2_p5p95_pct_of_median": 175.3,
+      "cs2_ratio_p50": 1.932,
+      "cs3_iqr_pct_of_median": 87.9,
+      "cs3_p5p95_pct_of_median": 409.1,
+      "cs3_ratio_p50": 4.178
+    },
+    {
+      "material": "Aluminum",
+      "cs1_target": 8593.3,
+      "tol": 0.01,
+      "n_in_cs1_band": 473,
+      "cs2_iqr_pct_of_median": 50.7,
+      "cs2_p5p95_pct_of_median": 156.4,
+      "cs2_ratio_p50": 1.821,
+      "cs3_iqr_pct_of_median": 75.4,
+      "cs3_p5p95_pct_of_median": 387.1,
+      "cs3_ratio_p50": 3.488
+    },
+    {
+      "material": "Aluminum",
+      "cs1_target": 17245.4,
+      "tol": 0.01,
+      "n_in_cs1_band": 273,
+      "cs2_iqr_pct_of_median": 46.7,
+      "cs2_p5p95_pct_of_median": 134.0,
+      "cs2_ratio_p50": 1.606,
+      "cs3_iqr_pct_of_median": 66.7,
+      "cs3_p5p95_pct_of_median": 390.7,
+      "cs3_ratio_p50": 2.801
+    },
+    {
+      "material": "Titanium",
+      "cs1_target": 1506.9,
+      "tol": 0.05,
+      "n_in_cs1_band": 1666,
+      "cs2_iqr_pct_of_median": 69.0,
+      "cs2_p5p95_pct_of_median": 258.2,
+      "cs2_ratio_p50": 1.907,
+      "cs3_iqr_pct_of_median": 99.6,
+      "cs3_p5p95_pct_of_median": 569.1,
+      "cs3_ratio_p50": 7.775
+    },
+    {
+      "material": "Titanium",
+      "cs1_target": 2669.7,
+      "tol": 0.05,
+      "n_in_cs1_band": 2463,
+      "cs2_iqr_pct_of_median": 65.7,
+      "cs2_p5p95_pct_of_median": 218.4,
+      "cs2_ratio_p50": 1.917,
+      "cs3_iqr_pct_of_median": 99.5,
+      "cs3_p5p95_pct_of_median": 567.5,
+      "cs3_ratio_p50": 5.665
+    },
+    {
+      "material": "Titanium",
+      "cs1_target": 4380.9,
+      "tol": 0.05,
+      "n_in_cs1_band": 2559,
+      "cs2_iqr_pct_of_median": 59.3,
+      "cs2_p5p95_pct_of_median": 185.0,
+      "cs2_ratio_p50": 1.892,
+      "cs3_iqr_pct_of_median": 90.6,
+      "cs3_p5p95_pct_of_median": 485.0,
+      "cs3_ratio_p50": 4.457
+    },
+    {
+      "material": "Titanium",
+      "cs1_target": 7284.7,
+      "tol": 0.05,
+      "n_in_cs1_band": 2283,
+      "cs2_iqr_pct_of_median": 53.1,
+      "cs2_p5p95_pct_of_median": 164.4,
+      "cs2_ratio_p50": 1.793,
+      "cs3_iqr_pct_of_median": 81.4,
+      "cs3_p5p95_pct_of_median": 413.8,
+      "cs3_ratio_p50": 3.564
+    },
+    {
+      "material": "Titanium",
+      "cs1_target": 14527.2,
+      "tol": 0.05,
+      "n_in_cs1_band": 1327,
+      "cs2_iqr_pct_of_median": 45.3,
+      "cs2_p5p95_pct_of_median": 141.3,
+      "cs2_ratio_p50": 1.654,
+      "cs3_iqr_pct_of_median": 84.2,
+      "cs3_p5p95_pct_of_median": 302.5,
+      "cs3_ratio_p50": 2.95
+    },
+    {
+      "material": "Titanium",
+      "cs1_target": 1506.9,
+      "tol": 0.01,
+      "n_in_cs1_band": 383,
+      "cs2_iqr_pct_of_median": 72.6,
+      "cs2_p5p95_pct_of_median": 276.2,
+      "cs2_ratio_p50": 1.891,
+      "cs3_iqr_pct_of_median": 114.6,
+      "cs3_p5p95_pct_of_median": 587.5,
+      "cs3_ratio_p50": 7.738
+    },
+    {
+      "material": "Titanium",
+      "cs1_target": 2669.7,
+      "tol": 0.01,
+      "n_in_cs1_band": 537,
+      "cs2_iqr_pct_of_median": 66.9,
+      "cs2_p5p95_pct_of_median": 235.3,
+      "cs2_ratio_p50": 1.902,
+      "cs3_iqr_pct_of_median": 109.8,
+      "cs3_p5p95_pct_of_median": 565.3,
+      "cs3_ratio_p50": 5.775
+    },
+    {
+      "material": "Titanium",
+      "cs1_target": 4380.9,
+      "tol": 0.01,
+      "n_in_cs1_band": 538,
+      "cs2_iqr_pct_of_median": 62.1,
+      "cs2_p5p95_pct_of_median": 176.3,
+      "cs2_ratio_p50": 1.929,
+      "cs3_iqr_pct_of_median": 88.5,
+      "cs3_p5p95_pct_of_median": 493.6,
+      "cs3_ratio_p50": 4.614
+    },
+    {
+      "material": "Titanium",
+      "cs1_target": 7284.7,
+      "tol": 0.01,
+      "n_in_cs1_band": 471,
+      "cs2_iqr_pct_of_median": 53.8,
+      "cs2_p5p95_pct_of_median": 177.4,
+      "cs2_ratio_p50": 1.785,
+      "cs3_iqr_pct_of_median": 84.0,
+      "cs3_p5p95_pct_of_median": 443.5,
+      "cs3_ratio_p50": 3.468
+    },
+    {
+      "material": "Titanium",
+      "cs1_target": 14527.2,
+      "tol": 0.01,
+      "n_in_cs1_band": 270,
+      "cs2_iqr_pct_of_median": 51.8,
+      "cs2_p5p95_pct_of_median": 130.2,
+      "cs2_ratio_p50": 1.654,
+      "cs3_iqr_pct_of_median": 88.2,
+      "cs3_p5p95_pct_of_median": 295.6,
+      "cs3_ratio_p50": 2.932
+    }
+  ],
+  "joint": [
+    {
+      "material": "Steel",
+      "combo": "cs1",
+      "cs1_target": 1230.2,
+      "tol": 0.01,
+      "n_cs1": 359
+    },
+    {
+      "material": "Steel",
+      "combo": "cs1",
+      "cs1_target": 2204.2,
+      "tol": 0.01,
+      "n_cs1": 468
+    },
+    {
+      "material": "Steel",
+      "combo": "cs1",
+      "cs1_target": 3680.8,
+      "tol": 0.01,
+      "n_cs1": 498
+    },
+    {
+      "material": "Steel",
+      "combo": "cs1",
+      "cs1_target": 6182.6,
+      "tol": 0.01,
+      "n_cs1": 488
+    },
+    {
+      "material": "Steel",
+      "combo": "cs1",
+      "cs1_target": 12226.0,
+      "tol": 0.01,
+      "n_cs1": 263
+    },
+    {
+      "material": "Steel",
+      "combo": "cs1+cs2",
+      "cs1_target": 1230.2,
+      "tol": 0.01,
+      "n_cs1": 359,
+      "centre_cs2": 2330.9,
+      "n_cs1+cs2": 7
+    },
+    {
+      "material": "Steel",
+      "combo": "cs1+cs2",
+      "cs1_target": 2204.2,
+      "tol": 0.01,
+      "n_cs1": 468,
+      "centre_cs2": 4213.8,
+      "n_cs1+cs2": 10
+    },
+    {
+      "material": "Steel",
+      "combo": "cs1+cs2",
+      "cs1_target": 3680.8,
+      "tol": 0.01,
+      "n_cs1": 498,
+      "centre_cs2": 7021.0,
+      "n_cs1+cs2": 7
+    },
+    {
+      "material": "Steel",
+      "combo": "cs1+cs2",
+      "cs1_target": 6182.6,
+      "tol": 0.01,
+      "n_cs1": 488,
+      "centre_cs2": 11645.5,
+      "n_cs1+cs2": 8
+    },
+    {
+      "material": "Steel",
+      "combo": "cs1+cs2",
+      "cs1_target": 12226.0,
+      "tol": 0.01,
+      "n_cs1": 263,
+      "centre_cs2": 19048.7,
+      "n_cs1+cs2": 5
+    },
+    {
+      "material": "Steel",
+      "combo": "cs1+cs3",
+      "cs1_target": 1230.2,
+      "tol": 0.01,
+      "n_cs1": 359,
+      "centre_cs3": 11748.3,
+      "n_cs1+cs3": 3
+    },
+    {
+      "material": "Steel",
+      "combo": "cs1+cs3",
+      "cs1_target": 2204.2,
+      "tol": 0.01,
+      "n_cs1": 468,
+      "centre_cs3": 14497.8,
+      "n_cs1+cs3": 4
+    },
+    {
+      "material": "Steel",
+      "combo": "cs1+cs3",
+      "cs1_target": 3680.8,
+      "tol": 0.01,
+      "n_cs1": 498,
+      "centre_cs3": 17970.5,
+      "n_cs1+cs3": 4
+    },
+    {
+      "material": "Steel",
+      "combo": "cs1+cs3",
+      "cs1_target": 6182.6,
+      "tol": 0.01,
+      "n_cs1": 488,
+      "centre_cs3": 24632.9,
+      "n_cs1+cs3": 12
+    },
+    {
+      "material": "Steel",
+      "combo": "cs1+cs3",
+      "cs1_target": 12226.0,
+      "tol": 0.01,
+      "n_cs1": 263,
+      "centre_cs3": 35357.6,
+      "n_cs1+cs3": 5
+    },
+    {
+      "material": "Steel",
+      "combo": "cs1+cs2+cs3",
+      "cs1_target": 1230.2,
+      "tol": 0.01,
+      "n_cs1": 359,
+      "centre_cs2": 2330.9,
+      "n_cs1+cs2+cs3": 0,
+      "centre_cs3": 20920.3
+    },
+    {
+      "material": "Steel",
+      "combo": "cs1+cs2+cs3",
+      "cs1_target": 2204.2,
+      "tol": 0.01,
+      "n_cs1": 468,
+      "centre_cs2": 4213.8,
+      "n_cs1+cs2+cs3": 0,
+      "centre_cs3": 20920.3
+    },
+    {
+      "material": "Steel",
+      "combo": "cs1+cs2+cs3",
+      "cs1_target": 3680.8,
+      "tol": 0.01,
+      "n_cs1": 498,
+      "centre_cs2": 7021.0,
+      "n_cs1+cs2+cs3": 0,
+      "centre_cs3": 20920.3
+    },
+    {
+      "material": "Steel",
+      "combo": "cs1+cs2+cs3",
+      "cs1_target": 6182.6,
+      "tol": 0.01,
+      "n_cs1": 488,
+      "centre_cs2": 11645.5,
+      "n_cs1+cs2+cs3": 0,
+      "centre_cs3": 20920.3
+    },
+    {
+      "material": "Steel",
+      "combo": "cs1+cs2+cs3",
+      "cs1_target": 12226.0,
+      "tol": 0.01,
+      "n_cs1": 263,
+      "centre_cs2": 19048.7,
+      "n_cs1+cs2+cs3": 0,
+      "centre_cs3": 20920.3
+    },
+    {
+      "material": "Aluminum",
+      "combo": "cs1",
+      "cs1_target": 1819.8,
+      "tol": 0.01,
+      "n_cs1": 346
+    },
+    {
+      "material": "Aluminum",
+      "combo": "cs1",
+      "cs1_target": 3191.1,
+      "tol": 0.01,
+      "n_cs1": 538
+    },
+    {
+      "material": "Aluminum",
+      "combo": "cs1",
+      "cs1_target": 5179.5,
+      "tol": 0.01,
+      "n_cs1": 524
+    },
+    {
+      "material": "Aluminum",
+      "combo": "cs1",
+      "cs1_target": 8593.3,
+      "tol": 0.01,
+      "n_cs1": 475
+    },
+    {
+      "material": "Aluminum",
+      "combo": "cs1",
+      "cs1_target": 17245.4,
+      "tol": 0.01,
+      "n_cs1": 274
+    },
+    {
+      "material": "Aluminum",
+      "combo": "cs1+cs2",
+      "cs1_target": 1819.8,
+      "tol": 0.01,
+      "n_cs1": 346,
+      "centre_cs2": 3383.6,
+      "n_cs1+cs2": 9
+    },
+    {
+      "material": "Aluminum",
+      "combo": "cs1+cs2",
+      "cs1_target": 3191.1,
+      "tol": 0.01,
+      "n_cs1": 538,
+      "centre_cs2": 6147.6,
+      "n_cs1+cs2": 16
+    },
+    {
+      "material": "Aluminum",
+      "combo": "cs1+cs2",
+      "cs1_target": 5179.5,
+      "tol": 0.01,
+      "n_cs1": 524,
+      "centre_cs2": 9963.6,
+      "n_cs1+cs2": 12
+    },
+    {
+      "material": "Aluminum",
+      "combo": "cs1+cs2",
+      "cs1_target": 8593.3,
+      "tol": 0.01,
+      "n_cs1": 475,
+      "centre_cs2": 15718.7,
+      "n_cs1+cs2": 6
+    },
+    {
+      "material": "Aluminum",
+      "combo": "cs1+cs2",
+      "cs1_target": 17245.4,
+      "tol": 0.01,
+      "n_cs1": 274,
+      "centre_cs2": 27655.1,
+      "n_cs1+cs2": 6
+    },
+    {
+      "material": "Aluminum",
+      "combo": "cs1+cs3",
+      "cs1_target": 1819.8,
+      "tol": 0.01,
+      "n_cs1": 346,
+      "centre_cs3": 11773.2,
+      "n_cs1+cs3": 4
+    },
+    {
+      "material": "Aluminum",
+      "combo": "cs1+cs3",
+      "cs1_target": 3191.1,
+      "tol": 0.01,
+      "n_cs1": 538,
+      "centre_cs3": 16793.3,
+      "n_cs1+cs3": 14
+    },
+    {
+      "material": "Aluminum",
+      "combo": "cs1+cs3",
+      "cs1_target": 5179.5,
+      "tol": 0.01,
+      "n_cs1": 524,
+      "centre_cs3": 21740.2,
+      "n_cs1+cs3": 8
+    },
+    {
+      "material": "Aluminum",
+      "combo": "cs1+cs3",
+      "cs1_target": 8593.3,
+      "tol": 0.01,
+      "n_cs1": 475,
+      "centre_cs3": 29991.7,
+      "n_cs1+cs3": 9
+    },
+    {
+      "material": "Aluminum",
+      "combo": "cs1+cs3",
+      "cs1_target": 17245.4,
+      "tol": 0.01,
+      "n_cs1": 274,
+      "centre_cs3": 48408.1,
+      "n_cs1+cs3": 5
+    },
+    {
+      "material": "Aluminum",
+      "combo": "cs1+cs2+cs3",
+      "cs1_target": 1819.8,
+      "tol": 0.01,
+      "n_cs1": 346,
+      "centre_cs2": 3383.6,
+      "n_cs1+cs2+cs3": 0,
+      "centre_cs3": 25044.7
+    },
+    {
+      "material": "Aluminum",
+      "combo": "cs1+cs2+cs3",
+      "cs1_target": 3191.1,
+      "tol": 0.01,
+      "n_cs1": 538,
+      "centre_cs2": 6147.6,
+      "n_cs1+cs2+cs3": 0,
+      "centre_cs3": 25044.7
+    },
+    {
+      "material": "Aluminum",
+      "combo": "cs1+cs2+cs3",
+      "cs1_target": 5179.5,
+      "tol": 0.01,
+      "n_cs1": 524,
+      "centre_cs2": 9963.6,
+      "n_cs1+cs2+cs3": 0,
+      "centre_cs3": 25044.7
+    },
+    {
+      "material": "Aluminum",
+      "combo": "cs1+cs2+cs3",
+      "cs1_target": 8593.3,
+      "tol": 0.01,
+      "n_cs1": 475,
+      "centre_cs2": 15718.7,
+      "n_cs1+cs2+cs3": 0,
+      "centre_cs3": 25044.7
+    },
+    {
+      "material": "Aluminum",
+      "combo": "cs1+cs2+cs3",
+      "cs1_target": 17245.4,
+      "tol": 0.01,
+      "n_cs1": 274,
+      "centre_cs2": 27655.1,
+      "n_cs1+cs2+cs3": 0,
+      "centre_cs3": 25044.7
+    },
+    {
+      "material": "Titanium",
+      "combo": "cs1",
+      "cs1_target": 1506.9,
+      "tol": 0.01,
+      "n_cs1": 386
+    },
+    {
+      "material": "Titanium",
+      "combo": "cs1",
+      "cs1_target": 2669.7,
+      "tol": 0.01,
+      "n_cs1": 538
+    },
+    {
+      "material": "Titanium",
+      "combo": "cs1",
+      "cs1_target": 4380.9,
+      "tol": 0.01,
+      "n_cs1": 540
+    },
+    {
+      "material": "Titanium",
+      "combo": "cs1",
+      "cs1_target": 7284.7,
+      "tol": 0.01,
+      "n_cs1": 473
+    },
+    {
+      "material": "Titanium",
+      "combo": "cs1",
+      "cs1_target": 14527.2,
+      "tol": 0.01,
+      "n_cs1": 273
+    },
+    {
+      "material": "Titanium",
+      "combo": "cs1+cs2",
+      "cs1_target": 1506.9,
+      "tol": 0.01,
+      "n_cs1": 386,
+      "centre_cs2": 2863.2,
+      "n_cs1+cs2": 14
+    },
+    {
+      "material": "Titanium",
+      "combo": "cs1+cs2",
+      "cs1_target": 2669.7,
+      "tol": 0.01,
+      "n_cs1": 538,
+      "centre_cs2": 5066.1,
+      "n_cs1+cs2": 14
+    },
+    {
+      "material": "Titanium",
+      "combo": "cs1+cs2",
+      "cs1_target": 4380.9,
+      "tol": 0.01,
+      "n_cs1": 540,
+      "centre_cs2": 8415.1,
+      "n_cs1+cs2": 15
+    },
+    {
+      "material": "Titanium",
+      "combo": "cs1+cs2",
+      "cs1_target": 7284.7,
+      "tol": 0.01,
+      "n_cs1": 473,
+      "centre_cs2": 12975.5,
+      "n_cs1+cs2": 11
+    },
+    {
+      "material": "Titanium",
+      "combo": "cs1+cs2",
+      "cs1_target": 14527.2,
+      "tol": 0.01,
+      "n_cs1": 273,
+      "centre_cs2": 24186.5,
+      "n_cs1+cs2": 12
+    },
+    {
+      "material": "Titanium",
+      "combo": "cs1+cs3",
+      "cs1_target": 1506.9,
+      "tol": 0.01,
+      "n_cs1": 386,
+      "centre_cs3": 11631.3,
+      "n_cs1+cs3": 7
+    },
+    {
+      "material": "Titanium",
+      "combo": "cs1+cs3",
+      "cs1_target": 2669.7,
+      "tol": 0.01,
+      "n_cs1": 538,
+      "centre_cs3": 15337.0,
+      "n_cs1+cs3": 12
+    },
+    {
+      "material": "Titanium",
+      "combo": "cs1+cs3",
+      "cs1_target": 4380.9,
+      "tol": 0.01,
+      "n_cs1": 540,
+      "centre_cs3": 20232.4,
+      "n_cs1+cs3": 11
+    },
+    {
+      "material": "Titanium",
+      "combo": "cs1+cs3",
+      "cs1_target": 7284.7,
+      "tol": 0.01,
+      "n_cs1": 473,
+      "centre_cs3": 25397.9,
+      "n_cs1+cs3": 9
+    },
+    {
+      "material": "Titanium",
+      "combo": "cs1+cs3",
+      "cs1_target": 14527.2,
+      "tol": 0.01,
+      "n_cs1": 273,
+      "centre_cs3": 42535.7,
+      "n_cs1+cs3": 7
+    },
+    {
+      "material": "Titanium",
+      "combo": "cs1+cs2+cs3",
+      "cs1_target": 1506.9,
+      "tol": 0.01,
+      "n_cs1": 386,
+      "centre_cs2": 2863.2,
+      "n_cs1+cs2+cs3": 0,
+      "centre_cs3": 22360.5
+    },
+    {
+      "material": "Titanium",
+      "combo": "cs1+cs2+cs3",
+      "cs1_target": 2669.7,
+      "tol": 0.01,
+      "n_cs1": 538,
+      "centre_cs2": 5066.1,
+      "n_cs1+cs2+cs3": 0,
+      "centre_cs3": 22360.5
+    },
+    {
+      "material": "Titanium",
+      "combo": "cs1+cs2+cs3",
+      "cs1_target": 4380.9,
+      "tol": 0.01,
+      "n_cs1": 540,
+      "centre_cs2": 8415.1,
+      "n_cs1+cs2+cs3": 0,
+      "centre_cs3": 22360.5
+    },
+    {
+      "material": "Titanium",
+      "combo": "cs1+cs2+cs3",
+      "cs1_target": 7284.7,
+      "tol": 0.01,
+      "n_cs1": 473,
+      "centre_cs2": 12975.5,
+      "n_cs1+cs2+cs3": 2,
+      "centre_cs3": 22360.5
+    },
+    {
+      "material": "Titanium",
+      "combo": "cs1+cs2+cs3",
+      "cs1_target": 14527.2,
+      "tol": 0.01,
+      "n_cs1": 273,
+      "centre_cs2": 24186.5,
+      "n_cs1+cs2+cs3": 0,
+      "centre_cs3": 22360.5
+    }
+  ],
+  "median_neighbourhood": [
+    {
+      "material": "Steel",
+      "cs1_target": 1230.2,
+      "tol": 0.01,
+      "n_cs1": 359,
+      "n_cs1+cs2": 7,
+      "n_cs1+cs2+cs3": 1
+    },
+    {
+      "material": "Steel",
+      "cs1_target": 2204.2,
+      "tol": 0.01,
+      "n_cs1": 467,
+      "n_cs1+cs2": 10,
+      "n_cs1+cs2+cs3": 2
+    },
+    {
+      "material": "Steel",
+      "cs1_target": 3680.8,
+      "tol": 0.01,
+      "n_cs1": 496,
+      "n_cs1+cs2": 5,
+      "n_cs1+cs2+cs3": 1
+    },
+    {
+      "material": "Steel",
+      "cs1_target": 6182.6,
+      "tol": 0.01,
+      "n_cs1": 487,
+      "n_cs1+cs2": 10,
+      "n_cs1+cs2+cs3": 0
+    },
+    {
+      "material": "Steel",
+      "cs1_target": 12226.0,
+      "tol": 0.01,
+      "n_cs1": 261,
+      "n_cs1+cs2": 7,
+      "n_cs1+cs2+cs3": 1
+    },
+    {
+      "material": "Steel",
+      "cs1_target": 1230.2,
+      "tol": 0.05,
+      "n_cs1": 1735,
+      "n_cs1+cs2": 185,
+      "n_cs1+cs2+cs3": 9
+    },
+    {
+      "material": "Steel",
+      "cs1_target": 2204.2,
+      "tol": 0.05,
+      "n_cs1": 2344,
+      "n_cs1+cs2": 189,
+      "n_cs1+cs2+cs3": 11
+    },
+    {
+      "material": "Steel",
+      "cs1_target": 3680.8,
+      "tol": 0.05,
+      "n_cs1": 2535,
+      "n_cs1+cs2": 236,
+      "n_cs1+cs2+cs3": 21
+    },
+    {
+      "material": "Steel",
+      "cs1_target": 6182.6,
+      "tol": 0.05,
+      "n_cs1": 2291,
+      "n_cs1+cs2": 219,
+      "n_cs1+cs2+cs3": 30
+    },
+    {
+      "material": "Steel",
+      "cs1_target": 12226.0,
+      "tol": 0.05,
+      "n_cs1": 1335,
+      "n_cs1+cs2": 170,
+      "n_cs1+cs2+cs3": 14
+    },
+    {
+      "material": "Aluminum",
+      "cs1_target": 1819.8,
+      "tol": 0.01,
+      "n_cs1": 345,
+      "n_cs1+cs2": 7,
+      "n_cs1+cs2+cs3": 1
+    },
+    {
+      "material": "Aluminum",
+      "cs1_target": 3191.1,
+      "tol": 0.01,
+      "n_cs1": 537,
+      "n_cs1+cs2": 16,
+      "n_cs1+cs2+cs3": 2
+    },
+    {
+      "material": "Aluminum",
+      "cs1_target": 5179.5,
+      "tol": 0.01,
+      "n_cs1": 520,
+      "n_cs1+cs2": 12,
+      "n_cs1+cs2+cs3": 0
+    },
+    {
+      "material": "Aluminum",
+      "cs1_target": 8593.3,
+      "tol": 0.01,
+      "n_cs1": 473,
+      "n_cs1+cs2": 6,
+      "n_cs1+cs2+cs3": 0
+    },
+    {
+      "material": "Aluminum",
+      "cs1_target": 17245.4,
+      "tol": 0.01,
+      "n_cs1": 273,
+      "n_cs1+cs2": 5,
+      "n_cs1+cs2+cs3": 1
+    },
+    {
+      "material": "Aluminum",
+      "cs1_target": 1819.8,
+      "tol": 0.05,
+      "n_cs1": 1637,
+      "n_cs1+cs2": 158,
+      "n_cs1+cs2+cs3": 9
+    },
+    {
+      "material": "Aluminum",
+      "cs1_target": 3191.1,
+      "tol": 0.05,
+      "n_cs1": 2613,
+      "n_cs1+cs2": 209,
+      "n_cs1+cs2+cs3": 16
+    },
+    {
+      "material": "Aluminum",
+      "cs1_target": 5179.5,
+      "tol": 0.05,
+      "n_cs1": 2588,
+      "n_cs1+cs2": 239,
+      "n_cs1+cs2+cs3": 22
+    },
+    {
+      "material": "Aluminum",
+      "cs1_target": 8593.3,
+      "tol": 0.05,
+      "n_cs1": 2260,
+      "n_cs1+cs2": 210,
+      "n_cs1+cs2+cs3": 20
+    },
+    {
+      "material": "Aluminum",
+      "cs1_target": 17245.4,
+      "tol": 0.05,
+      "n_cs1": 1315,
+      "n_cs1+cs2": 162,
+      "n_cs1+cs2+cs3": 11
+    },
+    {
+      "material": "Titanium",
+      "cs1_target": 1506.9,
+      "tol": 0.01,
+      "n_cs1": 383,
+      "n_cs1+cs2": 14,
+      "n_cs1+cs2+cs3": 0
+    },
+    {
+      "material": "Titanium",
+      "cs1_target": 2669.7,
+      "tol": 0.01,
+      "n_cs1": 537,
+      "n_cs1+cs2": 14,
+      "n_cs1+cs2+cs3": 2
+    },
+    {
+      "material": "Titanium",
+      "cs1_target": 4380.9,
+      "tol": 0.01,
+      "n_cs1": 538,
+      "n_cs1+cs2": 15,
+      "n_cs1+cs2+cs3": 1
+    },
+    {
+      "material": "Titanium",
+      "cs1_target": 7284.7,
+      "tol": 0.01,
+      "n_cs1": 471,
+      "n_cs1+cs2": 10,
+      "n_cs1+cs2+cs3": 0
+    },
+    {
+      "material": "Titanium",
+      "cs1_target": 14527.2,
+      "tol": 0.01,
+      "n_cs1": 270,
+      "n_cs1+cs2": 12,
+      "n_cs1+cs2+cs3": 0
+    },
+    {
+      "material": "Titanium",
+      "cs1_target": 1506.9,
+      "tol": 0.05,
+      "n_cs1": 1666,
+      "n_cs1+cs2": 136,
+      "n_cs1+cs2+cs3": 6
+    },
+    {
+      "material": "Titanium",
+      "cs1_target": 2669.7,
+      "tol": 0.05,
+      "n_cs1": 2463,
+      "n_cs1+cs2": 256,
+      "n_cs1+cs2+cs3": 18
+    },
+    {
+      "material": "Titanium",
+      "cs1_target": 4380.9,
+      "tol": 0.05,
+      "n_cs1": 2559,
+      "n_cs1+cs2": 231,
+      "n_cs1+cs2+cs3": 16
+    },
+    {
+      "material": "Titanium",
+      "cs1_target": 7284.7,
+      "tol": 0.05,
+      "n_cs1": 2283,
+      "n_cs1+cs2": 231,
+      "n_cs1+cs2+cs3": 21
+    },
+    {
+      "material": "Titanium",
+      "cs1_target": 14527.2,
+      "tol": 0.05,
+      "n_cs1": 1327,
+      "n_cs1+cs2": 186,
+      "n_cs1+cs2+cs3": 17
+    }
+  ]
+}

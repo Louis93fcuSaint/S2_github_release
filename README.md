@@ -1,12 +1,52 @@
-# S2：一阶临界转速规格驱动的生成式设计
+# S2：临界转速规格驱动的生成式设计
 
-用户给出材料 + 目标一阶临界转速（可带容差、可选家族约束），系统返回一批**合法、
-互不相同、经 ROSS 复验**的转子设计。核心是「条件 DDPM 在约束内隐空间里生成，
-代理排序，ROSS 闸门交付」这条链路。
+用户给出材料 + 目标临界转速规格，系统返回一批**合法、互不相同、经 ROSS 复验**的转子设计。
+核心是「条件 DDPM 在约束内隐空间里生成，代理排序，ROSS 闸门交付」这条链路。
 
-- 技术报告：`S2/spec_design/生成式设计_报告.md`（全部结论、口径与限度）
-- 使用说明：`S2/spec_design/README_初版生成式设计_v1.md`（参数、产出、常见用法）
+两个版本并存：
+
+| 版本 | 目录 | 条件 |
+| --- | --- | --- |
+| v1 | `S2/spec_design/` | 材料 + 一阶（cs1）点值，可带容差与家族约束 |
+| v2 | `S2/spec_design_v2/` | cs1/cs2/cs3 任意组合，点值或**区间**（含单边），家族可选 |
+
+- v1 技术报告：`S2/spec_design/生成式设计_报告.md`（全部结论、口径与限度）
+- v1 使用说明：`S2/spec_design/README_初版生成式设计_v1.md`（参数、产出、常见用法）
+- v2 使用说明与结论：`S2/spec_design_v2/README_v2_多阶条件.md`
 - 代理模型说明：`S2/surrogate_v47/代理模型结果_v4.7.md`
+- 文献综述（S2 独立成文准备）：`S2/research/生成式转子设计文献综述_20261002.md`
+
+## 0. v2（2026-10-02 新增）：多阶 / 区间 / 家族条件
+
+v1 只做「材料 + 一阶点值」。v2 在同一套反向链、解码器、代理与引导之上把条件扩成：
+
+- **任意阶组合**：cs1 / cs2 / cs3 的 7 种非空组合，±5 % 容差；
+- **区间规格**：某一阶可以写成 `[10000,12000]`，也可以写成 `[14400,+]`（「至少」）；
+- **家族可选**：盘数与轴承数可以生成前限定（`--fam-allowed 3-3x2-2`），也可以生成后筛选；
+- **以上可任意叠加**。
+
+一条命令（默认用区间臂 v2i；先做第 2 节的准备）：
+
+```bash
+python S2/spec_design_v2/design_by_target_v2.py --targets "1=[3000,4500],2=[6000,9000]"     --material Steel --tol 0.05 --n-generate 5000 --n-submit 200 --out-tag myrun --threads 8
+```
+
+实测（5 000 台候选，取代理前 200 台送 ROSS 复验，均为 ROSS 真值口径）：
+
+| 规格 | 交付 | 秒/台交付 |
+| --- | --- | --- |
+| 点值 cs1 ±5 % | 192/200 | ~0.6 |
+| 区间 ±5 %（窄带 3500–3870） | 154/200 | 0.83 |
+| 区间 [2600, 5200] | 194/200 | 0.65 |
+| 区间 [1800, 7500] | 198/200 | 0.63 |
+| 单边 [3681, +) | 197/200 | 0.62 |
+| cs1 + cs2 联立 ±5 % | 162/199 | 1.24 |
+| cs1 + cs2 + cs3 联立（2 万台候选） | 131/200 | — |
+| 家族生成前限定 3-3x2-2 | 181/200 | 0.62 |
+| 家族生成后筛选 | 192/199 | 0.75 |
+
+权重：`outputs/v2i/model.pt`（区间臂）、`outputs/v2m/model.pt`（点值臂）。汇总数字见
+`outputs/interval_summary.json`、`outputs/joint_summary.json`、`outputs/family_sweep.json`。
 
 ## 1. 环境
 
@@ -87,6 +127,7 @@ python S2/spec_design/05_latent_ddpm.py sample --tag armV_ema --out-tag smoke \
 （额外落盘 N 台无偏样本，用来量批次质量）。
 
 ## 5. 目录
+| `S2/spec_design_v2/*.py` | v2 主链路。`design_by_target_v2.py` 单入口；`latent_ddpm_v2.py` 训练/采样（`--layout point|interval`）；`spec_interval.py` 区间解析与判定；`v2_ross_verify.py` 真值复验；`run_v2_eval.py` / `run_v2_interval.py` / `run_v2_joint.py` / `run_v2_family_sweep.py` 四张评估表；`outputs/v2i/`、`outputs/v2m/` 两个生成器权重 |
 
 | 路径 | 内容 |
 | --- | --- |

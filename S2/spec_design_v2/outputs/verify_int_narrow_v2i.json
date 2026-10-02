@@ -1,0 +1,99 @@
+{
+  "name": "int_narrow_v2i",
+  "csv": "outputs\\v2_int_narrow_v2i.csv",
+  "bands": {
+    "1": [
+      3500.0,
+      3870.0
+    ]
+  },
+  "tols": [
+    0.0
+  ],
+  "n_batch": 5000,
+  "proxy_whole_batch": {
+    "joint_in_band_tol0": 0.363,
+    "per_order_in_band_tol0": {
+      "1": 0.363
+    },
+    "order1": {
+      "median_ape_pct": 0.4771281134230962,
+      "mean_ape_pct": 1.6681628075103354,
+      "p90_ape_pct": 4.2578793288135355,
+      "inside_rate": 0.363
+    },
+    "joint_err": {
+      "median_pct": 0.4771281134230962,
+      "mean_pct": 1.6681628075103354,
+      "p90_pct": 4.2578793288135355
+    }
+  },
+  "runs": [
+    {
+      "label": "int_narrow_v2i__top200",
+      "tag": "v2info",
+      "orders": [
+        1
+      ],
+      "bands": {
+        "1": [
+          3500.0,
+          3870.0
+        ]
+      },
+      "tol": [
+        0.0
+      ],
+      "n_shortlist": 200,
+      "n_solved": 199,
+      "n_timeout": 0,
+      "n_error": 1,
+      "seconds": 127.68926858901978,
+      "proxy": {
+        "joint_in_band_tol0": 1.0,
+        "per_order_in_band_tol0": {
+          "1": 1.0
+        },
+        "order1": {
+          "median_ape_pct": 0.0,
+          "mean_ape_pct": 0.0,
+          "p90_ape_pct": 0.0,
+          "inside_rate": 1.0
+        },
+        "joint_err": {
+          "median_pct": 0.0,
+          "mean_pct": 0.0,
+          "p90_pct": 0.0
+        }
+      },
+      "truth": {
+        "joint_in_band_tol0": 0.7738693467336684,
+        "per_order_in_band_tol0": {
+          "1": 0.7738693467336684
+        },
+        "order1": {
+          "median_ape_pct": 0.0,
+          "mean_ape_pct": 0.9693877295801478,
+          "p90_ape_pct": 2.138071431270252,
+          "inside_rate": 0.7738693467336684
+        },
+        "joint_err": {
+          "median_pct": 0.0,
+          "mean_pct": 0.9693877295801478,
+          "p90_pct": 2.138071431270252
+        }
+      },
+      "spearman_joint_proxy_vs_true": 0.6138312776001218,
+      "spearman_order1": 0.6138312776001218,
+      "gate_tol0": {
+        "n_passed": 154,
+        "rate_of_solved": 0.7738693467336684,
+        "seconds_per_passed": 0.8291510947338947
+      },
+      "csv": "D:\\Louis_Projet\\rotor_projet\\大学生创新创业训练计划\\S2\\spec_design_v2\\outputs\\verify_int_narrow_v2i__top200.csv",
+      "deliverable_tol": 0.0,
+      "deliverable_n": 154,
+      "deliverable": "D:\\Louis_Projet\\rotor_projet\\大学生创新创业训练计划\\S2\\spec_design_v2\\outputs\\verify_int_narrow_v2i__top200__passed.csv"
+    }
+  ]
+}

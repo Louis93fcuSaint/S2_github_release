@@ -1,0 +1,178 @@
+{
+  "name": "cs2",
+  "csv": "D:\\Louis_Projet\\rotor_projet\\大学生创新创业训练计划\\S2\\spec_design_v2\\outputs\\v2_cs2.csv",
+  "targets": {
+    "2": 7021.0
+  },
+  "tols": [
+    0.01,
+    0.05
+  ],
+  "n_batch": 5000,
+  "proxy_whole_batch": {
+    "joint_in_band_tol1": 0.4268,
+    "per_order_in_band_tol1": {
+      "2": 0.4268
+    },
+    "joint_in_band_tol5": 0.8752,
+    "per_order_in_band_tol5": {
+      "2": 0.8752
+    },
+    "order2": {
+      "median_ape_pct": 1.3169776385130343,
+      "mean_ape_pct": 2.57741552485401,
+      "p90_ape_pct": 5.6820111095285615
+    },
+    "joint_err": {
+      "median_pct": 1.3169776385130343,
+      "mean_pct": 2.57741552485401,
+      "p90_pct": 5.6820111095285615
+    }
+  },
+  "runs": [
+    {
+      "label": "cs2__top200",
+      "tag": "v2info",
+      "orders": [
+        2
+      ],
+      "targets": {
+        "2": 7021.0
+      },
+      "tol": [
+        0.01,
+        0.05
+      ],
+      "n_shortlist": 200,
+      "n_solved": 200,
+      "n_timeout": 0,
+      "n_error": 0,
+      "seconds": 126.05775856971741,
+      "proxy": {
+        "joint_in_band_tol1": 1.0,
+        "per_order_in_band_tol1": {
+          "2": 1.0
+        },
+        "joint_in_band_tol5": 1.0,
+        "per_order_in_band_tol5": {
+          "2": 1.0
+        },
+        "order2": {
+          "median_ape_pct": 0.02065232872809882,
+          "mean_ape_pct": 0.022444096282580622,
+          "p90_ape_pct": 0.04344110525566418
+        },
+        "joint_err": {
+          "median_pct": 0.02065232872809882,
+          "mean_pct": 0.022444096282580622,
+          "p90_pct": 0.04344110525566418
+        }
+      },
+      "truth": {
+        "joint_in_band_tol1": 0.405,
+        "per_order_in_band_tol1": {
+          "2": 0.405
+        },
+        "joint_in_band_tol5": 0.93,
+        "per_order_in_band_tol5": {
+          "2": 0.93
+        },
+        "order2": {
+          "median_ape_pct": 1.4934493799733657,
+          "mean_ape_pct": 2.5508189846480978,
+          "p90_ape_pct": 4.213335198763352
+        },
+        "joint_err": {
+          "median_pct": 1.4934493799733657,
+          "mean_pct": 2.5508189846480978,
+          "p90_pct": 4.213335198763352
+        }
+      },
+      "spearman_joint_proxy_vs_true": -0.07266781669541739,
+      "spearman_order2": -0.07266781669541739,
+      "gate_tol1": {
+        "n_passed": 81,
+        "rate_of_solved": 0.405,
+        "seconds_per_passed": 1.5562686243174988
+      },
+      "gate_tol5": {
+        "n_passed": 186,
+        "rate_of_solved": 0.93,
+        "seconds_per_passed": 0.6777298847834269
+      },
+      "csv": "D:\\Louis_Projet\\rotor_projet\\大学生创新创业训练计划\\S2\\spec_design_v2\\outputs\\verify_cs2__top200.csv"
+    },
+    {
+      "label": "cs2__rand200",
+      "tag": "v2info",
+      "orders": [
+        2
+      ],
+      "targets": {
+        "2": 7021.0
+      },
+      "tol": [
+        0.01,
+        0.05
+      ],
+      "n_shortlist": 200,
+      "n_solved": 200,
+      "n_timeout": 0,
+      "n_error": 0,
+      "seconds": 125.3039858341217,
+      "proxy": {
+        "joint_in_band_tol1": 0.45,
+        "per_order_in_band_tol1": {
+          "2": 0.45
+        },
+        "joint_in_band_tol5": 0.875,
+        "per_order_in_band_tol5": {
+          "2": 0.875
+        },
+        "order2": {
+          "median_ape_pct": 1.2793049423159115,
+          "mean_ape_pct": 2.2423365617433415,
+          "p90_ape_pct": 5.635094715852438
+        },
+        "joint_err": {
+          "median_pct": 1.2793049423159115,
+          "mean_pct": 2.2423365617433415,
+          "p90_pct": 5.635094715852438
+        }
+      },
+      "truth": {
+        "joint_in_band_tol1": 0.245,
+        "per_order_in_band_tol1": {
+          "2": 0.245
+        },
+        "joint_in_band_tol5": 0.75,
+        "per_order_in_band_tol5": {
+          "2": 0.75
+        },
+        "order2": {
+          "median_ape_pct": 2.3181491197122615,
+          "mean_ape_pct": 3.402325742127817,
+          "p90_ape_pct": 8.016698350946434
+        },
+        "joint_err": {
+          "median_pct": 2.3181491197122615,
+          "mean_pct": 3.402325742127817,
+          "p90_pct": 8.016698350946434
+        }
+      },
+      "spearman_joint_proxy_vs_true": 0.4323933098327458,
+      "spearman_order2": 0.4323933098327458,
+      "gate_tol1": {
+        "n_passed": 49,
+        "rate_of_solved": 0.245,
+        "seconds_per_passed": 2.5572242006963615
+      },
+      "gate_tol5": {
+        "n_passed": 150,
+        "rate_of_solved": 0.75,
+        "seconds_per_passed": 0.8353599055608114
+      },
+      "csv": "D:\\Louis_Projet\\rotor_projet\\大学生创新创业训练计划\\S2\\spec_design_v2\\outputs\\verify_cs2__rand200.csv"
+    }
+  ]
+}

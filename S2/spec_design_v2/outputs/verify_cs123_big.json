@@ -1,0 +1,219 @@
+{
+  "name": "cs123_big",
+  "csv": "outputs\\v2_cs123_big.csv",
+  "targets": {
+    "1": 3680.8,
+    "2": 7021.0,
+    "3": 17970.5
+  },
+  "tols": [
+    0.05
+  ],
+  "n_batch": 20000,
+  "proxy_whole_batch": {
+    "joint_in_band_tol5": 0.0163,
+    "per_order_in_band_tol5": {
+      "1": 0.1952,
+      "2": 0.22535,
+      "3": 0.18545
+    },
+    "order1": {
+      "median_ape_pct": 13.999673983916534,
+      "mean_ape_pct": 16.744060095631383,
+      "p90_ape_pct": 34.67267985220603
+    },
+    "order2": {
+      "median_ape_pct": 11.612590799031478,
+      "mean_ape_pct": 13.972316707021793,
+      "p90_ape_pct": 28.597450505625986
+    },
+    "order3": {
+      "median_ape_pct": 14.401686096658414,
+      "mean_ape_pct": 15.755536921621546,
+      "p90_ape_pct": 30.64039954369661
+    },
+    "joint_err": {
+      "median_pct": 29.122337257508985,
+      "mean_pct": 30.487822007401693,
+      "p90_pct": 49.186872101897016
+    }
+  },
+  "runs": [
+    {
+      "label": "cs123_big__top200",
+      "tag": "v2info",
+      "orders": [
+        1,
+        2,
+        3
+      ],
+      "targets": {
+        "1": 3680.8,
+        "2": 7021.0,
+        "3": 17970.5
+      },
+      "tol": [
+        0.05
+      ],
+      "n_shortlist": 200,
+      "n_solved": 200,
+      "n_timeout": 0,
+      "n_error": 0,
+      "seconds": 119.43789386749268,
+      "proxy": {
+        "joint_in_band_tol5": 1.0,
+        "per_order_in_band_tol5": {
+          "1": 1.0,
+          "2": 1.0,
+          "3": 1.0
+        },
+        "order1": {
+          "median_ape_pct": 1.7072375570528124,
+          "mean_ape_pct": 1.817009889154531,
+          "p90_ape_pct": 3.378232992827647
+        },
+        "order2": {
+          "median_ape_pct": 1.676470588235293,
+          "mean_ape_pct": 1.8154450932915536,
+          "p90_ape_pct": 3.4661016949152517
+        },
+        "order3": {
+          "median_ape_pct": 1.616232158259378,
+          "mean_ape_pct": 1.7757057399627167,
+          "p90_ape_pct": 3.6736596088033204
+        },
+        "joint_err": {
+          "median_pct": 3.7060742404916565,
+          "mean_pct": 3.615654007456679,
+          "p90_pct": 4.7384301289281705
+        }
+      },
+      "truth": {
+        "joint_in_band_tol5": 0.655,
+        "per_order_in_band_tol5": {
+          "1": 0.89,
+          "2": 0.83,
+          "3": 0.82
+        },
+        "order1": {
+          "median_ape_pct": 2.218025404454165,
+          "mean_ape_pct": 2.730182741881817,
+          "p90_ape_pct": 5.046315053519055
+        },
+        "order2": {
+          "median_ape_pct": 2.1588373307715543,
+          "mean_ape_pct": 3.474822275068204,
+          "p90_ape_pct": 6.662784448737318
+        },
+        "order3": {
+          "median_ape_pct": 2.2967475259121573,
+          "mean_ape_pct": 3.259251468679562,
+          "p90_ape_pct": 6.875840655977432
+        },
+        "joint_err": {
+          "median_pct": 4.977128962683358,
+          "mean_pct": 6.479085529597883,
+          "p90_pct": 10.151040169038
+        }
+      },
+      "spearman_joint_proxy_vs_true": 0.15988149703742593,
+      "spearman_order1": 0.42173704342608564,
+      "spearman_order2": 0.4300142503562589,
+      "spearman_order3": 0.27211430285757143,
+      "gate_tol5": {
+        "n_passed": 131,
+        "rate_of_solved": 0.655,
+        "seconds_per_passed": 0.9117396478434555
+      },
+      "csv": "D:\\Louis_Projet\\rotor_projet\\大学生创新创业训练计划\\S2\\spec_design_v2\\outputs\\verify_cs123_big__top200.csv"
+    },
+    {
+      "label": "cs123_big__rand200",
+      "tag": "v2info",
+      "orders": [
+        1,
+        2,
+        3
+      ],
+      "targets": {
+        "1": 3680.8,
+        "2": 7021.0,
+        "3": 17970.5
+      },
+      "tol": [
+        0.05
+      ],
+      "n_shortlist": 200,
+      "n_solved": 200,
+      "n_timeout": 0,
+      "n_error": 0,
+      "seconds": 123.95646500587463,
+      "proxy": {
+        "joint_in_band_tol5": 0.005,
+        "per_order_in_band_tol5": {
+          "1": 0.215,
+          "2": 0.21,
+          "3": 0.19
+        },
+        "order1": {
+          "median_ape_pct": 14.268365572701585,
+          "mean_ape_pct": 16.46833840469463,
+          "p90_ape_pct": 32.45310801999563
+        },
+        "order2": {
+          "median_ape_pct": 12.135878080045577,
+          "mean_ape_pct": 14.155471442814417,
+          "p90_ape_pct": 27.220709300669427
+        },
+        "order3": {
+          "median_ape_pct": 14.585904677109712,
+          "mean_ape_pct": 16.19747892379177,
+          "p90_ape_pct": 30.80721181937063
+        },
+        "joint_err": {
+          "median_pct": 30.233911221031917,
+          "mean_pct": 30.842443418409047,
+          "p90_pct": 47.28372816502354
+        }
+      },
+      "truth": {
+        "joint_in_band_tol5": 0.0,
+        "per_order_in_band_tol5": {
+          "1": 0.19,
+          "2": 0.185,
+          "3": 0.175
+        },
+        "order1": {
+          "median_ape_pct": 14.490796921553894,
+          "mean_ape_pct": 16.69953037675885,
+          "p90_ape_pct": 32.9870955333793
+        },
+        "order2": {
+          "median_ape_pct": 12.740903109692065,
+          "mean_ape_pct": 15.011143398766533,
+          "p90_ape_pct": 29.565226577039848
+        },
+        "order3": {
+          "median_ape_pct": 14.214321769408505,
+          "mean_ape_pct": 16.400418777151778,
+          "p90_ape_pct": 32.88861545631885
+        },
+        "joint_err": {
+          "median_pct": 30.915154030844384,
+          "mean_pct": 31.552786959580764,
+          "p90_pct": 48.86230053458056
+        }
+      },
+      "spearman_joint_proxy_vs_true": 0.9570539263481587,
+      "spearman_order1": 0.976516912922823,
+      "spearman_order2": 0.9063196579914498,
+      "spearman_order3": 0.9479576989424736,
+      "gate_tol5": {
+        "n_passed": 0,
+        "rate_of_solved": 0.0,
+        "seconds_per_passed": 123.95646500587463
+      },
+      "csv": "D:\\Louis_Projet\\rotor_projet\\大学生创新创业训练计划\\S2\\spec_design_v2\\outputs\\verify_cs123_big__rand200.csv"
+    }
+  ]
+}

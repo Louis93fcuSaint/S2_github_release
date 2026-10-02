@@ -1,0 +1,23 @@
+{
+  "tag": "v2m",
+  "out_tag": "v2_cs123_big",
+  "targets": {
+    "1": 3680.8,
+    "2": 7021.0,
+    "3": 17970.5
+  },
+  "tol": 0.05,
+  "material": "Steel",
+  "n_generate": 20000,
+  "n_submit": 20000,
+  "validity": 0.99995,
+  "proxy_joint_in_band_raw": 0.0163,
+  "proxy_joint_in_band_top": 0.0163,
+  "proxy_per_order_top": {
+    "1": 0.1952,
+    "2": 0.22535,
+    "3": 0.18545
+  },
+  "median_joint_err_top": 0.2912235170582904,
+  "csv": "D:\\Louis_Projet\\rotor_projet\\大学生创新创业训练计划\\S2\\spec_design_v2\\outputs\\v2_cs123_big.csv"
+}

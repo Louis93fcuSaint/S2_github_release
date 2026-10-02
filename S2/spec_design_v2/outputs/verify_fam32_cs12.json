@@ -1,0 +1,188 @@
+{
+  "name": "fam32_cs12",
+  "csv": "outputs\\v2_fam32_cs12.csv",
+  "targets": {
+    "1": 2974.0,
+    "2": 7001.0
+  },
+  "tols": [
+    0.05
+  ],
+  "n_batch": 5000,
+  "proxy_whole_batch": {
+    "joint_in_band_tol5": 0.13,
+    "per_order_in_band_tol5": {
+      "1": 0.2576,
+      "2": 0.293
+    },
+    "order1": {
+      "median_ape_pct": 10.522528581035644,
+      "mean_ape_pct": 12.581530060524546,
+      "p90_ape_pct": 25.95342972427708
+    },
+    "order2": {
+      "median_ape_pct": 9.121268390229966,
+      "mean_ape_pct": 10.300877417511783,
+      "p90_ape_pct": 20.1158120268533
+    },
+    "joint_err": {
+      "median_pct": 15.665160182426602,
+      "mean_pct": 17.366136552538546,
+      "p90_pct": 31.90705443673756
+    }
+  },
+  "runs": [
+    {
+      "label": "fam32_cs12__top200",
+      "tag": "v2info",
+      "orders": [
+        1,
+        2
+      ],
+      "targets": {
+        "1": 2974.0,
+        "2": 7001.0
+      },
+      "tol": [
+        0.05
+      ],
+      "n_shortlist": 200,
+      "n_solved": 200,
+      "n_timeout": 0,
+      "n_error": 0,
+      "seconds": 120.54702544212341,
+      "proxy": {
+        "joint_in_band_tol5": 1.0,
+        "per_order_in_band_tol5": {
+          "1": 1.0,
+          "2": 1.0
+        },
+        "order1": {
+          "median_ape_pct": 0.9818426361802302,
+          "mean_ape_pct": 1.072072965702757,
+          "p90_ape_pct": 2.1207128446536596
+        },
+        "order2": {
+          "median_ape_pct": 1.043065276389082,
+          "mean_ape_pct": 1.105382088273104,
+          "p90_ape_pct": 2.166419082988146
+        },
+        "joint_err": {
+          "median_pct": 1.8139328872930898,
+          "mean_pct": 1.7033823032332907,
+          "p90_pct": 2.5648415341124493
+        }
+      },
+      "truth": {
+        "joint_in_band_tol5": 0.845,
+        "per_order_in_band_tol5": {
+          "1": 0.945,
+          "2": 0.87
+        },
+        "order1": {
+          "median_ape_pct": 1.3734795650664058,
+          "mean_ape_pct": 1.7969713106258687,
+          "p90_ape_pct": 3.9860488603973954
+        },
+        "order2": {
+          "median_ape_pct": 1.8237242899542236,
+          "mean_ape_pct": 2.7297466049521253,
+          "p90_ape_pct": 5.873803518129084
+        },
+        "joint_err": {
+          "median_pct": 2.659111129747998,
+          "mean_pct": 3.5640952429843553,
+          "p90_pct": 7.038809166434509
+        }
+      },
+      "spearman_joint_proxy_vs_true": 0.2350948773719343,
+      "spearman_order1": 0.3929258231455786,
+      "spearman_order2": 0.14959273981849547,
+      "gate_tol5": {
+        "n_passed": 169,
+        "rate_of_solved": 0.845,
+        "seconds_per_passed": 0.7132960085332747
+      },
+      "csv": "D:\\Louis_Projet\\rotor_projet\\大学生创新创业训练计划\\S2\\spec_design_v2\\outputs\\verify_fam32_cs12__top200.csv",
+      "deliverable_tol": 0.05,
+      "deliverable_n": 169,
+      "deliverable": "D:\\Louis_Projet\\rotor_projet\\大学生创新创业训练计划\\S2\\spec_design_v2\\outputs\\verify_fam32_cs12__top200__passed.csv"
+    },
+    {
+      "label": "fam32_cs12__rand200",
+      "tag": "v2info",
+      "orders": [
+        1,
+        2
+      ],
+      "targets": {
+        "1": 2974.0,
+        "2": 7001.0
+      },
+      "tol": [
+        0.05
+      ],
+      "n_shortlist": 200,
+      "n_solved": 200,
+      "n_timeout": 0,
+      "n_error": 0,
+      "seconds": 119.43679141998291,
+      "proxy": {
+        "joint_in_band_tol5": 0.165,
+        "per_order_in_band_tol5": {
+          "1": 0.3,
+          "2": 0.32
+        },
+        "order1": {
+          "median_ape_pct": 9.582044384667116,
+          "mean_ape_pct": 11.778142232683255,
+          "p90_ape_pct": 25.907027572293202
+        },
+        "order2": {
+          "median_ape_pct": 9.464790744179405,
+          "mean_ape_pct": 10.126134123696616,
+          "p90_ape_pct": 20.038723039565788
+        },
+        "joint_err": {
+          "median_pct": 15.494889682046653,
+          "mean_pct": 16.627343741301814,
+          "p90_pct": 31.76958804982147
+        }
+      },
+      "truth": {
+        "joint_in_band_tol5": 0.14,
+        "per_order_in_band_tol5": {
+          "1": 0.305,
+          "2": 0.31
+        },
+        "order1": {
+          "median_ape_pct": 9.166734097092148,
+          "mean_ape_pct": 11.840552366835043,
+          "p90_ape_pct": 25.241296053613294
+        },
+        "order2": {
+          "median_ape_pct": 8.896594078988826,
+          "mean_ape_pct": 10.52647632637828,
+          "p90_ape_pct": 22.203528927788145
+        },
+        "joint_err": {
+          "median_pct": 16.053319314753807,
+          "mean_pct": 17.04707048357441,
+          "p90_pct": 32.527111676422905
+        }
+      },
+      "spearman_joint_proxy_vs_true": 0.9664081602040051,
+      "spearman_order1": 0.9763369084227106,
+      "spearman_order2": 0.9323078076951924,
+      "gate_tol5": {
+        "n_passed": 28,
+        "rate_of_solved": 0.14,
+        "seconds_per_passed": 4.2655996935708185
+      },
+      "csv": "D:\\Louis_Projet\\rotor_projet\\大学生创新创业训练计划\\S2\\spec_design_v2\\outputs\\verify_fam32_cs12__rand200.csv",
+      "deliverable_tol": 0.05,
+      "deliverable_n": 28,
+      "deliverable": "D:\\Louis_Projet\\rotor_projet\\大学生创新创业训练计划\\S2\\spec_design_v2\\outputs\\verify_fam32_cs12__rand200__passed.csv"
+    }
+  ]
+}

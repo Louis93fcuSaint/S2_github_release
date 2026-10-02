@@ -6,3 +6,10 @@ S2/spec_design/outputs/cache_features.npz
 S1/04_versions/v4.7/dataset_v4.7/dataset_v4.7_all.csv
 # batch samples written by --dump-batch
 S2/spec_design/outputs/latent_ddpm/*_pool__*.csv
+
+# v2 candidate pools (regenerate with design_by_target_v2.py / run_v2_*.py)
+S2/spec_design_v2/outputs/v2_*.csv
+S2/spec_design_v2/outputs/verify_*__top200.csv
+S2/spec_design_v2/outputs/verify_*__rand200.csv
+# v2 sample logs
+S2/spec_design_v2/outputs/logs/

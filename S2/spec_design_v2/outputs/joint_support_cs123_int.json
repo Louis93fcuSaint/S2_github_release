@@ -1,0 +1,166 @@
+{
+  "material": "Steel",
+  "family": "free",
+  "targets": "1=[3000,4500],2=[6000,9000],3=[14000,22000]",
+  "h_max": 0.7,
+  "n_pool": 66376,
+  "n_joint": 1027,
+  "joint_rate": 0.015472459925274195,
+  "orders": [
+    {
+      "order": 1,
+      "band": [
+        3000.0,
+        4500.0
+      ],
+      "asked_band": [
+        3000.0,
+        4500.0
+      ],
+      "log_width": 0.4054651081081644,
+      "in_band_rate": 0.16263408460889478,
+      "half_width_pct": 22.474487139158896,
+      "proxy_mape_pct": 1.28
+    },
+    {
+      "order": 2,
+      "band": [
+        6000.0,
+        9000.0
+      ],
+      "asked_band": [
+        6000.0,
+        9000.0
+      ],
+      "log_width": 0.4054651081081644,
+      "in_band_rate": 0.15641195612872122,
+      "half_width_pct": 22.474487139158896,
+      "proxy_mape_pct": 2.19
+    },
+    {
+      "order": 3,
+      "band": [
+        14000.0,
+        22000.0
+      ],
+      "asked_band": [
+        14000.0,
+        22000.0
+      ],
+      "log_width": 0.4519851237430572,
+      "in_band_rate": 0.21147703989393757,
+      "half_width_pct": 25.35663410560174,
+      "proxy_mape_pct": 3.22
+    }
+  ],
+  "per_family": [
+    {
+      "disks": 1,
+      "bearings": 2,
+      "n_pool": 4351,
+      "n_inside": 65
+    },
+    {
+      "disks": 1,
+      "bearings": 3,
+      "n_pool": 4471,
+      "n_inside": 54
+    },
+    {
+      "disks": 1,
+      "bearings": 4,
+      "n_pool": 4559,
+      "n_inside": 44
+    },
+    {
+      "disks": 2,
+      "bearings": 2,
+      "n_pool": 4180,
+      "n_inside": 67
+    },
+    {
+      "disks": 2,
+      "bearings": 3,
+      "n_pool": 4159,
+      "n_inside": 48
+    },
+    {
+      "disks": 2,
+      "bearings": 4,
+      "n_pool": 4199,
+      "n_inside": 47
+    },
+    {
+      "disks": 3,
+      "bearings": 2,
+      "n_pool": 3871,
+      "n_inside": 78
+    },
+    {
+      "disks": 3,
+      "bearings": 3,
+      "n_pool": 3890,
+      "n_inside": 51
+    },
+    {
+      "disks": 3,
+      "bearings": 4,
+      "n_pool": 3778,
+      "n_inside": 56
+    },
+    {
+      "disks": 4,
+      "bearings": 2,
+      "n_pool": 3643,
+      "n_inside": 70
+    },
+    {
+      "disks": 4,
+      "bearings": 3,
+      "n_pool": 3699,
+      "n_inside": 67
+    },
+    {
+      "disks": 4,
+      "bearings": 4,
+      "n_pool": 3670,
+      "n_inside": 54
+    },
+    {
+      "disks": 5,
+      "bearings": 2,
+      "n_pool": 3171,
+      "n_inside": 67
+    },
+    {
+      "disks": 5,
+      "bearings": 3,
+      "n_pool": 3288,
+      "n_inside": 57
+    },
+    {
+      "disks": 5,
+      "bearings": 4,
+      "n_pool": 3172,
+      "n_inside": 39
+    },
+    {
+      "disks": 6,
+      "bearings": 2,
+      "n_pool": 2749,
+      "n_inside": 61
+    },
+    {
+      "disks": 6,
+      "bearings": 3,
+      "n_pool": 2738,
+      "n_inside": 45
+    },
+    {
+      "disks": 6,
+      "bearings": 4,
+      "n_pool": 2788,
+      "n_inside": 57
+    }
+  ]
+}

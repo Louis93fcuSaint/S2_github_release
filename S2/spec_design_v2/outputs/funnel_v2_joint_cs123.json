@@ -1,0 +1,37 @@
+{
+  "tag": "v2i",
+  "out_tag": "v2_joint_cs123",
+  "layout": "interval",
+  "bands": {
+    "1": [
+      3000.0,
+      4500.0
+    ],
+    "2": [
+      6000.0,
+      9000.0
+    ],
+    "3": [
+      14000.0,
+      22000.0
+    ]
+  },
+  "relax": 0.0,
+  "material": "Steel",
+  "family": "free",
+  "fam_filter": "",
+  "n_generated": 5000,
+  "n_kept_after_filter": 5000,
+  "n_generate": 5000,
+  "n_submit": 5000,
+  "validity": 0.9998,
+  "proxy_joint_in_band_raw": 0.093,
+  "proxy_joint_in_band_top": 0.093,
+  "proxy_per_order_top": {
+    "1": 0.5356,
+    "2": 0.528,
+    "3": 0.4116
+  },
+  "median_joint_dev_top": 0.1107199531678302,
+  "csv": "D:\\Louis_Projet\\rotor_projet\\大学生创新创业训练计划\\S2\\spec_design_v2\\outputs\\v2_joint_cs123.csv"
+}

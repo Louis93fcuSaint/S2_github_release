@@ -1,0 +1,27 @@
+{
+  "tag": "v2i",
+  "out_tag": "v2_sweep_filt_10k",
+  "layout": "interval",
+  "bands": {
+    "1": [
+      3000.0,
+      4500.0
+    ]
+  },
+  "relax": 0.0,
+  "material": "Steel",
+  "family": "free",
+  "fam_filter": "3-3x2-2",
+  "n_generated": 10000,
+  "n_kept_after_filter": 502,
+  "n_generate": 10000,
+  "n_submit": 10000,
+  "validity": 1.0,
+  "proxy_joint_in_band_raw": 0.6394422310756972,
+  "proxy_joint_in_band_top": 0.6394422310756972,
+  "proxy_per_order_top": {
+    "1": 0.6394422310756972
+  },
+  "median_joint_dev_top": 0.0,
+  "csv": "D:\\Louis_Projet\\rotor_projet\\大学生创新创业训练计划\\S2\\spec_design_v2\\outputs\\v2_sweep_filt_10k.csv"
+}

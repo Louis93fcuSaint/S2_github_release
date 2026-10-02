@@ -1,0 +1,27 @@
+{
+  "tag": "v2i",
+  "out_tag": "v2_sweep_cond_5k",
+  "layout": "interval",
+  "bands": {
+    "1": [
+      3000.0,
+      4500.0
+    ]
+  },
+  "relax": 0.0,
+  "material": "Steel",
+  "family": "3-3x2-2",
+  "fam_filter": "",
+  "n_generated": 5000,
+  "n_kept_after_filter": 5000,
+  "n_generate": 5000,
+  "n_submit": 5000,
+  "validity": 1.0,
+  "proxy_joint_in_band_raw": 0.6134,
+  "proxy_joint_in_band_top": 0.6134,
+  "proxy_per_order_top": {
+    "1": 0.6134
+  },
+  "median_joint_dev_top": 0.0,
+  "csv": "D:\\Louis_Projet\\rotor_projet\\大学生创新创业训练计划\\S2\\spec_design_v2\\outputs\\v2_sweep_cond_5k.csv"
+}

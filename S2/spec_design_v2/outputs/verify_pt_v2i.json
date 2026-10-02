@@ -1,0 +1,118 @@
+{
+  "name": "pt_v2i",
+  "csv": "outputs\\v2_pt_v2i.csv",
+  "bands": {
+    "1": [
+      3680.8,
+      3680.8
+    ]
+  },
+  "tols": [
+    0.01,
+    0.05
+  ],
+  "n_batch": 5000,
+  "proxy_whole_batch": {
+    "joint_in_band_tol1": 0.4584,
+    "per_order_in_band_tol1": {
+      "1": 0.4584
+    },
+    "joint_in_band_tol5": 0.8904,
+    "per_order_in_band_tol5": {
+      "1": 0.8904
+    },
+    "order1": {
+      "median_ape_pct": 1.1903662247337612,
+      "mean_ape_pct": 2.4701481743099323,
+      "p90_ape_pct": 5.2499728319930465,
+      "inside_rate": 0.0
+    },
+    "joint_err": {
+      "median_pct": 1.1903662247337612,
+      "mean_pct": 2.4701481743099323,
+      "p90_pct": 5.2499728319930465
+    }
+  },
+  "runs": [
+    {
+      "label": "pt_v2i__top200",
+      "tag": "v2info",
+      "orders": [
+        1
+      ],
+      "bands": {
+        "1": [
+          3680.8,
+          3680.8
+        ]
+      },
+      "tol": [
+        0.01,
+        0.05
+      ],
+      "n_shortlist": 200,
+      "n_solved": 199,
+      "n_timeout": 0,
+      "n_error": 1,
+      "seconds": 120.00358700752258,
+      "proxy": {
+        "joint_in_band_tol1": 1.0,
+        "per_order_in_band_tol1": {
+          "1": 1.0
+        },
+        "joint_in_band_tol5": 1.0,
+        "per_order_in_band_tol5": {
+          "1": 1.0
+        },
+        "order1": {
+          "median_ape_pct": 0.016029124103459726,
+          "mean_ape_pct": 0.016222986263637176,
+          "p90_ape_pct": 0.030210823733973054,
+          "inside_rate": 0.0
+        },
+        "joint_err": {
+          "median_pct": 0.016029124103459726,
+          "mean_pct": 0.016222986263637176,
+          "p90_pct": 0.030210823733973054
+        }
+      },
+      "truth": {
+        "joint_in_band_tol1": 0.5125628140703518,
+        "per_order_in_band_tol1": {
+          "1": 0.5125628140703518
+        },
+        "joint_in_band_tol5": 0.9346733668341709,
+        "per_order_in_band_tol5": {
+          "1": 0.9346733668341709
+        },
+        "order1": {
+          "median_ape_pct": 0.9484724368361903,
+          "mean_ape_pct": 1.7302290522819925,
+          "p90_ape_pct": 3.1326087709691577,
+          "inside_rate": 0.0
+        },
+        "joint_err": {
+          "median_pct": 0.9484724368361903,
+          "mean_pct": 1.7302290522819925,
+          "p90_pct": 3.1326087709691577
+        }
+      },
+      "spearman_joint_proxy_vs_true": 0.02373838891426831,
+      "spearman_order1": 0.02373838891426831,
+      "gate_tol1": {
+        "n_passed": 102,
+        "rate_of_solved": 0.5125628140703518,
+        "seconds_per_passed": 1.1765057549757116
+      },
+      "gate_tol5": {
+        "n_passed": 186,
+        "rate_of_solved": 0.9346733668341709,
+        "seconds_per_passed": 0.6451805753092612
+      },
+      "csv": "D:\\Louis_Projet\\rotor_projet\\大学生创新创业训练计划\\S2\\spec_design_v2\\outputs\\verify_pt_v2i__top200.csv",
+      "deliverable_tol": 0.01,
+      "deliverable_n": 102,
+      "deliverable": "D:\\Louis_Projet\\rotor_projet\\大学生创新创业训练计划\\S2\\spec_design_v2\\outputs\\verify_pt_v2i__top200__passed.csv"
+    }
+  ]
+}
