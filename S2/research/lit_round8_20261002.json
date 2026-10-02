@@ -1,0 +1,515 @@
+{
+ "Intelligent Generative Design A New Mechanical Design Concept": [
+  {
+   "title": "Intelligent Generative Design: A New Mechanical Design Concept",
+   "year": 2025,
+   "doi": "10.2139/ssrn.5249769",
+   "container": "-",
+   "authors": [
+    "Fangwei Ning",
+    "Yan Shi"
+   ]
+  },
+  {
+   "title": "Intelligent Generative Design—A New Mechanical Design Concept",
+   "year": 2025,
+   "doi": "10.3901/jme.2025.24.267",
+   "container": "Journal of Mechanical Engineering",
+   "authors": []
+  },
+  {
+   "title": "Intelligent Generative Design: A New Mechanical Design Concept",
+   "year": 2024,
+   "doi": "10.2139/ssrn.4931314",
+   "container": "-",
+   "authors": [
+    "Fangwei Ning",
+    "Yixuan Wang",
+    "Jiaxing Lu",
+    "Heran Li"
+   ]
+  }
+ ],
+ "Interval optimization of rotor-bearing systems with dynamic behavior constraints": [
+  {
+   "title": "Interval optimization of rotor-bearing systems with dynamic behavior constraints using an interval genetic algorithm",
+   "year": 2007,
+   "doi": "10.1007/s00158-007-0199-y",
+   "container": "Structural and Multidisciplinary Optimization",
+   "authors": [
+    "Ting-Nung Shiau",
+    "Chung-Hao Kang",
+    "De-Shin Liu"
+   ]
+  },
+  {
+   "title": "Optimization Combines the Genetic Algorithms With Augmented Lagrange Multiplier Method for Rotor-Bearing Systems Under Dynamic Behavior Constraints",
+   "year": 2004,
+   "doi": "10.1115/gt2004-54058",
+   "container": "Volume 6: Turbo Expo 2004",
+   "authors": [
+    "T. N. Shiau",
+    "C. H. Kang",
+    "D. S. Liu"
+   ]
+  },
+  {
+   "title": "Multilevel Optimization of Rotor Bearing System With Dynamic Behavior Constraints",
+   "year": 2000,
+   "doi": "10.1115/2000-gt-0392",
+   "container": "Volume 4: Manufacturing Materials and Metallurgy; Ceramics; Structures and Dynamics; Controls, Diagnostics and Instrumentation; Education",
+   "authors": [
+    "T. N. Shiau",
+    "H. J. Lee",
+    "Y. J. Tsai"
+   ]
+  }
+ ],
+ "Robust Optimization of Flexible Rotor Systems With Uncertain Parameters via Interval": [
+  {
+   "title": "Robust Optimization of Flexible Rotor Systems With Uncertain Parameters via Interval Analysis Method",
+   "year": 2019,
+   "doi": "10.1115/gt2019-90586",
+   "container": "Volume 7A: Structures and Dynamics",
+   "authors": [
+    "Jie Hong",
+    "ZheFu Yang",
+    "YaoYu Ni",
+    "YanHong Ma"
+   ]
+  },
+  {
+   "title": "Dynamic Response Analysis of Rotor System With Uncertain Parameters via Interval Analysis Method",
+   "year": 2012,
+   "doi": "10.1115/gt2012-69007",
+   "container": "Volume 7: Structures and Dynamics, Parts A and B",
+   "authors": [
+    "Jie Hong",
+    "Jun Wang",
+    "Meng Chen",
+    "Yanhong Ma"
+   ]
+  },
+  {
+   "title": "Robust Dynamic Interval Systems",
+   "year": 1991,
+   "doi": "10.1007/978-3-7091-6711-3_12",
+   "container": "Uncertain Models and Robust Control",
+   "authors": [
+    "Alexander Weinmann"
+   ]
+  }
+ ],
+ "Interval Stability Analysis of a Flexible 8DOF Rotor-Bearing System": [
+  {
+   "title": "Interval Stability Analysis of a Flexible 8DOF Rotor–Bearing System with Internal Damping and Parametric Uncertainty",
+   "year": 2026,
+   "doi": "10.2139/ssrn.7537690",
+   "container": "-",
+   "authors": [
+    "Mohammad Ghorbanlou",
+    "Seyyed Hosseini",
+    "mehdi zamanian"
+   ]
+  },
+  {
+   "title": "Influence of frequency dependent flexible bearing supports on rotor stability",
+   "year": null,
+   "doi": "10.18130/v31w1z",
+   "container": "-",
+   "authors": [
+    "Karl David Wygant"
+   ]
+  },
+  {
+   "title": "Stability and bifurcation analysis of a flexible rotor-bearing system by numerical continuation",
+   "year": 2012,
+   "doi": "10.1533/9780857094537.9.647",
+   "container": "10th International Conference on Vibrations in Rotating Machinery",
+   "authors": [
+    "M. Chouchane",
+    "R. Sghir"
+   ]
+  }
+ ],
+ "Data-driven structural generative design based on diffusion model for flexible structures": [
+  {
+   "title": "Data-driven structural generative design based on diffusion model for flexible support of optical mirror",
+   "year": 2025,
+   "doi": "10.1016/j.engstruct.2025.120578",
+   "container": "Engineering Structures",
+   "authors": [
+    "Chaoqun Zeng",
+    "Jiaying Wang",
+    "Wei Wang",
+    "Kuo Hai"
+   ]
+  },
+  {
+   "title": "Data driven structural dynamic response reconstruction using segment based generative adversarial networks",
+   "year": 2021,
+   "doi": "10.1016/j.engstruct.2021.111970",
+   "container": "Engineering Structures",
+   "authors": [
+    "Gao Fan",
+    "Jun Li",
+    "Hong Hao",
+    "Yu Xin"
+   ]
+  },
+  {
+   "title": "Diffusion Model-Driven Spectral Noise Modeling and Generative Reconstruction Strategy",
+   "year": null,
+   "doi": "10.1021/acs.analchem.6c02220.s001",
+   "container": "-",
+   "authors": []
+  }
+ ],
+ "Inverse design of composite materials with desired mechanical behaviors based on diffusion": [
+  {
+   "title": "Inverse Design of Composite Materials with Desired Mechanical Behaviors Based on Conditional Diffusion Model",
+   "year": 2025,
+   "doi": "10.2139/ssrn.5292761",
+   "container": "-",
+   "authors": [
+    "Guangfa Li",
+    "Dehao Liu"
+   ]
+  },
+  {
+   "title": "Inverse Design of Composite Materials with Desired Mechanical Behaviors Based on Conditional Diffusion Model",
+   "year": 2025,
+   "doi": "10.2139/ssrn.5224478",
+   "container": "-",
+   "authors": [
+    "Guangfa Li",
+    "Dehao Liu"
+   ]
+  },
+  {
+   "title": "Inverse design of composite materials with desired mechanical behaviors based on conditional diffusion model",
+   "year": 2025,
+   "doi": "10.1016/j.engstruct.2025.121417",
+   "container": "Engineering Structures",
+   "authors": [
+    "Guangfa Li",
+    "Dehao Liu"
+   ]
+  }
+ ],
+ "Stochastic model updating using conditional diffusion-based probabilistic generative model": [
+  {
+   "title": "Stochastic model updating using conditional diffusion-based probabilistic generative models",
+   "year": 2026,
+   "doi": "10.1016/j.ymssp.2026.113891",
+   "container": "Mechanical Systems and Signal Processing",
+   "authors": [
+    "Tairan Wang",
+    "Sifeng Bi"
+   ]
+  },
+  {
+   "title": "Amortized Likelihood-Free Stochastic Model Updating via Conditional Diffusion Model for Structural Health Monitoring",
+   "year": 2025,
+   "doi": "10.2139/ssrn.5271448",
+   "container": "-",
+   "authors": [
+    "Jice Zeng",
+    "Hui Chen",
+    "Wang-Ji Yan",
+    "Zhao Zhao"
+   ]
+  },
+  {
+   "title": "A Conditional Diffusion-Based Generative AI Model for Industrial Predictive Analytics",
+   "year": 2026,
+   "doi": "10.2139/ssrn.6169178",
+   "container": "-",
+   "authors": [
+    "Ko Donghyun",
+    "Xiaolei Fang"
+   ]
+  }
+ ],
+ "Deep Analogical Generative Design and Evaluation Integration of Stable Diffusion": [
+  {
+   "title": "Deep Analogical Generative Design and Evaluation: Integration of Stable Diffusion and LoRA",
+   "year": 2024,
+   "doi": "10.1115/1.4066861",
+   "container": "Journal of Mechanical Design",
+   "authors": [
+    "Yumiao Chen",
+    "Huanhuan Ruan"
+   ]
+  },
+  {
+   "title": "Generative Design of Inorganic Compounds Using Deep Diffusion Language Models",
+   "year": null,
+   "doi": "10.1021/acs.jpca.4c00083.s001",
+   "container": "-",
+   "authors": []
+  },
+  {
+   "title": "Data-Driven Deep Generative Design of Stable Spintronic Materials",
+   "year": 2023,
+   "doi": "10.26434/chemrxiv-2023-4vpdg",
+   "container": "-",
+   "authors": [
+    "Edirisuriya Siriwardane",
+    "Yong Zhao",
+    "Jianjun Hu"
+   ]
+  }
+ ],
+ "Journal of Mechanical Engineering :: rotor critical speed": [
+  {
+   "title": "IDENTIFICATION OF HIGH-ORDER CRITICAL SPEED TO ROTOR BEARING SYSTEM",
+   "year": 2002,
+   "doi": "10.3901/jme.2002.07.107",
+   "container": "Chinese Journal of Mechanical Engineering",
+   "authors": [
+    "Yucheng Zhao"
+   ]
+  },
+  {
+   "title": "Influence of Dynamic Stiffness of Support on Critical Speed of Rotor System and Experimental Verification",
+   "year": 2023,
+   "doi": "10.3901/jme.2023.21.245",
+   "container": "Journal of Mechanical Engineering",
+   "authors": []
+  },
+  {
+   "title": "Critical Speed and Unbalance Response of the Locomotive Motor Rotor",
+   "year": 2016,
+   "doi": "10.2174/2212797609666160503161459",
+   "container": "Recent Patents on Mechanical Engineering",
+   "authors": [
+    "Yuewei Chen",
+    "Junguo Wang",
+    "Zhanjie Guo"
+   ]
+  },
+  {
+   "title": "Passage of a Rotor Through a Critical Speed",
+   "year": 1982,
+   "doi": "10.1115/1.3256353",
+   "container": "Journal of Mechanical Design",
+   "authors": [
+    "K. Tsuchiya"
+   ]
+  },
+  {
+   "title": "Vibration of Asymmetric Rotor through Critical Speed with Limited Power Supply",
+   "year": 1972,
+   "doi": "10.1243/jmes_jour_1972_014_026_02",
+   "container": "Journal of Mechanical Engineering Science",
+   "authors": [
+    "T. Iwatsubo",
+    "H. Kanki",
+    "R. Kawai"
+   ]
+  },
+  {
+   "title": "Fractal dimension of time series applied to identification of critical speed of Jeffcott rotor system",
+   "year": 2005,
+   "doi": "10.3901/cjme.2005.03.446",
+   "container": "Chinese Journal of Mechanical Engineering (English Edition)",
+   "authors": [
+    "Yucheng Zhao"
+   ]
+  }
+ ],
+ "Journal of Mechanical Engineering :: surrogate model optimization design": [
+  {
+   "title": "Surrogate-Model-Based Design and Optimization",
+   "year": 2019,
+   "doi": "10.1007/978-981-15-0731-1_7",
+   "container": "Springer Tracts in Mechanical Engineering",
+   "authors": [
+    "Ping Jiang",
+    "Qi Zhou",
+    "Xinyu Shao"
+   ]
+  },
+  {
+   "title": "Multidisciplinary Design Optimization of Cooling Turbine Blade Profiles Based on Surrogate Model",
+   "year": 2011,
+   "doi": "10.3901/jme.2011.10.106",
+   "container": "Journal of Mechanical Engineering",
+   "authors": [
+    "Kuahai YU"
+   ]
+  },
+  {
+   "title": "Multi-objective Optimization Design Method Based on a Hybrid Metric Adaptive Sampling Surrogate Model",
+   "year": 2024,
+   "doi": "10.3901/jme.2024.13.081",
+   "container": "Journal of Mechanical Engineering",
+   "authors": []
+  },
+  {
+   "title": "Surrogate Model-Based Engineering Design and Optimization",
+   "year": 2020,
+   "doi": "10.1007/978-981-15-0731-1",
+   "container": "Springer Tracts in Mechanical Engineering",
+   "authors": [
+    "Ping Jiang",
+    "Qi Zhou",
+    "Xinyu Shao"
+   ]
+  },
+  {
+   "title": "Ensembles of Surrogate Models",
+   "year": 2019,
+   "doi": "10.1007/978-981-15-0731-1_3",
+   "container": "Springer Tracts in Mechanical Engineering",
+   "authors": [
+    "Ping Jiang",
+    "Qi Zhou",
+    "Xinyu Shao"
+   ]
+  },
+  {
+   "title": "Multi-fidelity Surrogate Models",
+   "year": 2019,
+   "doi": "10.1007/978-981-15-0731-1_4",
+   "container": "Springer Tracts in Mechanical Engineering",
+   "authors": [
+    "Ping Jiang",
+    "Qi Zhou",
+    "Xinyu Shao"
+   ]
+  }
+ ],
+ "Journal of Vibration Engineering :: rotor critical speed": [
+  {
+   "title": "Rotor Unbalance and Critical Speed Case Studies",
+   "year": 2000,
+   "doi": "10.1201/9780203902165.ch10",
+   "container": "Rotating Machinery Vibration",
+   "authors": []
+  },
+  {
+   "title": "Forced Oscillations of a Continuous Asymmetrical Rotor With Geometric Nonlinearity (Major Critical Speed and Secondary Critical Speed)",
+   "year": 2008,
+   "doi": "10.1115/1.2890734",
+   "container": "Journal of Vibration and Acoustics",
+   "authors": [
+    "Imao Nagasaka",
+    "Yukio Ishida",
+    "Jun Liu"
+   ]
+  },
+  {
+   "title": "Transient Analysis of a Cracked Rotor Passing Through Critical Speed",
+   "year": 1994,
+   "doi": "10.1006/jsvi.1994.1238",
+   "container": "Journal of Sound and Vibration",
+   "authors": [
+    "A.S. Sekhar",
+    "B.S. Prabhu"
+   ]
+  },
+  {
+   "title": "Across the Critical Speed of Flexible Rotor with AMBs Using Characteristic Model-Based All-Coefficient Adaptive Control",
+   "year": 2025,
+   "doi": "10.1007/s42417-025-02209-6",
+   "container": "Journal of Vibration Engineering &amp; Technologies",
+   "authors": [
+    "Song Ding",
+    "Chaowu Jin",
+    "Jin Zhou",
+    "Zhendong Hong"
+   ]
+  },
+  {
+   "title": "Speed-Dependent Eigenmodes for Efficient Simulation of Transverse Rotor Vibration",
+   "year": 2022,
+   "doi": "10.3390/vibration5040043",
+   "container": "Vibration",
+   "authors": [
+    "Jocelyn Kluger",
+    "Lynn Crevier",
+    "Martin Udengaard"
+   ]
+  },
+  {
+   "title": "Rotor Vibration Due to Collision With Annular Guard During Passage Through Critical Speed",
+   "year": 1998,
+   "doi": "10.1115/1.2893863",
+   "container": "Journal of Vibration and Acoustics",
+   "authors": [
+    "S. Yanabe",
+    "S. Kaneko",
+    "Y. Kanemitsu",
+    "N. Tomi"
+   ]
+  }
+ ],
+ "Journal of Aerospace Power :: rotor critical speed": [
+  {
+   "title": "Dynamic Modeling of Aeroengine Rotor Speed Based on Data Fusion Method",
+   "year": 2025,
+   "doi": "10.3390/aerospace12040322",
+   "container": "Aerospace",
+   "authors": [
+    "Jun Hong",
+    "Hongxin Wang",
+    "Ziqiao Chen",
+    "Jiawei Lu"
+   ]
+  },
+  {
+   "title": "Low-speed cruise aerodynamics of the stopped rotor/disk rotorcraft concept",
+   "year": 1992,
+   "doi": "10.2514/6.1992-1067",
+   "container": "Aerospace Design Conference",
+   "authors": [
+    "STEPHEN SWANSON",
+    "ROBERT STROUB"
+   ]
+  },
+  {
+   "title": "Influence of Acceleration on the Critical Speed of a Jeffcott Rotor",
+   "year": 1981,
+   "doi": "10.1115/1.3230680",
+   "container": "Journal of Engineering for Power",
+   "authors": [
+    "H. L. Hassenpflug",
+    "R. D. Flack",
+    "E. J. Gunter"
+   ]
+  },
+  {
+   "title": "Effective approach for calculating critical speeds of high‐speed permanent magnet motor rotor‐shaft assemblies",
+   "year": 2015,
+   "doi": "10.1049/iet-epa.2014.0503",
+   "container": "IET Electric Power Applications",
+   "authors": [
+    "Ziyuan Huang",
+    "Bangcheng Han"
+   ]
+  },
+  {
+   "title": "Rotor design of high tip speed low loading transonic fan",
+   "year": 1972,
+   "doi": "10.2514/6.1972-83",
+   "container": "10th Aerospace Sciences Meeting",
+   "authors": [
+    "J. ERWIN",
+    "N. VITALE"
+   ]
+  },
+  {
+   "title": "Canard Rotor/Wing: A Revolutionary High-speed Rotorcraft Concept",
+   "year": 1993,
+   "doi": "10.2514/6.1993-1175",
+   "container": "Aerospace Design Conference",
+   "authors": [
+    "John W. Rutherford",
+    "Steven M. Bass",
+    "Steven D. Larsen"
+   ]
+  }
+ ]
+}

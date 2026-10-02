@@ -1,0 +1,702 @@
+{
+ "crossref": {
+  "R1": {
+   "query": "rotor critical speed machine learning prediction",
+   "total": 4973119,
+   "hits": [
+    {
+     "title": "Critical speed calculation and modal analysis of rotor for high-speed machine",
+     "year": 2017,
+     "doi": "10.1109/itec-ap.2017.8080979",
+     "container": "2017 IEEE Transportation Electrification Conference and Expo, Asia-Pacific (ITEC Asia-Pacific)",
+     "publisher": "IEEE",
+     "type": "proceedings-article"
+    },
+    {
+     "title": "Machine-Learning-Guided Prediction Models of Critical Temperature of Cuprates",
+     "year": null,
+     "doi": "10.1021/acs.jpclett.1c01442.s001",
+     "container": "-",
+     "publisher": "American Chemical Society (ACS)",
+     "type": "component"
+    },
+    {
+     "title": "Drug Response Prediction with Machine Learning: A Critical Assessment of Current Approaches",
+     "year": 2023,
+     "doi": "10.58647/rexpo.23015",
+     "container": "Drug Response Prediction with Machine Learning: A Critical Assessment of Current Approaches",
+     "publisher": "REPO4EU",
+     "type": "proceedings-article"
+    },
+    {
+     "title": "Machine learning ensemble models for solar wind speed prediction",
+     "year": 2023,
+     "doi": "10.5194/egusphere-egu23-7941",
+     "container": "-",
+     "publisher": "Copernicus GmbH",
+     "type": "posted-content"
+    },
+    {
+     "title": "Eccentricity of Rotor Prediction of Aero-Engine Rotor Based on Image Identification and Machine Learning",
+     "year": 2019,
+     "doi": "10.1115/imece2019-10919",
+     "container": "Volume 2B: Advanced Manufacturing",
+     "publisher": "American Society of Mechanical Engineers",
+     "type": "proceedings-article"
+    },
+    {
+     "title": "Enhanced wind power prediction using rotor equivalent wind speed and machine learning models",
+     "year": 2026,
+     "doi": "10.1016/j.ecmx.2025.101479",
+     "container": "Energy Conversion and Management: X",
+     "publisher": "Elsevier BV",
+     "type": "journal-article"
+    },
+    {
+     "title": "Machine learning-based short-term traffic speed prediction using commercial traffic information data",
+     "year": null,
+     "doi": "10.58837/chula.the.2026.12",
+     "container": "-",
+     "publisher": "Office of Academic Resources, Chulalongkorn University",
+     "type": "dissertation"
+    },
+    {
+     "title": "Physics-informed Machine Learning prediction of ambient solar wind speed",
+     "year": 2023,
+     "doi": "10.5194/egusphere-egu23-4005",
+     "container": "-",
+     "publisher": "Copernicus GmbH",
+     "type": "posted-content"
+    },
+    {
+     "title": "Improving Wind Speed and Power Prediction Through Dynamic Surface Parameterization and Spatiotemporal Machine Learning",
+     "year": null,
+     "doi": "10.22215/etd/2026-16955",
+     "container": "-",
+     "publisher": "Carleton University",
+     "type": "dissertation"
+    },
+    {
+     "title": "Enhancing Superconductor Critical Temperature Prediction: A Novel Machine Learning Approach Integrating Dopant Recognition",
+     "year": null,
+     "doi": "10.1021/acsami.4c11997.s001",
+     "container": "-",
+     "publisher": "American Chemical Society (ACS)",
+     "type": "component"
+    },
+    {
+     "title": "Anticipatory Pitch Control for Small Wind Turbines Using Short-Term Rotor-Speed Prediction with Machine Learning",
+     "year": 2026,
+     "doi": "10.3390/en19010262",
+     "container": "Energies",
+     "publisher": "MDPI AG",
+     "type": "journal-article"
+    },
+    {
+     "title": "Machine Learning Prediction of Critical Micellar Concentration Using Electrostatic and Structural Properties as Descriptors",
+     "year": null,
+     "doi": "10.1021/acs.jced.5c00388.s001",
+     "container": "-",
+     "publisher": "American Chemical Society (ACS)",
+     "type": "component"
+    }
+   ]
+  },
+  "R2": {
+   "query": "rotordynamics surrogate model deep learning design",
+   "total": 8515418,
+   "hits": [
+    {
+     "title": "Design optimization of large-scale bifacial photovoltaic module frame using deep learning surrogate model",
+     "year": 2024,
+     "doi": "10.1038/s41598-024-64594-4",
+     "container": "Scientific Reports",
+     "publisher": "Springer Science and Business Media LLC",
+     "type": "journal-article"
+    },
+    {
+     "title": "Design of a Deep Learning Based Nonlinear Aerodynamic Surrogate Model for UAVs",
+     "year": 2020,
+     "doi": "10.2514/6.2020-1288",
+     "container": "AIAA Scitech 2020 Forum",
+     "publisher": "American Institute of Aeronautics and Astronautics",
+     "type": "proceedings-article"
+    },
+    {
+     "title": "Deep Learning Model as Surrogate for Cfd Simulations",
+     "year": 2024,
+     "doi": "10.2139/ssrn.5012781",
+     "container": "-",
+     "publisher": "Elsevier BV",
+     "type": "posted-content"
+    },
+    {
+     "title": "Micromechanical Surrogate Machine Learning Model for Creep Deformation Modeling",
+     "year": 2025,
+     "doi": "10.1115/gt2025-154154",
+     "container": "Volume 8: Structures and Dynamics — Bearing &amp; Seal Dynamics; Emerging Methods in Engineering Design, Analysis and Additive Manufacturing; Fatigue, Fracture &amp; Life Prediction; Probabilistic Methods; Rotordynamics",
+     "publisher": "American Society of Mechanical Engineers",
+     "type": "proceedings-article"
+    },
+    {
+     "title": "Mesh-Based Deep Learning Surrogate Model for Rapid Wideband 3D Electromagnetic Scattering Computation_supp1-3661600.pdf",
+     "year": null,
+     "doi": "10.1109/tap.2026.3661600/mm1",
+     "container": "-",
+     "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+     "type": "component"
+    },
+    {
+     "title": "Performance of a deep learning generative surrogate model for flood inundation forecasting",
+     "year": 2025,
+     "doi": "10.5194/egusphere-egu25-7047",
+     "container": "-",
+     "publisher": "Copernicus GmbH",
+     "type": "posted-content"
+    },
+    {
+     "title": "Surrogate models based on large eddy simulations and deep learning for coaxial rocket engine injector design",
+     "year": null,
+     "doi": "10.70675/831550dczec0cz4e1ez92f4z9244ce04acfa",
+     "container": "-",
+     "publisher": "Agence Bibliographique de l'Enseignement Supérieur",
+     "type": "dissertation"
+    },
+    {
+     "title": "Deep learning foundation model framework for the surrogate modeling for efficient design exploration",
+     "year": 2025,
+     "doi": "10.26868/25222708.2025.1118",
+     "container": "Building Simulation Conference Proceedings",
+     "publisher": "IBPSA",
+     "type": "proceedings-article"
+    },
+    {
+     "title": "Design of Polarization and Intensity Distribution for Laser Drilling of an Odd-Shaped Hole Using Deep Learning-Based Surrogate Model",
+     "year": 2025,
+     "doi": "10.23919/moc65514.2025.11269257",
+     "container": "2025 30th Microoptics Conference (MOC)",
+     "publisher": "IEEE",
+     "type": "proceedings-article"
+    },
+    {
+     "title": "Active learning enhanced deep-learning surrogate model for fast MEMS design with high-dimensional design parameter spaces",
+     "year": 2024,
+     "doi": "10.1109/nems60219.2024.10639856",
+     "container": "2024 IEEE 19th International Conference on Nano/Micro Engineered and Molecular Systems (NEMS)",
+     "publisher": "IEEE",
+     "type": "proceedings-article"
+    },
+    {
+     "title": "Application of deep learning based multi-fidelity surrogate model to robust aerodynamic design optimization",
+     "year": 2019,
+     "doi": "10.1016/j.ast.2019.07.002",
+     "container": "Aerospace Science and Technology",
+     "publisher": "Elsevier BV",
+     "type": "journal-article"
+    },
+    {
+     "title": "A surrogate model for depth-averaged erosion and deposition closures using deep learning",
+     "year": 2023,
+     "doi": "10.5194/egusphere-egu23-9956",
+     "container": "-",
+     "publisher": "Copernicus GmbH",
+     "type": "posted-content"
+    }
+   ]
+  },
+  "R3": {
+   "query": "critical speed optimization rotor bearing genetic algorithm",
+   "total": 3812434,
+   "hits": [
+    {
+     "title": "Multilevel Optimization of the Geared Rotor-Bearing System for Multi-Objectives With Critical Speed Constraints",
+     "year": 2004,
+     "doi": "10.1115/gt2004-54066",
+     "container": "Volume 6: Turbo Expo 2004",
+     "publisher": "ASMEDC",
+     "type": "proceedings-article"
+    },
+    {
+     "title": "Optimization Design of the Geared Rotor System With Critical Speed Constraints Using the Enhanced Genetic Algorithm",
+     "year": 2008,
+     "doi": "10.1115/gt2008-50754",
+     "container": "Volume 5: Structures and Dynamics, Parts A and B",
+     "publisher": "ASMEDC",
+     "type": "proceedings-article"
+    },
+    {
+     "title": "Bearing-Rotor Coupled System Stability Optimization Design Based on Genetic Algorithm",
+     "year": 2011,
+     "doi": "10.4028/www.scientific.net/amr.199-200.1130",
+     "container": "Advanced Materials Research",
+     "publisher": "Trans Tech Publications, Ltd.",
+     "type": "journal-article"
+    },
+    {
+     "title": "Multi-objective Optimization of Rotor-Bearing System With Critical Speed Constraints",
+     "year": 1993,
+     "doi": "10.1115/1.2906701",
+     "container": "Journal of Engineering for Gas Turbines and Power",
+     "publisher": "ASME International",
+     "type": "journal-article"
+    },
+    {
+     "title": "Interval optimization of rotor-bearing systems with dynamic behavior constraints using an interval genetic algorithm",
+     "year": 2007,
+     "doi": "10.1007/s00158-007-0199-y",
+     "container": "Structural and Multidisciplinary Optimization",
+     "publisher": "Springer Science and Business Media LLC",
+     "type": "journal-article"
+    },
+    {
+     "title": "Unbalance identification of high-speed aerostatic conical bearing-rotor system based on Bayesian adaptive optimization CNN-Res time-domain automatic feature extraction algorithm",
+     "year": 2025,
+     "doi": "10.1016/j.measurement.2025.118530",
+     "container": "Measurement",
+     "publisher": "Elsevier BV",
+     "type": "journal-article"
+    },
+    {
+     "title": "Adjustable speed drive bearing fault detection via support vector machine incorporating feature selection using genetic algorithm",
+     "year": null,
+     "doi": "10.32469/10355/4845",
+     "container": "-",
+     "publisher": "University of Missouri Libraries",
+     "type": "dissertation"
+    },
+    {
+     "title": "A GRU-KAN Surrogate Model with Genetic Algorithm Uniform Sampling for Active Magnetic Bearings–Rotor Critical Speed Prediction",
+     "year": 2025,
+     "doi": "10.3390/s25185680",
+     "container": "Sensors",
+     "publisher": "MDPI AG",
+     "type": "journal-article"
+    },
+    {
+     "title": "IDENTIFICATION OF HIGH-ORDER CRITICAL SPEED TO ROTOR BEARING SYSTEM",
+     "year": 2002,
+     "doi": "10.3901/jme.2002.07.107",
+     "container": "Chinese Journal of Mechanical Engineering",
+     "publisher": "Chinese Journal of Mechanical Engineering",
+     "type": "journal-article"
+    },
+    {
+     "title": "Aerodynamic Optimization of a Compressor Rotor Using Genetic Algorithm",
+     "year": 2020,
+     "doi": "10.1201/9780429289576-14",
+     "container": "Designing Engineering Structures Using Stochastic Optimization Methods",
+     "publisher": "CRC Press",
+     "type": "book-chapter"
+    },
+    {
+     "title": "Vibration reduction optimum design of a steam-turbine rotor-bearing system using a hybrid genetic algorithm",
+     "year": 2005,
+     "doi": "10.1007/s00158-004-0513-x",
+     "container": "Structural and Multidisciplinary Optimization",
+     "publisher": "Springer Science and Business Media LLC",
+     "type": "journal-article"
+    },
+    {
+     "title": "Genetic Algorithm approaches for multiobjective design of rotor systems",
+     "year": 1996,
+     "doi": "10.2514/6.1996-4025",
+     "container": "6th Symposium on Multidisciplinary Analysis and Optimization",
+     "publisher": "American Institute of Aeronautics and Astronautics",
+     "type": "proceedings-article"
+    }
+   ]
+  },
+  "R4": {
+   "query": "generative design diffusion model mechanical engineering",
+   "total": 12045935,
+   "hits": [
+    {
+     "title": "Quantum Generative Diffusion Model: A Fully Quantum-Mechanical Model for Generating Quantum State Ensemble_supp1-3718311.pdf",
+     "year": null,
+     "doi": "10.1109/tpami.2026.3718311/mm1",
+     "container": "-",
+     "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+     "type": "component"
+    },
+    {
+     "title": "Intelligent Generative Design—A New Mechanical Design Concept",
+     "year": 2025,
+     "doi": "10.3901/jme.2025.24.267",
+     "container": "Journal of Mechanical Engineering",
+     "publisher": "Chinese Journal of Mechanical Engineering",
+     "type": "journal-article"
+    },
+    {
+     "title": "Generative Design of Liquid-Cooled Cold Plates Via Enhanced Cross-Attention Conditional Diffusion Model",
+     "year": 2026,
+     "doi": "10.1115/1.4071943",
+     "container": "Journal of Mechanical Design",
+     "publisher": "ASME International",
+     "type": "journal-article"
+    },
+    {
+     "title": "Generative product design Kansei mapping by an integrated temporal convolutional network-transformer-gated recurrent unit and stable diffusion model",
+     "year": 2026,
+     "doi": "10.1080/09544828.2026.2612682",
+     "container": "Journal of Engineering Design",
+     "publisher": "Informa UK Limited",
+     "type": "journal-article"
+    },
+    {
+     "title": "Deep Analogical Generative Design and Evaluation: Integration of Stable Diffusion and LoRA",
+     "year": 2024,
+     "doi": "10.1115/1.4066861",
+     "container": "Journal of Mechanical Design",
+     "publisher": "ASME International",
+     "type": "journal-article"
+    },
+    {
+     "title": "Inverse design of composite materials with desired mechanical behaviors based on conditional diffusion model",
+     "year": 2025,
+     "doi": "10.1016/j.engstruct.2025.121417",
+     "container": "Engineering Structures",
+     "publisher": "Elsevier BV",
+     "type": "journal-article"
+    },
+    {
+     "title": "Stochastic model updating using conditional diffusion-based probabilistic generative models",
+     "year": 2026,
+     "doi": "10.1016/j.ymssp.2026.113891",
+     "container": "Mechanical Systems and Signal Processing",
+     "publisher": "Elsevier BV",
+     "type": "journal-article"
+    },
+    {
+     "title": "Data-driven structural generative design based on diffusion model for flexible support of optical mirror",
+     "year": 2025,
+     "doi": "10.1016/j.engstruct.2025.120578",
+     "container": "Engineering Structures",
+     "publisher": "Elsevier BV",
+     "type": "journal-article"
+    },
+    {
+     "title": "A human-guided generative model based on diffusion processes for topology optimization",
+     "year": 2026,
+     "doi": "10.1093/jcde/qwag055",
+     "container": "Journal of Computational Design and Engineering",
+     "publisher": "Oxford University Press (OUP)",
+     "type": "journal-article"
+    },
+    {
+     "title": "Diffusion-Based Generative Network for de Novo Synthetic Promoter Design",
+     "year": null,
+     "doi": "10.1021/acssynbio.4c00041.s001",
+     "container": "-",
+     "publisher": "American Chemical Society (ACS)",
+     "type": "component"
+    },
+    {
+     "title": "Generative Quantum Systems. A Sense Building Mechanical Engineering (S B M E) Model",
+     "year": 2025,
+     "doi": "10.2139/ssrn.5416676",
+     "container": "-",
+     "publisher": "Elsevier BV",
+     "type": "posted-content"
+    },
+    {
+     "title": "Generative Design of Inorganic Compounds Using Deep Diffusion Language Models",
+     "year": null,
+     "doi": "10.1021/acs.jpca.4c00083.s001",
+     "container": "-",
+     "publisher": "American Chemical Society (ACS)",
+     "type": "component"
+    }
+   ]
+  },
+  "R5": {
+   "query": "interval optimization rotor bearing system uncertain",
+   "total": 4898966,
+   "hits": [
+    {
+     "title": "Robust Optimization of Flexible Rotor Systems With Uncertain Parameters via Interval Analysis Method",
+     "year": 2019,
+     "doi": "10.1115/gt2019-90586",
+     "container": "Volume 7A: Structures and Dynamics",
+     "publisher": "American Society of Mechanical Engineers",
+     "type": "proceedings-article"
+    },
+    {
+     "title": "Interval optimization of rotor-bearing systems with dynamic behavior constraints using an interval genetic algorithm",
+     "year": 2007,
+     "doi": "10.1007/s00158-007-0199-y",
+     "container": "Structural and Multidisciplinary Optimization",
+     "publisher": "Springer Science and Business Media LLC",
+     "type": "journal-article"
+    },
+    {
+     "title": "Interval Stability Analysis of a Flexible 8DOF Rotor–Bearing System with Internal Damping and Parametric Uncertainty",
+     "year": 2026,
+     "doi": "10.2139/ssrn.7537690",
+     "container": "-",
+     "publisher": "Elsevier BV",
+     "type": "posted-content"
+    },
+    {
+     "title": "Nonlinear Vibration Characteristics of a Multi-Disc Rotor Bearing System with Uncertain Parameters",
+     "year": 2024,
+     "doi": "10.2139/ssrn.4726894",
+     "container": "-",
+     "publisher": "Elsevier BV",
+     "type": "posted-content"
+    },
+    {
+     "title": "Multi-objective rotor dynamics optimization of the plain bearing-rotor system",
+     "year": 2018,
+     "doi": "10.21595/vp.2018.20289",
+     "container": "Vibroengineering Procedia",
+     "publisher": "JVE International Ltd.",
+     "type": "journal-article"
+    },
+    {
+     "title": "Study of Parametric and Non-Parametric Optimization of a Rotor-Bearing System",
+     "year": 2014,
+     "doi": "10.1115/gt2014-25095",
+     "container": "Volume 7A: Structures and Dynamics",
+     "publisher": "American Society of Mechanical Engineers",
+     "type": "proceedings-article"
+    },
+    {
+     "title": "Dynamic Response Analysis of Rotor System With Uncertain Parameters via Interval Analysis Method",
+     "year": 2012,
+     "doi": "10.1115/gt2012-69007",
+     "container": "Volume 7: Structures and Dynamics, Parts A and B",
+     "publisher": "American Society of Mechanical Engineers",
+     "type": "proceedings-article"
+    },
+    {
+     "title": "Auxiliary Bearing System Optimization for AMB Supported Rotors Based on Rotor Drop Analysis: Part I — Rotor Drop Analysis Method",
+     "year": 2016,
+     "doi": "10.1115/gt2016-56323",
+     "container": "Volume 7A: Structures and Dynamics",
+     "publisher": "American Society of Mechanical Engineers",
+     "type": "proceedings-article"
+    },
+    {
+     "title": "Uncertain Power Flow Analysis",
+     "year": 2023,
+     "doi": "10.1002/9781119855071.ch2",
+     "container": "Interval Methods for Uncertain Power System Analysis",
+     "publisher": "Wiley",
+     "type": "other"
+    },
+    {
+     "title": "Uncertain Markov Chain Analysis",
+     "year": 2023,
+     "doi": "10.1002/9781119855071.ch4",
+     "container": "Interval Methods for Uncertain Power System Analysis",
+     "publisher": "Wiley",
+     "type": "other"
+    },
+    {
+     "title": "Enhancing the Robustness of the Wireless Power Transfer System to Uncertain Parameter Variations Using an Interval-Based Uncertain Optimization Method",
+     "year": 2018,
+     "doi": "10.3390/en11082032",
+     "container": "Energies",
+     "publisher": "MDPI AG",
+     "type": "journal-article"
+    },
+    {
+     "title": "Interval Optimization Based on Interval Structural Analysis",
+     "year": 2020,
+     "doi": "10.1007/978-981-15-8546-3_5",
+     "container": "Springer Tracts in Mechanical Engineering",
+     "publisher": "Springer Singapore",
+     "type": "book-chapter"
+    }
+   ]
+  },
+  "R6": {
+   "query": "parametric design generation neural network shaft rotor",
+   "total": 5268940,
+   "hits": [
+    {
+     "title": "PARAMETRIC ANALYSIS AND PRELIMINARY DESIGN OF A SHAFT-DRIVEN ROTOR SYSTEM FOR A HEAVY LIFT HELICOPTER",
+     "year": 1967,
+     "doi": "10.21236/ad0651416",
+     "container": "-",
+     "publisher": "Defense Technical Information Center",
+     "type": "report"
+    },
+    {
+     "title": "Crack fault identification in rotor shaft with artificial neural network",
+     "year": 2010,
+     "doi": "10.1109/icnc.2010.5583771",
+     "container": "2010 Sixth International Conference on Natural Computation",
+     "publisher": "IEEE",
+     "type": "proceedings-article"
+    },
+    {
+     "title": "Review for \"Thermomechanical Residual Stress Modeling of Rotor Shaft Grade Steel for Power Generation Turbines\"",
+     "year": 2025,
+     "doi": "10.1088/1361-651x/ae42da/v2/review1",
+     "container": "-",
+     "publisher": "IOP Publishing",
+     "type": "peer-review"
+    },
+    {
+     "title": "Review for \"Thermomechanical Residual Stress Modeling of Rotor Shaft Grade Steel for Power Generation Turbines\"",
+     "year": 2025,
+     "doi": "10.1088/1361-651x/ae42da/v1/review1",
+     "container": "-",
+     "publisher": "IOP Publishing",
+     "type": "peer-review"
+    },
+    {
+     "title": "Review for \"Thermomechanical Residual Stress Modeling of Rotor Shaft Grade Steel for Power Generation Turbines\"",
+     "year": 2025,
+     "doi": "10.1088/1361-651x/ae42da/v2/review2",
+     "container": "-",
+     "publisher": "IOP Publishing",
+     "type": "peer-review"
+    },
+    {
+     "title": "Review for \"Thermomechanical Residual Stress Modeling of Rotor Shaft Grade Steel for Power Generation Turbines\"",
+     "year": 2025,
+     "doi": "10.1088/1361-651x/ae42da/v1/review2",
+     "container": "-",
+     "publisher": "IOP Publishing",
+     "type": "peer-review"
+    },
+    {
+     "title": "Review for \"Thermomechanical Residual Stress Modeling of Rotor Shaft Grade Steel for Power Generation Turbines\"",
+     "year": 2026,
+     "doi": "10.1088/1361-651x/ae42da/v4/review1",
+     "container": "-",
+     "publisher": "IOP Publishing",
+     "type": "peer-review"
+    },
+    {
+     "title": "Review for \"Thermomechanical Residual Stress Modeling of Rotor Shaft Grade Steel for Power Generation Turbines\"",
+     "year": 2025,
+     "doi": "10.1088/1361-651x/ae42da/v3/review1",
+     "container": "-",
+     "publisher": "IOP Publishing",
+     "type": "peer-review"
+    },
+    {
+     "title": "Crack Fault Diagnosis and Location Method for a Dual-disks Hollow Shaft Rotor System Based on the Radial Basis Function Network and Pattern Recognition Neural Network",
+     "year": 2020,
+     "doi": "10.21203/rs.3.rs-96920/v1",
+     "container": "-",
+     "publisher": "Springer Science and Business Media LLC",
+     "type": "posted-content"
+    },
+    {
+     "title": "Multi-branch convolutional neural network with generalized shaft orbit for fault diagnosis of active magnetic bearing-rotor system",
+     "year": 2021,
+     "doi": "10.1016/j.measurement.2020.108778",
+     "container": "Measurement",
+     "publisher": "Elsevier BV",
+     "type": "journal-article"
+    },
+    {
+     "title": "Decision letter for \"Thermomechanical Residual Stress Modeling of Rotor Shaft Grade Steel for Power Generation Turbines\"",
+     "year": 2025,
+     "doi": "10.1088/1361-651x/ae42da/v2/decision1",
+     "container": "-",
+     "publisher": "IOP Publishing",
+     "type": "peer-review"
+    },
+    {
+     "title": "Decision letter for \"Thermomechanical Residual Stress Modeling of Rotor Shaft Grade Steel for Power Generation Turbines\"",
+     "year": 2025,
+     "doi": "10.1088/1361-651x/ae42da/v1/decision1",
+     "container": "-",
+     "publisher": "IOP Publishing",
+     "type": "peer-review"
+    }
+   ]
+  }
+ },
+ "abstracts": {
+  "10.1007/s00158-025-03984-2": {
+   "title": "Conditional diffusion models for the inverse design of lattice structures",
+   "year": 2025,
+   "venue": "Structural and Multidisciplinary Optimization",
+   "abstract": ""
+  },
+  "10.1609/aaai.v38i15.29647": {
+   "title": "CcDPM: A Continuous Conditional Diffusion Probabilistic Model for Inverse Design",
+   "year": 2024,
+   "venue": "Proceedings of the AAAI Conference on Artificial Intelligence",
+   "abstract": "Engineering design methods aim to generate new designs that meet desired performance requirements. Past work has directly introduced conditional Generative Adversarial Networks (cGANs) into this field and achieved promising results in single-point design problems(one performance requirement under one working condition). However, these methods assume that the performance requirements are distributed in categorical space, which is not reasonable in these scenarios. Although Continuous conditional GANs (CcGANs) introduce Vicinal Risk Minimization (VRM) to reduce the performance loss caused by this assumption, they still face the following challenges: 1) CcGANs can not handle multi-point design problems (multiple performance requirements under multiple working conditions). 2) Their training process is time-consuming due to the high computational complexity of the vicinal loss. To address these issues, A Continuous conditional Diffusion Probabilistic Model (CcDPM) is proposed, which the first time introduces the diffusion model into the engineering design area and VRM into the diffusion model. CcDPM adopts a novel sampling method called multi-point design sampling to deal with multi-point design problems. Moreover, the k-d tree is used in the training process of CcDPM to shorten the calculation time of vicinal loss and speed up the training process by 2-300 times in our experiments. Experiments on a synthetic problem and three real-world design problems demonstrate that CcDPM outp"
+  },
+  "10.1016/j.tws.2025.113466": {
+   "title": "An inverse design method of 3D plate microstructures using conditional diffusion model",
+   "year": 2025,
+   "venue": "Thin-Walled Structures",
+   "abstract": ""
+  },
+  "10.1115/detc2025-168995": {
+   "title": "RePaint-Enhanced Conditional Diffusion Model for Generating Designs Under Performance Constraints",
+   "year": 2025,
+   "venue": null,
+   "abstract": "Abstract This paper presents a novel framework integrating the RePaint method with the performance-guided denoising diffusion probabilistic model (DDPM) to complete missing or undefined design components based on any given partial structures while satisfying specified performance targets. RePaint allows a pre-trained diffusion model to synthesize designs under the condition of partial designs, offering flexibility and controllability of generative design results. Using a dataset of parametric ship hull designs, a performance-guided diffusion model is pre-trained to generate designs with targeted total resistance coefficients. Experiment results demonstrate that our method generates new designs from random incomplete ship hull designs with performances close to those generated by the pre-trained models. The study further analyzes factors that might influence the new framework’s performance and reveals that the pre-trained model’s design parameter value distribution has a significant effect on the new method’s output designs. This distribution can be leveraged to guide the synthesis of new designs with desirable performance."
+  },
+  "10.48550/arxiv.2602.00384": {
+   "title": "RePaint-Enhanced Conditional Diffusion Model for Parametric Engineering Designs under Performance and Parameter Constraints",
+   "year": 2026,
+   "venue": "arXiv (Cornell University)",
+   "abstract": "This paper presents a RePaint-enhanced framework that integrates a pre-trained performance-guided denoising diffusion probabilistic model (DDPM) for performance- and parameter-constraint engineering design generation. The proposed method enables the generation of missing design components based on a partial reference design while satisfying performance constraints, without retraining the underlying model. By applying mask-based resampling during inference process, RePaint allows efficient and controllable repainting of partial designs under both performance and parameter constraints, which is not supported by conventional DDPM-base methods. The framework is evaluated on two representative design problems, parametric ship hull design and airfoil design, demonstrating its ability to generate novel designs with expected performance based on a partial reference design. Results show that the method achieves accuracy comparable to or better than pre-trained models while enabling controlled novelty through fixing partial designs. Overall, the proposed approach provides an efficient, training-free solution for parameter-constraint-aware generative design in engineering applications."
+  },
+  "10.1115/1.4071943": {
+   "title": "Generative Design of Liquid-Cooled Cold Plates Via Enhanced Cross-Attention Conditional Diffusion Model",
+   "year": 2026,
+   "venue": "Journal of Mechanical Design",
+   "abstract": "Abstract Generative design has emerged as an effective approach for exploring complex engineering design spaces beyond the limitations of conventional optimization, particularly for thermal management systems with high-dimensional geometric variability; however, its application to liquid-cooled cold plates remains challenging under asymmetric thermal loading conditions. To address this issue, this study proposes an enhanced cross-attention conditional diffusion framework in which physics-based conditional variables are injected into the U-Net denoiser via multi-scale cross-attention and feature-wise linear modulation, enabling condition-aware geometry generation throughout the diffusion process and thereby preserving high-fidelity geometric and physical consistency. Training data are obtained using multi-objective topology optimization to generate a diverse set of cold-plate geometries together with their corresponding pressure drop Δp and average surface temperature difference T under asymmetric thermal loading. This dataset is then used to train the proposed diffusion model, generating new cold-plate geometries under prescribed physical conditions. Promising design results are efficiently identified using a ResNet18-based surrogate model for rapid thermal–hydraulic performance evaluation, avoiding reliance on extensive full-order simulations. Overall, the proposed framework integrates physics-based optimization with generative modeling to provide an efficient and effective "
+  },
+  "10.2139/ssrn.7123508": {
+   "title": "Surrogate-Guided 3D Diffusion Model for Bandgap-Oriented Generative Design of Acoustic Metamaterials",
+   "year": 2026,
+   "venue": "SSRN Electronic Journal",
+   "abstract": ""
+  },
+  "10.1016/j.cja.2026.104109": {
+   "title": "A dual-network framework integrating adaptive data refinement BPNN for aeroelastic stability prediction and inverse design in tilt rotor/wing system",
+   "year": 2026,
+   "venue": "Chinese Journal of Aeronautics",
+   "abstract": "To address the challenges of aeroelastic stability prediction and generative design for tilt rotor/wing system, this study proposes a dual-network framework based on a Back-Propagation Neural Network (BPNN) for forward prediction of whirl flutter boundaries and inverse design of dynamic parameters. A multi-modal coupled aeroelastic stability analysis model is established using multi-body dynamics methods. Datasets are generated for parameters strongly correlated with system stability to develop a Forward Prediction Neural Network (FPNN). An adaptive data refinement technique is introduced and integrated into the Inverse Prediction Neural Network (IPNN) to enhance critical-regions accuracy. The results demonstrate that within the training range, maximum prediction errors for the whirl flutter boundary and critical speed are 3.231% and 0.00343%, respectively, while the FPNN reduces computational time by four orders of magnitude (0.0012 s vs 15.35 s). Outside the range, errors remain as low as 5.858% and 0.0151%, indicating good generalization ability. The refinement technique effectively suppresses peak-to-peak fluctuations during modal transitions and near critical points, improving both accuracy and reliability. Furthermore, the dual-network inverse design framework achieves dynamic parameters prediction with relative errors below 1% and enables closed-loop validation. This neural-network-based approach establishes a novel paradigm for rapid and cost-effective design of tilt "
+  },
+  "10.1115/gt2024-121854": {
+   "title": "Neural Network Application to Rotordynamic Predictions of an Overhung Flexible Rotor",
+   "year": 2024,
+   "venue": null,
+   "abstract": "Abstract This study focuses on pioneering regressive neural network models to predict lateral dynamics in a centrifugal compressor stage validation test bench. This tool is positioned as a critical resource to be used during the design of the centrifugal stage test, enabling test bench personnel to understand the rotordynamic behavior in terms of critical speeds and vibration amplitudes within the desired operating range. Addressing the demand for swift and manageable solutions for repeatable configurations within defined design parameters motivates this work. While Finite Element Method (FEM) analysis remains valuable, its time-intensive nature, particularly in model definition, drives the search for more time-efficient methods. Machine learning stands as an innovative, streamlined alternative for predicting lateral dynamics, differing from traditional approaches. The adoption of machine learning-based regressive neural networks marks a significant leap in analyzing centrifugal compressor lateral dynamics. This innovation not only boosts operational efficiency but also enhances accessibility and cost-effectiveness in the process."
+  },
+  "10.26678/abcm.cobem2025.cob2025-1583": {
+   "title": "Machine learning techniques for Uncertainty Analysis in Rotordynamics",
+   "year": 2025,
+   "venue": null,
+   "abstract": ""
+  },
+  "10.3390/wind4020009": {
+   "title": "A Generative Design Approach for the Dynamic Optimisation of Multi-MW Offshore Direct-Drive Wind Turbine Electrical Generator Supporting Structures Using Modal Analysis",
+   "year": 2024,
+   "venue": "Wind",
+   "abstract": "Generative design techniques together with the rapid development of additive manufacturing represent a revolution in the field of structural optimisation processes. In this study, a static structural and modal analysis was integrated to drive a multi-objective generative design optimisation process for a 3 MW direct-drive offshore wind turbine electrical generator rotor structure. This novel optimisation approach implements an automated fittest-for-purpose process including a static structural analysis and a modal analysis as the input for the optimisation strategy algorithm, allowing the exploration of a wide range of non-conventional topologies. If compared with the simple generator rotor disc structure, the results obtained using this innovative method achieved over 7% of weight reduction and a 39% increment in the generator operational range with the consequent growth in the wind turbine energy capture capability. Moreover, this approach generates a vast amount of structural analysis information, crucial at an early stage of the development of large-scale projects for a cost-effective scheme."
+  },
+  "10.1016/j.ijnonlinmec.2025.105218": {
+   "title": "Generative design and optimization of a dry friction damper in helicopter tail-rotor drivelines: Simulation and experimental validation",
+   "year": 2025,
+   "venue": "International Journal of Non-Linear Mechanics",
+   "abstract": ""
+  },
+  "10.1063/5.0246189": {
+   "title": "Diffusion models for topology optimization in 3D printing applications",
+   "year": 2025,
+   "venue": "Journal of Applied Physics",
+   "abstract": "Structural topology optimization, a critical aspect of engineering design in aerospace, mechanical, and civil engineering, seeks to discover the ideal physical structure for optimizing mechanical performance, particularly, in 3D structures. In recent times, Generative Adversarial Networks (GANs) and autoencoders have gained popularity as an alternative to traditional iterative topology optimization methods. However, these models often pose challenges in terms of training, exhibit limited generalizability, and prioritize mimicking optimal structures while neglecting factors such as manufacturability and mechanical compliance. In response to these limitations, we introduce an architecture based on conditional diffusion models aimed at achieving topology optimization that is not only performance-aware but also manufacturability-aware, specifically for 3D structures. Our approach incorporates a surrogate model-based guidance strategy that actively promotes structures with low compliance and excellent manufacturability. The results of our method surpass those of a state-of-the-art conditional GAN and conditional variational autoencoder (VAE), reducing the average error in physical performance by a factor of eight and generating eleven times fewer infeasible samples. By introducing diffusion models to 3D topology optimization, we demonstrate the superior capabilities of conditional diffusion models in engineering design synthesis applications as well. Furthermore, our work offers a"
+  },
+  "10.59490/imdc.2024.841": {
+   "title": "C-ShipGen: a conditional guided diffusion model for parametric ship hull design",
+   "year": 2024,
+   "venue": "IMDC.",
+   "abstract": "Ship design is a complex design process that may take a team of naval architects many years to complete. Improving the ship design process can lead to significant cost savings, while still delivering high-quality designs to customers. A new technology for ship hull design is diffusion models, a type of generative artificial intelligence. Prior work with diffusion models for ship hull design created high-quality ship hulls with reduced drag and larger displaced volumes. However, the work could not generate hulls that meet specific design constraints. This paper proposes a conditional diffusion model that generates hull designs given specific constraints, such as the desired principal dimensions of the hull. In addition, this diffusion model leverages the gradients from a total resistance regression model to create low-resistance designs. Five design test cases compared the diffusion model to a design optimization algorithm to create hull designs with low resistance. In all five test cases, the diffusion model was shown to create diverse designs with a total resistance less than the optimized hull, having resistance reductions over 25%. The diffusion model also generated these designs without retraining. This work can significantly reduce the design cycle time of ships by creating high-quality hulls that meet user requirements with a data-driven approach."
+  }
+ }
+}

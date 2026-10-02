@@ -1,0 +1,938 @@
+{
+ "keepers": {
+  "https://doi.org/10.1115/1.4044643": {
+   "id": "https://openalex.org/W4252607147",
+   "doi": "https://doi.org/10.1115/1.4044643",
+   "title": "Experimental Rotordynamic Force Coefficients for a Diffusion Bonded Compliant Hybrid Journal Gas Bearing Utilizing Fluid-Filled Hermetic Dampers",
+   "year": 2019,
+   "authors": [
+    "Keith Gary",
+    "Bugra Ertas"
+   ],
+   "venue": "Journal of Engineering for Gas Turbines and Power",
+   "cites": 10,
+   "lang": "en",
+   "oa_url": null,
+   "oa_status": "closed",
+   "abstract": "",
+   "query": "T1"
+  },
+  "https://doi.org/10.1115/imece2010-40575": {
+   "id": "https://openalex.org/W1979471860",
+   "doi": "https://doi.org/10.1115/imece2010-40575",
+   "title": "On the Design of a Multi-Megawatt Oil-Free Centrifugal Compressor for Hydrogen Gas Transportation and Delivery: Operation Beyond Supercritical Speeds",
+   "year": 2010,
+   "authors": [
+    "Hooshang Heshmat",
+    "Andrew Z. Hunsberger",
+    "Zhaohui Ren",
+    "Said Jahanmir",
+    "James F. Walton"
+   ],
+   "venue": "Volume 5: Energy Systems Analysis, Thermodynamics and Sustainability; NanoEngineering for Energy; Engineering to Address Climate Change, Parts A and B",
+   "cites": 8,
+   "lang": "en",
+   "oa_url": null,
+   "oa_status": "closed",
+   "abstract": "",
+   "query": "T1"
+  },
+  "https://doi.org/10.2474/trol.8.44": {
+   "id": "https://openalex.org/W2017517912",
+   "doi": "https://doi.org/10.2474/trol.8.44",
+   "title": "Oil-Free Bearings and Seals for Centrifugal Hydrogen Compressor",
+   "year": 2013,
+   "authors": [
+    "Hooshang Heshmat",
+    "Andrew Zhou",
+    "Zhaohui Ren",
+    "Said Jahanmir",
+    "James F. Walton"
+   ],
+   "venue": "Tribology online",
+   "cites": 1,
+   "lang": "en",
+   "oa_url": "https://www.jstage.jst.go.jp/article/trol/8/1/8_44/_pdf",
+   "oa_status": "bronze",
+   "abstract": "",
+   "query": "T1"
+  },
+  "https://doi.org/10.1115/gt2019-91109": {
+   "id": "https://openalex.org/W2972879057",
+   "doi": "https://doi.org/10.1115/gt2019-91109",
+   "title": "Experimental Rotordynamic Force Coefficients for a Diffusion Bonded Compliant Hybrid Journal Gas Bearing Utilizing Fluid-Filled Hermetic Dampers",
+   "year": 2019,
+   "authors": [
+    "Keith Gary",
+    "Bugra Ertas"
+   ],
+   "venue": null,
+   "cites": 0,
+   "lang": "en",
+   "oa_url": null,
+   "oa_status": "closed",
+   "abstract": "",
+   "query": "T1"
+  },
+  "https://doi.org/10.1016/j.ijnonlinmec.2025.105218": {
+   "id": "https://openalex.org/W4412644257",
+   "doi": "https://doi.org/10.1016/j.ijnonlinmec.2025.105218",
+   "title": "Generative design and optimization of a dry friction damper in helicopter tail-rotor drivelines: Simulation and experimental validation",
+   "year": 2025,
+   "authors": [
+    "Jianxiong Dong",
+    "Zhonghe Huang",
+    "Yanwei Sang"
+   ],
+   "venue": "International Journal of Non-Linear Mechanics",
+   "cites": 4,
+   "lang": "en",
+   "oa_url": null,
+   "oa_status": "closed",
+   "abstract": "",
+   "query": "T2"
+  },
+  "https://doi.org/10.3390/wind4020009": {
+   "id": "https://openalex.org/W4399884677",
+   "doi": "https://doi.org/10.3390/wind4020009",
+   "title": "A Generative Design Approach for the Dynamic Optimisation of Multi-MW Offshore Direct-Drive Wind Turbine Electrical Generator Supporting Structures Using Modal Analysis",
+   "year": 2024,
+   "authors": [
+    "Daniel Gonzalez-Delgado",
+    "Pablo Jaen-Sola",
+    "Erkan Oterkus"
+   ],
+   "venue": "Wind",
+   "cites": 3,
+   "lang": "en",
+   "oa_url": "https://www.mdpi.com/2674-032X/4/2/9/pdf?version=1718968758",
+   "oa_status": "gold",
+   "abstract": "",
+   "query": "T2"
+  },
+  "https://doi.org/10.28991/hij-2026-07-01-01": {
+   "id": "https://openalex.org/W7133153531",
+   "doi": "https://doi.org/10.28991/hij-2026-07-01-01",
+   "title": "Aerodynamics Analysis of a Novel Multirotor Structure Derived from Generative Design Using Computational Fluid Dynamics",
+   "year": 2026,
+   "authors": [
+    "Sane Souvanhnakhoomman",
+    "Alvin Y. Chua"
+   ],
+   "venue": "HighTech and Innovation Journal",
+   "cites": 0,
+   "lang": null,
+   "oa_url": "https://www.hightechjournal.org/index.php/HIJ/article/download/1335/320",
+   "oa_status": "gold",
+   "abstract": "",
+   "query": "T2"
+  },
+  "https://doi.org/10.2139/ssrn.4651336": {
+   "id": "https://openalex.org/W4389276330",
+   "doi": "https://doi.org/10.2139/ssrn.4651336",
+   "title": "A Generative Design Approach for the Optimization of Multi-Mw Offshore Direct-Drive Wind Turbine Electrical Generator Supporting Structures Using Modal Analyses",
+   "year": 2023,
+   "authors": [
+    "Daniel Gonzalez Delgado",
+    "Pablo Jaen-Sola",
+    "Erkan Oterkus"
+   ],
+   "venue": "SSRN Electronic Journal",
+   "cites": 0,
+   "lang": "en",
+   "oa_url": "https://doi.org/10.2139/ssrn.4651336",
+   "oa_status": "green",
+   "abstract": "",
+   "query": "T2"
+  },
+  "https://doi.org/10.1016/j.cja.2026.104109": {
+   "id": "https://openalex.org/W7127607194",
+   "doi": "https://doi.org/10.1016/j.cja.2026.104109",
+   "title": "A dual-network framework integrating adaptive data refinement BPNN for aeroelastic stability prediction and inverse design in tilt rotor/wing system",
+   "year": 2026,
+   "authors": [
+    "Lixiong Zheng",
+    "Xin Eric Wang",
+    "Qijun Zhao",
+    "Zhe Chen"
+   ],
+   "venue": "Chinese Journal of Aeronautics",
+   "cites": 0,
+   "lang": "en",
+   "oa_url": "https://doi.org/10.1016/j.cja.2026.104109",
+   "oa_status": "hybrid",
+   "abstract": "",
+   "query": "T3"
+  },
+  "https://doi.org/10.59490/imdc.2024.841": {
+   "id": "https://openalex.org/W4397290776",
+   "doi": "https://doi.org/10.59490/imdc.2024.841",
+   "title": "C-ShipGen: a conditional guided diffusion model for parametric ship hull design",
+   "year": 2024,
+   "authors": [
+    "Noah J. Bagazinski",
+    "Faez Ahmed"
+   ],
+   "venue": "IMDC.",
+   "cites": 7,
+   "lang": "en",
+   "oa_url": "https://doi.org/10.59490/imdc.2024.841",
+   "oa_status": "hybrid",
+   "abstract": "",
+   "query": "T4"
+  },
+  "https://doi.org/10.1016/j.tws.2025.113466": {
+   "id": "https://openalex.org/W4410946135",
+   "doi": "https://doi.org/10.1016/j.tws.2025.113466",
+   "title": "An inverse design method of 3D plate microstructures using conditional diffusion model",
+   "year": 2025,
+   "authors": [
+    "Shurong Zhuo",
+    "Ziheng Dai",
+    "Yizhou Liao",
+    "Hamza Sulayman Abdullahi",
+    "Shuming Gao"
+   ],
+   "venue": "Thin-Walled Structures",
+   "cites": 6,
+   "lang": "en",
+   "oa_url": null,
+   "oa_status": "closed",
+   "abstract": "",
+   "query": "T4"
+  },
+  "https://doi.org/10.1109/icra55743.2025.11128113": {
+   "id": "https://openalex.org/W4413917435",
+   "doi": "https://doi.org/10.1109/icra55743.2025.11128113",
+   "title": "Generative-AI-Driven Jumping Robot Design Using Diffusion Models",
+   "year": 2025,
+   "authors": [
+    "Byungchul Kim",
+    "Tsun-Hsuan Wang",
+    "Daniela L. Rus"
+   ],
+   "venue": null,
+   "cites": 1,
+   "lang": "en",
+   "oa_url": null,
+   "oa_status": "closed",
+   "abstract": "",
+   "query": "T4"
+  },
+  "https://doi.org/10.48550/arxiv.2407.03333": {
+   "id": "https://openalex.org/W4400438243",
+   "doi": "https://doi.org/10.48550/arxiv.2407.03333",
+   "title": "C-ShipGen: A Conditional Guided Diffusion Model for Parametric Ship Hull Design",
+   "year": 2024,
+   "authors": [
+    "Noah J. Bagazinski",
+    "Faez Ahmed"
+   ],
+   "venue": "arXiv (Cornell University)",
+   "cites": 0,
+   "lang": "en",
+   "oa_url": "https://arxiv.org/pdf/2407.03333",
+   "oa_status": "green",
+   "abstract": "",
+   "query": "T4"
+  },
+  "https://doi.org/10.1007/s00158-025-03984-2": {
+   "id": "https://openalex.org/W4409116085",
+   "doi": "https://doi.org/10.1007/s00158-025-03984-2",
+   "title": "Conditional diffusion models for the inverse design of lattice structures",
+   "year": 2025,
+   "authors": [
+    "Jinlong Zhang",
+    "Shikun Chen",
+    "Robert J. Martin",
+    "Баочанг Лиу",
+    "Ruixiong Zhang",
+    "Dengbao Xiao"
+   ],
+   "venue": "Structural and Multidisciplinary Optimization",
+   "cites": 13,
+   "lang": "en",
+   "oa_url": null,
+   "oa_status": "closed",
+   "abstract": "",
+   "query": "T5"
+  },
+  "https://doi.org/10.1609/aaai.v38i15.29647": {
+   "id": "https://openalex.org/W4393160145",
+   "doi": "https://doi.org/10.1609/aaai.v38i15.29647",
+   "title": "CcDPM: A Continuous Conditional Diffusion Probabilistic Model for Inverse Design",
+   "year": 2024,
+   "authors": [
+    "Yanxuan Zhao",
+    "Peng Zhang",
+    "Guopeng Sun",
+    "Zhigong Yang",
+    "Jianqiang Chen",
+    "Yueqing Wang"
+   ],
+   "venue": "Proceedings of the AAAI Conference on Artificial Intelligence",
+   "cites": 12,
+   "lang": "en",
+   "oa_url": "https://ojs.aaai.org/index.php/AAAI/article/download/29647/31100",
+   "oa_status": "diamond",
+   "abstract": "",
+   "query": "T5"
+  },
+  "https://doi.org/10.1609/aaai.v37i8.26093": {
+   "id": "https://openalex.org/W4382318238",
+   "doi": "https://doi.org/10.1609/aaai.v37i8.26093",
+   "title": "Diffusion Models Beat GANs on Topology Optimization",
+   "year": 2023,
+   "authors": [
+    "François Mazé",
+    "Faez Ahmed"
+   ],
+   "venue": "Proceedings of the AAAI Conference on Artificial Intelligence",
+   "cites": 74,
+   "lang": "en",
+   "oa_url": "https://ojs.aaai.org/index.php/AAAI/article/download/26093/25865",
+   "oa_status": "diamond",
+   "abstract": "",
+   "query": "T5"
+  },
+  "https://doi.org/10.48550/arxiv.2208.09591": {
+   "id": "https://openalex.org/W4292957796",
+   "doi": "https://doi.org/10.48550/arxiv.2208.09591",
+   "title": "Diffusion Models Beat GANs on Topology Optimization",
+   "year": 2022,
+   "authors": [
+    "François Mazé",
+    "Faez Ahmed"
+   ],
+   "venue": "arXiv (Cornell University)",
+   "cites": 22,
+   "lang": "en",
+   "oa_url": "https://arxiv.org/pdf/2208.09591",
+   "oa_status": "green",
+   "abstract": "",
+   "query": "T5"
+  },
+  "https://doi.org/10.1063/5.0246189": {
+   "id": "https://openalex.org/W4409070204",
+   "doi": "https://doi.org/10.1063/5.0246189",
+   "title": "Diffusion models for topology optimization in 3D printing applications",
+   "year": 2025,
+   "authors": [
+    "Amanali Bekbolat",
+    "Syuhei KUROKAWA",
+    "Fadhlan Hafizhelmi Kamaruzaman",
+    "Md Abdus Samad Kamal",
+    "Essam Shehab",
+    "Md. Hazrat Ali"
+   ],
+   "venue": "Journal of Applied Physics",
+   "cites": 10,
+   "lang": "en",
+   "oa_url": "https://doi.org/10.1063/5.0246189",
+   "oa_status": "hybrid",
+   "abstract": "",
+   "query": "T5"
+  },
+  "https://doi.org/10.48550/arxiv.2602.00384": {
+   "id": "https://openalex.org/W7127439704",
+   "doi": "https://doi.org/10.48550/arxiv.2602.00384",
+   "title": "RePaint-Enhanced Conditional Diffusion Model for Parametric Engineering Designs under Performance and Parameter Constraints",
+   "year": 2026,
+   "authors": [
+    "Ke Wang",
+    "Hoang Nguyen Vu",
+    "Yifan Tang",
+    "Mostafa Rahmani Dehaghani",
+    "G. Gary Wang"
+   ],
+   "venue": "arXiv (Cornell University)",
+   "cites": 0,
+   "lang": null,
+   "oa_url": "https://arxiv.org/pdf/2602.00384",
+   "oa_status": "green",
+   "abstract": "",
+   "query": "T5"
+  },
+  "https://doi.org/10.1115/1.4071943": {
+   "id": "https://openalex.org/W7161108713",
+   "doi": "https://doi.org/10.1115/1.4071943",
+   "title": "Generative Design of Liquid-Cooled Cold Plates Via Enhanced Cross-Attention Conditional Diffusion Model",
+   "year": 2026,
+   "authors": [
+    "Hao Wu",
+    "Yuwei Zong",
+    "Jacob Coaty",
+    "Yanwen Xu",
+    "Pingfeng Wang"
+   ],
+   "venue": "Journal of Mechanical Design",
+   "cites": 0,
+   "lang": "en",
+   "oa_url": null,
+   "oa_status": "closed",
+   "abstract": "",
+   "query": "T5"
+  },
+  "https://doi.org/10.22541/au.176244966.63551633/v1": {
+   "id": "https://openalex.org/W4415966392",
+   "doi": "https://doi.org/10.22541/au.176244966.63551633/v1",
+   "title": "Synthetic Current Signal Generation for Broken Rotor Bars in Induction Machines Using Generative Audio Synthesis Networks",
+   "year": 2025,
+   "authors": [
+    "Nada El Bouharrouti",
+    "Md Masum Billah",
+    "Nicola Dainese",
+    "Karolina Kudelina",
+    "Muhammad Usman Naseer",
+    "Anouar Belahcen"
+   ],
+   "venue": null,
+   "cites": 0,
+   "lang": null,
+   "oa_url": null,
+   "oa_status": "closed",
+   "abstract": "",
+   "query": "T6"
+  },
+  "https://doi.org/10.1007/s42417-025-02041-y": {
+   "id": "https://openalex.org/W4414037764",
+   "doi": "https://doi.org/10.1007/s42417-025-02041-y",
+   "title": "Standardisation of Vibration-based Parameters for Rotor and Bearing for Machine Faults Detection Using Machine Learning Model",
+   "year": 2025,
+   "authors": [
+    "Khalid M. Almutairi",
+    "Haobin Wen",
+    "Jyoti Kumar Sinha"
+   ],
+   "venue": "Journal of Vibration Engineering & Technologies",
+   "cites": 7,
+   "lang": "en",
+   "oa_url": "https://link.springer.com/content/pdf/10.1007/s42417-025-02041-y.pdf",
+   "oa_status": "hybrid",
+   "abstract": "",
+   "query": "T7"
+  },
+  "https://doi.org/10.1115/gt2024-121854": {
+   "id": "https://openalex.org/W4401980668",
+   "doi": "https://doi.org/10.1115/gt2024-121854",
+   "title": "Neural Network Application to Rotordynamic Predictions of an Overhung Flexible Rotor",
+   "year": 2024,
+   "authors": [
+    "Giulio Deiana",
+    "Giuseppe Vannini",
+    "Giulia Meazzini",
+    "Francesco Cangioli",
+    "Enrico Meli"
+   ],
+   "venue": null,
+   "cites": 2,
+   "lang": "en",
+   "oa_url": null,
+   "oa_status": "closed",
+   "abstract": "",
+   "query": "T7"
+  },
+  "https://doi.org/10.26678/abcm.cobem2025.cob2025-1583": {
+   "id": "https://openalex.org/W7126035956",
+   "doi": "https://doi.org/10.26678/abcm.cobem2025.cob2025-1583",
+   "title": "Machine learning techniques for Uncertainty Analysis in Rotordynamics",
+   "year": 2025,
+   "authors": [
+    "Guilherme Lacerda",
+    "Thiago Gamboa Ritto",
+    "Enora Denimal",
+    "Aldemir Ap Cavalini",
+    "Stanley Washington Ferreira de Rezende"
+   ],
+   "venue": null,
+   "cites": 0,
+   "lang": null,
+   "oa_url": null,
+   "oa_status": "closed",
+   "abstract": "",
+   "query": "T7"
+  },
+  "https://doi.org/10.1299/jsmehokkaido.2018.56.134": {
+   "id": "https://openalex.org/W2953748864",
+   "doi": "https://doi.org/10.1299/jsmehokkaido.2018.56.134",
+   "title": "Whirling Motion due to Rotordynamics Fluid Forces Estimated by Machine Learning",
+   "year": 2018,
+   "authors": [
+    "Noriaki SATOMI",
+    "Wakana Tsuru",
+    "Kazuhiko YOKOTA"
+   ],
+   "venue": "The Proceedings of Conference of Hokkaido Branch",
+   "cites": 0,
+   "lang": "en",
+   "oa_url": null,
+   "oa_status": "closed",
+   "abstract": "",
+   "query": "T7"
+  },
+  "https://doi.org/10.6084/m9.figshare.32955884.v1": {
+   "id": "https://openalex.org/W7167935181",
+   "doi": "https://doi.org/10.6084/m9.figshare.32955884.v1",
+   "title": "Multi-Fault Diagnosis Using Lightweight Machine Learning Techniques for Rotordynamics Analysis in Multi-Domain",
+   "year": 2026,
+   "authors": [
+    "Amanda R. F. Jorge",
+    "Eduardo Borges Gouveia",
+    "M Lemos Vieira da Cunha",
+    "Aldemir Ap Cavalini",
+    "Raphael T. Silva",
+    "L.C. de Freitas"
+   ],
+   "venue": "Figshare",
+   "cites": 0,
+   "lang": null,
+   "oa_url": "https://figshare.com/articles/journal_contribution/Multi-Fault_Diagnosis_Using_Lightweight_Machine_Learning_Techniques_for_Rotordynamics_Analysis_in_Multi-Domain/32955884",
+   "oa_status": "green",
+   "abstract": "",
+   "query": "T7"
+  },
+  "https://doi.org/10.6084/m9.figshare.32955884": {
+   "id": "https://openalex.org/W7167941847",
+   "doi": "https://doi.org/10.6084/m9.figshare.32955884",
+   "title": "Multi-Fault Diagnosis Using Lightweight Machine Learning Techniques for Rotordynamics Analysis in Multi-Domain",
+   "year": 2026,
+   "authors": [
+    "Amanda R. F. Jorge",
+    "Eduardo Borges Gouveia",
+    "M Lemos Vieira da Cunha",
+    "Aldemir Ap Cavalini",
+    "Raphael T. Silva",
+    "L.C. de Freitas"
+   ],
+   "venue": "Figshare",
+   "cites": 0,
+   "lang": null,
+   "oa_url": "https://doi.org/10.6084/m9.figshare.32955884",
+   "oa_status": "green",
+   "abstract": "",
+   "query": "T7"
+  },
+  "https://doi.org/10.1080/08839514.2026.2690786": {
+   "id": "https://openalex.org/W7167922396",
+   "doi": "https://doi.org/10.1080/08839514.2026.2690786",
+   "title": "Multi-Fault Diagnosis Using Lightweight Machine Learning Techniques for Rotordynamics Analysis in Multi-Domain",
+   "year": 2026,
+   "authors": [
+    "Amanda Rosa Ferreira Jorge",
+    "Eduardo Borges Gouveia",
+    "Márcio José da Cunha",
+    "Aldemir Ap Cavalini",
+    "Raphael Timbó",
+    "L.C. de Freitas"
+   ],
+   "venue": "Applied Artificial Intelligence",
+   "cites": 0,
+   "lang": "en",
+   "oa_url": "https://www.tandfonline.com/doi/pdf/10.1080/08839514.2026.2690786?needAccess=true",
+   "oa_status": "gold",
+   "abstract": "",
+   "query": "T7"
+  },
+  "https://doi.org/10.5281/zenodo.18865780": {
+   "id": "https://openalex.org/W7133518329",
+   "doi": "https://doi.org/10.5281/zenodo.18865780",
+   "title": "Code, Data & Artifacts for Multi-Fault Diagnosis Using Lightweight Machine Learning Techniques for Rotordynamics Analysis in Multi-Domain",
+   "year": 2026,
+   "authors": [
+    "Amanda Rosa Ferreira Jorge"
+   ],
+   "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+   "cites": 0,
+   "lang": null,
+   "oa_url": "https://doi.org/10.5281/zenodo.18865780",
+   "oa_status": "green",
+   "abstract": "",
+   "query": "T7"
+  },
+  "https://doi.org/10.5281/zenodo.18865779": {
+   "id": "https://openalex.org/W7133505613",
+   "doi": "https://doi.org/10.5281/zenodo.18865779",
+   "title": "Code, Data & Artifacts for Multi-Fault Diagnosis Using Lightweight Machine Learning Techniques for Rotordynamics Analysis in Multi-Domain",
+   "year": 2026,
+   "authors": [
+    "Amanda Rosa Ferreira Jorge"
+   ],
+   "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+   "cites": 0,
+   "lang": null,
+   "oa_url": "https://doi.org/10.5281/zenodo.18865779",
+   "oa_status": "green",
+   "abstract": "",
+   "query": "T7"
+  },
+  "https://doi.org/10.35429/jmqm.2022.10.6.8.17": {
+   "id": "https://openalex.org/W4360978928",
+   "doi": "https://doi.org/10.35429/jmqm.2022.10.6.8.17",
+   "title": "Unbalance identification method based on SINDy applied to an SFD rotordynamic system",
+   "year": 2021,
+   "authors": [
+    "Maximiliano Zirion-Flores",
+    "Jonathan Omega Escobedo-Alva",
+    "Sergio G. Torres-Cedillo",
+    "Alberto Reyes‐Solís"
+   ],
+   "venue": "Journal Mathematical and Quantitative Methods",
+   "cites": 0,
+   "lang": "en",
+   "oa_url": "https://doi.org/10.35429/jmqm.2022.10.6.8.17",
+   "oa_status": "hybrid",
+   "abstract": "",
+   "query": "T7"
+  },
+  "https://doi.org/10.2139/ssrn.7123508": {
+   "id": "https://openalex.org/W7168407300",
+   "doi": "https://doi.org/10.2139/ssrn.7123508",
+   "title": "Surrogate-Guided 3D Diffusion Model for Bandgap-Oriented Generative Design of Acoustic Metamaterials",
+   "year": 2026,
+   "authors": [
+    "Hongxing Zhao",
+    "Pengfei Fu",
+    "Kuan He",
+    "Shida Fan",
+    "Chenglin Han",
+    "Tianzhi Yang"
+   ],
+   "venue": "SSRN Electronic Journal",
+   "cites": 0,
+   "lang": null,
+   "oa_url": "https://doi.org/10.2139/ssrn.7123508",
+   "oa_status": "green",
+   "abstract": "",
+   "query": "T9"
+  },
+  "https://doi.org/10.1016/j.tws.2025.113865": {
+   "id": "https://openalex.org/W4413326288",
+   "doi": "https://doi.org/10.1016/j.tws.2025.113865",
+   "title": "Inverse design of energy-dissipating steel plate walls based on self-supervised diffusion models",
+   "year": 2025,
+   "authors": [
+    "Tianyang Zhang",
+    "Yinxiao Lv",
+    "Tong Liu",
+    "Weizhi Xu",
+    "Shuguang Wang",
+    "Dongsheng Du"
+   ],
+   "venue": "Thin-Walled Structures",
+   "cites": 3,
+   "lang": "en",
+   "oa_url": null,
+   "oa_status": "closed",
+   "abstract": "",
+   "query": "T10"
+  },
+  "https://doi.org/10.1115/detc2025-168995": {
+   "id": "https://openalex.org/W4415598810",
+   "doi": "https://doi.org/10.1115/detc2025-168995",
+   "title": "RePaint-Enhanced Conditional Diffusion Model for Generating Designs Under Performance Constraints",
+   "year": 2025,
+   "authors": [
+    "Ke Wang",
+    "Nguyen Vu",
+    "Yifan Tang",
+    "Mostafa Rahmani Dehaghani",
+    "G. Gary Wang"
+   ],
+   "venue": null,
+   "cites": 0,
+   "lang": null,
+   "oa_url": null,
+   "oa_status": "closed",
+   "abstract": "",
+   "query": "T10"
+  },
+  "https://doi.org/10.1016/j.compind.2018.12.012": {
+   "id": "https://openalex.org/W2905386532",
+   "doi": "https://doi.org/10.1016/j.compind.2018.12.012",
+   "title": "Ensemble deep learning-based fault diagnosis of rotor bearing systems",
+   "year": 2018,
+   "authors": [
+    "Sai Ma",
+    "Fulei Chu"
+   ],
+   "venue": "Computers in Industry",
+   "cites": 165,
+   "lang": "en",
+   "oa_url": null,
+   "oa_status": "closed",
+   "abstract": "",
+   "query": "T11"
+  },
+  "https://doi.org/10.1016/j.knosys.2021.107142": {
+   "id": "https://openalex.org/W3163781022",
+   "doi": "https://doi.org/10.1016/j.knosys.2021.107142",
+   "title": "Deep regularized variational autoencoder for intelligent fault diagnosis of rotor–bearing system within entire life-cycle process",
+   "year": 2021,
+   "authors": [
+    "Xiaoan Yan",
+    "Daoming She",
+    "Yadong Xu",
+    "Minping Jia"
+   ],
+   "venue": "Knowledge-Based Systems",
+   "cites": 115,
+   "lang": "en",
+   "oa_url": null,
+   "oa_status": "closed",
+   "abstract": "",
+   "query": "T11"
+  },
+  "https://doi.org/10.1016/j.aei.2020.101150": {
+   "id": "https://openalex.org/W3047598527",
+   "doi": "https://doi.org/10.1016/j.aei.2020.101150",
+   "title": "An intelligent fault diagnosis method for rotor-bearing system using small labeled infrared thermal images and enhanced CNN transferred from CAE",
+   "year": 2020,
+   "authors": [
+    "Zhiyi He",
+    "Haidong Shao",
+    "Zhong Xiang",
+    "Yu Yang",
+    "Junsheng Cheng"
+   ],
+   "venue": "Advanced Engineering Informatics",
+   "cites": 137,
+   "lang": "en",
+   "oa_url": null,
+   "oa_status": "closed",
+   "abstract": "",
+   "query": "T11"
+  },
+  "https://doi.org/10.1016/j.engappai.2021.104401": {
+   "id": "https://openalex.org/W3185152376",
+   "doi": "https://doi.org/10.1016/j.engappai.2021.104401",
+   "title": "Tacho-less sparse CNN to detect defects in rotor-bearing systems at varying speed",
+   "year": 2021,
+   "authors": [
+    "Anil Kumar",
+    "Govind Vashishtha",
+    "C. P. Gandhi",
+    "Hesheng Tang",
+    "Jiawei Xiang"
+   ],
+   "venue": "Engineering Applications of Artificial Intelligence",
+   "cites": 76,
+   "lang": "en",
+   "oa_url": null,
+   "oa_status": "closed",
+   "abstract": "",
+   "query": "T11"
+  },
+  "https://doi.org/10.1177/1475921721998957": {
+   "id": "https://openalex.org/W3138874558",
+   "doi": "https://doi.org/10.1177/1475921721998957",
+   "title": "Modified Gaussian convolutional deep belief network and infrared thermal imaging for intelligent fault diagnosis of rotor-bearing system under time-varying speeds",
+   "year": 2021,
+   "authors": [
+    "Xin Li",
+    "Haidong Shao",
+    "Jiang Hongkai",
+    "Jiawei Xiang"
+   ],
+   "venue": "Structural Health Monitoring",
+   "cites": 91,
+   "lang": "en",
+   "oa_url": null,
+   "oa_status": "closed",
+   "abstract": "",
+   "query": "T11"
+  },
+  "https://doi.org/10.21595/jmeacs.2020.21799": {
+   "id": "https://openalex.org/W3112529250",
+   "doi": "https://doi.org/10.21595/jmeacs.2020.21799",
+   "title": "Crack classification in rotor-bearing system by means of wavelet transform and deep learning methods: an experimental investigation",
+   "year": 2020,
+   "authors": [
+    "Nima Rezazadeh",
+    "Shila Fallahy"
+   ],
+   "venue": "Journal of Mechanical Engineering Automation and Control Systems",
+   "cites": 14,
+   "lang": "en",
+   "oa_url": "https://www.jvejournals.com/article/21799/pdf",
+   "oa_status": "gold",
+   "abstract": "",
+   "query": "T11"
+  },
+  "https://doi.org/10.2478/pomr-2024-0011": {
+   "id": "https://openalex.org/W4393305087",
+   "doi": "https://doi.org/10.2478/pomr-2024-0011",
+   "title": "Fault Diagnosis of Imbalance and Misalignment in Rotor-Bearing Systems Using Deep Learning",
+   "year": 2024,
+   "authors": [
+    "Fayou Liu",
+    "Weijia Li",
+    "Yaozhong Wu",
+    "Yuhang He",
+    "Tianyun Li"
+   ],
+   "venue": "Polish Maritime Research",
+   "cites": 9,
+   "lang": "en",
+   "oa_url": "https://doi.org/10.2478/pomr-2024-0011",
+   "oa_status": "gold",
+   "abstract": "",
+   "query": "T11"
+  },
+  "https://doi.org/10.1016/j.ymssp.2025.113055": {
+   "id": "https://openalex.org/W4412060127",
+   "doi": "https://doi.org/10.1016/j.ymssp.2025.113055",
+   "title": "A novel bearing faults diagnosis of rotor-bearing systems based on vibration responses and convolutional neural network",
+   "year": 2025,
+   "authors": [
+    "Shantharam Patil",
+    "Vishal G. Salunkhe",
+    "Prashant S. Jadhav",
+    "S. M. Khot",
+    "Shravani R. Desavale",
+    "R. G. Desavale"
+   ],
+   "venue": "Mechanical Systems and Signal Processing",
+   "cites": 25,
+   "lang": "en",
+   "oa_url": null,
+   "oa_status": "closed",
+   "abstract": "",
+   "query": "T11"
+  },
+  "https://doi.org/10.1109/jsen.2024.3513644": {
+   "id": "https://openalex.org/W4405362226",
+   "doi": "https://doi.org/10.1109/jsen.2024.3513644",
+   "title": "Cloud–Edge Collaborative Intelligent Fault Diagnosis of Rotor-Bearing System: Methodology and Experiment",
+   "year": 2024,
+   "authors": [
+    "Hongwei Fan",
+    "Haowen Xu",
+    "Wei Fan",
+    "Buran Chen",
+    "Qingshan Li",
+    "Teng Zhang"
+   ],
+   "venue": "IEEE Sensors Journal",
+   "cites": 12,
+   "lang": "en",
+   "oa_url": null,
+   "oa_status": "closed",
+   "abstract": "",
+   "query": "T11"
+  },
+  "https://doi.org/10.1109/tim.2024.3351265": {
+   "id": "https://openalex.org/W4390729006",
+   "doi": "https://doi.org/10.1109/tim.2024.3351265",
+   "title": "A GTI&Ada-Act LMCNN Method for Intelligent Fault Diagnosis of Motor Rotor-Bearing Unit Under Variable Conditions",
+   "year": 2024,
+   "authors": [
+    "Hongwei Fan",
+    "Zhongfu Ren",
+    "Xiangang Cao",
+    "Xuhui Zhang",
+    "Jiexiang Huang"
+   ],
+   "venue": "IEEE Transactions on Instrumentation and Measurement",
+   "cites": 16,
+   "lang": "en",
+   "oa_url": null,
+   "oa_status": "closed",
+   "abstract": "",
+   "query": "T11"
+  },
+  "https://doi.org/10.1088/1361-6501/aceb83": {
+   "id": "https://openalex.org/W4385333228",
+   "doi": "https://doi.org/10.1088/1361-6501/aceb83",
+   "title": "Intelligent fault diagnosis for variable working conditions of rotor-bearing system based on vibration image and domain adaptation",
+   "year": 2023,
+   "authors": [
+    "Mengting Zhu",
+    "Xiaoyue Liu",
+    "Cong Peng",
+    "Haining Gao",
+    "Lin Chen",
+    "Yunan Zhou"
+   ],
+   "venue": "Measurement Science and Technology",
+   "cites": 5,
+   "lang": "en",
+   "oa_url": "https://iopscience.iop.org/article/10.1088/1361-6501/aceb83/pdf",
+   "oa_status": "hybrid",
+   "abstract": "",
+   "query": "T11"
+  }
+ },
+ "chinese_retry": {
+  "\"临界转速\" AND \"神经网络\"": {
+   "total": 0,
+   "hits": []
+  },
+  "\"转子\" AND \"生成式\"": {
+   "total": 0,
+   "hits": []
+  },
+  "\"临界转速\" AND \"优化\"": {
+   "total": 5,
+   "hits": [
+    {
+     "title": "Multi-objective Optimization Design of Rotor-squeeze Film Damper System Based on Cell Mapping Method",
+     "year": 2019,
+     "doi": "https://doi.org/10.3901/jme.2019.19.068",
+     "lang": "en",
+     "venue": "Journal of Mechanical Engineering"
+    },
+    {
+     "title": "Dynamic Property Design of High-speed Rotor System Based on Strain Energy Distribution",
+     "year": 2023,
+     "doi": "https://doi.org/10.3901/jme.2023.17.136",
+     "lang": "en",
+     "venue": "Journal of Mechanical Engineering"
+    },
+    {
+     "title": "航空发动机转子振动的＂热模态＂和减振设计",
+     "year": 2015,
+     "doi": null,
+     "lang": "zh",
+     "venue": "Acta Scientiarum Naturalium Universitatis Sunyatseni"
+    },
+    {
+     "title": "基于梁壳耦合的双转子系统动力学建模及验证",
+     "year": 2026,
+     "doi": "https://doi.org/10.16450/j.cnki.issn.1004-6801.2026.04.011",
+     "lang": "zh",
+     "venue": "DOAJ (DOAJ: Directory of Open Access Journals)"
+    },
+    {
+     "title": "高速动力卡盘的夹紧力损失分段模型与实验研究",
+     "year": 2011,
+     "doi": "https://doi.org/10.1360/ze2011-41-4-449",
+     "lang": "ja",
+     "venue": "Scientia Sinica Technologica"
+    }
+   ]
+  },
+  "\"转子动力学\" AND \"代理模型\"": {
+   "total": 0,
+   "hits": []
+  },
+  "\"参数化\" AND \"转子\" AND \"设计\"": {
+   "total": 2,
+   "hits": [
+    {
+     "title": "Optimization and Experiment Study on Start-up Temperature Control Curve of Turbine Rotor",
+     "year": 2016,
+     "doi": "https://doi.org/10.3901/jme.2016.02.189",
+     "lang": "en",
+     "venue": "Journal of Mechanical Engineering"
+    },
+    {
+     "title": "三维曲面上槽孔形状优化方法及其在鼠笼式弹性支座设计中的应用",
+     "year": 2010,
+     "doi": "https://doi.org/10.1360/2010-40-8-1001",
+     "lang": "zh",
+     "venue": "Zhongguo kexue. Wulixue Lixue Tianwenxue"
+    }
+   ]
+  }
+ }
+}
