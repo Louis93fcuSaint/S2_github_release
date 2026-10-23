@@ -50,6 +50,7 @@ import spec_opt as O             # noqa: E402
 import latent_design as LD       # noqa: E402
 import latent_torch as LT        # noqa: E402
 import spec_interval as SI       # noqa: E402
+import s2_postselect as PS       # noqa: E402
 
 OUT_DIR = os.path.join(HERE, "outputs")
 ORDERS = (1, 2, 3)
@@ -530,7 +531,28 @@ def sample(args):
         per_order[order] = float(good.mean())
     active = np.array([1.0 if o in specs else 0.0 for o in ORDERS])
     score = np.sqrt(((dev ** 2) * active).sum(axis=1))     # joint deviation
-    rank = np.argsort(score)
+
+    mass = PS.total_mass_kg(x, args.material, [f[0] for f in fams])
+    if float(args.max_mass or 0.0) > 0:
+        keep_mass = mass <= float(args.max_mass)
+        n_before = len(x)
+        x = x[keep_mass]
+        valid = valid[keep_mass]
+        pred = pred[keep_mass]
+        dev = dev[keep_mass]
+        hit = hit[keep_mass]
+        score = score[keep_mass]
+        mass = mass[keep_mass]
+        fams = [f for f, k in zip(fams, keep_mass) if k]
+        print("[sample] mass filter <= %g kg: kept %d/%d"
+              % (float(args.max_mass), len(x), n_before), flush=True)
+        if len(x) == 0:
+            raise SystemExit("[sample] no candidate survives --max-mass")
+
+    # ROSS 复验前只按代理综合偏差选候选。质量、单阶精度等业务排序
+    # 留到 s2_design.py 拿到 ROSS 真值之后进行，避免代理误差决定送检名单。
+    rank = np.argsort(score, kind="stable")
+    print("[sample] screen by proxy score (final sort after ROSS)", flush=True)
 
     print("[sample] validity %.4f | joint in-band (proxy) %.4f | per-order %s"
           % (valid.mean(), float(hit.mean()),
@@ -545,6 +567,7 @@ def sample(args):
     xs = x[order_keep]
     fams_s = [fams[i] for i in order_keep]
     frame = O.make_frame(xs, args.material, fams_s)
+    frame.insert(3, "mass_kg", np.round(mass[order_keep], 3))
     for order in ORDERS:
         frame["cs%d_pred" % order] = np.round(pred[order_keep, order - 1], 2)
         if order in specs:
@@ -564,6 +587,8 @@ def sample(args):
                  "relax": float(args.tol), "material": args.material,
                  "family": args.fam_allowed or "free",
                  "fam_filter": args.fam_filter or "",
+                 "screen_by": "proxy_score",
+                 "max_mass_kg": float(args.max_mass or 0.0),
                  "n_generated": int(n_generated),
                  "n_kept_after_filter": int(len(fams)),
                  "n_generate": int(args.n_generate), "n_submit": int(args.n_submit),
@@ -574,6 +599,8 @@ def sample(args):
                      SI.inside(pred[order_keep, o - 1], specs[o][0], specs[o][1],
                                args.tol).mean()) for o in sorted(specs)},
                  "median_joint_dev_top": float(np.median(score[order_keep])),
+                 "mass_kg_median_top": (float(np.median(mass[order_keep]))
+                                        if len(order_keep) else None),
                  "csv": out_csv})
     print("[sample] wrote %s" % out_csv, flush=True)
 
@@ -620,6 +647,9 @@ def main():
     parser.add_argument("--min-snr", type=float, default=0.0)
     parser.add_argument("--guidance", type=float, default=1.0)
     parser.add_argument("--guide-lambda", type=float, default=0.0)
+
+    parser.add_argument("--max-mass", type=float, default=0.0,
+                        help="drop candidates heavier than this (kg); 0 = no limit")
     parser.add_argument("--sample-steps", type=int, default=25)
     parser.add_argument("--n-generate", type=int, default=5000)
     parser.add_argument("--n-submit", type=int, default=200)

@@ -8,7 +8,17 @@
   python s2_design.py --cs1 3681 --material Steel --tol 5%
   python s2_design.py --spec "cs1>=3681" --material Steel --disks 3-3 --bearings 2-2
   python s2_design.py --spec "cs1=3500-3870" --material Steel --filter-disks 2-4
+  python s2_design.py --spec "cs1=3000-4500" --material Steel --sort-by mass_asc --top-k 10
+  python s2_design.py --spec "cs1=3000-4500" --material Steel --sort-by cs1_err --top-k 20
+  python s2_design.py --spec "cs1=3000-4500" --material Steel --max-mass 45 --sort-by mass_desc
   python s2_design.py --spec "cs1=3000-4500" --material Steel --proxy-only   # 快速预览，不做 ROSS
+
+生成后筛选 / ROSS 后排序
+-------------------------
+  --filter-disks / --filter-bearings   按盘数、轴承数筛选（已有）
+  --max-mass KG                        送 ROSS 前丢掉总质量超过 KG 的设计
+  --sort-by score|mass_asc|mass_desc|cs1_err|cs2_err|cs3_err
+  --top-k N                            ROSS 复验并按上述键排序后，只输出前 N 台
 
 规格写法（多项用逗号隔开，阶数 1..6）
   cs1=3681            点值
@@ -45,8 +55,11 @@ for path in (V1_DIR, HERE):
     if path not in sys.path:
         sys.path.insert(0, path)
 
+import numpy as np               # noqa: E402
+import pandas as pd              # noqa: E402
 import spec_common as S          # noqa: E402
 import spec_interval as SI       # noqa: E402
+import s2_postselect as PS       # noqa: E402
 
 PY = sys.executable
 INF_CAP = SI.INF_CAP
@@ -178,8 +191,15 @@ def main():
     parser.add_argument("--bearings", default="", help="生成前限定轴承数，如 2-4")
     parser.add_argument("--filter-disks", default="", help="生成后筛选盘数，如 2-4")
     parser.add_argument("--filter-bearings", default="", help="生成后筛选轴承数")
+    parser.add_argument("--sort-by", default="score",
+                        help="ROSS 复验后的交付清单排序：" + PS.SORT_HELP)
+    parser.add_argument("--top-k", type=int, default=0,
+                        help="ROSS 复验并排序后，只输出前 K 台；0 = 全部")
+    parser.add_argument("--max-mass", type=float, default=0.0,
+                        help="送 ROSS 前丢掉总质量超过该值（kg）的设计；0 = 不限")
     parser.add_argument("--n-generate", type=int, default=5000, help="采样多少台候选")
-    parser.add_argument("--n-submit", type=int, default=200, help="送 ROSS 复验多少台")
+    parser.add_argument("--n-submit", type=int, default=200,
+                        help="按代理综合偏差送 ROSS 复验多少台；交付排序在此之后")
     parser.add_argument("--tag", default="v2i", help="用哪个生成器：v2i（区间臂）或 v2m")
     parser.add_argument("--seed", type=int, default=42)
     parser.add_argument("--threads", type=int, default=10)
@@ -206,6 +226,9 @@ def main():
     orders = sorted(specs)
     interval = any(hi > lo for lo, hi in specs.values())
     tol = parse_tol(args.tol, 0.0 if interval else 0.05)
+    PS.validate_sort(args.sort_by, specs)
+    if args.top_k < 0:
+        parser.error("--top-k 不能是负数")
 
     tag = args.out_tag or unique_tag("%s_%s" % (slug(targets), slug(args.material)))
     os.makedirs(OUT_DIR, exist_ok=True)
@@ -222,6 +245,13 @@ def main():
           + "   材料 %s   容差 +-%g%%" % (args.material, 100.0 * tol))
     print("[家族] 生成前 %s | 生成后筛选 %s"
           % (family or "不限制", family_filter or "不限制"))
+    print("[候选] 代理综合偏差前 %d 台%s"
+          % (args.n_submit, "（仅预览，不送 ROSS）" if args.proxy_only
+             else "送 ROSS 复验"))
+    print("[交付排序] %s%s（%s）"
+          % (PS.describe(args.sort_by),
+             "  → 只输出前 %d 台" % args.top_k if args.top_k else "",
+             "代理预览结果" if args.proxy_only else "ROSS 复验后"))
     print("[模式] " + ("只出代理预览（不做 ROSS 复验）" if args.proxy_only
                        else "ROSS 逐台复验（交付的都是实测在带）"))
     print("=" * 72)
@@ -233,6 +263,7 @@ def main():
            "--guidance", "%g" % args.guidance, "--guide-lambda", "%g" % args.guide_lambda,
            "--sample-steps", str(args.sample_steps),
            "--n-generate", str(args.n_generate), "--n-submit", str(args.n_submit),
+           "--max-mass", "%g" % args.max_mass,
            "--threads", str(args.threads), "--seed", str(args.seed)]
     if family:
         cmd += ["--fam-allowed", family]
@@ -273,8 +304,16 @@ def main():
     else:
         deliverable_src = batch_csv
 
+    deliverable_path = os.path.join(folder, "deliverable.csv")
     if os.path.exists(deliverable_src):
-        shutil.copy2(deliverable_src, os.path.join(folder, "deliverable.csv"))
+        shutil.copy2(deliverable_src, deliverable_path)
+        frame = pd.read_csv(deliverable_path)
+        frame = PS.sort_frame(frame, args.sort_by, args.material)
+        if args.top_k and args.top_k > 0:
+            frame = frame.head(args.top_k).reset_index(drop=True)
+            if "rank" in frame.columns:
+                frame["rank"] = np.arange(len(frame))
+        frame.to_csv(deliverable_path, index=False, encoding="utf-8")
     if verify_json and os.path.exists(verify_json):
         shutil.copy2(verify_json, os.path.join(folder, "report.json"))
 
@@ -310,6 +349,11 @@ def build_summary(tag, folder, specs, orders, args, tol, family, family_filter,
         "tolerance": tol,
         "family_generate": family or None,
         "family_filter": family_filter or None,
+        "screen_by": "proxy_score",
+        "sort_by": args.sort_by,
+        "sort_label": PS.describe(args.sort_by),
+        "top_k": int(args.top_k or 0),
+        "max_mass_kg": float(args.max_mass or 0.0),
         "n_generate": args.n_generate,
         "n_submit": args.n_submit,
         "proxy_only": bool(args.proxy_only),
@@ -322,6 +366,14 @@ def build_summary(tag, folder, specs, orders, args, tol, family, family_filter,
     lines.append("- 材料：%s　判定容差：+-%g%%" % (args.material, 100.0 * tol))
     lines.append("- 家族：生成前 %s ｜ 生成后筛选 %s"
                  % (family or "不限制", family_filter or "不限制"))
+    lines.append("- 候选选择：代理综合偏差前 %d 台%s"
+                 % (args.n_submit, "（仅预览）" if args.proxy_only else "送 ROSS 复验"))
+    lines.append("- 交付排序：%s%s（%s）"
+                 % (PS.describe(args.sort_by),
+                    "　只显示前 %d 台" % args.top_k if args.top_k else "",
+                    "代理预览结果" if args.proxy_only else "ROSS 真值结果"))
+    if float(args.max_mass or 0.0) > 0:
+        lines.append("- 质量上限：%g kg" % float(args.max_mass))
     lines.append("- 采样 %d 台，用时 %.1f 秒" % (args.n_generate, gen_seconds))
 
     console = []
@@ -388,7 +440,7 @@ def build_summary(tag, folder, specs, orders, args, tol, family, family_filter,
         lines.append("")
         lines.append("## 交付清单（前 20 台）")
         lines.append("")
-        columns = ["rank", "material", "n_disks", "n_bearings"]
+        columns = ["rank", "material", "n_disks", "n_bearings", "mass_kg"]
         for order in orders:
             for suffix in ("_ross", "_pred"):
                 name = "cs%d%s" % (order, suffix)

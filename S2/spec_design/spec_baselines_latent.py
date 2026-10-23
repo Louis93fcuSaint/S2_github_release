@@ -306,10 +306,12 @@ METHODS = {"random_latent": random_latent_method, "retrieval": retrieval,
 
 # --------------------------------------------------------------------------- #
 def main():
-    global SUR
+    global SUR, OUT_DIR
     parser = argparse.ArgumentParser()
     parser.add_argument("--methods", default=",".join(METHODS))
     parser.add_argument("--specs", default="")
+    parser.add_argument("--out-dir", default="",
+                        help="override the output folder (default: outputs/latent_baselines)")
     parser.add_argument("--seed", type=int, default=42)
     parser.add_argument("--threads", type=int, default=8)
     parser.add_argument("--pop", type=int, default=64)
@@ -319,6 +321,8 @@ def main():
     parser.add_argument("--bo-iter", type=int, default=40)
     args = parser.parse_args()
 
+    if args.out_dir:
+        OUT_DIR = args.out_dir
     torch.set_num_threads(args.threads)
     ctx = E.pool_ctx()
     SUR = S.load_surrogate("mlp_best", threads=args.threads)

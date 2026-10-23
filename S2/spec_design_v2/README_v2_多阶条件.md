@@ -436,9 +436,47 @@ python s2_design.py --spec "cs1=3000-4500" --material Steel --proxy-only
 参考耗时：默认 5 000 台候选、200 台复验 —— 采样 10-35 秒，ROSS 约 2-4 分钟（18 进程）。
 `--proxy-only` 只要采样那十几秒，但交付清单没有经过真值验证，只能当预览。
 
+### 6.1 生成后筛选 / ROSS 后排序 / 只显示前 K 台
+
+四个旋钮，可以任意叠加：
+
+| 参数 | 作用 | 可选值 |
+| --- | --- | --- |
+| `--filter-disks` / `--filter-bearings` | 生成后按盘数 / 轴承数筛选 | `2-4`、`3-3` |
+| `--max-mass` | 送 ROSS 前丢掉总质量超过该值的设计 | kg，`0` = 不限 |
+| `--sort-by` | **ROSS 复验后**的交付清单排序 | `score`（默认，真值综合偏差）、`mass_asc`、`mass_desc`、`cs1_err`、`cs2_err`、`cs3_err` |
+| `--top-k` | **ROSS 复验并排序后**只输出前 K 台 | 整数，`0` = 全部 |
+
+语义：
+
+- **候选选择和交付排序是两件事。** 先按代理综合偏差选 `--n-submit` 台送 ROSS；这 `n-submit` 台全部复验完成后，才按 `--sort-by` 排序，再用 `--top-k` 截取。
+- 因此，`--sort-by mass_asc --top-k 10` 的含义是：**200 台复验结果中总质量最轻的 10 台**，不是代理只挑 10 台去复验。
+- 默认 `--n-submit 200`。如果希望“前 10”来自 200 台真实复验结果，不要把 `--n-submit` 调小。
+- `mass_asc` / `mass_desc` 在 ROSS 通过的交付清单内按 `mass_kg` 排序，不改变送检候选。
+- `cs1_err` / `cs2_err` / `cs3_err` 在 ROSS 复验后按**绝对相对误差**升序（0 = 正好命中目标）；对应阶必须出现在规格里。
+- 质量口径与 S1 完全一致：空心轴 + 实心盘体积 × 材料密度（Steel 7810、Aluminum 2700、Titanium 4430 kg/m³），已用 S1 的 `_volumes` 逐行核对，误差为 0。
+
+示例：
+
+```bash
+# 200 台 ROSS 复验后，总质量最轻的前 10 台
+python s2_design.py --spec "cs1=3000-4500" --material Steel --sort-by mass_asc --top-k 10
+
+# 200 台 ROSS 复验后，一阶真值误差最小的前 20 台
+python s2_design.py --spec "cs1=3000-4500" --material Steel --sort-by cs1_err --top-k 20
+
+# 先卡 45 kg，再对复验结果按质量从大到小取前 5
+python s2_design.py --spec "cs1=3000-4500" --material Steel --max-mass 45 --sort-by mass_desc --top-k 5
+
+# 只要 2 盘 2 轴承；复验后按质量升序取前 10
+python s2_design.py --spec "cs1=3000-4500" --material Steel --filter-disks 2-2 --filter-bearings 2-2 --sort-by mass_asc --top-k 10
+```
+
+`deliverable.csv` 与 `summary.md` 都会包含 `mass_kg`；排序和 `--top-k` 只作用于最终交付清单。
+
 ---
 
-### 6.1 底层入口（`design_by_target_v2.py`）
+### 6.2 底层入口（`design_by_target_v2.py`）
 
 ```powershell
 $PY = "D:\Louis_Projet\rotor_projet\大学生创新创业训练计划\S2\neural_surrogate_experiment\.venv_torch\Scripts\python.exe"
@@ -489,6 +527,7 @@ cd "D:\Louis_Projet\rotor_projet\大学生创新创业训练计划\S2\spec_desig
 | 文件 | 作用 |
 | --- | --- |
 | `s2_design.py` | **推荐入口**：友好规格语法 → 采样 → ROSS 复验 → `outputs/delivered_<tag>/`（清单 + 汇总 + 报告） |
+| `s2_postselect.py` | 生成后筛选 / 排序：质量口径、`mass_asc`/`mass_desc`、`csN_err`、`--top-k` |
 | `latent_ddpm_v2.py` | v2 主体：mask 多阶条件、训练、采样、多阶可微引导 |
 | `spec_interval.py` | 区间规格的解析 / 几何 / 判定（点、双边、单边统一处理） |
 | `v2_ross_verify.py` | ROSS 真值复验：逐阶偏差、各容差在带率、ρ、闸门交付 |

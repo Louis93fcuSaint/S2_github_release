@@ -9,6 +9,7 @@ Every family is fitted per order on log(cs) and scored on the shared frozen
 from __future__ import annotations
 
 import argparse
+import json
 import os
 import time
 from pathlib import Path
@@ -107,11 +108,61 @@ def fit_predict_ridge(x_fit, y_fit, x_test, seed, threads, quick):
     return model.predict(x_test), 0
 
 
+def fit_predict_xgboost(x_fit, y_fit, x_test, seed, threads, quick):
+    import xgboost as xgb
+    from sklearn.model_selection import train_test_split
+
+    params = {
+        "objective": "reg:squarederror", "eval_metric": "rmse",
+        "learning_rate": 0.05 if quick else 0.03,
+        "max_depth": 8, "min_child_weight": 5,
+        "subsample": 0.8, "colsample_bytree": 0.8, "reg_lambda": 1.0,
+        "tree_method": "hist", "nthread": threads, "seed": int(seed),
+    }
+    idx = np.arange(y_fit.size)
+    tr, va = train_test_split(idx, test_size=0.10, random_state=int(seed) + 1009)
+    dtr = xgb.DMatrix(x_fit[tr], label=y_fit[tr])
+    dva = xgb.DMatrix(x_fit[va], label=y_fit[va])
+    booster = xgb.train(
+        params, dtr,
+        num_boost_round=300 if quick else 20000,
+        evals=[(dva, "va")],
+        early_stopping_rounds=30 if quick else 200,
+        verbose_eval=False,
+    )
+    best = int(getattr(booster, "best_iteration", 0) or 0)
+    pred = booster.predict(xgb.DMatrix(x_test), iteration_range=(0, best + 1)) if best \
+        else booster.predict(xgb.DMatrix(x_test))
+    return pred, best
+
+
+def fit_predict_catboost(x_fit, y_fit, x_test, seed, threads, quick):
+    from catboost import CatBoostRegressor
+    from sklearn.model_selection import train_test_split
+
+    idx = np.arange(y_fit.size)
+    tr, va = train_test_split(idx, test_size=0.10, random_state=int(seed) + 1009)
+    model = CatBoostRegressor(
+        loss_function="RMSE",
+        learning_rate=0.05 if quick else 0.03,
+        depth=8, l2_leaf_reg=3.0,
+        iterations=500 if quick else 20000,
+        random_seed=int(seed), thread_count=threads,
+        od_type="Iter", od_wait=30 if quick else 200,
+        verbose=False, allow_writing_files=False,
+    )
+    model.fit(x_fit[tr], y_fit[tr], eval_set=(x_fit[va], y_fit[va]),
+              use_best_model=True)
+    return model.predict(x_test), int(model.tree_count_)
+
+
 FAMILIES = {
     "lightgbm": fit_predict_lightgbm,
     "hist_gbdt": fit_predict_hist_gbdt,
     "extra_trees": fit_predict_extra_trees,
     "ridge": fit_predict_ridge,
+    "xgboost": fit_predict_xgboost,
+    "catboost": fit_predict_catboost,
 }
 
 
@@ -183,7 +234,18 @@ def main():
         C.print_metrics_table(family, result["eval_raw"])
         C.save_json(args.out_dir / ("metrics_%s.json" % family), result)
 
-    C.save_json(args.out_dir / "summary_tabular.json", summary)
+    summary_path = args.out_dir / "summary_tabular.json"
+    if summary_path.exists():
+        try:
+            previous = json.loads(summary_path.read_text(encoding="utf-8"))
+        except Exception:
+            previous = {}
+        merged = dict(previous.get("families", {}))
+        merged.update(summary["families"])
+        summary["families"] = merged
+        summary["previous_configs"] = previous.get("previous_configs", [])
+    summary.setdefault("previous_configs", []).append(summary["config"])
+    C.save_json(summary_path, summary)
     print("\n[out] %s" % args.out_dir, flush=True)
 
     print("\n==================== HEADLINE (raw predictions, mean over orders) ====================")

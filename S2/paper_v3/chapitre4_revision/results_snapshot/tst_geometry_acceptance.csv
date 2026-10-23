@@ -1,0 +1,19 @@
+﻿row_type,specification,material,family,orders,condition_type,bands,reference_matches,method,method_label,submitted,ross_pass,geometry_pass,ross_and_geometry_pass,h4_pass,ross_error_or_timeout,missing_ross_record,ross_specification_satisfaction_rate,edge_10mm_geometry_rate,joint_dynamic_geometric_acceptance_rate,geometry_retention_given_ross
+specification,TST01,Steel,free,1,one-sided,cs1 >= 15966.825,3319.0,ddpm,DDPM (interval-conditioned),200,192,67,64,200,0,0,0.96,0.335,0.32,0.3333333333333333
+specification,TST01,Steel,free,1,one-sided,cs1 >= 15966.825,3319.0,cvae,CVAE,200,199,56,55,200,0,0,0.995,0.28,0.275,0.27638190954773867
+specification,TST01,Steel,free,1,one-sided,cs1 >= 15966.825,3319.0,retrieval,Retrieval+jitter,200,198,81,79,200,0,0,0.99,0.405,0.395,0.398989898989899
+specification,TST02,Aluminum,3d-3b,1,two-sided interval,"cs1 in [5282.079, 6451.546]",337.0,ddpm,DDPM (interval-conditioned),200,183,80,74,200,0,0,0.915,0.4,0.37,0.40437158469945356
+specification,TST02,Aluminum,3d-3b,1,two-sided interval,"cs1 in [5282.079, 6451.546]",337.0,cvae,CVAE,200,189,89,80,200,0,0,0.945,0.445,0.4,0.42328042328042326
+specification,TST02,Aluminum,3d-3b,1,two-sided interval,"cs1 in [5282.079, 6451.546]",337.0,retrieval,Retrieval+jitter,200,176,66,59,200,2,0,0.88,0.33,0.295,0.3352272727272727
+specification,TST04,Steel,6d-4b,1|2,point tolerance,"cs1 in [3105.122, 3431.977]; cs2 in [5186.288, 5732.212]",14.0,ddpm,DDPM (interval-conditioned),200,77,27,12,200,1,0,0.385,0.135,0.06,0.15584415584415584
+specification,TST04,Steel,6d-4b,1|2,point tolerance,"cs1 in [3105.122, 3431.977]; cs2 in [5186.288, 5732.212]",14.0,cvae,CVAE,200,111,23,10,200,0,0,0.555,0.115,0.05,0.09009009009009009
+specification,TST04,Steel,6d-4b,1|2,point tolerance,"cs1 in [3105.122, 3431.977]; cs2 in [5186.288, 5732.212]",14.0,retrieval,Retrieval+jitter,200,160,16,12,200,0,0,0.8,0.08,0.06,0.075
+specification,TST07,Steel,free,1|2|3,point tolerance,"cs1 in [3460.280, 3824.520]; cs2 in [7254.153, 8017.748]; cs3 in [19981.825, 22085.175]",10.0,ddpm,DDPM (interval-conditioned),200,4,85,0,200,0,0,0.02,0.425,0.0,0.0
+specification,TST07,Steel,free,1|2|3,point tolerance,"cs1 in [3460.280, 3824.520]; cs2 in [7254.153, 8017.748]; cs3 in [19981.825, 22085.175]",10.0,cvae,CVAE,200,16,72,5,200,0,0,0.08,0.36,0.025,0.3125
+specification,TST07,Steel,free,1|2|3,point tolerance,"cs1 in [3460.280, 3824.520]; cs2 in [7254.153, 8017.748]; cs3 in [19981.825, 22085.175]",10.0,retrieval,Retrieval+jitter,200,133,91,63,200,0,0,0.665,0.455,0.315,0.47368421052631576
+specification,TST09,Titanium,free,1|2,two-sided interval,"cs1 in [4008.079, 4703.524]; cs2 in [8389.189, 9844.805]",555.0,ddpm,DDPM (interval-conditioned),200,136,77,46,200,0,0,0.68,0.385,0.23,0.3382352941176471
+specification,TST09,Titanium,free,1|2,two-sided interval,"cs1 in [4008.079, 4703.524]; cs2 in [8389.189, 9844.805]",555.0,cvae,CVAE,200,163,102,85,200,0,0,0.815,0.51,0.425,0.5214723926380368
+specification,TST09,Titanium,free,1|2,two-sided interval,"cs1 in [4008.079, 4703.524]; cs2 in [8389.189, 9844.805]",555.0,retrieval,Retrieval+jitter,200,165,69,57,200,0,0,0.825,0.345,0.285,0.34545454545454546
+macro,MACRO,,,,,,,ddpm,DDPM (interval-conditioned),1000,592,336,196,1000,1,0,0.592,0.336,0.196,0.3310810810810811
+macro,MACRO,,,,,,,cvae,CVAE,1000,678,342,235,1000,0,0,0.678,0.342,0.23500000000000001,0.3466076696165192
+macro,MACRO,,,,,,,retrieval,Retrieval+jitter,1000,832,323,270,1000,2,0,0.8320000000000001,0.323,0.26999999999999996,0.3245192307692308
