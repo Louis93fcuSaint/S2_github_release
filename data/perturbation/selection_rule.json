@@ -1,0 +1,13 @@
+{
+  "source": "Task A shortlist, ROSS status ok, dynamic pass and H1-H6 pass",
+  "deduplication": "complete identity = material | nd | nb | canonical 33-float64 vector",
+  "ordering": "identity SHA-256 hexadecimal ascending",
+  "take": "first 10 per specification; all if fewer; NA if zero",
+  "not_used_for_selection": [
+    "acceptance margin",
+    "surrogate error",
+    "perturbation result"
+  ],
+  "selected_identity_sha256_of_sorted_newline_join": "0448099e87268755d942fa546ead2957e4d835c8b368e59df61eb734eac17c97",
+  "n_selected": 50
+}

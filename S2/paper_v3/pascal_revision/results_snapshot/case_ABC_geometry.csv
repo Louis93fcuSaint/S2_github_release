@@ -1,4 +1,0 @@
-case,source,rank,material,n_disks,n_bearings,L_m,h4_min_center_m,edge_clearance_min_m,pass_H4_center_10mm,pass_edge_10mm,pass_nonoverlap_0mm,disk_inside_shaft_ends,adjacent_disk_gap_min_m,adjacent_disk_nonoverlap
-Case A,D:\Louis_Projet\rotor_projet\大学生创新创业训练计划\S2\spec_design_v2\outputs\v2_cs1.csv,138,Steel,3,2,0.953877067565918,0.0980072903088352,0.08615868301271111,True,True,True,True,0.06205459344694651,True
-Case B,D:\Louis_Projet\rotor_projet\大学生创新创业训练计划\S2\spec_design_v2\outputs\v2_int_mid_v2i.csv,0,Steel,1,3,0.5673414871096611,0.12596216179529168,0.050962161795291686,True,True,True,True,,True
-Case C,D:\Louis_Projet\rotor_projet\大学生创新创业训练计划\S2\spec_design_v2\outputs\v2_joint_cs12.csv,0,Steel,6,3,1.5769300132989883,0.05453801348189402,-0.003417971587380879,True,False,False,True,0.011431159679077124,True

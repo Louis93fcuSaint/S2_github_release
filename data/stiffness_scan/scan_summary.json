@@ -1,0 +1,51 @@
+{
+  "A": {
+    "points": 32,
+    "initial_points": 21,
+    "initial_joint_pass": 16,
+    "all_scan_joint_pass": 20,
+    "min_signed_margin_rpm": -8.677708612542574,
+    "r_at_min_margin": 0.9,
+    "first_order_monotone_increasing_at_computed_points": true,
+    "second_order_monotone_increasing_at_computed_points": true,
+    "mode_ambiguities": 0,
+    "branch_switches": 0
+  },
+  "B": {
+    "points": 22,
+    "initial_points": 21,
+    "initial_joint_pass": 21,
+    "all_scan_joint_pass": 22,
+    "min_signed_margin_rpm": 2.1265024566582724,
+    "r_at_min_margin": 1.1,
+    "first_order_monotone_increasing_at_computed_points": true,
+    "second_order_monotone_increasing_at_computed_points": true,
+    "mode_ambiguities": 0,
+    "branch_switches": 0
+  },
+  "C": {
+    "points": 22,
+    "initial_points": 21,
+    "initial_joint_pass": 21,
+    "all_scan_joint_pass": 22,
+    "min_signed_margin_rpm": 9.323971345880636,
+    "r_at_min_margin": 1.1,
+    "first_order_monotone_increasing_at_computed_points": true,
+    "second_order_monotone_increasing_at_computed_points": true,
+    "mode_ambiguities": 0,
+    "branch_switches": 0
+  },
+  "overall": {
+    "points": 76,
+    "initial_points": 63,
+    "max_primary_synchronous_residual_rpm": 2.5185471431026305e-06,
+    "max_tightening_change_rpm": 3.090495738433674e-06,
+    "max_tighter_residual_rpm": 2.277880490428733e-06,
+    "min_adjacent_complex_MAC": 0.9999860352982715,
+    "min_MAC_gap": 0.9999860352982715,
+    "failed_or_ambiguous_points": 0,
+    "constraints_all_pass": true,
+    "ranges_all_pass": true,
+    "precision_all_pass": true
+  }
+}

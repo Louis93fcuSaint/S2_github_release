@@ -1,0 +1,76 @@
+{
+  "spec": "TST02",
+  "selection_reason": "preferred TST02",
+  "identity": "00e42c9e900ec59160d8f319f5bcd2afa9f489073508829c28e1a627824a3d3d",
+  "design_key": "c0b94fb59ffb4a3c32dcb44c05524c4c09e59cf4521e5bafa7af7fcf87f40225",
+  "pool_id": "TST02_v2i_s42",
+  "row": 464,
+  "attempt_id": 464,
+  "material": "Aluminum",
+  "nd": 3,
+  "nb": 3,
+  "mass_kg": 192.0432450086966,
+  "L_m": 1.3461833894252777,
+  "OD_m": 0.08366362965106965,
+  "ID_m": 0.016068803320011284,
+  "ross_version": "2.3.0",
+  "n_base": 15,
+  "num_modes": 48,
+  "orders": [
+    1
+  ],
+  "acceptance_bands_rpm": {
+    "1": [
+      5282.078912,
+      6451.545751
+    ]
+  },
+  "stored_cs1_3": [
+    6317.403294826944,
+    7415.185203109507,
+    20635.002063193067
+  ],
+  "disks": [
+    {
+      "index": 0,
+      "position_m": 0.24020482211353356,
+      "width_m": 0.07868711560964585,
+      "diameter_m": 0.6668817892395373
+    },
+    {
+      "index": 1,
+      "position_m": 0.5270142831590501,
+      "width_m": 0.06487984746694565,
+      "diameter_m": 0.43211717444282427
+    },
+    {
+      "index": 2,
+      "position_m": 0.9101371627544595,
+      "width_m": 0.12148677289485932,
+      "diameter_m": 0.5319513574478486
+    }
+  ],
+  "bearings": [
+    {
+      "index": 0,
+      "position_m": 0.16449594971565318,
+      "K_N_per_m": 41654022.19210751,
+      "C_N_s_per_m": 1099.9999999999995
+    },
+    {
+      "index": 1,
+      "position_m": 0.5958687705085149,
+      "K_N_per_m": 41510457.33629925,
+      "C_N_s_per_m": 608.9752213302107
+    },
+    {
+      "index": 2,
+      "position_m": 1.1260264269166786,
+      "K_N_per_m": 39945174.18723689,
+      "C_N_s_per_m": 1099.9999999999995
+    }
+  ],
+  "H4_min_center_distance_m": 0.06885448734946487,
+  "H4_min_center_distance_mm": 68.85448734946486,
+  "H4_violations": 0
+}

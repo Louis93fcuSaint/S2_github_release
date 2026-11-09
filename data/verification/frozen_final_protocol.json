@@ -1,0 +1,268 @@
+{
+  "protocol_id": "ROUND3_FINAL_MAIN_METHOD_v1",
+  "status": "frozen_before_formal_generation",
+  "created": "2026-10-27T13:57:57+08:00",
+  "study_root": "D:\\Louis_Projet\\rotor_projet\\大学生创新创业训练计划\\S2\\paper\\paper_v3\\chapitres_revision\\chapitre4_completion_round3",
+  "decision": "User-authorized final main method; no route A/B/C selection.",
+  "model_routing": {
+    "point_including_multi_order_joint_point": "v2m (18-D exact-target condition)",
+    "interval": "v2i (21-D interval condition)",
+    "one_sided": "v2i (21-D interval condition, open upper bound capped in conditioning)",
+    "joint_containing_interval_or_one_sided": "v2i",
+    "acceptance_tolerance_enters_condition": false
+  },
+  "checkpoints": {
+    "v2m": {
+      "path": "D:\\Louis_Projet\\rotor_projet\\大学生创新创业训练计划\\S2\\spec_design_v2\\outputs\\v2m\\model.pt",
+      "sha256": "6bb43ba6dc937c238a6fb0d4c34692e38e13de4a95fdf3893c8987a6bbc27794",
+      "condition_dim": 18,
+      "layout": "point",
+      "predict": "v",
+      "ema": true,
+      "condition_dropout": 0.1,
+      "mask_policy": "mixed",
+      "orders": [
+        1,
+        2,
+        3
+      ]
+    },
+    "v2i": {
+      "path": "D:\\Louis_Projet\\rotor_projet\\大学生创新创业训练计划\\S2\\spec_design_v2\\outputs\\v2i\\model.pt",
+      "sha256": "5df0eef14c68e037aa9b3504552d9871f4baf2fe15d7764806ddeaf6bbc5eef5",
+      "condition_dim": 21,
+      "layout": "interval",
+      "predict": "v",
+      "ema": true,
+      "condition_dropout": 0.1,
+      "mask_policy": "mixed",
+      "h_max": 0.7,
+      "orders": [
+        1,
+        2,
+        3
+      ]
+    }
+  },
+  "surrogate": {
+    "loader": "spec_common.load_surrogate('mlp_best')",
+    "dir": "D:\\Louis_Projet\\rotor_projet\\大学生创新创业训练计划\\S2\\surrogate_v47\\outputs\\mlp_v47_best\\models",
+    "n_members": 5,
+    "n_features": 47,
+    "summary_sha256": "ce47138e82f29c7db34e5da2510df5ab289b4f803707183318e90716db0f46d1",
+    "seed_files": {
+      "surrogate_seed42": "32a147b6e4840e8d51b74256e6543bdc3b271990fc37ef3092bf8b60fe40ce55",
+      "surrogate_seed43": "3c5a974158245c0205d70621d2b646dffea2fa1c7a6a5bb4164caea46a44a233",
+      "surrogate_seed44": "733e42de0a27a90ee238e7d75017670e52417d203e5513f6c6ff6b575bf657cd",
+      "surrogate_seed45": "e9b11ff155e063f0f5ccde6d9cbce8385e982d6d7e8e03356abb1db1ca5d28a5",
+      "surrogate_seed46": "f3d739f849c9a1fea2c3da8d2fcc9275f49aebc70f5d37c675ef54616327cffe"
+    },
+    "frozen_weights": true
+  },
+  "sampling": {
+    "n_attempts_per_pool": 5000,
+    "sample_steps": 25,
+    "cfg_guidance_w": 1.0,
+    "condition_input_active": true,
+    "proxy_guidance_lambda": 0.05,
+    "guide_init": "SmoothSurrogateMulti (five-seed ensemble, log space)",
+    "guide_schedule": "applied to every x0 estimate, step_scale=lambda/len(active orders), scaled by alpha_bar[t]",
+    "seeds": {
+      "A": 42,
+      "B": 7
+    },
+    "family_allocation": "v2 sample(): default_rng(seed); free=uniform over 18 families; fixed=constant",
+    "reject_retry": false
+  },
+  "selection": {
+    "score": "sqrt(sum_o active_o * SI.deviation(pred_o, screen_lo, screen_hi)^2)",
+    "deviation": "signed relative distance; 0 inside band; scale = SI.centre(lo,hi)",
+    "point_screen_band": "exact user target [t, t]",
+    "interval_screen_band": "frozen user band",
+    "sort": "np.argsort(score, kind='stable') ascending",
+    "take": 200,
+    "dedup": false,
+    "validity_filter": false,
+    "geometry_filter": false,
+    "tie_break": "original generation attempt order",
+    "gap_policy": "keep shorter list; missing slots stay in the 200 denominator",
+    "random_sample": "uniform without replacement over the 5000 original attempt IDs; independent evaluation seed; probability 0.02"
+  },
+  "acceptance": {
+    "boundaries": "raw frozen user bands",
+    "joint": "all specified orders must hold simultaneously",
+    "denominator_shortlist": 200,
+    "denominator_random": 100,
+    "failures": "error, timeout, unmodellable, missing order, gap all count as not satisfied",
+    "reselect": false,
+    "regenerate_on_failure": false,
+    "dynamic_and_constraints": "reported separately; joint = dynamic AND H1-H6",
+    "H4": "axial disk-bearing centre distance >= 10 mm only; no disk-edge clearance check",
+    "post_ranking": "target deviation or rotor mass changes display order only"
+  },
+  "ross": {
+    "python": "C:\\Users\\fcu15\\ross230_py312\\python.exe",
+    "required_version": "2.3.0",
+    "n_base": 15,
+    "num_modes": 48,
+    "fast_relabel": 1,
+    "timeout_s": 180.0,
+    "protocol": "forward_positive__n_base15__num_modes48__fast_relabel1__rpm",
+    "filter": "wd_rpm > 0 and whirl_direction == 'forward'; sort ascending; no log_dec filter",
+    "units": "SI input, rpm output",
+    "cache_namespace": "round3_ross230",
+    "cache_key_fields": [
+      "design_sha256",
+      "material",
+      "nd",
+      "nb",
+      "material_override",
+      "units",
+      "ross_version",
+      "python",
+      "numpy",
+      "scipy",
+      "n_base",
+      "num_modes",
+      "protocol",
+      "fast_relabel",
+      "source_sha256"
+    ],
+    "reuse_161_cache": false,
+    "label_reproduction": {
+      "max_abs_rpm": 0.04792348800401669,
+      "criterion_abs_rpm": 1.0,
+      "criterion_rel": 0.0001,
+      "all_pass": true
+    }
+  },
+  "environment": {
+    "python": "3.12.14",
+    "python_executable": "C:\\Users\\fcu15\\ross230_py312\\python.exe",
+    "ross": "2.3.0",
+    "numpy": "1.26.4",
+    "scipy": "1.11.4",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "probe_sha256": "56e9f9b1b4d95093e73dbb706d492dddd1c16f3d0961b655bb09facadb471a1a"
+  },
+  "source_sha256": {
+    "spec_csv": "c5a59e43f2c846ffcbb73b0c78f1c001e2e7ed5c930a91bb4ace3d5bb0a348d5",
+    "dataset_v47": "e8fdd638099b08245f3ba714ba43c0d38776f9a42618d0dc420e1420890d4f64",
+    "v2m_model": "6bb43ba6dc937c238a6fb0d4c34692e38e13de4a95fdf3893c8987a6bbc27794",
+    "v2i_model": "5df0eef14c68e037aa9b3504552d9871f4baf2fe15d7764806ddeaf6bbc5eef5",
+    "surrogate_summary": "ce47138e82f29c7db34e5da2510df5ab289b4f803707183318e90716db0f46d1",
+    "spec_common": "20fa0825ef147058c673b7312965f87e6f0172610f0090605c3d57000ec39c21",
+    "latent_ddpm_v1": "53a69757988eb1304541c7a0549629c91b3ea49b3ca2cda1272690ea95f5e25d",
+    "latent_design": "e87d3da04f3ead7401dbe3620c882596ea613b5199e2df72df636a0d0bcabdb1",
+    "latent_torch": "c37c78e2c3c718598f542a4dd3d9615b31f737c6ee299c57b6706668e75ebe1d",
+    "spec_opt": "d89605901d7a86c1084601db549df79a433af18f3e709c28023110e86cb11667",
+    "spec_interval": "4c18fa2a285d05e3b03fc53274733299ef291206e62cba59cb0ee8af4e8518e5",
+    "latent_ddpm_v2": "d4b63dd1d18e8bf4d209653b106a886d14a3b32527163f753bcaa05746255ed1",
+    "s2_postselect": "ecfe48002acc7375c24131e84da23b58ae83f4e9f3eb6c7b82823be9dcb2da6c",
+    "s1_pipeline": "a536f702a332dd9b0ae2e31e00729b79a0fde10a966fcfc3ec5761eec6fc98c4",
+    "s1_constraint": "4130f8cd48ef20977e56a58687fd930bac214eb9cf191ca519d5fb80f335f5b4",
+    "ross230_worker": "d82eb1ff7ee9745c46883e735de07601414b1656717d3107a15bbb81e7db833e"
+  },
+  "input_sha256": {
+    "spec_csv": "c5a59e43f2c846ffcbb73b0c78f1c001e2e7ed5c930a91bb4ace3d5bb0a348d5",
+    "dataset_v47": "e8fdd638099b08245f3ba714ba43c0d38776f9a42618d0dc420e1420890d4f64",
+    "v2m_model": "6bb43ba6dc937c238a6fb0d4c34692e38e13de4a95fdf3893c8987a6bbc27794",
+    "v2i_model": "5df0eef14c68e037aa9b3504552d9871f4baf2fe15d7764806ddeaf6bbc5eef5",
+    "surrogate_summary": "ce47138e82f29c7db34e5da2510df5ab289b4f803707183318e90716db0f46d1",
+    "spec_common": "20fa0825ef147058c673b7312965f87e6f0172610f0090605c3d57000ec39c21",
+    "latent_ddpm_v1": "53a69757988eb1304541c7a0549629c91b3ea49b3ca2cda1272690ea95f5e25d",
+    "latent_design": "e87d3da04f3ead7401dbe3620c882596ea613b5199e2df72df636a0d0bcabdb1",
+    "latent_torch": "c37c78e2c3c718598f542a4dd3d9615b31f737c6ee299c57b6706668e75ebe1d",
+    "spec_opt": "d89605901d7a86c1084601db549df79a433af18f3e709c28023110e86cb11667",
+    "spec_interval": "4c18fa2a285d05e3b03fc53274733299ef291206e62cba59cb0ee8af4e8518e5",
+    "latent_ddpm_v2": "d4b63dd1d18e8bf4d209653b106a886d14a3b32527163f753bcaa05746255ed1",
+    "s2_postselect": "ecfe48002acc7375c24131e84da23b58ae83f4e9f3eb6c7b82823be9dcb2da6c",
+    "s1_pipeline": "a536f702a332dd9b0ae2e31e00729b79a0fde10a966fcfc3ec5761eec6fc98c4",
+    "s1_constraint": "4130f8cd48ef20977e56a58687fd930bac214eb9cf191ca519d5fb80f335f5b4",
+    "ross230_worker": "d82eb1ff7ee9745c46883e735de07601414b1656717d3107a15bbb81e7db833e",
+    "surrogate_seed42": "32a147b6e4840e8d51b74256e6543bdc3b271990fc37ef3092bf8b60fe40ce55",
+    "surrogate_seed43": "3c5a974158245c0205d70621d2b646dffea2fa1c7a6a5bb4164caea46a44a233",
+    "surrogate_seed44": "733e42de0a27a90ee238e7d75017670e52417d203e5513f6c6ff6b575bf657cd",
+    "surrogate_seed45": "e9b11ff155e063f0f5ccde6d9cbce8385e982d6d7e8e03356abb1db1ca5d28a5",
+    "surrogate_seed46": "f3d739f849c9a1fea2c3da8d2fcc9275f49aebc70f5d37c675ef54616327cffe"
+  },
+  "tasks": {
+    "A": {
+      "specs": [
+        "TST01",
+        "TST02",
+        "TST03",
+        "TST04",
+        "TST05",
+        "TST06",
+        "TST07",
+        "TST09"
+      ],
+      "seed": 42,
+      "per_spec": {
+        "shortlist": 200,
+        "random": 100
+      },
+      "logical_slots": 2400
+    },
+    "B": {
+      "specs": [
+        "TST01",
+        "TST02",
+        "TST04",
+        "TST07",
+        "TST09"
+      ],
+      "seed": 7,
+      "per_spec": {
+        "shortlist": 200,
+        "random": 0
+      },
+      "logical_slots": 1000
+    },
+    "C": {
+      "specs": [
+        "TST01",
+        "TST02",
+        "TST04",
+        "TST07",
+        "TST09"
+      ],
+      "seed": 42,
+      "selection": "joint dynamic+H1-H6 accepted unique designs; sort by full-identity SHA-256 hex; first 10 per spec (all if fewer)",
+      "scenarios": [
+        "E-",
+        "E+",
+        "K-",
+        "K+",
+        "Geom-",
+        "Geom+"
+      ],
+      "n_max": 50
+    },
+    "D": {
+      "preferred_spec": "TST02",
+      "selection": "first jointly accepted unique design by the same identity hash order"
+    },
+    "E": {
+      "specs": [
+        "TST01",
+        "TST02",
+        "TST03",
+        "TST04",
+        "TST05",
+        "TST06",
+        "TST07",
+        "TST09"
+      ],
+      "reference": "full v4.7 library (199,815 labelled rows), not the training split"
+    }
+  },
+  "no_retraining": true,
+  "no_relabelling": true,
+  "no_generator_comparison": true,
+  "no_optimizer_comparison": true,
+  "tst08_excluded": true,
+  "third_seed_excluded": true,
+  "frozen_at": "2026-10-27T13:57:57+08:00"
+}

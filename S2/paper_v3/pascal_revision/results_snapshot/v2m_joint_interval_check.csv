@@ -1,5 +1,0 @@
-﻿experiment_group,specification,model,candidate_pool,shortlist_n,delivered_n,delivery_rate_pct,note
-two-order joint interval,"cs1 in [3000,4500], cs2 in [6000,9000]",v2i (interval condition),5000,200,174,87.0,"interval checkpoint, interval target"
-two-order joint interval,"cs1 in [3000,4500], cs2 in [6000,9000]",v2m (band-centre condition),5000,200,180,90.0,"point checkpoint, interval replaced by its geometric centre"
-three-order joint interval,"cs1 in [3000,4500], cs2 in [6000,9000], cs3 in [14000,22000]",v2i (interval condition),5000,200,168,84.0,"interval checkpoint, interval target"
-three-order joint interval,"cs1 in [3000,4500], cs2 in [6000,9000], cs3 in [14000,22000]",v2m (band-centre condition),5000,200,169,84.5,"point checkpoint, interval replaced by its geometric centre"

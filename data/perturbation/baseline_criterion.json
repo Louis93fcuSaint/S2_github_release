@@ -1,0 +1,7 @@
+{
+  "declared_before_baseline_execution": true,
+  "criterion_abs_rpm": 0.01,
+  "criterion_rule": "For every selected design and every available order, the wrapper-path critical speed must differ from Task A by no more than 0.01 rpm; baseline status must be ok; and dynamic+H1-H6 acceptance must match Task A.",
+  "action_on_failure": "Do not run the six perturbation scenarios; diagnose units, material override, modal filtering and parameter passing.",
+  "scope": "44-50 selected jointly accepted designs, zero perturbation only"
+}
