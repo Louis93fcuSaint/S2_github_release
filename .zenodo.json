@@ -1,0 +1,39 @@
+{
+  "title": "Research Data for Specification-Driven Rotor Inverse Design and Numerical Verification",
+  "upload_type": "dataset",
+  "creators": [
+    {
+      "name": "Xie, Zhenhong",
+      "affiliation": "Beihang University"
+    },
+    {
+      "name": "Wang, Yubo",
+      "affiliation": "Beihang University"
+    },
+    {
+      "name": "Zhang, Dayi",
+      "affiliation": "Beihang University"
+    },
+    {
+      "name": "Zhang, Qicheng",
+      "affiliation": "Beihang University"
+    },
+    {
+      "name": "Yim, Pascal"
+    },
+    {
+      "name": "Huang, Xingrong",
+      "affiliation": "Beihang University"
+    }
+  ],
+  "description": "Numerical results supporting the manuscript on specification-driven rotor inverse design and numerical verification. The archive contains full-precision requirements, surrogate cross-validation summary, ROSS 2.3.0 candidate verification and diversity results, the six-scenario perturbation study, representative design and modal analysis data, and the bearing-stiffness sweep. Training data and model checkpoints are excluded.",
+  "keywords": [
+    "rotor inverse design",
+    "critical-speed specifications",
+    "conditional diffusion",
+    "rotordynamic verification"
+  ],
+  "license": "cc-by-4.0",
+  "access_right": "open",
+  "version": "1.0.0"
+}
